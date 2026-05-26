@@ -105,7 +105,6 @@
       align-items: center;
       gap: 10px;
       min-width: 0;
-      overflow: hidden;
     }
 
     .proxy-server {
@@ -144,8 +143,7 @@
     .ping-badge.fail { color: #555; }
 
     .btn-connect {
-      display: flex;
-      align-items: center;
+      display: inline-block;
       background: #2b5ce6;
       color: #fff;
       text-decoration: none;
@@ -218,6 +216,7 @@
     }
 
     let proxies = [];
+    const viewed = new Set();
 
     function pingColor(ping) {
       if (ping === null) return "fail";
@@ -241,9 +240,9 @@
       listEl.innerHTML = sorted.map((p, i) => {
         const link = `tg://proxy?server=${encodeURIComponent(p.server)}&port=${encodeURIComponent(p.port)}&secret=${encodeURIComponent(p.secret)}`;
         const key = `${p.server}:${p.port}`;
-        const viewed = sessionStorage.getItem("v:" + key) ? " viewed" : "";
+        const isViewed = viewed.has(key) ? " viewed" : "";
         return `
-          <div class="proxy-card${viewed}" id="card-${p.server}-${p.port}">
+          <div class="proxy-card${isViewed}" id="card-${p.server}-${p.port}">
             <div class="proxy-top">
               <span class="proxy-server">${p.server}<span class="proxy-port-inline">:${p.port}</span></span>
               <a class="btn-connect" href="${link}" onclick="markViewed('${key}')">Подключить</a>
@@ -260,10 +259,7 @@
     }
 
     function markViewed(key) {
-      sessionStorage.setItem("v:" + key, "1");
-      const parts = key.split(":");
-      const card = document.getElementById(`card-${parts.slice(0, -1).join(":")}:${parts[parts.length-1]}`.replace(/^card-/, ""));
-      // найдём карточку по data или просто добавим класс
+      viewed.add(key);
       document.querySelectorAll(".proxy-card").forEach(c => {
         const btn = c.querySelector(".btn-connect");
         if (btn && btn.getAttribute("onclick") === `markViewed('${key}')`) {
@@ -305,8 +301,7 @@
       countEl.textContent = "";
       btn.disabled = true;
       proxies = [];
-      // Сбрасываем просмотренные
-      Object.keys(sessionStorage).filter(k => k.startsWith("v:")).forEach(k => sessionStorage.removeItem(k));
+      viewed.clear();
 
       try {
         const res = await fetch("/api/proxies");
