@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-26T13:16:39Z",
+  "updated": "2026-05-26T13:25:55Z",
   "count": 14,
   "proxies": [
     {
@@ -23,19 +23,29 @@
       "secret": "eec11798ab008831b474066c9e1ebf5c74617669746f2e7275"
     },
     {
+      "server": "dr4.dedus.pro",
+      "port": "443",
+      "secret": "eeaf504aa56469ec880c9cb00515fc8a2d79616e6465782e7275"
+    },
+    {
       "server": "dr1.dedus.pro",
       "port": "443",
       "secret": "eeaf504aa56469ec880c9cb00515fc8a2d79616e6465782e7275"
     },
     {
-      "server": "vk.chunkycorp.shop",
-      "port": "443",
-      "secret": "ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275"
+      "server": "dns.vdl.lat",
+      "port": "853",
+      "secret": "ee534adcf23a16f425cbae129c4cb574cb6164732e78352e7275"
     },
     {
-      "server": "dr4.dedus.pro",
-      "port": "443",
-      "secret": "eeaf504aa56469ec880c9cb00515fc8a2d79616e6465782e7275"
+      "server": "r6.proxytg.space",
+      "port": "8443",
+      "secret": "eea66a6c939a8f1a0596bd06f17dae253772362e70726f787974672e7370616365"
+    },
+    {
+      "server": "r9.proxytg.space",
+      "port": "8443",
+      "secret": "ee3e77e6aa740bda96a1dabd06717f51b272392e70726f787974672e7370616365"
     },
     {
       "server": "r7.proxytg.space",
@@ -48,14 +58,9 @@
       "secret": "ee79faca7ec8bd1b9125007dee535716f47777772e6d6963726f736f66742e636f6d"
     },
     {
-      "server": "r9.proxytg.space",
-      "port": "8443",
-      "secret": "ee3e77e6aa740bda96a1dabd06717f51b272392e70726f787974672e7370616365"
-    },
-    {
-      "server": "r6.proxytg.space",
-      "port": "8443",
-      "secret": "eea66a6c939a8f1a0596bd06f17dae253772362e70726f787974672e7370616365"
+      "server": "146.103.96.129",
+      "port": "443",
+      "secret": "ee627bdd42b085906e41105ddd7dab8cca706574726f766963682e7275"
     },
     {
       "server": "mt.nowaboost.com",
@@ -63,14 +68,9 @@
       "secret": "4fd95a487c5c87ae82b6639a9b6b5ff2"
     },
     {
-      "server": "gm1.mowork.twc1.net",
+      "server": "vk.chunkycorp.shop",
       "port": "443",
-      "secret": "ee787ec52793641dad735f01313b33f82b7462616e6b2e7275"
-    },
-    {
-      "server": "146.103.96.129",
-      "port": "443",
-      "secret": "ee627bdd42b085906e41105ddd7dab8cca706574726f766963682e7275"
+      "secret": "ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275"
     }
   ]
 }
