@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-26T18:40:23Z",
-  "count": 11,
+  "updated": "2026-05-26T20:50:15Z",
+  "count": 8,
   "proxies": [
     {
       "server": "186.246.21.89",
@@ -8,39 +8,14 @@
       "secret": "eec11798ab008831b474066c9e1ebf5c73617669746f2e7275"
     },
     {
-      "server": "186.246.21.31",
-      "port": "443",
-      "secret": "eeb4977787e9a3f4c9d51ec528688f922e617669746f2e7275"
-    },
-    {
       "server": "2.26.252.43",
       "port": "443",
       "secret": "ee6cc9e422a51432ca4df25293389adef06172746c6562656465762e7275"
     },
     {
-      "server": "r7.proxytg.space",
-      "port": "8443",
-      "secret": "ee20d95482189070afff142be2bf66014c72372e70726f787974672e7370616365"
-    },
-    {
-      "server": "r6.proxytg.space",
-      "port": "8443",
-      "secret": "eea66a6c939a8f1a0596bd06f17dae253772362e70726f787974672e7370616365"
-    },
-    {
       "server": "dns.vdl.lat",
       "port": "853",
       "secret": "ee534adcf23a16f425cbae129c4cb574cb6164732e78352e7275"
-    },
-    {
-      "server": "vk.chunkycorp.shop",
-      "port": "443",
-      "secret": "ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275"
-    },
-    {
-      "server": "gm1.mowork.twc1.net",
-      "port": "443",
-      "secret": "ee787ec52793641dad735f01313b33f82b7462616e6b2e7275"
     },
     {
       "server": "r11.proxytg.space",
@@ -53,9 +28,19 @@
       "secret": "ee65032756d1cfb78ebbd0ea8db83d43937231302e70726f787974672e7370616365"
     },
     {
+      "server": "gm1.mowork.twc1.net",
+      "port": "443",
+      "secret": "ee787ec52793641dad735f01313b33f82b7462616e6b2e7275"
+    },
+    {
       "server": "mt.nowaboost.com",
       "port": "443",
       "secret": "4fd95a487c5c87ae82b6639a9b6b5ff2"
+    },
+    {
+      "server": "vk.chunkycorp.shop",
+      "port": "443",
+      "secret": "ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275"
     }
   ]
 }
