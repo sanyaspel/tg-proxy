@@ -117,8 +117,11 @@ export default async function handler(req, res) {
           const found = parseProxies(html);
           if (debug && i === 0) {
             // Найти первое сообщение с прокси
-            const proxyIdx = html.indexOf("t.me/proxy?");
-            const sample = proxyIdx > -1 ? html.slice(Math.max(0, proxyIdx - 300), proxyIdx + 2000) : html.slice(0, 2000);
+            const reactIdx = html.indexOf("tgme_widget_message_reactions");
+            const starIdx = html.indexOf("⭐");
+            const viewsIdx = html.indexOf("tgme_widget_message_views");
+            const centerIdx = reactIdx > -1 ? reactIdx : (starIdx > -1 ? starIdx : viewsIdx);
+            const sample = centerIdx > -1 ? html.slice(Math.max(0, centerIdx - 200), centerIdx + 1500) : html.slice(0, 2000);
             debugInfo.push({ channel: name, found: found.length, minId, sample });
           }
           found.forEach((p) => {
