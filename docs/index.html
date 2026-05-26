@@ -15,27 +15,11 @@
       padding: 32px 16px;
     }
 
-    .container {
-      max-width: 600px;
-      margin: 0 auto;
-    }
+    .container { max-width: 600px; margin: 0 auto; }
 
-    header {
-      text-align: center;
-      margin-bottom: 32px;
-    }
-
-    header h1 {
-      font-size: 1.8rem;
-      font-weight: 700;
-      color: #fff;
-      margin-bottom: 6px;
-    }
-
-    header p {
-      color: #888;
-      font-size: 0.92rem;
-    }
+    header { text-align: center; margin-bottom: 32px; }
+    header h1 { font-size: 1.8rem; font-weight: 700; color: #fff; margin-bottom: 6px; }
+    header p { color: #888; font-size: 0.92rem; }
 
     .meta {
       display: flex;
@@ -43,23 +27,26 @@
       align-items: center;
       margin-bottom: 16px;
       padding: 0 2px;
+      min-height: 28px;
     }
 
-    .meta .count {
-      font-size: 0.88rem;
+    .meta .count { font-size: 0.88rem; color: #888; }
+    .meta .right { display: flex; align-items: center; gap: 8px; }
+
+    .refresh-btn {
+      background: none;
+      border: 1px solid #2a2a35;
       color: #888;
-    }
-
-    .meta .updated {
+      padding: 5px 12px;
+      border-radius: 7px;
       font-size: 0.82rem;
-      color: #555;
+      cursor: pointer;
+      transition: border-color 0.15s, color 0.15s;
     }
+    .refresh-btn:hover { border-color: #555; color: #ccc; }
+    .refresh-btn:disabled { opacity: 0.4; cursor: default; }
 
-    .proxy-list {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
+    .proxy-list { display: flex; flex-direction: column; gap: 10px; }
 
     .proxy-card {
       background: #1a1a22;
@@ -72,10 +59,7 @@
       gap: 12px;
     }
 
-    .proxy-info {
-      flex: 1;
-      min-width: 0;
-    }
+    .proxy-info { flex: 1; min-width: 0; }
 
     .proxy-server {
       font-size: 0.95rem;
@@ -86,11 +70,7 @@
       text-overflow: ellipsis;
     }
 
-    .proxy-port {
-      font-size: 0.8rem;
-      color: #555;
-      margin-top: 2px;
-    }
+    .proxy-port { font-size: 0.8rem; color: #555; margin-top: 2px; }
 
     .btn-connect {
       display: inline-block;
@@ -105,109 +85,154 @@
       transition: background 0.15s;
       flex-shrink: 0;
     }
+    .btn-connect:hover { background: #3a6cf5; }
 
-    .btn-connect:hover {
-      background: #3a6cf5;
-    }
-
-    .empty {
+    .status {
       text-align: center;
       color: #555;
       padding: 60px 0;
       font-size: 0.95rem;
+      line-height: 1.6;
     }
 
-    .loading {
-      text-align: center;
-      color: #555;
-      padding: 60px 0;
+    .status.error { color: #c0392b; }
+
+    .spinner {
+      width: 28px; height: 28px;
+      border: 3px solid #2a2a35;
+      border-top-color: #2b5ce6;
+      border-radius: 50%;
+      animation: spin 0.7s linear infinite;
+      margin: 0 auto 16px;
     }
 
-    .dot-anim::after {
-      content: "";
-      animation: dots 1.2s steps(3, end) infinite;
-    }
-
-    @keyframes dots {
-      0%   { content: ""; }
-      33%  { content: "."; }
-      66%  { content: ".."; }
-      100% { content: "..."; }
-    }
-
-    .refresh-btn {
-      background: none;
-      border: 1px solid #2a2a35;
-      color: #888;
-      padding: 6px 14px;
-      border-radius: 7px;
-      font-size: 0.82rem;
-      cursor: pointer;
-      transition: border-color 0.15s, color 0.15s;
-    }
-
-    .refresh-btn:hover {
-      border-color: #555;
-      color: #ccc;
-    }
+    @keyframes spin { to { transform: rotate(360deg); } }
   </style>
 </head>
 <body>
   <div class="container">
     <header>
       <h1>🔒 TG Proxy</h1>
-      <p>Рабочие MTProto прокси для Telegram. Обновляется каждые 30 минут.</p>
+      <p>Свежие MTProto прокси для Telegram. Нажми — Telegram сам добавит.</p>
     </header>
 
     <div class="meta">
       <span class="count" id="count"></span>
-      <span class="updated" id="updated"></span>
+      <div class="right">
+        <button class="refresh-btn" id="refreshBtn" onclick="load()">↻ Обновить</button>
+      </div>
     </div>
 
     <div id="list" class="proxy-list">
-      <div class="loading"><span class="dot-anim">Загрузка</span></div>
+      <div class="status"><div class="spinner"></div>Загружаем свежие прокси...</div>
     </div>
   </div>
 
   <script>
+    const CHANNELS = ["ProxyMTProto", "mtpro_xyz", "FreeProxyMTProto"];
+
+    // Несколько CORS-прокси, пробуем по очереди если один не работает
+    const CORS_PROXIES = [
+      url => `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
+      url => `https://corsproxy.io/?${encodeURIComponent(url)}`,
+      url => `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(url)}`,
+    ];
+
+    function parseProxies(html) {
+      const results = [];
+      const seen = new Set();
+
+      // Парсим tg://proxy?... ссылки
+      const linkRe = /tg:\/\/proxy\?[^"'\s<>]+/g;
+      let m;
+      while ((m = linkRe.exec(html)) !== null) {
+        try {
+          const qs = new URLSearchParams(m[0].replace("tg://proxy?", ""));
+          const server = qs.get("server");
+          const port = qs.get("port");
+          const secret = qs.get("secret");
+          if (server && port && secret) {
+            const key = `${server}:${port}`;
+            if (!seen.has(key)) {
+              seen.add(key);
+              results.push({ server, port, secret });
+            }
+          }
+        } catch {}
+      }
+
+      // Парсим текстовый формат: Server: ... Port: ... Secret: ...
+      const textRe = /Server:\s*([^\s<\n]+)[\s\S]{0,100}?Port:\s*(\d+)[\s\S]{0,200}?Secret:\s*([a-zA-Z0-9+/=]{10,})/gi;
+      while ((m = textRe.exec(html)) !== null) {
+        const server = m[1].trim();
+        const port = m[2].trim();
+        const secret = m[3].trim();
+        const key = `${server}:${port}`;
+        if (!seen.has(key)) {
+          seen.add(key);
+          results.push({ server, port, secret });
+        }
+      }
+
+      return results;
+    }
+
+    async function fetchWithProxy(url) {
+      for (const makeProxy of CORS_PROXIES) {
+        try {
+          const res = await fetch(makeProxy(url), { signal: AbortSignal.timeout(8000) });
+          if (res.ok) return await res.text();
+        } catch {}
+      }
+      return null;
+    }
+
     async function load() {
       const listEl = document.getElementById("list");
       const countEl = document.getElementById("count");
-      const updatedEl = document.getElementById("updated");
+      const btn = document.getElementById("refreshBtn");
 
-      try {
-        const res = await fetch("proxies.json?t=" + Date.now());
-        const data = await res.json();
+      listEl.innerHTML = '<div class="status"><div class="spinner"></div>Загружаем свежие прокси...</div>';
+      countEl.textContent = "";
+      btn.disabled = true;
 
-        const proxies = data.proxies || [];
-        countEl.textContent = `${proxies.length} рабочих прокси`;
+      const allProxies = [];
 
-        if (data.updated) {
-          const d = new Date(data.updated);
-          updatedEl.innerHTML = `Обновлено: ${d.toLocaleTimeString("ru-RU", { hour: "2-digit", minute: "2-digit" })} &nbsp;<button class="refresh-btn" onclick="load()">↻</button>`;
-        }
+      await Promise.all(CHANNELS.map(async (ch) => {
+        const html = await fetchWithProxy(`https://t.me/s/${ch}`);
+        if (html) allProxies.push(...parseProxies(html));
+      }));
 
-        if (proxies.length === 0) {
-          listEl.innerHTML = '<div class="empty">Рабочих прокси не найдено.<br>Попробуйте обновить страницу позже.</div>';
-          return;
-        }
+      // Дедупликация
+      const seen = new Set();
+      const unique = allProxies.filter(p => {
+        const key = `${p.server}:${p.port}`;
+        if (seen.has(key)) return false;
+        seen.add(key);
+        return true;
+      });
 
-        listEl.innerHTML = proxies.map((p, i) => {
-          const link = `tg://proxy?server=${encodeURIComponent(p.server)}&port=${encodeURIComponent(p.port)}&secret=${encodeURIComponent(p.secret)}`;
-          return `
-            <div class="proxy-card">
-              <div class="proxy-info">
-                <div class="proxy-server">${p.server}</div>
-                <div class="proxy-port">Порт: ${p.port}</div>
-              </div>
-              <a class="btn-connect" href="${link}">Подключить</a>
-            </div>
-          `;
-        }).join("");
+      btn.disabled = false;
 
-      } catch (e) {
-        listEl.innerHTML = '<div class="empty">Ошибка загрузки. Попробуйте обновить страницу.</div>';
+      if (unique.length === 0) {
+        countEl.textContent = "";
+        listEl.innerHTML = '<div class="status error">Не удалось загрузить прокси.<br><small>Попробуй обновить страницу или зайди позже.</small></div>';
+        return;
       }
+
+      countEl.textContent = `${unique.length} прокси найдено`;
+      listEl.innerHTML = unique.map(p => {
+        const link = `tg://proxy?server=${encodeURIComponent(p.server)}&port=${encodeURIComponent(p.port)}&secret=${encodeURIComponent(p.secret)}`;
+        return `
+          <div class="proxy-card">
+            <div class="proxy-info">
+              <div class="proxy-server">${p.server}</div>
+              <div class="proxy-port">Порт: ${p.port}</div>
+            </div>
+            <a class="btn-connect" href="${link}">Подключить</a>
+          </div>
+        `;
+      }).join("");
     }
 
     load();
