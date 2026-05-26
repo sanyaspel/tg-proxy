@@ -115,7 +115,10 @@ export default async function handler(req, res) {
         for (let i = 0; i < pages; i++) {
           const { html, minId } = await fetchChannelPage(name, before);
           const found = parseProxies(html);
-          if (debug && i === 0) debugInfo.push({ channel: name, found: found.length, minId });
+          if (debug && i === 0) {
+            const msgMatch = html.match(/<div class="tgme_widget_message_wrap[\s\S]{0,2000}?<\/div>\s*<\/div>/);
+            debugInfo.push({ channel: name, found: found.length, minId, sampleMsg: msgMatch?.[0]?.slice(0, 1500) });
+          }
           found.forEach((p) => {
             const key = `${p.server}:${p.port}`;
             if (!seen.has(key)) { seen.add(key); allProxies.push(p); }
