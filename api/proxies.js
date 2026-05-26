@@ -1,21 +1,11 @@
-import net from "net";
-
-const CHANNELS = ["ProxyMTProto", "mtpro_xyz", "FreeProxyMTProto"];
-
-function checkProxy(server, port, timeout = 4000) {
-  return new Promise((resolve) => {
-    const socket = new net.Socket();
-    socket.setTimeout(timeout);
-    socket.on("connect", () => { socket.destroy(); resolve(true); });
-    socket.on("timeout", () => { socket.destroy(); resolve(false); });
-    socket.on("error", () => { socket.destroy(); resolve(false); });
-    try {
-      socket.connect(parseInt(port), server);
-    } catch {
-      resolve(false);
-    }
-  });
-}
+const CHANNELS = [
+  "ProxyMTProto",
+  "mtpro_xyz",
+  "MtProtoProxy",
+  "proxy_mtproto",
+  "tgproxies",
+  "MTProtoProxyList",
+];
 
 function parseProxies(html) {
   const results = [];
@@ -98,16 +88,10 @@ export default async function handler(req, res) {
     })
   );
 
-  // Check proxies in parallel
-  const checkResults = await Promise.all(
-    allProxies.map((p) => checkProxy(p.server, p.port))
-  );
-  const working = allProxies.filter((_, i) => checkResults[i]);
-
   res.json({
     updated: new Date().toISOString(),
-    count: working.length,
-    proxies: working,
-    ...(debug && { debug: debugInfo, total_found: allProxies.length }),
+    count: allProxies.length,
+    proxies: allProxies,
+    ...(debug && { debug: debugInfo }),
   });
 }
