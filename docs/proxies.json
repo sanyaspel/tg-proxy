@@ -1,21 +1,11 @@
 {
-  "updated": "2026-05-26T20:50:15Z",
-  "count": 8,
+  "updated": "2026-05-26T22:14:32Z",
+  "count": 7,
   "proxies": [
-    {
-      "server": "186.246.21.89",
-      "port": "443",
-      "secret": "eec11798ab008831b474066c9e1ebf5c73617669746f2e7275"
-    },
     {
       "server": "2.26.252.43",
       "port": "443",
       "secret": "ee6cc9e422a51432ca4df25293389adef06172746c6562656465762e7275"
-    },
-    {
-      "server": "dns.vdl.lat",
-      "port": "853",
-      "secret": "ee534adcf23a16f425cbae129c4cb574cb6164732e78352e7275"
     },
     {
       "server": "r11.proxytg.space",
@@ -33,14 +23,19 @@
       "secret": "ee787ec52793641dad735f01313b33f82b7462616e6b2e7275"
     },
     {
+      "server": "dns.vdl.lat",
+      "port": "853",
+      "secret": "ee534adcf23a16f425cbae129c4cb574cb6164732e78352e7275"
+    },
+    {
       "server": "mt.nowaboost.com",
       "port": "443",
       "secret": "4fd95a487c5c87ae82b6639a9b6b5ff2"
     },
     {
-      "server": "vk.chunkycorp.shop",
+      "server": "186.246.21.89",
       "port": "443",
-      "secret": "ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275"
+      "secret": "eec11798ab008831b474066c9e1ebf5c73617669746f2e7275"
     }
   ]
 }
