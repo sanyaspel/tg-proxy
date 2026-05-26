@@ -116,8 +116,10 @@ export default async function handler(req, res) {
           const { html, minId } = await fetchChannelPage(name, before);
           const found = parseProxies(html);
           if (debug && i === 0) {
-            const msgMatch = html.match(/<div class="tgme_widget_message_wrap[\s\S]{0,2000}?<\/div>\s*<\/div>/);
-            debugInfo.push({ channel: name, found: found.length, minId, sampleMsg: msgMatch?.[0]?.slice(0, 1500) });
+            // Найти первое сообщение с прокси
+            const proxyIdx = html.indexOf("t.me/proxy?");
+            const sample = proxyIdx > -1 ? html.slice(Math.max(0, proxyIdx - 800), proxyIdx + 400) : html.slice(0, 1200);
+            debugInfo.push({ channel: name, found: found.length, minId, sample });
           }
           found.forEach((p) => {
             const key = `${p.server}:${p.port}`;
