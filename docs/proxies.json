@@ -1,7 +1,17 @@
 {
-  "updated": "2026-05-26T22:14:32Z",
+  "updated": "2026-05-26T23:36:41Z",
   "count": 7,
   "proxies": [
+    {
+      "server": "186.246.21.40",
+      "port": "443",
+      "secret": "eec11798ab008831b474066c9e1ebf5c74617669746f2e7275"
+    },
+    {
+      "server": "186.246.21.89",
+      "port": "443",
+      "secret": "eec11798ab008831b474066c9e1ebf5c73617669746f2e7275"
+    },
     {
       "server": "2.26.252.43",
       "port": "443",
@@ -13,19 +23,9 @@
       "secret": "ee4e28f14af6d0e7d9dc65eecb94066c717231312e70726f787974672e7370616365"
     },
     {
-      "server": "r10.proxytg.space",
-      "port": "8443",
-      "secret": "ee65032756d1cfb78ebbd0ea8db83d43937231302e70726f787974672e7370616365"
-    },
-    {
       "server": "gm1.mowork.twc1.net",
       "port": "443",
       "secret": "ee787ec52793641dad735f01313b33f82b7462616e6b2e7275"
-    },
-    {
-      "server": "dns.vdl.lat",
-      "port": "853",
-      "secret": "ee534adcf23a16f425cbae129c4cb574cb6164732e78352e7275"
     },
     {
       "server": "mt.nowaboost.com",
@@ -33,9 +33,9 @@
       "secret": "4fd95a487c5c87ae82b6639a9b6b5ff2"
     },
     {
-      "server": "186.246.21.89",
-      "port": "443",
-      "secret": "eec11798ab008831b474066c9e1ebf5c73617669746f2e7275"
+      "server": "r10.proxytg.space",
+      "port": "8443",
+      "secret": "ee65032756d1cfb78ebbd0ea8db83d43937231302e70726f787974672e7370616365"
     }
   ]
 }
