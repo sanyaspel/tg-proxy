@@ -129,64 +129,6 @@
   </div>
 
   <script>
-    const CHANNELS = ["ProxyMTProto", "mtpro_xyz", "FreeProxyMTProto"];
-
-    // Несколько CORS-прокси, пробуем по очереди если один не работает
-    const CORS_PROXIES = [
-      url => `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
-      url => `https://corsproxy.io/?${encodeURIComponent(url)}`,
-      url => `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(url)}`,
-    ];
-
-    function parseProxies(html) {
-      const results = [];
-      const seen = new Set();
-
-      // Парсим tg://proxy?... ссылки
-      const linkRe = /tg:\/\/proxy\?[^"'\s<>]+/g;
-      let m;
-      while ((m = linkRe.exec(html)) !== null) {
-        try {
-          const qs = new URLSearchParams(m[0].replace("tg://proxy?", ""));
-          const server = qs.get("server");
-          const port = qs.get("port");
-          const secret = qs.get("secret");
-          if (server && port && secret) {
-            const key = `${server}:${port}`;
-            if (!seen.has(key)) {
-              seen.add(key);
-              results.push({ server, port, secret });
-            }
-          }
-        } catch {}
-      }
-
-      // Парсим текстовый формат: Server: ... Port: ... Secret: ...
-      const textRe = /Server:\s*([^\s<\n]+)[\s\S]{0,100}?Port:\s*(\d+)[\s\S]{0,200}?Secret:\s*([a-zA-Z0-9+/=]{10,})/gi;
-      while ((m = textRe.exec(html)) !== null) {
-        const server = m[1].trim();
-        const port = m[2].trim();
-        const secret = m[3].trim();
-        const key = `${server}:${port}`;
-        if (!seen.has(key)) {
-          seen.add(key);
-          results.push({ server, port, secret });
-        }
-      }
-
-      return results;
-    }
-
-    async function fetchWithProxy(url) {
-      for (const makeProxy of CORS_PROXIES) {
-        try {
-          const res = await fetch(makeProxy(url), { signal: AbortSignal.timeout(8000) });
-          if (res.ok) return await res.text();
-        } catch {}
-      }
-      return null;
-    }
-
     async function load() {
       const listEl = document.getElementById("list");
       const countEl = document.getElementById("count");
@@ -196,43 +138,36 @@
       countEl.textContent = "";
       btn.disabled = true;
 
-      const allProxies = [];
+      try {
+        const res = await fetch("/api/proxies");
+        const data = await res.json();
+        const proxies = data.proxies || [];
 
-      await Promise.all(CHANNELS.map(async (ch) => {
-        const html = await fetchWithProxy(`https://t.me/s/${ch}`);
-        if (html) allProxies.push(...parseProxies(html));
-      }));
+        btn.disabled = false;
 
-      // Дедупликация
-      const seen = new Set();
-      const unique = allProxies.filter(p => {
-        const key = `${p.server}:${p.port}`;
-        if (seen.has(key)) return false;
-        seen.add(key);
-        return true;
-      });
+        if (proxies.length === 0) {
+          listEl.innerHTML = '<div class="status error">Прокси не найдены.<br><small>Попробуй обновить страницу.</small></div>';
+          return;
+        }
 
-      btn.disabled = false;
-
-      if (unique.length === 0) {
-        countEl.textContent = "";
-        listEl.innerHTML = '<div class="status error">Не удалось загрузить прокси.<br><small>Попробуй обновить страницу или зайди позже.</small></div>';
-        return;
-      }
-
-      countEl.textContent = `${unique.length} прокси найдено`;
-      listEl.innerHTML = unique.map(p => {
-        const link = `tg://proxy?server=${encodeURIComponent(p.server)}&port=${encodeURIComponent(p.port)}&secret=${encodeURIComponent(p.secret)}`;
-        return `
-          <div class="proxy-card">
-            <div class="proxy-info">
-              <div class="proxy-server">${p.server}</div>
-              <div class="proxy-port">Порт: ${p.port}</div>
+        countEl.textContent = `${proxies.length} прокси найдено`;
+        listEl.innerHTML = proxies.map(p => {
+          const link = `tg://proxy?server=${encodeURIComponent(p.server)}&port=${encodeURIComponent(p.port)}&secret=${encodeURIComponent(p.secret)}`;
+          return `
+            <div class="proxy-card">
+              <div class="proxy-info">
+                <div class="proxy-server">${p.server}</div>
+                <div class="proxy-port">Порт: ${p.port}</div>
+              </div>
+              <a class="btn-connect" href="${link}">Подключить</a>
             </div>
-            <a class="btn-connect" href="${link}">Подключить</a>
-          </div>
-        `;
-      }).join("");
+          `;
+        }).join("");
+
+      } catch {
+        btn.disabled = false;
+        listEl.innerHTML = '<div class="status error">Не удалось загрузить прокси.<br><small>Попробуй обновить страницу.</small></div>';
+      }
     }
 
     load();

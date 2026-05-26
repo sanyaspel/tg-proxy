@@ -1,0 +1,8 @@
+{
+  "outputDirectory": "docs",
+  "functions": {
+    "api/proxies.js": {
+      "maxDuration": 30
+    }
+  }
+}
