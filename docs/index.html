@@ -17,9 +17,34 @@
 
     .container { max-width: 600px; margin: 0 auto; }
 
-    header { text-align: center; margin-bottom: 32px; }
-    header h1 { font-size: 1.8rem; font-weight: 700; color: #fff; margin-bottom: 6px; }
-    header p { color: #888; font-size: 0.92rem; }
+    header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 32px;
+      gap: 8px;
+    }
+
+    .header-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .tg-icon {
+      width: 36px;
+      height: 36px;
+      flex-shrink: 0;
+    }
+
+    header h1 {
+      font-size: 1.9rem;
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: -0.5px;
+    }
+
+    header p { color: #555; font-size: 0.88rem; }
 
     .meta {
       display: flex;
@@ -27,16 +52,34 @@
       align-items: center;
       margin-bottom: 16px;
       padding: 0 2px;
-      min-height: 28px;
+      gap: 8px;
     }
 
-    .meta .count { font-size: 0.88rem; color: #888; }
+    .meta .count { font-size: 0.88rem; color: #555; white-space: nowrap; }
+
     .meta .right { display: flex; align-items: center; gap: 8px; }
+
+    .sort-btn {
+      background: none;
+      border: 1px solid #2a2a35;
+      color: #777;
+      padding: 5px 12px;
+      border-radius: 7px;
+      font-size: 0.82rem;
+      cursor: pointer;
+      transition: border-color 0.15s, color 0.15s, background 0.15s;
+    }
+    .sort-btn.active {
+      border-color: #2b5ce6;
+      color: #7aa0ff;
+      background: rgba(43,92,230,0.1);
+    }
+    .sort-btn:hover:not(.active) { border-color: #555; color: #ccc; }
 
     .refresh-btn {
       background: none;
       border: 1px solid #2a2a35;
-      color: #888;
+      color: #777;
       padding: 5px 12px;
       border-radius: 7px;
       font-size: 0.82rem;
@@ -52,12 +95,15 @@
       background: #1a1a22;
       border: 1px solid #2a2a35;
       border-radius: 12px;
-      padding: 16px 18px;
+      padding: 14px 18px;
       display: flex;
       align-items: center;
       justify-content: space-between;
       gap: 12px;
+      transition: border-color 0.2s;
     }
+    .proxy-card.online { border-color: #1a3a1a; }
+    .proxy-card.offline { opacity: 0.5; }
 
     .proxy-info { flex: 1; min-width: 0; }
 
@@ -70,9 +116,22 @@
       text-overflow: ellipsis;
     }
 
-    .proxy-port { font-size: 0.8rem; color: #555; margin-top: 2px; }
+    .proxy-meta { display: flex; gap: 10px; align-items: center; margin-top: 4px; flex-wrap: wrap; }
 
-    .proxy-stars { font-size: 0.78rem; color: #a07830; margin-top: 3px; }
+    .proxy-port { font-size: 0.78rem; color: #444; }
+
+    .proxy-stars { font-size: 0.78rem; color: #7a5820; }
+
+    .ping-badge {
+      font-size: 0.76rem;
+      font-weight: 600;
+      padding: 2px 7px;
+      border-radius: 5px;
+    }
+    .ping-badge.checking { color: #444; }
+    .ping-badge.ok { color: #4caf50; background: rgba(76,175,80,0.1); }
+    .ping-badge.ok.slow { color: #ff9800; background: rgba(255,152,0,0.1); }
+    .ping-badge.fail { color: #555; }
 
     .btn-connect {
       display: inline-block;
@@ -96,7 +155,6 @@
       font-size: 0.95rem;
       line-height: 1.6;
     }
-
     .status.error { color: #c0392b; }
 
     .spinner {
@@ -114,13 +172,22 @@
 <body>
   <div class="container">
     <header>
-      <h1>🔒 TG Proxy</h1>
-      <p>Свежие MTProto прокси для Telegram. Нажми — Telegram сам добавит.</p>
+      <div class="header-row">
+        <svg class="tg-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="24" cy="24" r="24" fill="#2AABEE"/>
+          <path d="M10.5 23.5l5.8 2.2 2.2 7 2.8-3.8 6 4.5 5.7-19.4-22.5 9.5z" fill="white"/>
+          <path d="M18.5 25.7l.6 5.5 2.8-3.8" fill="#d5e8f3"/>
+        </svg>
+        <h1>Proxy</h1>
+      </div>
+      <p>Свежие прокси для Telegram</p>
     </header>
 
     <div class="meta">
       <span class="count" id="count"></span>
       <div class="right">
+        <button class="sort-btn active" id="sortFresh" onclick="setSort('fresh')">Свежие</button>
+        <button class="sort-btn" id="sortPing" onclick="setSort('ping')">По пингу</button>
         <button class="refresh-btn" id="refreshBtn" onclick="load()">↻ Обновить</button>
       </div>
     </div>
@@ -131,6 +198,98 @@
   </div>
 
   <script>
+    const CHECK_WORKER = "https://old-lab-41dc.alexchert33.workers.dev/";
+
+    let proxies = [];
+    let sortMode = "fresh";
+
+    function setSort(mode) {
+      sortMode = mode;
+      document.getElementById("sortFresh").classList.toggle("active", mode === "fresh");
+      document.getElementById("sortPing").classList.toggle("active", mode === "ping");
+      render();
+    }
+
+    function pingColor(ping) {
+      if (ping === null) return "fail";
+      if (ping < 150) return "ok";
+      return "ok slow";
+    }
+
+    function pingText(p) {
+      if (p.pingStatus === "checking") return '<span class="ping-badge checking">...</span>';
+      if (p.pingStatus === "fail") return '<span class="ping-badge fail">✗</span>';
+      if (p.ping !== null) return `<span class="ping-badge ${pingColor(p.ping)}">${p.ping} мс</span>`;
+      return "";
+    }
+
+    function render() {
+      const listEl = document.getElementById("list");
+      if (!proxies.length) return;
+
+      let sorted = [...proxies];
+      if (sortMode === "ping") {
+        sorted.sort((a, b) => {
+          if (a.ping === null && b.ping === null) return 0;
+          if (a.ping === null) return 1;
+          if (b.ping === null) return -1;
+          return a.ping - b.ping;
+        });
+      }
+
+      listEl.innerHTML = sorted.map((p, i) => {
+        const link = `tg://proxy?server=${encodeURIComponent(p.server)}&port=${encodeURIComponent(p.port)}&secret=${encodeURIComponent(p.secret)}`;
+        const cardClass = p.pingStatus === "fail" ? "proxy-card offline" : "proxy-card" + (p.ping !== null ? " online" : "");
+        return `
+          <div class="${cardClass}" id="card-${p.server}-${p.port}">
+            <div class="proxy-info">
+              <div class="proxy-server">${p.server}</div>
+              <div class="proxy-meta">
+                <span class="proxy-port">:${p.port}</span>
+                ${p.stars > 0 ? `<span class="proxy-stars">⭐ ${p.stars}</span>` : ""}
+                ${pingText(p)}
+              </div>
+            </div>
+            <a class="btn-connect" href="${link}">Подключить</a>
+          </div>
+        `;
+      }).join("");
+    }
+
+    function updateCard(proxy) {
+      const card = document.getElementById(`card-${proxy.server}-${proxy.port}`);
+      if (!card) return;
+      const meta = card.querySelector(".proxy-meta");
+      if (!meta) return;
+      // обновляем только ping badge
+      const existing = meta.querySelector(".ping-badge");
+      if (existing) existing.remove();
+      meta.insertAdjacentHTML("beforeend", pingText(proxy));
+      // обновляем класс карточки
+      if (proxy.pingStatus === "fail") {
+        card.className = "proxy-card offline";
+      } else if (proxy.ping !== null) {
+        card.className = "proxy-card online";
+      }
+    }
+
+    async function checkProxy(proxy) {
+      proxy.pingStatus = "checking";
+      try {
+        const res = await fetch(`${CHECK_WORKER}?server=${encodeURIComponent(proxy.server)}&port=${encodeURIComponent(proxy.port)}`, {
+          signal: AbortSignal.timeout(6000),
+        });
+        const data = await res.json();
+        proxy.pingStatus = data.ok ? "ok" : "fail";
+        proxy.ping = data.ok ? data.ping : null;
+      } catch {
+        proxy.pingStatus = "fail";
+        proxy.ping = null;
+      }
+      updateCard(proxy);
+      if (sortMode === "ping") render();
+    }
+
     async function load() {
       const listEl = document.getElementById("list");
       const countEl = document.getElementById("count");
@@ -139,33 +298,25 @@
       listEl.innerHTML = '<div class="status"><div class="spinner"></div>Загружаем свежие прокси...</div>';
       countEl.textContent = "";
       btn.disabled = true;
+      proxies = [];
 
       try {
         const res = await fetch("/api/proxies");
         const data = await res.json();
-        const proxies = data.proxies || [];
+        proxies = (data.proxies || []).map(p => ({ ...p, ping: null, pingStatus: "checking" }));
 
         btn.disabled = false;
 
-        if (proxies.length === 0) {
+        if (!proxies.length) {
           listEl.innerHTML = '<div class="status error">Прокси не найдены.<br><small>Попробуй обновить страницу.</small></div>';
           return;
         }
 
-        countEl.textContent = `${proxies.length} прокси найдено`;
-        listEl.innerHTML = proxies.map(p => {
-          const link = `tg://proxy?server=${encodeURIComponent(p.server)}&port=${encodeURIComponent(p.port)}&secret=${encodeURIComponent(p.secret)}`;
-          return `
-            <div class="proxy-card">
-              <div class="proxy-info">
-                <div class="proxy-server">${p.server}</div>
-                <div class="proxy-port">Порт: ${p.port}</div>
-                ${p.stars > 0 ? `<div class="proxy-stars">⭐ ${p.stars}</div>` : ""}
-              </div>
-              <a class="btn-connect" href="${link}">Подключить</a>
-            </div>
-          `;
-        }).join("");
+        countEl.textContent = `${proxies.length} прокси`;
+        render();
+
+        // Проверяем пинг параллельно через Cloudflare Worker (из России)
+        proxies.forEach(p => checkProxy(p));
 
       } catch {
         btn.disabled = false;
