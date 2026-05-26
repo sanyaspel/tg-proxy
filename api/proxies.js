@@ -53,7 +53,7 @@ function parseMessages(html) {
 
     // Извлекаем количество Telegram Stars (платных реакций)
     let stars = 0;
-    const starsMatch = block.match(/icon-telegram-stars[^<]*<\/i>\s*<span[^>]*>(\d+)/);
+    const starsMatch = block.match(/icon-telegram-stars[^<]*<\/i>\s*(\d+)/);
     if (starsMatch) stars = parseInt(starsMatch[1]);
 
     proxies.forEach((p) => {
