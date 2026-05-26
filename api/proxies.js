@@ -1,7 +1,13 @@
-// Каналы и сколько страниц брать (1 страница ≈ 20 сообщений)
+// Telegram-каналы (1 страница ≈ 20 сообщений)
 const CHANNELS = [
   { name: "ProxyMTProto", pages: 6 },
   { name: "mtpro_xyz", pages: 3 },
+];
+
+// GitHub-репозитории с готовыми списками прокси (обновляются каждые 12 часов)
+const GITHUB_SOURCES = [
+  "https://raw.githubusercontent.com/ALIILAPRO/MTProtoProxy/main/mtproto.txt",
+  "https://raw.githubusercontent.com/SoliSpirit/mtproto/master/all_proxies.txt",
 ];
 
 const HEADERS = {
@@ -19,53 +25,55 @@ function parseProxiesFromUrl(url) {
   return null;
 }
 
-// Парсим сообщения с привязкой прокси к количеству звёзд
+// Парсим Telegram-канал с привязкой прокси к звёздам
 function parseMessages(html) {
   const results = [];
   const seen = new Set();
-
-  // Разбиваем на блоки сообщений по data-post
   const blocks = html.split(/(?=<div[^>]+data-post=")/);
 
   for (const block of blocks) {
     if (!block.includes("data-post=")) continue;
 
-    // Ищем прокси-ссылки в блоке
     const proxies = [];
     const webRe = /https?:\/\/t\.me\/proxy\?[^"'\s<>]+/g;
     const tgRe = /tg:\/\/proxy\?[^"'\s<>]+/g;
     let m;
 
     while ((m = webRe.exec(block)) !== null) {
-      try {
-        const p = parseProxiesFromUrl(m[0]);
-        if (p) proxies.push(p);
-      } catch {}
+      try { const p = parseProxiesFromUrl(m[0]); if (p) proxies.push(p); } catch {}
     }
     while ((m = tgRe.exec(block)) !== null) {
-      try {
-        const p = parseProxiesFromUrl(m[0].replace("tg://proxy?", "https://t.me/proxy?"));
-        if (p) proxies.push(p);
-      } catch {}
+      try { const p = parseProxiesFromUrl(m[0].replace("tg://proxy?", "https://t.me/proxy?")); if (p) proxies.push(p); } catch {}
     }
 
     if (proxies.length === 0) continue;
 
-    // Извлекаем количество Telegram Stars (платных реакций)
     let stars = 0;
     const starsMatch = block.match(/icon-telegram-stars[^<]*<\/i>\s*(\d+)/);
     if (starsMatch) stars = parseInt(starsMatch[1]);
 
     proxies.forEach((p) => {
       const key = `${p.server}:${p.port}`;
-      if (!seen.has(key)) {
-        seen.add(key);
-        results.push({ ...p, stars });
-      }
+      if (!seen.has(key)) { seen.add(key); results.push({ ...p, stars }); }
     });
   }
-
   return results;
+}
+
+// Парсим GitHub-источник (каждая строка — ссылка t.me/proxy?...)
+async function fetchGithubSource(url) {
+  const res = await fetch(url, { headers: { "User-Agent": HEADERS["User-Agent"] } });
+  const text = await res.text();
+  const proxies = [];
+  for (const line of text.split("\n")) {
+    const trimmed = line.trim();
+    if (!trimmed.includes("t.me/proxy?")) continue;
+    try {
+      const p = parseProxiesFromUrl(trimmed);
+      if (p) proxies.push({ ...p, stars: 0 });
+    } catch {}
+  }
+  return proxies;
 }
 
 async function fetchChannelPage(name, before = null) {
@@ -81,53 +89,61 @@ export default async function handler(req, res) {
   res.setHeader("Access-Control-Allow-Origin", "*");
 
   const debug = req.query.debug === "1";
-  const allMessages = [];
+  const allProxies = [];
   const seen = new Set();
   const debugInfo = [];
 
-  await Promise.all(
-    CHANNELS.map(async ({ name, pages }) => {
+  // Собираем из Telegram-каналов и GitHub параллельно
+  const [channelResults, githubResults] = await Promise.all([
+    // Telegram каналы
+    Promise.all(CHANNELS.map(async ({ name, pages }) => {
+      const msgs = [];
       try {
         let before = null;
         for (let i = 0; i < pages; i++) {
           const { html, minId } = await fetchChannelPage(name, before);
-          const msgs = parseMessages(html);
-
-          if (debug && i === 0) {
-            const starIconCount = (html.match(/icon-telegram-stars/g) || []).length;
-            const reactionDivCount = (html.match(/tgme_widget_message_reactions/g) || []).length;
-            const reactIdx = html.indexOf("tgme_reaction_paid");
-            const starSample = reactIdx > -1 ? html.slice(Math.max(0, reactIdx - 50), reactIdx + 300) : null;
-            debugInfo.push({ channel: name, found: msgs.length, minId, starIconCount, reactionDivCount, starSample, starsFound: msgs.filter(m => m.stars > 0).length });
-          }
-
-          msgs.forEach((p) => {
-            const key = `${p.server}:${p.port}`;
-            if (!seen.has(key)) {
-              seen.add(key);
-              allMessages.push(p);
-            }
-          });
-
+          const found = parseMessages(html);
+          msgs.push(...found);
+          if (debug && i === 0) debugInfo.push({ channel: name, found: found.length, minId });
           if (!minId) break;
           before = minId;
         }
       } catch (e) {
         if (debug) debugInfo.push({ channel: name, error: e.message });
       }
-    })
-  );
+      return msgs;
+    })),
 
-  // Свежие прокси первыми (порядок добавления = новизна), со звёздами выше нулевых
-  // allMessages уже в порядке от новых к старым благодаря порядку страниц
-  const sorted = allMessages.slice(0, 25);
+    // GitHub источники
+    Promise.all(GITHUB_SOURCES.map(async (url) => {
+      try {
+        const proxies = await fetchGithubSource(url);
+        if (debug) debugInfo.push({ github: url.split("/").slice(-3).join("/"), found: proxies.length });
+        return proxies;
+      } catch (e) {
+        if (debug) debugInfo.push({ github: url, error: e.message });
+        return [];
+      }
+    })),
+  ]);
 
-  if (debug) debugInfo.push({ total_found: allMessages.length, with_stars: allMessages.filter(p => p.stars > 0).length });
+  // Telegram-каналы в приоритете (свежие), потом GitHub
+  const telegramProxies = channelResults.flat();
+  const githubProxies = githubResults.flat();
+
+  for (const p of [...telegramProxies, ...githubProxies]) {
+    const key = `${p.server}:${p.port}`;
+    if (!seen.has(key)) { seen.add(key); allProxies.push(p); }
+  }
+
+  const result = allProxies.slice(0, 40);
+
+  if (debug) debugInfo.push({ total_tg: telegramProxies.length, total_github: githubProxies.length, total_unique: allProxies.length });
 
   res.json({
     updated: new Date().toISOString(),
-    count: sorted.length,
-    proxies: sorted,
+    count: result.length,
+    proxies: result,
     ...(debug && { debug: debugInfo }),
   });
 }

@@ -34,13 +34,7 @@
 
     .tg-icon svg { width: 30px; height: 30px; }
 
-    .header-text h1 {
-      font-size: 1.6rem;
-      font-weight: 700;
-      color: #fff;
-      line-height: 1.2;
-    }
-
+    .header-text h1 { font-size: 1.6rem; font-weight: 700; color: #fff; line-height: 1.2; }
     .header-text p { color: #666; font-size: 0.88rem; margin-top: 3px; }
 
     .meta {
@@ -67,11 +61,7 @@
       transition: border-color 0.15s, color 0.15s, background 0.15s;
     }
     .sort-btn:hover { border-color: #444; color: #aaa; }
-    .sort-btn.active {
-      border-color: #2b5ce6;
-      color: #7da4f8;
-      background: #1a2040;
-    }
+    .sort-btn.active { border-color: #2b5ce6; color: #7da4f8; background: #1a2040; }
 
     .refresh-btn {
       background: none;
@@ -113,11 +103,6 @@
     .proxy-port { font-size: 0.8rem; color: #555; margin-top: 2px; }
     .proxy-stars { font-size: 0.78rem; color: #a07830; margin-top: 3px; }
 
-    .proxy-ping { font-size: 0.78rem; margin-top: 3px; color: #555; }
-    .proxy-ping.ok { color: #4caf50; }
-    .proxy-ping.slow { color: #ff9800; }
-    .proxy-ping.dead { color: #c0392b; }
-
     .btn-connect {
       display: inline-block;
       background: #2b5ce6;
@@ -140,7 +125,6 @@
       font-size: 0.95rem;
       line-height: 1.6;
     }
-
     .status.error { color: #c0392b; }
 
     .spinner {
@@ -151,7 +135,6 @@
       animation: spin 0.7s linear infinite;
       margin: 0 auto 16px;
     }
-
     @keyframes spin { to { transform: rotate(360deg); } }
   </style>
 </head>
@@ -176,64 +159,44 @@
       <span class="count" id="count"></span>
       <div class="right">
         <button class="sort-btn active" id="sortFresh" onclick="setSort('fresh')">Свежие</button>
-        <button class="sort-btn" id="sortPing" onclick="setSort('ping')">По пингу</button>
+        <button class="sort-btn" id="sortStars" onclick="setSort('stars')">По звёздам</button>
         <button class="refresh-btn" id="refreshBtn" onclick="load()">↻ Обновить</button>
       </div>
     </div>
 
     <div id="list" class="proxy-list">
-      <div class="status"><div class="spinner"></div>Загружаем свежие прокси...</div>
+      <div class="status"><div class="spinner"></div>Загружаем прокси...</div>
     </div>
   </div>
 
   <script>
     let allProxies = [];
-    let pingResults = {};
     let sortMode = 'fresh';
 
     function setSort(mode) {
       sortMode = mode;
       document.getElementById('sortFresh').classList.toggle('active', mode === 'fresh');
-      document.getElementById('sortPing').classList.toggle('active', mode === 'ping');
+      document.getElementById('sortStars').classList.toggle('active', mode === 'stars');
       if (allProxies.length > 0) render();
     }
 
     function getSorted() {
-      if (sortMode === 'ping') {
-        return [...allProxies].sort((a, b) => {
-          const pa = pingResults[a._idx];
-          const pb = pingResults[b._idx];
-          const va = pa?.ok ? pa.ping : 99999;
-          const vb = pb?.ok ? pb.ping : 99999;
-          return va - vb;
-        });
+      if (sortMode === 'stars') {
+        return [...allProxies].sort((a, b) => (b.stars || 0) - (a.stars || 0));
       }
-      return allProxies; // fresh = original order
+      return allProxies;
     }
 
     function render() {
-      const sorted = getSorted();
       const listEl = document.getElementById('list');
-      listEl.innerHTML = sorted.map(p => {
-        const i = p._idx;
+      listEl.innerHTML = getSorted().map(p => {
         const link = `tg://proxy?server=${encodeURIComponent(p.server)}&port=${encodeURIComponent(p.port)}&secret=${encodeURIComponent(p.secret)}`;
-        const pr = pingResults[i];
-        let pingHtml = `<div class="proxy-ping" id="ping-${i}">проверяем...</div>`;
-        if (pr !== undefined) {
-          if (pr.ok) {
-            const cls = pr.ping < 200 ? 'ok' : 'slow';
-            pingHtml = `<div class="proxy-ping ${cls}" id="ping-${i}">${pr.ping} мс</div>`;
-          } else {
-            pingHtml = `<div class="proxy-ping dead" id="ping-${i}">недоступен</div>`;
-          }
-        }
         return `
           <div class="proxy-card">
             <div class="proxy-info">
               <div class="proxy-server">${p.server}</div>
               <div class="proxy-port">Порт: ${p.port}</div>
               ${p.stars > 0 ? `<div class="proxy-stars">⭐ ${p.stars}</div>` : ''}
-              ${pingHtml}
             </div>
             <a class="btn-connect" href="${link}">Подключить</a>
           </div>
@@ -246,52 +209,24 @@
       const countEl = document.getElementById('count');
       const btn = document.getElementById('refreshBtn');
 
-      listEl.innerHTML = '<div class="status"><div class="spinner"></div>Загружаем свежие прокси...</div>';
+      listEl.innerHTML = '<div class="status"><div class="spinner"></div>Загружаем прокси...</div>';
       countEl.textContent = '';
       btn.disabled = true;
       allProxies = [];
-      pingResults = {};
 
       try {
         const res = await fetch('/api/proxies');
         const data = await res.json();
-        const proxies = (data.proxies || []).map((p, i) => ({ ...p, _idx: i }));
-
+        allProxies = data.proxies || [];
         btn.disabled = false;
 
-        if (proxies.length === 0) {
+        if (allProxies.length === 0) {
           listEl.innerHTML = '<div class="status error">Прокси не найдены.<br><small>Попробуй обновить страницу.</small></div>';
           return;
         }
 
-        allProxies = proxies;
-        countEl.textContent = `${proxies.length} прокси найдено`;
+        countEl.textContent = `${allProxies.length} прокси найдено`;
         render();
-
-        proxies.forEach(p => {
-          fetch(`/api/check?server=${encodeURIComponent(p.server)}&port=${encodeURIComponent(p.port)}&secret=${encodeURIComponent(p.secret)}`)
-            .then(r => r.json())
-            .then(result => {
-              pingResults[p._idx] = result;
-              const el = document.getElementById(`ping-${p._idx}`);
-              if (el) {
-                if (result.ok) {
-                  el.textContent = `${result.ping} мс`;
-                  el.className = `proxy-ping ${result.ping < 200 ? 'ok' : 'slow'}`;
-                } else {
-                  el.textContent = 'недоступен';
-                  el.className = 'proxy-ping dead';
-                }
-              }
-              if (sortMode === 'ping') render();
-            })
-            .catch(() => {
-              pingResults[p._idx] = { ok: false };
-              const el = document.getElementById(`ping-${p._idx}`);
-              if (el) { el.textContent = '—'; el.className = 'proxy-ping'; }
-            });
-        });
-
       } catch {
         btn.disabled = false;
         listEl.innerHTML = '<div class="status error">Не удалось загрузить прокси.<br><small>Попробуй обновить страницу.</small></div>';
