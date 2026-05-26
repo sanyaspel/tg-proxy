@@ -72,6 +72,8 @@
 
     .proxy-port { font-size: 0.8rem; color: #555; margin-top: 2px; }
 
+    .proxy-stars { font-size: 0.78rem; color: #a07830; margin-top: 3px; }
+
     .btn-connect {
       display: inline-block;
       background: #2b5ce6;
@@ -158,6 +160,7 @@
               <div class="proxy-info">
                 <div class="proxy-server">${p.server}</div>
                 <div class="proxy-port">Порт: ${p.port}</div>
+                ${p.stars > 0 ? `<div class="proxy-stars">⭐ ${p.stars}</div>` : ""}
               </div>
               <a class="btn-connect" href="${link}">Подключить</a>
             </div>
