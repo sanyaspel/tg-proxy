@@ -125,7 +125,6 @@
       color: #4a4a5a;
       white-space: nowrap;
       flex-shrink: 0;
-      align-self: center;
     }
 
     .proxy-bottom { display: flex; gap: 8px; align-items: center; margin-top: 6px; flex-wrap: wrap; }
@@ -145,7 +144,8 @@
     .ping-badge.fail { color: #555; }
 
     .btn-connect {
-      display: inline-block;
+      display: flex;
+      align-items: center;
       background: #2b5ce6;
       color: #fff;
       text-decoration: none;
@@ -305,6 +305,8 @@
       countEl.textContent = "";
       btn.disabled = true;
       proxies = [];
+      // Сбрасываем просмотренные
+      Object.keys(sessionStorage).filter(k => k.startsWith("v:")).forEach(k => sessionStorage.removeItem(k));
 
       try {
         const res = await fetch("/api/proxies");
