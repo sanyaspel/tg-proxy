@@ -269,7 +269,7 @@
         render();
 
         proxies.forEach(p => {
-          fetch(`/api/check?server=${encodeURIComponent(p.server)}&port=${encodeURIComponent(p.port)}`)
+          fetch(`/api/check?server=${encodeURIComponent(p.server)}&port=${encodeURIComponent(p.port)}&secret=${encodeURIComponent(p.secret)}`)
             .then(r => r.json())
             .then(result => {
               pingResults[p._idx] = result;
