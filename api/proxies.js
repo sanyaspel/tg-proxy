@@ -118,10 +118,9 @@ export default async function handler(req, res) {
     })
   );
 
-  // Сортируем по звёздам (больше = выше), берём топ 25
-  const sorted = allMessages
-    .sort((a, b) => b.stars - a.stars)
-    .slice(0, 25);
+  // Свежие прокси первыми (порядок добавления = новизна), со звёздами выше нулевых
+  // allMessages уже в порядке от новых к старым благодаря порядку страниц
+  const sorted = allMessages.slice(0, 25);
 
   if (debug) debugInfo.push({ total_found: allMessages.length, with_stars: allMessages.filter(p => p.stars > 0).length });
 
