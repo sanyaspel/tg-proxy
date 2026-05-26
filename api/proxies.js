@@ -51,16 +51,20 @@ function parseMessages(html) {
 
     if (proxies.length === 0) continue;
 
+    // Извлекаем ID сообщения (выше = новее)
+    const msgIdMatch = block.match(/data-post="[^/]+\/(\d+)"/);
+    const msgId = msgIdMatch ? parseInt(msgIdMatch[1]) : 0;
+
     // Извлекаем количество Telegram Stars (платных реакций)
     let stars = 0;
-    const starsMatch = block.match(/icon-telegram-stars[^<]*<\/i>\s*<span[^>]*>(\d+)/);
+    const starsMatch = block.match(/icon-telegram-stars[^<]*<\/i>\s*(\d+)/);
     if (starsMatch) stars = parseInt(starsMatch[1]);
 
     proxies.forEach((p) => {
       const key = `${p.server}:${p.port}`;
       if (!seen.has(key)) {
         seen.add(key);
-        results.push({ ...p, stars });
+        results.push({ ...p, stars, msgId });
       }
     });
   }
@@ -114,9 +118,9 @@ export default async function handler(req, res) {
     })
   );
 
-  // Сортируем по звёздам (больше = выше), берём топ 25
+  // Сортируем по свежести (новее = выше), берём топ 25
   const sorted = allMessages
-    .sort((a, b) => b.stars - a.stars)
+    .sort((a, b) => b.msgId - a.msgId)
     .slice(0, 25);
 
   if (debug) debugInfo.push({ total_found: allMessages.length, with_stars: allMessages.filter(p => p.stars > 0).length });
