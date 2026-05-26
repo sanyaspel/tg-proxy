@@ -94,7 +94,11 @@ export default async function handler(req, res) {
           const msgs = parseMessages(html);
 
           if (debug && i === 0) {
-            debugInfo.push({ channel: name, found: msgs.length, minId, starsFound: msgs.filter(m => m.stars > 0).length });
+            const starIconCount = (html.match(/icon-telegram-stars/g) || []).length;
+            const reactionDivCount = (html.match(/tgme_widget_message_reactions/g) || []).length;
+            const reactIdx = html.indexOf("tgme_reaction_paid");
+            const starSample = reactIdx > -1 ? html.slice(Math.max(0, reactIdx - 50), reactIdx + 300) : null;
+            debugInfo.push({ channel: name, found: msgs.length, minId, starIconCount, reactionDivCount, starSample, starsFound: msgs.filter(m => m.stars > 0).length });
           }
 
           msgs.forEach((p) => {
