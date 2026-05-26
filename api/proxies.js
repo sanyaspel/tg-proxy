@@ -55,6 +55,10 @@ function parseMessages(html) {
     const msgIdMatch = block.match(/data-post="[^/]+\/(\d+)"/);
     const msgId = msgIdMatch ? parseInt(msgIdMatch[1]) : 0;
 
+    // Извлекаем дату публикации
+    const dateMatch = block.match(/datetime="([^"]+)"/);
+    const publishedAt = dateMatch ? dateMatch[1] : null;
+
     // Извлекаем количество Telegram Stars (платных реакций)
     let stars = 0;
     const starsMatch = block.match(/icon-telegram-stars[^<]*<\/i>\s*(\d+)/);
@@ -64,7 +68,7 @@ function parseMessages(html) {
       const key = `${p.server}:${p.port}`;
       if (!seen.has(key)) {
         seen.add(key);
-        results.push({ ...p, stars, msgId });
+        results.push({ ...p, stars, msgId, publishedAt });
       }
     });
   }
