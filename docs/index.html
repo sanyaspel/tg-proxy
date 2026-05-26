@@ -96,18 +96,19 @@
       border: 1px solid #2a2a35;
       border-radius: 12px;
       padding: 14px 18px;
+      transition: border-color 0.2s, opacity 0.2s;
+    }
+    .proxy-card.viewed { opacity: 0.45; }
+
+    .proxy-top {
       display: flex;
       align-items: center;
-      justify-content: space-between;
-      gap: 12px;
-      transition: border-color 0.2s;
+      gap: 10px;
+      min-width: 0;
     }
-    .proxy-card.online { border-color: #2a2a35; }
-    .proxy-card.offline { opacity: 0.5; }
-
-    .proxy-info { flex: 1; min-width: 0; }
 
     .proxy-server {
+      flex: 1;
       font-size: 0.95rem;
       font-weight: 600;
       color: #c9d1ff;
@@ -116,12 +117,19 @@
       text-overflow: ellipsis;
     }
 
-    .proxy-meta { display: flex; gap: 10px; align-items: center; margin-top: 4px; flex-wrap: wrap; }
+    .proxy-port-inline { color: #555; font-weight: 400; }
 
-    .proxy-port { font-size: 0.78rem; color: #444; }
+    .proxy-num {
+      font-size: 0.72rem;
+      color: #333;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    .proxy-bottom { display: flex; gap: 8px; align-items: center; margin-top: 6px; flex-wrap: wrap; }
 
     .proxy-stars { font-size: 0.78rem; color: #7a5820; }
-    .proxy-age { font-size: 0.78rem; color: #444; }
+    .proxy-age { font-size: 0.78rem; color: #3a3a4a; }
 
     .ping-badge {
       font-size: 0.76rem;
@@ -208,14 +216,6 @@
     }
 
     let proxies = [];
-    let sortMode = "fresh";
-
-    function setSort(mode) {
-      sortMode = mode;
-      document.getElementById("sortFresh").classList.toggle("active", mode === "fresh");
-      document.getElementById("sortPing").classList.toggle("active", mode === "ping");
-      render();
-    }
 
     function pingColor(ping) {
       if (ping === null) return "fail";
@@ -234,51 +234,48 @@
       const listEl = document.getElementById("list");
       if (!proxies.length) return;
 
-      let sorted = [...proxies];
-      if (sortMode === "ping") {
-        sorted.sort((a, b) => {
-          if (a.ping === null && b.ping === null) return 0;
-          if (a.ping === null) return 1;
-          if (b.ping === null) return -1;
-          return a.ping - b.ping;
-        });
-      }
+      const sorted = [...proxies];
 
       listEl.innerHTML = sorted.map((p, i) => {
         const link = `tg://proxy?server=${encodeURIComponent(p.server)}&port=${encodeURIComponent(p.port)}&secret=${encodeURIComponent(p.secret)}`;
-        const cardClass = p.pingStatus === "fail" ? "proxy-card offline" : "proxy-card" + (p.ping !== null ? " online" : "");
+        const key = `${p.server}:${p.port}`;
+        const viewed = sessionStorage.getItem("v:" + key) ? " viewed" : "";
         return `
-          <div class="${cardClass}" id="card-${p.server}-${p.port}">
-            <div class="proxy-info">
-              <div class="proxy-server">${p.server}</div>
-              <div class="proxy-meta">
-                <span class="proxy-port">:${p.port}</span>
-                ${p.publishedAt ? `<span class="proxy-age">${timeAgo(p.publishedAt)}</span>` : ""}
-                ${p.stars > 0 ? `<span class="proxy-stars">⭐ ${p.stars}</span>` : ""}
-                ${pingText(p)}
-              </div>
+          <div class="proxy-card${viewed}" id="card-${p.server}-${p.port}">
+            <div class="proxy-top">
+              <span class="proxy-server">${p.server}<span class="proxy-port-inline">:${p.port}</span></span>
+              <a class="btn-connect" href="${link}" onclick="markViewed('${key}')">Подключить</a>
+              <span class="proxy-num">#${i + 1}</span>
             </div>
-            <a class="btn-connect" href="${link}">Подключить</a>
+            <div class="proxy-bottom" id="bottom-${p.server}-${p.port}">
+              ${p.publishedAt ? `<span class="proxy-age">${timeAgo(p.publishedAt)}</span>` : ""}
+              ${p.stars > 0 ? `<span class="proxy-stars">⭐ ${p.stars}</span>` : ""}
+              ${pingText(p)}
+            </div>
           </div>
         `;
       }).join("");
     }
 
+    function markViewed(key) {
+      sessionStorage.setItem("v:" + key, "1");
+      const parts = key.split(":");
+      const card = document.getElementById(`card-${parts.slice(0, -1).join(":")}:${parts[parts.length-1]}`.replace(/^card-/, ""));
+      // найдём карточку по data или просто добавим класс
+      document.querySelectorAll(".proxy-card").forEach(c => {
+        const btn = c.querySelector(".btn-connect");
+        if (btn && btn.getAttribute("onclick") === `markViewed('${key}')`) {
+          c.classList.add("viewed");
+        }
+      });
+    }
+
     function updateCard(proxy) {
-      const card = document.getElementById(`card-${proxy.server}-${proxy.port}`);
-      if (!card) return;
-      const meta = card.querySelector(".proxy-meta");
-      if (!meta) return;
-      // обновляем только ping badge
-      const existing = meta.querySelector(".ping-badge");
+      const bottom = document.getElementById(`bottom-${proxy.server}-${proxy.port}`);
+      if (!bottom) return;
+      const existing = bottom.querySelector(".ping-badge");
       if (existing) existing.remove();
-      meta.insertAdjacentHTML("beforeend", pingText(proxy));
-      // обновляем класс карточки
-      if (proxy.pingStatus === "fail") {
-        card.className = "proxy-card offline";
-      } else if (proxy.ping !== null) {
-        card.className = "proxy-card online";
-      }
+      bottom.insertAdjacentHTML("beforeend", pingText(proxy));
     }
 
     async function checkProxy(proxy) {
@@ -295,7 +292,6 @@
         proxy.ping = null;
       }
       updateCard(proxy);
-      if (sortMode === "ping") render();
     }
 
     async function load() {
