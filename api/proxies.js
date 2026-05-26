@@ -57,7 +57,7 @@ function parseProxies(html) {
   let m;
   while ((m = webRe.exec(html)) !== null) {
     try {
-      const raw = m[0].replace(/&amp;/g, "&");
+      const raw = m[0].replace(/&amp;amp;/g, "&").replace(/&amp;/g, "&");
       const qs = new URLSearchParams(raw.split("?")[1]);
       const server = qs.get("server");
       const port = qs.get("port");
@@ -118,7 +118,7 @@ export default async function handler(req, res) {
           if (debug && i === 0) {
             // Найти первое сообщение с прокси
             const proxyIdx = html.indexOf("t.me/proxy?");
-            const sample = proxyIdx > -1 ? html.slice(Math.max(0, proxyIdx - 800), proxyIdx + 400) : html.slice(0, 1200);
+            const sample = proxyIdx > -1 ? html.slice(Math.max(0, proxyIdx - 300), proxyIdx + 2000) : html.slice(0, 2000);
             debugInfo.push({ channel: name, found: found.length, minId, sample });
           }
           found.forEach((p) => {
