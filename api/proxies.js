@@ -1,14 +1,58 @@
+import tls from "tls";
+import net from "net";
+
 // Каналы и сколько страниц брать (1 страница ≈ 20 прокси)
 const CHANNELS = [
   { name: "ProxyMTProto", pages: 4 },
   { name: "mtpro_xyz", pages: 2 },
 ];
 
+const CHECK_TIMEOUT = 5000;
+const MAX_WORKERS = 40;
+
+function checkProxy(server, port, isTLS) {
+  return new Promise((resolve) => {
+    const portNum = parseInt(port);
+
+    if (isTLS) {
+      const socket = tls.connect(
+        { host: server, port: portNum, rejectUnauthorized: false, servername: server },
+        () => { socket.destroy(); resolve(true); }
+      );
+      socket.setTimeout(CHECK_TIMEOUT);
+      socket.on("timeout", () => { socket.destroy(); resolve(false); });
+      socket.on("error", () => { socket.destroy(); resolve(false); });
+    } else {
+      const socket = new net.Socket();
+      socket.setTimeout(CHECK_TIMEOUT);
+      socket.on("connect", () => { socket.destroy(); resolve(true); });
+      socket.on("timeout", () => { socket.destroy(); resolve(false); });
+      socket.on("error", () => { socket.destroy(); resolve(false); });
+      socket.connect(portNum, server);
+    }
+  });
+}
+
+// Проверяем партиями чтобы не перегружать
+async function checkAll(proxies) {
+  const results = [];
+  for (let i = 0; i < proxies.length; i += MAX_WORKERS) {
+    const batch = proxies.slice(i, i + MAX_WORKERS);
+    const checks = await Promise.all(
+      batch.map((p) => {
+        const isTLS = p.secret.startsWith("ee");
+        return checkProxy(p.server, p.port, isTLS);
+      })
+    );
+    batch.forEach((p, j) => { if (checks[j]) results.push(p); });
+  }
+  return results;
+}
+
 function parseProxies(html) {
   const results = [];
   const seen = new Set();
 
-  // https://t.me/proxy?server=...&port=...&secret=... (web format, may be HTML-encoded)
   const webRe = /https?:\/\/t\.me\/proxy\?[^"'\s<>]+/g;
   let m;
   while ((m = webRe.exec(html)) !== null) {
@@ -20,15 +64,11 @@ function parseProxies(html) {
       const secret = qs.get("secret");
       if (server && port && secret) {
         const key = `${server}:${port}`;
-        if (!seen.has(key)) {
-          seen.add(key);
-          results.push({ server, port, secret });
-        }
+        if (!seen.has(key)) { seen.add(key); results.push({ server, port, secret }); }
       }
     } catch {}
   }
 
-  // tg://proxy?... links (fallback)
   const tgRe = /tg:\/\/proxy\?[^"'\s<>]+/g;
   while ((m = tgRe.exec(html)) !== null) {
     try {
@@ -38,10 +78,7 @@ function parseProxies(html) {
       const secret = qs.get("secret");
       if (server && port && secret) {
         const key = `${server}:${port}`;
-        if (!seen.has(key)) {
-          seen.add(key);
-          results.push({ server, port, secret });
-        }
+        if (!seen.has(key)) { seen.add(key); results.push({ server, port, secret }); }
       }
     } catch {}
   }
@@ -66,8 +103,7 @@ export default async function handler(req, res) {
     const url = `https://t.me/s/${name}${before ? `?before=${before}` : ""}`;
     const response = await fetch(url, { headers: HEADERS });
     const html = await response.text();
-    // Находим минимальный ID сообщения для следующей страницы
-    const ids = [...html.matchAll(/data-post="[^/]+\/(\d+)"/g)].map(m => parseInt(m[1]));
+    const ids = [...html.matchAll(/data-post="[^/]+\/(\d+)"/g)].map((m) => parseInt(m[1]));
     const minId = ids.length ? Math.min(...ids) : null;
     return { html, minId };
   }
@@ -79,9 +115,7 @@ export default async function handler(req, res) {
         for (let i = 0; i < pages; i++) {
           const { html, minId } = await fetchChannelPage(name, before);
           const found = parseProxies(html);
-          if (debug && i === 0) {
-            debugInfo.push({ channel: name, htmlLength: html.length, found: found.length, minId });
-          }
+          if (debug && i === 0) debugInfo.push({ channel: name, found: found.length, minId });
           found.forEach((p) => {
             const key = `${p.server}:${p.port}`;
             if (!seen.has(key)) { seen.add(key); allProxies.push(p); }
@@ -95,10 +129,14 @@ export default async function handler(req, res) {
     })
   );
 
+  const working = await checkAll(allProxies);
+
+  if (debug) debugInfo.push({ total_found: allProxies.length, total_working: working.length });
+
   res.json({
     updated: new Date().toISOString(),
-    count: allProxies.length,
-    proxies: allProxies,
+    count: working.length,
+    proxies: working,
     ...(debug && { debug: debugInfo }),
   });
 }
