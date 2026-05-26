@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-26T17:25:39Z",
-  "count": 10,
+  "updated": "2026-05-26T17:41:27Z",
+  "count": 9,
   "proxies": [
     {
       "server": "2.26.252.43",
@@ -8,19 +8,9 @@
       "secret": "ee6cc9e422a51432ca4df25293389adef06172746c6562656465762e7275"
     },
     {
-      "server": "dr1.dedus.pro",
-      "port": "443",
-      "secret": "eeaf504aa56469ec880c9cb00515fc8a2d79616e6465782e7275"
-    },
-    {
-      "server": "dr4.dedus.pro",
-      "port": "443",
-      "secret": "eeaf504aa56469ec880c9cb00515fc8a2d79616e6465782e7275"
-    },
-    {
-      "server": "r7.proxytg.space",
-      "port": "8443",
-      "secret": "ee20d95482189070afff142be2bf66014c72372e70726f787974672e7370616365"
+      "server": "dns.vdl.lat",
+      "port": "853",
+      "secret": "ee534adcf23a16f425cbae129c4cb574cb6164732e78352e7275"
     },
     {
       "server": "nd1.mowork.twc1.net",
@@ -28,29 +18,34 @@
       "secret": "ee79faca7ec8bd1b9125007dee535716f47777772e6d6963726f736f66742e636f6d"
     },
     {
-      "server": "gm1.mowork.twc1.net",
-      "port": "443",
-      "secret": "ee787ec52793641dad735f01313b33f82b7462616e6b2e7275"
-    },
-    {
-      "server": "186.246.21.31",
-      "port": "443",
-      "secret": "eeb4977787e9a3f4c9d51ec528688f922e617669746f2e7275"
-    },
-    {
-      "server": "146.103.96.129",
-      "port": "443",
-      "secret": "ee627bdd42b085906e41105ddd7dab8cca706574726f766963682e7275"
-    },
-    {
       "server": "r10.proxytg.space",
       "port": "8443",
       "secret": "ee65032756d1cfb78ebbd0ea8db83d43937231302e70726f787974672e7370616365"
     },
     {
+      "server": "r7.proxytg.space",
+      "port": "8443",
+      "secret": "ee20d95482189070afff142be2bf66014c72372e70726f787974672e7370616365"
+    },
+    {
+      "server": "186.246.21.89",
+      "port": "443",
+      "secret": "eec11798ab008831b474066c9e1ebf5c73617669746f2e7275"
+    },
+    {
+      "server": "mtp.hypershark.net",
+      "port": "443",
+      "secret": "7kLt7CJi_3Dpz2b1JKDDuro1cG9zdC1nYXRlLXRlc3QueDUucnU"
+    },
+    {
       "server": "r11.proxytg.space",
       "port": "8443",
       "secret": "ee4e28f14af6d0e7d9dc65eecb94066c717231312e70726f787974672e7370616365"
+    },
+    {
+      "server": "mt.nowaboost.com",
+      "port": "443",
+      "secret": "4fd95a487c5c87ae82b6639a9b6b5ff2"
     }
   ]
 }
