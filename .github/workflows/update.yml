@@ -34,3 +34,4 @@ jobs:
           git add docs/proxies.json
           git diff --staged --quiet || git commit -m "chore: update proxies"
           git push
+#test
