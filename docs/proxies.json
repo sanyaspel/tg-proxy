@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-27T19:56:50Z",
-  "count": 4,
+  "updated": "2026-05-27T21:47:08Z",
+  "count": 5,
   "proxies": [
     {
       "server": "72.56.40.215",
@@ -8,9 +8,9 @@
       "secret": "eec11798ab008831b474066c9e1ebf5c69617669746f2e7275"
     },
     {
-      "server": "186.246.21.87",
-      "port": "443",
-      "secret": "7sEXmKsAiDG0dAZsnh6_XHFhdml0by5ydQ"
+      "server": "dns.vdl.lat",
+      "port": "853",
+      "secret": "ee534adcf23a16f425cbae129c4cb574cb6164732e78352e7275"
     },
     {
       "server": "186.246.21.188",
@@ -21,6 +21,11 @@
       "server": "72.56.40.4",
       "port": "443",
       "secret": "eec11798ab008831b474066c9e1ebf5c68617669746f2e7275"
+    },
+    {
+      "server": "gov.chunkycorp.shop",
+      "port": "443",
+      "secret": "ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275"
     }
   ]
 }
