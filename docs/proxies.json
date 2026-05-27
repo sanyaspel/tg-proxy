@@ -1,12 +1,7 @@
 {
-  "updated": "2026-05-27T06:43:12Z",
+  "updated": "2026-05-27T10:45:23Z",
   "count": 9,
   "proxies": [
-    {
-      "server": "186.246.21.89",
-      "port": "443",
-      "secret": "eec11798ab008831b474066c9e1ebf5c73617669746f2e7275"
-    },
     {
       "server": "186.246.21.40",
       "port": "443",
@@ -18,9 +13,9 @@
       "secret": "eec11798ab008831b474066c9e1ebf5c71617669746f2e7275"
     },
     {
-      "server": "2.26.252.43",
+      "server": "72.56.40.4",
       "port": "443",
-      "secret": "ee6cc9e422a51432ca4df25293389adef06172746c6562656465762e7275"
+      "secret": "eec11798ab008831b474066c9e1ebf5c68617669746f2e7275"
     },
     {
       "server": "otklyuchi-vpn.nolags.pw",
@@ -33,9 +28,14 @@
       "secret": "ee534adcf23a16f425cbae129c4cb574cb6164732e78352e7275"
     },
     {
-      "server": "r11.proxytg.space",
+      "server": "r14.proxytg.space",
       "port": "8443",
-      "secret": "ee4e28f14af6d0e7d9dc65eecb94066c717231312e70726f787974672e7370616365"
+      "secret": "ee20085b424592e30b46373c98b0b0a1737231342e70726f787974672e7370616365"
+    },
+    {
+      "server": "mt.nowaboost.com",
+      "port": "443",
+      "secret": "4fd95a487c5c87ae82b6639a9b6b5ff2"
     },
     {
       "server": "r10.proxytg.space",
@@ -43,9 +43,9 @@
       "secret": "ee65032756d1cfb78ebbd0ea8db83d43937231302e70726f787974672e7370616365"
     },
     {
-      "server": "mt.nowaboost.com",
+      "server": "gov.chunkycorp.shop",
       "port": "443",
-      "secret": "4fd95a487c5c87ae82b6639a9b6b5ff2"
+      "secret": "ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275"
     }
   ]
 }
