@@ -1,11 +1,16 @@
 {
-  "updated": "2026-05-27T17:38:17Z",
+  "updated": "2026-05-27T19:56:50Z",
   "count": 4,
   "proxies": [
     {
+      "server": "72.56.40.215",
+      "port": "443",
+      "secret": "eec11798ab008831b474066c9e1ebf5c69617669746f2e7275"
+    },
+    {
       "server": "186.246.21.87",
       "port": "443",
-      "secret": "eec11798ab008831b474066c9e1ebf5c71617669746f2e7275"
+      "secret": "7sEXmKsAiDG0dAZsnh6_XHFhdml0by5ydQ"
     },
     {
       "server": "186.246.21.188",
@@ -16,11 +21,6 @@
       "server": "72.56.40.4",
       "port": "443",
       "secret": "eec11798ab008831b474066c9e1ebf5c68617669746f2e7275"
-    },
-    {
-      "server": "72.56.40.215",
-      "port": "443",
-      "secret": "eec11798ab008831b474066c9e1ebf5c69617669746f2e7275"
     }
   ]
 }
