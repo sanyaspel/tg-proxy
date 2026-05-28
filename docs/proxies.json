@@ -1,12 +1,7 @@
 {
-  "updated": "2026-05-28T21:48:35Z",
-  "count": 4,
+  "updated": "2026-05-28T23:06:19Z",
+  "count": 3,
   "proxies": [
-    {
-      "server": "russia.nolags.pw",
-      "port": "443",
-      "secret": "dd04dbf1f1459ffbc5e646db206794163a"
-    },
     {
       "server": "186.246.19.17",
       "port": "443",
