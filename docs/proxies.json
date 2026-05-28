@@ -1,21 +1,16 @@
 {
-  "updated": "2026-05-28T13:00:36Z",
-  "count": 3,
+  "updated": "2026-05-28T17:05:04Z",
+  "count": 2,
   "proxies": [
     {
-      "server": "186.246.21.181",
+      "server": "otklyuchi-vpn.nolags.pw",
       "port": "443",
-      "secret": "eec11798ab008831b474066c9e1ebf5c70617669746f2e7275"
+      "secret": "dd5a4411851bef1cf92cc9fe3ed99c72e1"
     },
     {
-      "server": "72.56.40.4",
+      "server": "186.246.19.17",
       "port": "443",
-      "secret": "eec11798ab008831b474066c9e1ebf5c68617669746f2e7275"
-    },
-    {
-      "server": "sosal.chunkycorp.shop",
-      "port": "443",
-      "secret": "ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275"
+      "secret": "eec11798ab008831b474066c9e1ebf5c67617669746f2e7275"
     }
   ]
 }
