@@ -1,11 +1,21 @@
 {
-  "updated": "2026-05-28T19:51:49Z",
-  "count": 2,
+  "updated": "2026-05-28T21:48:35Z",
+  "count": 4,
   "proxies": [
+    {
+      "server": "russia.nolags.pw",
+      "port": "443",
+      "secret": "dd04dbf1f1459ffbc5e646db206794163a"
+    },
     {
       "server": "186.246.19.17",
       "port": "443",
       "secret": "eec11798ab008831b474066c9e1ebf5c67617669746f2e7275"
+    },
+    {
+      "server": "live.russia.mambabot.net",
+      "port": "7866",
+      "secret": "ee843223f372ef32e718c5271b5580714c6d656469612e737465616d706f77657265642e636f6d"
     },
     {
       "server": "sosal.chunkycorp.shop",
