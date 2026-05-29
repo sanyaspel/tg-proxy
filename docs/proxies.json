@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-29T21:19:34Z",
+  "updated": "2026-05-29T22:47:24Z",
   "count": 5,
   "proxies": [
     {
@@ -13,6 +13,11 @@
       "secret": "eec11798ab008831b474066c9e1ebf5c63617669746f2e7275"
     },
     {
+      "server": "hotmtpro.duckdns.org",
+      "port": "443",
+      "secret": "7u-wXMxodyqALbbZW3bovVF3d3cuYW1hem9uLmNvbQ"
+    },
+    {
       "server": "hotmtpro2.duckdns.org",
       "port": "443",
       "secret": "7kBjzU5SbZqTzIJZZEf4Tvp3d3cubWljcm9zb2Z0LmNvbQ"
@@ -21,11 +26,6 @@
       "server": "vpn.chunkycorp.shop",
       "port": "443",
       "secret": "ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275"
-    },
-    {
-      "server": "hotmtpro.duckdns.org",
-      "port": "443",
-      "secret": "7u-wXMxodyqALbbZW3bovVF3d3cuYW1hem9uLmNvbQ"
     }
   ]
 }
