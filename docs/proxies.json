@@ -1,16 +1,16 @@
 {
-  "updated": "2026-05-30T22:30:57Z",
+  "updated": "2026-05-30T23:50:31Z",
   "count": 3,
   "proxies": [
-    {
-      "server": "evening.nolags.pw",
-      "port": "443",
-      "secret": "dd29b3afb209c4427676b4c43eecb7f556"
-    },
     {
       "server": "89.23.108.23",
       "port": "443",
       "secret": "ee4b23e33a9d1122e920a81aef2172b5e87477697463682e7476"
+    },
+    {
+      "server": "evening.nolags.pw",
+      "port": "443",
+      "secret": "dd29b3afb209c4427676b4c43eecb7f556"
     },
     {
       "server": "sexy.arixo.shop",
