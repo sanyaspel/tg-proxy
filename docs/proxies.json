@@ -1,16 +1,11 @@
 {
-  "updated": "2026-05-30T11:10:35Z",
-  "count": 9,
+  "updated": "2026-05-30T12:44:26Z",
+  "count": 6,
   "proxies": [
     {
-      "server": "186.246.19.78",
+      "server": "95.182.86.60",
       "port": "443",
-      "secret": "eec11798ab008831b474066c9e1ebf5c64617669746f2e7275"
-    },
-    {
-      "server": "186.246.19.42",
-      "port": "443",
-      "secret": "eec11798ab008831b474066c9e1ebf5c62617669746f2e7275"
+      "secret": "ee82dd957be0c6899a82879d05fecfc73a617669746f2e7275"
     },
     {
       "server": "perfect.nolags.pw",
@@ -18,24 +13,9 @@
       "secret": "dd4658543dd0973d78171da4552480fd23"
     },
     {
-      "server": "hotmtpro2.duckdns.org",
+      "server": "186.246.19.42",
       "port": "443",
-      "secret": "7kBjzU5SbZqTzIJZZEf4Tvp3d3cubWljcm9zb2Z0LmNvbQ"
-    },
-    {
-      "server": "top.chunkycorp.shop",
-      "port": "443",
-      "secret": "ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275"
-    },
-    {
-      "server": "95.182.86.60",
-      "port": "443",
-      "secret": "ee82dd957be0c6899a82879d05fecfc73a617669746f2e7275"
-    },
-    {
-      "server": "186.246.19.54",
-      "port": "443",
-      "secret": "eec11798ab008831b474066c9e1ebf5c61617669746f2e7275"
+      "secret": "eec11798ab008831b474066c9e1ebf5c62617669746f2e7275"
     },
     {
       "server": "hotmtpro.duckdns.org",
@@ -43,9 +23,14 @@
       "secret": "7u-wXMxodyqALbbZW3bovVF3d3cuYW1hem9uLmNvbQ"
     },
     {
-      "server": "vpn.chunkycorp.shop",
+      "server": "hotmtpro2.duckdns.org",
       "port": "443",
-      "secret": "ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275"
+      "secret": "7kBjzU5SbZqTzIJZZEf4Tvp3d3cubWljcm9zb2Z0LmNvbQ"
+    },
+    {
+      "server": "186.246.19.54",
+      "port": "443",
+      "secret": "eec11798ab008831b474066c9e1ebf5c61617669746f2e7275"
     }
   ]
 }
