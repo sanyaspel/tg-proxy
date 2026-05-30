@@ -1,12 +1,7 @@
 {
-  "updated": "2026-05-30T17:55:19Z",
-  "count": 5,
+  "updated": "2026-05-30T18:57:00Z",
+  "count": 3,
   "proxies": [
-    {
-      "server": "95.182.86.60",
-      "port": "443",
-      "secret": "ee82dd957be0c6899a82879d05fecfc73a617669746f2e7275"
-    },
     {
       "server": "evening.nolags.pw",
       "port": "443",
@@ -18,14 +13,9 @@
       "secret": "eec11798ab008831b474066c9e1ebf5c59617669746f2e7275"
     },
     {
-      "server": "top.chunkycorp.shop",
+      "server": "95.182.86.60",
       "port": "443",
-      "secret": "ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275"
-    },
-    {
-      "server": "89.23.108.23",
-      "port": "443",
-      "secret": "ee4b23e33a9d1122e920a81aef2172b5e87477697463682e7476"
+      "secret": "ee82dd957be0c6899a82879d05fecfc73a617669746f2e7275"
     }
   ]
 }
