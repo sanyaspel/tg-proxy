@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-30T21:30:04Z",
+  "updated": "2026-05-30T22:30:57Z",
   "count": 3,
   "proxies": [
     {
@@ -8,14 +8,14 @@
       "secret": "dd29b3afb209c4427676b4c43eecb7f556"
     },
     {
+      "server": "89.23.108.23",
+      "port": "443",
+      "secret": "ee4b23e33a9d1122e920a81aef2172b5e87477697463682e7476"
+    },
+    {
       "server": "sexy.arixo.shop",
       "port": "443",
       "secret": "eec11798ab008831b474066c9e1ebf5c59617669746f2e7275"
-    },
-    {
-      "server": "top.chunkycorp.shop",
-      "port": "443",
-      "secret": "ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275"
     }
   ]
 }
