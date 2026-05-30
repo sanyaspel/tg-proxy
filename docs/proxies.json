@@ -1,12 +1,7 @@
 {
-  "updated": "2026-05-30T04:31:13Z",
-  "count": 5,
+  "updated": "2026-05-30T07:34:44Z",
+  "count": 6,
   "proxies": [
-    {
-      "server": "95.182.86.60",
-      "port": "443",
-      "secret": "ee82dd957be0c6899a82879d05fecfc73a617669746f2e7275"
-    },
     {
       "server": "perfect.nolags.pw",
       "port": "443",
@@ -18,14 +13,24 @@
       "secret": "eec11798ab008831b474066c9e1ebf5c61617669746f2e7275"
     },
     {
+      "server": "hotmtpro2.duckdns.org",
+      "port": "443",
+      "secret": "7kBjzU5SbZqTzIJZZEf4Tvp3d3cubWljcm9zb2Z0LmNvbQ"
+    },
+    {
       "server": "hotmtpro.duckdns.org",
       "port": "443",
       "secret": "7u-wXMxodyqALbbZW3bovVF3d3cuYW1hem9uLmNvbQ"
     },
     {
-      "server": "hotmtpro2.duckdns.org",
+      "server": "95.182.86.60",
       "port": "443",
-      "secret": "7kBjzU5SbZqTzIJZZEf4Tvp3d3cubWljcm9zb2Z0LmNvbQ"
+      "secret": "ee82dd957be0c6899a82879d05fecfc73a617669746f2e7275"
+    },
+    {
+      "server": "186.246.19.42",
+      "port": "443",
+      "secret": "eec11798ab008831b474066c9e1ebf5c62617669746f2e7275"
     }
   ]
 }
