@@ -1,11 +1,11 @@
 {
-  "updated": "2026-05-31T12:54:15Z",
-  "count": 6,
+  "updated": "2026-05-31T14:25:21Z",
+  "count": 4,
   "proxies": [
     {
-      "server": "evening.nolags.pw",
+      "server": "sexy.arixo.shop",
       "port": "443",
-      "secret": "dd29b3afb209c4427676b4c43eecb7f556"
+      "secret": "eec11798ab008831b474066c9e1ebf5c59617669746f2e7275"
     },
     {
       "server": "sex.arixo.shop",
@@ -13,24 +13,14 @@
       "secret": "eec11798ab008831b474066c9e1ebf5c59617669746f2e7275"
     },
     {
-      "server": "sexy.arixo.shop",
-      "port": "443",
-      "secret": "eec11798ab008831b474066c9e1ebf5c59617669746f2e7275"
-    },
-    {
-      "server": "vktop.chunkycorp.shop",
-      "port": "443",
-      "secret": "ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275"
-    },
-    {
       "server": "31.56.178.248",
       "port": "443",
       "secret": "ee4ce23663740cbaf7be12448a22abd6fe617669746f2e7275"
     },
     {
-      "server": "89.23.108.23",
+      "server": "87.58.201.189",
       "port": "443",
-      "secret": "ee4b23e33a9d1122e920a81aef2172b5e87477697463682e7476"
+      "secret": "ee1caa97e5002aec0421f8c5b04a53c0e37362657262616e6b2e7275"
     }
   ]
 }
