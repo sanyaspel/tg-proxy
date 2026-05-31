@@ -1,24 +1,14 @@
 {
-  "updated": "2026-05-31T19:00:02Z",
-  "count": 7,
+  "updated": "2026-05-31T20:10:12Z",
+  "count": 4,
   "proxies": [
     {
-      "server": "rkn.nolags.pw",
-      "port": "443",
-      "secret": "dd0851e76efbf462822e1ae6c3ac8b7ffa"
-    },
-    {
-      "server": "heart.nolags.pw",
-      "port": "443",
-      "secret": "dd1d8f1aa6cb8726a39f24cc3943099e33"
-    },
-    {
-      "server": "crystal.nolags.pw",
-      "port": "443",
-      "secret": "dd830d4ed967d6deb679cf74c9b10d0ddb"
-    },
-    {
       "server": "sex.arixo.shop",
+      "port": "443",
+      "secret": "eec11798ab008831b474066c9e1ebf5c59617669746f2e7275"
+    },
+    {
+      "server": "sexy.arixo.shop",
       "port": "443",
       "secret": "eec11798ab008831b474066c9e1ebf5c59617669746f2e7275"
     },
@@ -26,11 +16,6 @@
       "server": "87.58.201.189",
       "port": "443",
       "secret": "ee1caa97e5002aec0421f8c5b04a53c0e37362657262616e6b2e7275"
-    },
-    {
-      "server": "sexy.arixo.shop",
-      "port": "443",
-      "secret": "eec11798ab008831b474066c9e1ebf5c59617669746f2e7275"
     },
     {
       "server": "sosat.rkn.lat",
