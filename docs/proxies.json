@@ -1,14 +1,24 @@
 {
-  "updated": "2026-05-31T20:10:12Z",
-  "count": 4,
+  "updated": "2026-05-31T21:29:53Z",
+  "count": 6,
   "proxies": [
     {
-      "server": "sex.arixo.shop",
+      "server": "sosat.rkn.lat",
+      "port": "443",
+      "secret": "ee66e66017432e98b7535ebbbc1588f8a26d61782e7275"
+    },
+    {
+      "server": "alpinavpn.hatecens.cc",
+      "port": "7443",
+      "secret": "ee27a9fe4d55c1a9dabfcb2b872b00b6e6616c70696e6176706e2e6861746563656e732e6363"
+    },
+    {
+      "server": "sexy.arixo.shop",
       "port": "443",
       "secret": "eec11798ab008831b474066c9e1ebf5c59617669746f2e7275"
     },
     {
-      "server": "sexy.arixo.shop",
+      "server": "sex.arixo.shop",
       "port": "443",
       "secret": "eec11798ab008831b474066c9e1ebf5c59617669746f2e7275"
     },
@@ -18,9 +28,9 @@
       "secret": "ee1caa97e5002aec0421f8c5b04a53c0e37362657262616e6b2e7275"
     },
     {
-      "server": "sosat.rkn.lat",
+      "server": "vktop.chunkycorp.shop",
       "port": "443",
-      "secret": "ee66e66017432e98b7535ebbbc1588f8a26d61782e7275"
+      "secret": "ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275"
     }
   ]
 }
