@@ -1,16 +1,11 @@
 {
-  "updated": "2026-05-31T15:44:42Z",
+  "updated": "2026-05-31T16:53:47Z",
   "count": 6,
   "proxies": [
     {
       "server": "87.58.201.189",
       "port": "443",
       "secret": "ee1caa97e5002aec0421f8c5b04a53c0e37362657262616e6b2e7275"
-    },
-    {
-      "server": "crystal.nolags.pw",
-      "port": "443",
-      "secret": "dd830d4ed967d6deb679cf74c9b10d0ddb"
     },
     {
       "server": "vktop.chunkycorp.shop",
@@ -21,6 +16,11 @@
       "server": "rkn.nolags.pw",
       "port": "443",
       "secret": "dd0851e76efbf462822e1ae6c3ac8b7ffa"
+    },
+    {
+      "server": "crystal.nolags.pw",
+      "port": "443",
+      "secret": "dd830d4ed967d6deb679cf74c9b10d0ddb"
     },
     {
       "server": "sexy.arixo.shop",
