@@ -1,31 +1,21 @@
 {
-  "updated": "2026-06-01T13:11:31Z",
-  "count": 9,
+  "updated": "2026-06-01T19:04:10Z",
+  "count": 11,
   "proxies": [
+    {
+      "server": "ether.nolags.pw",
+      "port": "443",
+      "secret": "dd86e17c6a253f59eac4b4909095ba3019"
+    },
     {
       "server": "31.76.251.25",
       "port": "853",
       "secret": "ee6aa9eb2bd47d97b43be8ac203cfd3c0e6d742e616b656e61692e636c69636b,"
     },
     {
-      "server": "heart.nolags.pw",
+      "server": "security.chunkycorp.shop",
       "port": "443",
-      "secret": "dd1d8f1aa6cb8726a39f24cc3943099e33"
-    },
-    {
-      "server": "alpinavpn.hatecens.cc",
-      "port": "7443",
-      "secret": "ee27a9fe4d55c1a9dabfcb2b872b00b6e6616c70696e6176706e2e6861746563656e732e6363"
-    },
-    {
-      "server": "45.153.189.43",
-      "port": "443",
-      "secret": "eec11798ab008831b474066c9e1ebf5c59617669746f2e7275"
-    },
-    {
-      "server": "sex.arixo.shop",
-      "port": "443",
-      "secret": "eec11798ab008831b474066c9e1ebf5c59617669746f2e7275"
+      "secret": "ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275"
     },
     {
       "server": "r43.proxytg.space",
@@ -33,19 +23,39 @@
       "secret": "ee53e5dc51c0bc1af6f2e26c8462f60f2f7234332e70726f787974672e7370616365"
     },
     {
+      "server": "mtp7.sosproxy.space",
+      "port": "443",
+      "secret": "ee77eea55483cdb42d81ab76a5ceddc28d64726976652e676f6f676c652e636f6d"
+    },
+    {
+      "server": "sex.arixo.shop",
+      "port": "443",
+      "secret": "eec11798ab008831b474066c9e1ebf5c59617669746f2e7275"
+    },
+    {
       "server": "r42.proxytg.space",
       "port": "8443",
       "secret": "eed45e80e76b5cd09e7994e4417a324fa17234322e70726f787974672e7370616365"
     },
     {
-      "server": "sosat.rkn.lat",
-      "port": "443",
-      "secret": "ee66e66017432e98b7535ebbbc1588f8a26d61782e7275"
+      "server": "proxy.dreamerlook.ru",
+      "port": "444",
+      "secret": "ee00000000000000000000000000000000766b2e636f6d"
     },
     {
-      "server": "security.chunkycorp.shop",
+      "server": "r44.proxytg.space",
+      "port": "8443",
+      "secret": "eebf7b9e22c9202130923254db55f17ed07234342e70726f787974672e7370616365"
+    },
+    {
+      "server": "45.150.110.32",
       "port": "443",
-      "secret": "ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275"
+      "secret": "ee1c88677acf461e09e68f4ff0cef5724a617669746f2e7275"
+    },
+    {
+      "server": "95.182.87.20",
+      "port": "443",
+      "secret": "eec11798ab008831b474066c9e1ebf5c59617669746f2e7275"
     }
   ]
 }
