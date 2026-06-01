@@ -1,16 +1,16 @@
 {
-  "updated": "2026-06-01T07:29:11Z",
-  "count": 7,
+  "updated": "2026-06-01T13:11:31Z",
+  "count": 9,
   "proxies": [
     {
-      "server": "87.58.201.189",
-      "port": "443",
-      "secret": "ee1caa97e5002aec0421f8c5b04a53c0e37362657262616e6b2e7275"
+      "server": "31.76.251.25",
+      "port": "853",
+      "secret": "ee6aa9eb2bd47d97b43be8ac203cfd3c0e6d742e616b656e61692e636c69636b,"
     },
     {
-      "server": "186.246.21.89",
+      "server": "heart.nolags.pw",
       "port": "443",
-      "secret": "7sEXmKsAiDG0dAZsnh6_XHBhdml0by5ydQ"
+      "secret": "dd1d8f1aa6cb8726a39f24cc3943099e33"
     },
     {
       "server": "alpinavpn.hatecens.cc",
@@ -18,14 +18,9 @@
       "secret": "ee27a9fe4d55c1a9dabfcb2b872b00b6e6616c70696e6176706e2e6861746563656e732e6363"
     },
     {
-      "server": "sexy.arixo.shop",
+      "server": "45.153.189.43",
       "port": "443",
       "secret": "eec11798ab008831b474066c9e1ebf5c59617669746f2e7275"
-    },
-    {
-      "server": "sosat.rkn.lat",
-      "port": "443",
-      "secret": "ee66e66017432e98b7535ebbbc1588f8a26d61782e7275"
     },
     {
       "server": "sex.arixo.shop",
@@ -33,7 +28,22 @@
       "secret": "eec11798ab008831b474066c9e1ebf5c59617669746f2e7275"
     },
     {
-      "server": "yandex.chunkycorp.shop",
+      "server": "r43.proxytg.space",
+      "port": "8443",
+      "secret": "ee53e5dc51c0bc1af6f2e26c8462f60f2f7234332e70726f787974672e7370616365"
+    },
+    {
+      "server": "r42.proxytg.space",
+      "port": "8443",
+      "secret": "eed45e80e76b5cd09e7994e4417a324fa17234322e70726f787974672e7370616365"
+    },
+    {
+      "server": "sosat.rkn.lat",
+      "port": "443",
+      "secret": "ee66e66017432e98b7535ebbbc1588f8a26d61782e7275"
+    },
+    {
+      "server": "security.chunkycorp.shop",
       "port": "443",
       "secret": "ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275"
     }
