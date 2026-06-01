@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-31T23:54:37Z",
-  "count": 6,
+  "updated": "2026-06-01T02:29:43Z",
+  "count": 5,
   "proxies": [
     {
       "server": "87.58.201.189",
@@ -13,9 +13,9 @@
       "secret": "ee27a9fe4d55c1a9dabfcb2b872b00b6e6616c70696e6176706e2e6861746563656e732e6363"
     },
     {
-      "server": "sosat.rkn.lat",
+      "server": "sex.arixo.shop",
       "port": "443",
-      "secret": "ee66e66017432e98b7535ebbbc1588f8a26d61782e7275"
+      "secret": "eec11798ab008831b474066c9e1ebf5c59617669746f2e7275"
     },
     {
       "server": "sexy.arixo.shop",
@@ -23,14 +23,9 @@
       "secret": "eec11798ab008831b474066c9e1ebf5c59617669746f2e7275"
     },
     {
-      "server": "vktop.chunkycorp.shop",
+      "server": "sosat.rkn.lat",
       "port": "443",
-      "secret": "ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275"
-    },
-    {
-      "server": "sex.arixo.shop",
-      "port": "443",
-      "secret": "eec11798ab008831b474066c9e1ebf5c59617669746f2e7275"
+      "secret": "ee66e66017432e98b7535ebbbc1588f8a26d61782e7275"
     }
   ]
 }
