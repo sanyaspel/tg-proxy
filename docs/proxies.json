@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-01T23:47:43Z",
-  "count": 11,
+  "updated": "2026-06-02T02:29:08Z",
+  "count": 9,
   "proxies": [
     {
       "server": "95.182.87.20",
@@ -18,34 +18,9 @@
       "secret": "ee6aa9eb2bd47d97b43be8ac203cfd3c0e6d742e616b656e61692e636c69636b,"
     },
     {
-      "server": "security.chunkycorp.shop",
-      "port": "443",
-      "secret": "ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275"
-    },
-    {
       "server": "nether.nolags.pw",
       "port": "443",
       "secret": "dd0ed82c381c8fccacbe15605dec874662"
-    },
-    {
-      "server": "ether.nolags.pw",
-      "port": "443",
-      "secret": "dd86e17c6a253f59eac4b4909095ba3019"
-    },
-    {
-      "server": "r44.proxytg.space",
-      "port": "8443",
-      "secret": "eebf7b9e22c9202130923254db55f17ed07234342e70726f787974672e7370616365"
-    },
-    {
-      "server": "r39.proxytg.space",
-      "port": "8443",
-      "secret": "eeda4e9c22fd9b2dcf174ceb3beef08a2d7233392e70726f787974672e7370616365"
-    },
-    {
-      "server": "mtp7.sosproxy.space",
-      "port": "443",
-      "secret": "ee77eea55483cdb42d81ab76a5ceddc28d64726976652e676f6f676c652e636f6d"
     },
     {
       "server": "sex.arixo.shop",
@@ -53,9 +28,24 @@
       "secret": "eec11798ab008831b474066c9e1ebf5c59617669746f2e7275"
     },
     {
-      "server": "proxy.dreamerlook.ru",
-      "port": "444",
-      "secret": "ee00000000000000000000000000000000766b2e636f6d"
+      "server": "r43.proxytg.space",
+      "port": "8443",
+      "secret": "ee53e5dc51c0bc1af6f2e26c8462f60f2f7234332e70726f787974672e7370616365"
+    },
+    {
+      "server": "r42.proxytg.space",
+      "port": "8443",
+      "secret": "eed45e80e76b5cd09e7994e4417a324fa17234322e70726f787974672e7370616365"
+    },
+    {
+      "server": "r39.proxytg.space",
+      "port": "8443",
+      "secret": "eeda4e9c22fd9b2dcf174ceb3beef08a2d7233392e70726f787974672e7370616365"
+    },
+    {
+      "server": "ether.nolags.pw",
+      "port": "443",
+      "secret": "dd86e17c6a253f59eac4b4909095ba3019"
     }
   ]
 }
