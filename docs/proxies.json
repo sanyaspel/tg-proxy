@@ -1,26 +1,11 @@
 {
-  "updated": "2026-06-02T11:46:56Z",
+  "updated": "2026-06-02T15:54:30Z",
   "count": 11,
   "proxies": [
-    {
-      "server": "45.150.110.32",
-      "port": "443",
-      "secret": "ee1c88677acf461e09e68f4ff0cef5724a617669746f2e7275"
-    },
-    {
-      "server": "93.185.167.212",
-      "port": "443",
-      "secret": "ee1c88677acf461e09e68f4ff0cef5724a617669746f2e7275"
-    },
     {
       "server": "50.114.102.134",
       "port": "443",
       "secret": "dd723f44bd19ff50a431878c6b2d0b46a0"
-    },
-    {
-      "server": "tuesday.nolags.pw",
-      "port": "443",
-      "secret": "dd3e7613f9676439cd5f056828ef716da6"
     },
     {
       "server": "nether.nolags.pw",
@@ -28,24 +13,14 @@
       "secret": "dd0ed82c381c8fccacbe15605dec874662"
     },
     {
-      "server": "ether.nolags.pw",
+      "server": "tuesday.nolags.pw",
       "port": "443",
-      "secret": "dd86e17c6a253f59eac4b4909095ba3019"
+      "secret": "dd3e7613f9676439cd5f056828ef716da6"
     },
     {
-      "server": "mtp8.sosproxy.space",
+      "server": "trump.chunkycorp.shop",
       "port": "443",
-      "secret": "eee9dab8aa5e5ede020088b669a17b907864726976652e676f6f676c652e636f6d"
-    },
-    {
-      "server": "bebebe.flowstreamhub.site",
-      "port": "8443",
-      "secret": "ee946d6bcda5ca73247aee8016c3a10e0e6265626562652e666c6f7773747265616d6875622e73697465"
-    },
-    {
-      "server": "r39.proxytg.space",
-      "port": "8443",
-      "secret": "eeda4e9c22fd9b2dcf174ceb3beef08a2d7233392e70726f787974672e7370616365"
+      "secret": "ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275"
     },
     {
       "server": "rus.arixo.shop",
@@ -53,9 +28,34 @@
       "secret": "eec11798ab008831b474066c9e1ebf5c59617669746f2e7275"
     },
     {
+      "server": "mtp8.sosproxy.space",
+      "port": "443",
+      "secret": "eee9dab8aa5e5ede020088b669a17b907864726976652e676f6f676c652e636f6d"
+    },
+    {
+      "server": "wb.flowaccess.site",
+      "port": "8443",
+      "secret": "ee2fcc64ad41fc313d96fb8cb686e5620677622e666c6f776163636573732e73697465"
+    },
+    {
+      "server": "bebebe.flowstreamhub.site",
+      "port": "8443",
+      "secret": "ee946d6bcda5ca73247aee8016c3a10e0e6265626562652e666c6f7773747265616d6875622e73697465"
+    },
+    {
+      "server": "rkn.quickrouteapp.xyz",
+      "port": "8443",
+      "secret": "eeae82b9fd491e0fde6eb677e47099729b726b6e2e717569636b726f7574656170702e78797a"
+    },
+    {
       "server": "eboybey.flowaccess.site",
       "port": "8443",
       "secret": "ee1a3341522f265448a11cbb608f42166f65626f796265792e666c6f776163636573732e73697465"
+    },
+    {
+      "server": "186.246.17.187",
+      "port": "443",
+      "secret": "ee5718cb5aee68c3e0c238002cdbace143706574726f766963682e7275"
     }
   ]
 }
