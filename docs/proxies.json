@@ -1,16 +1,26 @@
 {
-  "updated": "2026-06-02T07:08:06Z",
-  "count": 9,
+  "updated": "2026-06-02T11:46:56Z",
+  "count": 11,
   "proxies": [
-    {
-      "server": "95.182.87.20",
-      "port": "443",
-      "secret": "eec11798ab008831b474066c9e1ebf5c59617669746f2e7275"
-    },
     {
       "server": "45.150.110.32",
       "port": "443",
       "secret": "ee1c88677acf461e09e68f4ff0cef5724a617669746f2e7275"
+    },
+    {
+      "server": "93.185.167.212",
+      "port": "443",
+      "secret": "ee1c88677acf461e09e68f4ff0cef5724a617669746f2e7275"
+    },
+    {
+      "server": "50.114.102.134",
+      "port": "443",
+      "secret": "dd723f44bd19ff50a431878c6b2d0b46a0"
+    },
+    {
+      "server": "tuesday.nolags.pw",
+      "port": "443",
+      "secret": "dd3e7613f9676439cd5f056828ef716da6"
     },
     {
       "server": "nether.nolags.pw",
@@ -18,19 +28,19 @@
       "secret": "dd0ed82c381c8fccacbe15605dec874662"
     },
     {
-      "server": "31.76.251.25",
-      "port": "853",
-      "secret": "ee6aa9eb2bd47d97b43be8ac203cfd3c0e6d742e616b656e61692e636c69636b,"
-    },
-    {
       "server": "ether.nolags.pw",
       "port": "443",
       "secret": "dd86e17c6a253f59eac4b4909095ba3019"
     },
     {
-      "server": "sex.arixo.shop",
+      "server": "mtp8.sosproxy.space",
       "port": "443",
-      "secret": "eec11798ab008831b474066c9e1ebf5c59617669746f2e7275"
+      "secret": "eee9dab8aa5e5ede020088b669a17b907864726976652e676f6f676c652e636f6d"
+    },
+    {
+      "server": "bebebe.flowstreamhub.site",
+      "port": "8443",
+      "secret": "ee946d6bcda5ca73247aee8016c3a10e0e6265626562652e666c6f7773747265616d6875622e73697465"
     },
     {
       "server": "r39.proxytg.space",
@@ -43,9 +53,9 @@
       "secret": "eec11798ab008831b474066c9e1ebf5c59617669746f2e7275"
     },
     {
-      "server": "93.185.167.212",
-      "port": "443",
-      "secret": "ee1c88677acf461e09e68f4ff0cef5724a617669746f2e7275"
+      "server": "eboybey.flowaccess.site",
+      "port": "8443",
+      "secret": "ee1a3341522f265448a11cbb608f42166f65626f796265792e666c6f776163636573732e73697465"
     }
   ]
 }
