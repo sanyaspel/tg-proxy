@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-02T15:54:30Z",
+  "updated": "2026-06-02T19:34:59Z",
   "count": 11,
   "proxies": [
     {
@@ -18,24 +18,24 @@
       "secret": "dd3e7613f9676439cd5f056828ef716da6"
     },
     {
+      "server": "186.246.17.187",
+      "port": "443",
+      "secret": "ee5718cb5aee68c3e0c238002cdbace143706574726f766963682e7275"
+    },
+    {
       "server": "trump.chunkycorp.shop",
       "port": "443",
       "secret": "ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275"
     },
     {
-      "server": "rus.arixo.shop",
-      "port": "443",
-      "secret": "eec11798ab008831b474066c9e1ebf5c59617669746f2e7275"
-    },
-    {
-      "server": "mtp8.sosproxy.space",
-      "port": "443",
-      "secret": "eee9dab8aa5e5ede020088b669a17b907864726976652e676f6f676c652e636f6d"
-    },
-    {
-      "server": "wb.flowaccess.site",
+      "server": "fast.quickrouteapp.xyz",
       "port": "8443",
-      "secret": "ee2fcc64ad41fc313d96fb8cb686e5620677622e666c6f776163636573732e73697465"
+      "secret": "ee80aa4a3c8b88e873af8b323a6c485efa666173742e717569636b726f7574656170702e78797a"
+    },
+    {
+      "server": "nolags.quickrouteapp.xyz",
+      "port": "8443",
+      "secret": "ee6220eec9be6b790ee969f86c6c7baaa46e6f6c6167732e717569636b726f7574656170702e78797a"
     },
     {
       "server": "bebebe.flowstreamhub.site",
@@ -43,9 +43,9 @@
       "secret": "ee946d6bcda5ca73247aee8016c3a10e0e6265626562652e666c6f7773747265616d6875622e73697465"
     },
     {
-      "server": "rkn.quickrouteapp.xyz",
+      "server": "wb.flowaccess.site",
       "port": "8443",
-      "secret": "eeae82b9fd491e0fde6eb677e47099729b726b6e2e717569636b726f7574656170702e78797a"
+      "secret": "ee2fcc64ad41fc313d96fb8cb686e5620677622e666c6f776163636573732e73697465"
     },
     {
       "server": "eboybey.flowaccess.site",
@@ -53,9 +53,9 @@
       "secret": "ee1a3341522f265448a11cbb608f42166f65626f796265792e666c6f776163636573732e73697465"
     },
     {
-      "server": "186.246.17.187",
-      "port": "443",
-      "secret": "ee5718cb5aee68c3e0c238002cdbace143706574726f766963682e7275"
+      "server": "rkn.quickrouteapp.xyz",
+      "port": "8443",
+      "secret": "eeae82b9fd491e0fde6eb677e47099729b726b6e2e717569636b726f7574656170702e78797a"
     }
   ]
 }
