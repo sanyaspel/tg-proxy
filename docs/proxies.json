@@ -1,12 +1,7 @@
 {
-  "updated": "2026-06-04T12:24:32Z",
-  "count": 8,
+  "updated": "2026-06-04T15:52:28Z",
+  "count": 6,
   "proxies": [
-    {
-      "server": "network.nolags.pw",
-      "port": "443",
-      "secret": "dd8ee55939bfea58827fd6f140bca62a63"
-    },
     {
       "server": "spain.nolags.pw",
       "port": "443",
@@ -18,28 +13,23 @@
       "secret": "ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275"
     },
     {
-      "server": "gay.arixo.shop",
-      "port": "443",
-      "secret": "ee8168c0b7cfbbb15a4fe4691243e6dc94617669746f2e7275"
-    },
-    {
-      "server": "prime.nolags.pw",
-      "port": "443",
-      "secret": "ddb01da288baa59189c1db3c7bb1490895"
-    },
-    {
       "server": "51.250.45.233",
       "port": "443",
       "secret": "eee3fab34ae2482234bc90da96d31577d7617669746f2e7275"
     },
     {
-      "server": "starsvpn.obhod.fun",
-      "port": "6443",
-      "secret": "76706e76706e76706e76706e76706e76"
+      "server": "network.nolags.pw",
+      "port": "443",
+      "secret": "dd8ee55939bfea58827fd6f140bca62a63"
     },
     {
       "server": "turbovpn.obhod.fun",
       "port": "9443",
+      "secret": "76706e76706e76706e76706e76706e76"
+    },
+    {
+      "server": "starsvpn.obhod.fun",
+      "port": "6443",
       "secret": "76706e76706e76706e76706e76706e76"
     }
   ]
