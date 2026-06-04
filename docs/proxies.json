@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-04T18:06:51Z",
-  "count": 6,
+  "updated": "2026-06-04T20:29:47Z",
+  "count": 8,
   "proxies": [
     {
       "server": "31.76.39.36",
@@ -18,19 +18,29 @@
       "secret": "dd68c2ee708b2e88d8d12802479d4d5026"
     },
     {
+      "server": "51.250.32.76",
+      "port": "443",
+      "secret": "ee5636d7729d8726e81dbc5c3388b73549617669746f2e7275"
+    },
+    {
+      "server": "london.nolags.pw",
+      "port": "443",
+      "secret": "dd6fe89c6d1f5f8b54afc931cf4f640b91"
+    },
+    {
       "server": "durov.chunkycorp.shop",
       "port": "443",
       "secret": "ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275"
     },
     {
-      "server": "gay.arixo.shop",
-      "port": "443",
-      "secret": "ee8168c0b7cfbbb15a4fe4691243e6dc94617669746f2e7275"
+      "server": "turbovpn.obhod.fun",
+      "port": "9443",
+      "secret": "76706e76706e76706e76706e76706e76"
     },
     {
-      "server": "51.250.45.233",
-      "port": "443",
-      "secret": "eee3fab34ae2482234bc90da96d31577d7617669746f2e7275"
+      "server": "starsvpn.obhod.fun",
+      "port": "6443",
+      "secret": "76706e76706e76706e76706e76706e76"
     }
   ]
 }
