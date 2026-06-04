@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-03T22:08:34Z",
+  "updated": "2026-06-04T00:10:32Z",
   "count": 7,
   "proxies": [
     {
@@ -8,9 +8,9 @@
       "secret": "ddb01da288baa59189c1db3c7bb1490895"
     },
     {
-      "server": "158.160.232.183",
+      "server": "network.nolags.pw",
       "port": "443",
-      "secret": "eefab80a27431eaf7ddafa501cc79b4531617669746f2e7275"
+      "secret": "dd8ee55939bfea58827fd6f140bca62a63"
     },
     {
       "server": "51.250.105.29",
@@ -18,14 +18,14 @@
       "secret": "eeac09153b446e946a1b59a29df9ca6020617669746f2e7275"
     },
     {
+      "server": "158.160.232.183",
+      "port": "443",
+      "secret": "eefab80a27431eaf7ddafa501cc79b4531617669746f2e7275"
+    },
+    {
       "server": "some.nolags.pw",
       "port": "443",
       "secret": "ddc63eab2c309e7915a09622cedc7c9a7d"
-    },
-    {
-      "server": "network.nolags.pw",
-      "port": "443",
-      "secret": "dd8ee55939bfea58827fd6f140bca62a63"
     },
     {
       "server": "moon.nolags.pw",
