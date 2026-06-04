@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-04T00:10:32Z",
-  "count": 7,
+  "updated": "2026-06-04T05:16:41Z",
+  "count": 4,
   "proxies": [
     {
       "server": "prime.nolags.pw",
@@ -8,34 +8,19 @@
       "secret": "ddb01da288baa59189c1db3c7bb1490895"
     },
     {
-      "server": "network.nolags.pw",
-      "port": "443",
-      "secret": "dd8ee55939bfea58827fd6f140bca62a63"
-    },
-    {
-      "server": "51.250.105.29",
-      "port": "443",
-      "secret": "eeac09153b446e946a1b59a29df9ca6020617669746f2e7275"
-    },
-    {
-      "server": "158.160.232.183",
-      "port": "443",
-      "secret": "eefab80a27431eaf7ddafa501cc79b4531617669746f2e7275"
-    },
-    {
       "server": "some.nolags.pw",
       "port": "443",
       "secret": "ddc63eab2c309e7915a09622cedc7c9a7d"
     },
     {
-      "server": "moon.nolags.pw",
+      "server": "network.nolags.pw",
       "port": "443",
-      "secret": "dd2c611b53a9c82f662081daed93cc3cb3"
+      "secret": "dd8ee55939bfea58827fd6f140bca62a63"
     },
     {
-      "server": "tele.chunkycorp.shop",
+      "server": "gay.arixo.shop",
       "port": "443",
-      "secret": "ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275"
+      "secret": "ee8168c0b7cfbbb15a4fe4691243e6dc94617669746f2e7275"
     }
   ]
 }
