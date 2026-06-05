@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-04T23:41:46Z",
-  "count": 8,
+  "updated": "2026-06-05T02:05:37Z",
+  "count": 7,
   "proxies": [
     {
       "server": "31.76.39.36",
@@ -13,6 +13,11 @@
       "secret": "ddda11050e6e98fb151d0094b549b0344a"
     },
     {
+      "server": "51.250.32.76",
+      "port": "443",
+      "secret": "ee5636d7729d8726e81dbc5c3388b73549617669746f2e7275"
+    },
+    {
       "server": "london.nolags.pw",
       "port": "443",
       "secret": "dd6fe89c6d1f5f8b54afc931cf4f640b91"
@@ -21,16 +26,6 @@
       "server": "warsaw.nolags.pw",
       "port": "443",
       "secret": "dd68c2ee708b2e88d8d12802479d4d5026"
-    },
-    {
-      "server": "51.250.32.76",
-      "port": "443",
-      "secret": "ee5636d7729d8726e81dbc5c3388b73549617669746f2e7275"
-    },
-    {
-      "server": "durov.chunkycorp.shop",
-      "port": "443",
-      "secret": "ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275"
     },
     {
       "server": "turbovpn.obhod.fun",
