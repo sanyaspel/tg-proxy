@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-05T10:39:46Z",
+  "updated": "2026-06-05T13:46:48Z",
   "count": 5,
   "proxies": [
     {
@@ -8,9 +8,9 @@
       "secret": "eeed5518514cf40187d905c5b7c9e4d595617669746f2e7275"
     },
     {
-      "server": "london.nolags.pw",
+      "server": "51.250.32.76",
       "port": "443",
-      "secret": "dd6fe89c6d1f5f8b54afc931cf4f640b91"
+      "secret": "ee5636d7729d8726e81dbc5c3388b73549617669746f2e7275"
     },
     {
       "server": "one.nolags.pw",
@@ -18,14 +18,14 @@
       "secret": "ddb42df8d0f53f13032f0e8b3e145ef053"
     },
     {
+      "server": "whiltelist-prx1.getvelora.space",
+      "port": "443",
+      "secret": "ee6f8c5619eef69de325d0c3ff8a9b7a336d61782e7275"
+    },
+    {
       "server": "connect.chunkycorp.shop",
       "port": "443",
       "secret": "ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275"
-    },
-    {
-      "server": "51.250.32.76",
-      "port": "443",
-      "secret": "ee5636d7729d8726e81dbc5c3388b73549617669746f2e7275"
     }
   ]
 }
