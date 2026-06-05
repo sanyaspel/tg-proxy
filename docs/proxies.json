@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-05T18:18:46Z",
-  "count": 6,
+  "updated": "2026-06-05T20:20:35Z",
+  "count": 5,
   "proxies": [
     {
       "server": "connect.arixo.shop",
@@ -13,19 +13,14 @@
       "secret": "ddf4fa8f92de56cde758429546586eaac8"
     },
     {
-      "server": "one.nolags.pw",
-      "port": "443",
-      "secret": "ddb42df8d0f53f13032f0e8b3e145ef053"
-    },
-    {
       "server": "connect.chunkycorp.shop",
       "port": "443",
       "secret": "ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275"
     },
     {
-      "server": "whiltelist-prx1.getvelora.space",
+      "server": "one.nolags.pw",
       "port": "443",
-      "secret": "ee6f8c5619eef69de325d0c3ff8a9b7a336d61782e7275"
+      "secret": "ddb42df8d0f53f13032f0e8b3e145ef053"
     },
     {
       "server": "51.250.82.46",
