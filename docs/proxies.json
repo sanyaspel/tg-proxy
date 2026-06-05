@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-05T20:20:35Z",
-  "count": 5,
+  "updated": "2026-06-05T21:52:06Z",
+  "count": 6,
   "proxies": [
     {
       "server": "connect.arixo.shop",
@@ -8,9 +8,9 @@
       "secret": "ee46636c0c3ff70a1d97ff70bb96ecd6ce617669746f2e7275"
     },
     {
-      "server": "second.nolags.pw",
+      "server": "51.250.82.46",
       "port": "443",
-      "secret": "ddf4fa8f92de56cde758429546586eaac8"
+      "secret": "ee2147d08d35506c24aad6bd92df99e44e617669746f2e7275"
     },
     {
       "server": "connect.chunkycorp.shop",
@@ -23,9 +23,14 @@
       "secret": "ddb42df8d0f53f13032f0e8b3e145ef053"
     },
     {
-      "server": "51.250.82.46",
+      "server": "second.nolags.pw",
       "port": "443",
-      "secret": "ee2147d08d35506c24aad6bd92df99e44e617669746f2e7275"
+      "secret": "ddf4fa8f92de56cde758429546586eaac8"
+    },
+    {
+      "server": "highspeed.nolags.pw",
+      "port": "443",
+      "secret": "dd6e87000d80db522523b5ab5bb58ab3af"
     }
   ]
 }
