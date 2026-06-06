@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-06T14:23:17Z",
-  "count": 9,
+  "updated": "2026-06-06T15:46:07Z",
+  "count": 10,
   "proxies": [
     {
       "server": "light.nolags.pw",
@@ -8,19 +8,9 @@
       "secret": "dd84b5a5dbe775244bd0b061c72f4e4c73"
     },
     {
-      "server": "51.250.68.27",
+      "server": "russia.chunkycorp.shop",
       "port": "443",
-      "secret": "ee10dcdfea7fbd6d3d654d2262bb054000617669746f2e7275"
-    },
-    {
-      "server": "s01.neo-trading.org",
-      "port": "443",
-      "secret": "ee7391242569590e01416101927d38b565646e732d73686f702e7275"
-    },
-    {
-      "server": "highspeed.nolags.pw",
-      "port": "443",
-      "secret": "dd6e87000d80db522523b5ab5bb58ab3af"
+      "secret": "eef7fa42938dc7150beba27c0cc0df2f1d617669746f2e7275"
     },
     {
       "server": "s02.neo-trading.org",
@@ -28,9 +18,9 @@
       "secret": "ee6ec9f7e082baf2397b450727ce78447e6f7a6f6e2e7275"
     },
     {
-      "server": "russia.chunkycorp.shop",
+      "server": "s01.neo-trading.org",
       "port": "443",
-      "secret": "ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275"
+      "secret": "ee7391242569590e01416101927d38b565646e732d73686f702e7275"
     },
     {
       "server": "rkn.proxytelega.store",
@@ -41,6 +31,21 @@
       "server": "fast.proxytelega.store",
       "port": "8443",
       "secret": "ee3d75d4605342be40f01e37f606946e81666173742e70726f787974656c6567612e73746f7265"
+    },
+    {
+      "server": "lava.proxyobhod.online",
+      "port": "8443",
+      "secret": "eef4a2f9b8134cfed8c6215de541c06cb46c6176612e70726f78796f62686f642e6f6e6c696e65"
+    },
+    {
+      "server": "wb.proxyonline.online",
+      "port": "8443",
+      "secret": "eee8f530985fe58c2518873a7899fd690b77622e70726f78796f6e6c696e652e6f6e6c696e65"
+    },
+    {
+      "server": "51.250.68.27",
+      "port": "443",
+      "secret": "ee10dcdfea7fbd6d3d654d2262bb054000617669746f2e7275"
     },
     {
       "server": "cdn.proxyonline.online",
