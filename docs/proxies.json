@@ -1,7 +1,17 @@
 {
-  "updated": "2026-06-06T22:52:46Z",
-  "count": 10,
+  "updated": "2026-06-06T23:54:29Z",
+  "count": 11,
   "proxies": [
+    {
+      "server": "russia.arixo.shop",
+      "port": "443",
+      "secret": "eed015b7c384e8023672d5355b0bb6e531617669746f2e7275"
+    },
+    {
+      "server": "ice.nolags.pw",
+      "port": "443",
+      "secret": "dd53df731994a1368ad70990c9a88794dd"
+    },
     {
       "server": "light.nolags.pw",
       "port": "443",
@@ -11,11 +21,6 @@
       "server": "fire.nolags.pw",
       "port": "443",
       "secret": "dd45e69341591985bf3d237e6c880ecc97"
-    },
-    {
-      "server": "ice.nolags.pw",
-      "port": "443",
-      "secret": "dd53df731994a1368ad70990c9a88794dd"
     },
     {
       "server": "s02.neo-trading.org",
@@ -28,9 +33,9 @@
       "secret": "ee7391242569590e01416101927d38b565646e732d73686f702e7275"
     },
     {
-      "server": "ya.proxyobhod.online",
+      "server": "cdn.proxyonline.online",
       "port": "8443",
-      "secret": "ee2419e93e2af4bddd80bb8bc8936ea49879612e70726f78796f62686f642e6f6e6c696e65"
+      "secret": "eea4f3b8de32f62e5ba0e44cea5465930063646e2e70726f78796f6e6c696e652e6f6e6c696e65"
     },
     {
       "server": "fast.proxytelega.store",
@@ -38,19 +43,19 @@
       "secret": "ee3d75d4605342be40f01e37f606946e81666173742e70726f787974656c6567612e73746f7265"
     },
     {
-      "server": "cdn.proxyonline.online",
+      "server": "ya.proxyobhod.online",
       "port": "8443",
-      "secret": "eea4f3b8de32f62e5ba0e44cea5465930063646e2e70726f78796f6e6c696e652e6f6e6c696e65"
-    },
-    {
-      "server": "wb.proxyonline.online",
-      "port": "8443",
-      "secret": "eee8f530985fe58c2518873a7899fd690b77622e70726f78796f6e6c696e652e6f6e6c696e65"
+      "secret": "ee2419e93e2af4bddd80bb8bc8936ea49879612e70726f78796f62686f642e6f6e6c696e65"
     },
     {
       "server": "lava.proxyobhod.online",
       "port": "8443",
       "secret": "eef4a2f9b8134cfed8c6215de541c06cb46c6176612e70726f78796f62686f642e6f6e6c696e65"
+    },
+    {
+      "server": "wb.proxyonline.online",
+      "port": "8443",
+      "secret": "eee8f530985fe58c2518873a7899fd690b77622e70726f78796f6e6c696e652e6f6e6c696e65"
     }
   ]
 }
