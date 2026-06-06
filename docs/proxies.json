@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-05T23:58:47Z",
-  "count": 6,
+  "updated": "2026-06-06T02:56:28Z",
+  "count": 5,
   "proxies": [
     {
       "server": "one.nolags.pw",
@@ -13,24 +13,19 @@
       "secret": "ee46636c0c3ff70a1d97ff70bb96ecd6ce617669746f2e7275"
     },
     {
-      "server": "highspeed.nolags.pw",
-      "port": "443",
-      "secret": "dd6e87000d80db522523b5ab5bb58ab3af"
-    },
-    {
       "server": "51.250.82.46",
       "port": "443",
       "secret": "ee2147d08d35506c24aad6bd92df99e44e617669746f2e7275"
     },
     {
-      "server": "connect.chunkycorp.shop",
-      "port": "443",
-      "secret": "ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275"
-    },
-    {
       "server": "second.nolags.pw",
       "port": "443",
       "secret": "ddf4fa8f92de56cde758429546586eaac8"
+    },
+    {
+      "server": "highspeed.nolags.pw",
+      "port": "443",
+      "secret": "dd6e87000d80db522523b5ab5bb58ab3af"
     }
   ]
 }
