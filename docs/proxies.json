@@ -1,16 +1,21 @@
 {
-  "updated": "2026-06-07T13:15:49Z",
-  "count": 5,
+  "updated": "2026-06-07T15:07:08Z",
+  "count": 6,
   "proxies": [
+    {
+      "server": "proxy.arixo.shop",
+      "port": "443",
+      "secret": "ee2d3817c6b2bf469fb5064e6cb4b19790617669746f2e7275"
+    },
     {
       "server": "waves.nolags.pw",
       "port": "443",
       "secret": "dd0208abd7e65df801ec0550d8ba07c1b3"
     },
     {
-      "server": "ice.nolags.pw",
+      "server": "s01.neo-trading.org",
       "port": "443",
-      "secret": "dd53df731994a1368ad70990c9a88794dd"
+      "secret": "ee7391242569590e01416101927d38b565646e732d73686f702e7275"
     },
     {
       "server": "s02.neo-trading.org",
@@ -18,9 +23,9 @@
       "secret": "ee6ec9f7e082baf2397b450727ce78447e6f7a6f6e2e7275"
     },
     {
-      "server": "s01.neo-trading.org",
-      "port": "443",
-      "secret": "ee7391242569590e01416101927d38b565646e732d73686f702e7275"
+      "server": "v2.chunkycorp.shop",
+      "port": "8443",
+      "secret": "ee2531f60e78c70e4906e7265dd86391357777772e636c6f7564666c6172652e636f6d"
     },
     {
       "server": "51.250.71.16",
