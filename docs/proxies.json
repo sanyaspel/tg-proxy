@@ -1,26 +1,16 @@
 {
-  "updated": "2026-06-07T11:41:19Z",
-  "count": 7,
+  "updated": "2026-06-07T13:15:49Z",
+  "count": 5,
   "proxies": [
-    {
-      "server": "ice.nolags.pw",
-      "port": "443",
-      "secret": "dd53df731994a1368ad70990c9a88794dd"
-    },
     {
       "server": "waves.nolags.pw",
       "port": "443",
       "secret": "dd0208abd7e65df801ec0550d8ba07c1b3"
     },
     {
-      "server": "51.250.71.16",
+      "server": "ice.nolags.pw",
       "port": "443",
-      "secret": "ee83664d92de321661cc33e6839bbeef1e617669746f2e7275"
-    },
-    {
-      "server": "s01.neo-trading.org",
-      "port": "443",
-      "secret": "ee7391242569590e01416101927d38b565646e732d73686f702e7275"
+      "secret": "dd53df731994a1368ad70990c9a88794dd"
     },
     {
       "server": "s02.neo-trading.org",
@@ -28,14 +18,14 @@
       "secret": "ee6ec9f7e082baf2397b450727ce78447e6f7a6f6e2e7275"
     },
     {
-      "server": "fast.proxytelega.store",
-      "port": "8443",
-      "secret": "ee3d75d4605342be40f01e37f606946e81666173742e70726f787974656c6567612e73746f7265"
+      "server": "s01.neo-trading.org",
+      "port": "443",
+      "secret": "ee7391242569590e01416101927d38b565646e732d73686f702e7275"
     },
     {
-      "server": "ya.proxyobhod.online",
-      "port": "8443",
-      "secret": "ee2419e93e2af4bddd80bb8bc8936ea49879612e70726f78796f62686f642e6f6e6c696e65"
+      "server": "51.250.71.16",
+      "port": "443",
+      "secret": "ee83664d92de321661cc33e6839bbeef1e617669746f2e7275"
     }
   ]
 }
