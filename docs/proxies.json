@@ -1,21 +1,16 @@
 {
-  "updated": "2026-06-07T23:59:59Z",
-  "count": 7,
+  "updated": "2026-06-08T04:08:06Z",
+  "count": 4,
   "proxies": [
     {
-      "server": "xyz.chunkycorp.shop",
+      "server": "waves.nolags.pw",
       "port": "443",
-      "secret": "eec83a5746fa7a58916451e37d81bdcb2c617669746f2e7275"
+      "secret": "dd0208abd7e65df801ec0550d8ba07c1b3"
     },
     {
       "server": "europe.nolags.pw",
       "port": "443",
       "secret": "dd35cf6d34b82d8531a8c93aea1fa2f72b"
-    },
-    {
-      "server": "waves.nolags.pw",
-      "port": "443",
-      "secret": "dd0208abd7e65df801ec0550d8ba07c1b3"
     },
     {
       "server": "proxy.arixo.shop",
@@ -26,16 +21,6 @@
       "server": "name.nolags.pw",
       "port": "443",
       "secret": "dd287755b048284177f71c965b016b38cc"
-    },
-    {
-      "server": "s02.neo-trading.org",
-      "port": "443",
-      "secret": "ee6ec9f7e082baf2397b450727ce78447e6f7a6f6e2e7275"
-    },
-    {
-      "server": "s01.neo-trading.org",
-      "port": "443",
-      "secret": "ee7391242569590e01416101927d38b565646e732d73686f702e7275"
     }
   ]
 }
