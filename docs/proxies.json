@@ -1,21 +1,31 @@
 {
-  "updated": "2026-06-08T13:48:29Z",
+  "updated": "2026-06-08T17:00:30Z",
   "count": 8,
   "proxies": [
-    {
-      "server": "name.nolags.pw",
-      "port": "443",
-      "secret": "dd287755b048284177f71c965b016b38cc"
-    },
     {
       "server": "fresh.nolags.pw",
       "port": "443",
       "secret": "dd691fa48fcc661b68fe4f5200c5b174f9"
     },
     {
+      "server": "june.nolags.pw",
+      "port": "443",
+      "secret": "dd479dd5c298eb110a7c9cffc8d6ce500c"
+    },
+    {
       "server": "drift.proxyonline.online",
       "port": "443",
       "secret": "eeacd41b6bbfa3b3f3d50a25511430857464726966742e70726f78796f6e6c696e652e6f6e6c696e65"
+    },
+    {
+      "server": "vibe.proxyonline.online",
+      "port": "443",
+      "secret": "ee658ee8ba38b14db544ee2954023446d0766962652e70726f78796f6e6c696e652e6f6e6c696e65"
+    },
+    {
+      "server": "orbit.proxyonline.online",
+      "port": "443",
+      "secret": "eea49899bfb9f5b061d6213e6f6480ea006f726269742e70726f78796f6e6c696e652e6f6e6c696e65"
     },
     {
       "server": "glide.proxyonline.online",
@@ -31,16 +41,6 @@
       "server": "bolt.proxyonline.online",
       "port": "443",
       "secret": "ee98741a4df96ee86a25ca542a538a3484626f6c742e70726f78796f6e6c696e652e6f6e6c696e65"
-    },
-    {
-      "server": "vibe.proxyonline.online",
-      "port": "443",
-      "secret": "ee658ee8ba38b14db544ee2954023446d0766962652e70726f78796f6e6c696e652e6f6e6c696e65"
-    },
-    {
-      "server": "orbit.proxyonline.online",
-      "port": "443",
-      "secret": "eea49899bfb9f5b061d6213e6f6480ea006f726269742e70726f78796f6e6c696e652e6f6e6c696e65"
     }
   ]
 }
