@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-08T19:37:44Z",
-  "count": 10,
+  "updated": "2026-06-08T21:40:05Z",
+  "count": 12,
   "proxies": [
     {
       "server": "fresh.nolags.pw",
@@ -13,9 +13,19 @@
       "secret": "dd479dd5c298eb110a7c9cffc8d6ce500c"
     },
     {
+      "server": "goal.chunkycorp.shop",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
       "server": "proxy2.arixo.shop",
       "port": "443",
       "secret": "ee2d3817c6b2bf469fb5064e6cb4b19790617669746f2e7275"
+    },
+    {
+      "server": "eng.nolags.pw",
+      "port": "443",
+      "secret": "dd390d29157d7c81eb7ce6ac2b50d2d39b"
     },
     {
       "server": "wave.proxytelega.store",
@@ -23,9 +33,9 @@
       "secret": "eee12b7ef9718c53b06c8a416387c8d4a6776176652e70726f787974656c6567612e73746f7265"
     },
     {
-      "server": "flux.proxytelega.store",
+      "server": "vibe.proxyonline.online",
       "port": "443",
-      "secret": "eec57f379567b25a79cbd1fa0ad73b98d9666c75782e70726f787974656c6567612e73746f7265"
+      "secret": "ee658ee8ba38b14db544ee2954023446d0766962652e70726f78796f6e6c696e652e6f6e6c696e65"
     },
     {
       "server": "spark.proxyonline.online",
@@ -33,9 +43,14 @@
       "secret": "eed53c649a00ade7bf1f7071d019a426a7737061726b2e70726f78796f6e6c696e652e6f6e6c696e65"
     },
     {
-      "server": "vibe.proxyonline.online",
+      "server": "glide.proxyonline.online",
       "port": "443",
-      "secret": "ee658ee8ba38b14db544ee2954023446d0766962652e70726f78796f6e6c696e652e6f6e6c696e65"
+      "secret": "eeb4cf448c2c66dc6151b6746bd1799ae5676c6964652e70726f78796f6e6c696e652e6f6e6c696e65"
+    },
+    {
+      "server": "flux.proxytelega.store",
+      "port": "443",
+      "secret": "eec57f379567b25a79cbd1fa0ad73b98d9666c75782e70726f787974656c6567612e73746f7265"
     },
     {
       "server": "orbit.proxyonline.online",
@@ -46,11 +61,6 @@
       "server": "storm.proxytelega.store",
       "port": "443",
       "secret": "eedef3ae42d41ca0570cd030dea03fa6b373746f726d2e70726f787974656c6567612e73746f7265"
-    },
-    {
-      "server": "glide.proxyonline.online",
-      "port": "443",
-      "secret": "eeb4cf448c2c66dc6151b6746bd1799ae5676c6964652e70726f78796f6e6c696e652e6f6e6c696e65"
     }
   ]
 }
