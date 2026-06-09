@@ -1,36 +1,26 @@
 {
-  "updated": "2026-06-09T14:16:18Z",
-  "count": 8,
+  "updated": "2026-06-09T17:07:10Z",
+  "count": 9,
   "proxies": [
+    {
+      "server": "our.nolags.pw",
+      "port": "443",
+      "secret": "dd5088c9e07efb119857c044eb20c50a5b"
+    },
     {
       "server": "eco.nolags.pw",
       "port": "443",
       "secret": "dd7bdb917e7aff23d5ab0f282665f9d3a9"
     },
     {
-      "server": "eng.nolags.pw",
-      "port": "443",
-      "secret": "dd390d29157d7c81eb7ce6ac2b50d2d39b"
-    },
-    {
-      "server": "proxy4.arixo.shop",
+      "server": "proxy2.arixo.shop",
       "port": "443",
       "secret": "ee2d3817c6b2bf469fb5064e6cb4b19790617669746f2e7275"
     },
     {
-      "server": "84.252.131.153",
+      "server": "lk.proxytg.live",
       "port": "443",
-      "secret": "ee00819c04340f17fabac7f07b463f8b15617669746f2e7275"
-    },
-    {
-      "server": "track.proxytg.live",
-      "port": "443",
-      "secret": "ee8e4bd7b2a034418fd924aeed3c97cd7b747261636b2e70726f787974672e6c697665"
-    },
-    {
-      "server": "flux.proxytelega.store",
-      "port": "443",
-      "secret": "eec57f379567b25a79cbd1fa0ad73b98d9666c75782e70726f787974656c6567612e73746f7265"
+      "secret": "eea33a0973394ea248c4f402ae6745b17b6c6b2e70726f787974672e6c697665"
     },
     {
       "server": "s01.neo-trading.org",
@@ -38,9 +28,24 @@
       "secret": "ee7391242569590e01416101927d38b565646e732d73686f702e7275"
     },
     {
-      "server": "lk.proxytg.live",
+      "server": "s02.neo-trading.org",
       "port": "443",
-      "secret": "eea33a0973394ea248c4f402ae6745b17b6c6b2e70726f787974672e6c697665"
+      "secret": "ee6ec9f7e082baf2397b450727ce78447e6f7a6f6e2e7275"
+    },
+    {
+      "server": "desk.proxytg.live",
+      "port": "443",
+      "secret": "ee7930091e4348bb260a09c61562aa661a6465736b2e70726f787974672e6c697665"
+    },
+    {
+      "server": "track.proxytg.live",
+      "port": "443",
+      "secret": "ee8e4bd7b2a034418fd924aeed3c97cd7b747261636b2e70726f787974672e6c697665"
+    },
+    {
+      "server": "84.252.131.153",
+      "port": "443",
+      "secret": "ee00819c04340f17fabac7f07b463f8b15617669746f2e7275"
     }
   ]
 }
