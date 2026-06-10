@@ -1,16 +1,16 @@
 {
-  "updated": "2026-06-09T22:56:30Z",
-  "count": 9,
+  "updated": "2026-06-10T00:05:43Z",
+  "count": 10,
   "proxies": [
-    {
-      "server": "eco.nolags.pw",
-      "port": "443",
-      "secret": "dd7bdb917e7aff23d5ab0f282665f9d3a9"
-    },
     {
       "server": "rec.nolags.pw",
       "port": "443",
       "secret": "dd0603553657b3f54b6bff0d3759e8db1d"
+    },
+    {
+      "server": "eco.nolags.pw",
+      "port": "443",
+      "secret": "dd7bdb917e7aff23d5ab0f282665f9d3a9"
     },
     {
       "server": "our.nolags.pw",
@@ -18,19 +18,14 @@
       "secret": "dd5088c9e07efb119857c044eb20c50a5b"
     },
     {
-      "server": "office.proxytg.live",
-      "port": "443",
-      "secret": "eed604acbe90be65ddf34629f1e2234f7d6f66666963652e70726f787974672e6c697665"
-    },
-    {
-      "server": "view.proxytg.live",
-      "port": "443",
-      "secret": "ee3624bb4d06c88a513638a3d32327277e766965772e70726f787974672e6c697665"
-    },
-    {
       "server": "cab.proxytg.live",
       "port": "443",
       "secret": "ee172f5214b57f137805957e350d01e0946361622e70726f787974672e6c697665"
+    },
+    {
+      "server": "s02.neo-trading.org",
+      "port": "443",
+      "secret": "ee6ec9f7e082baf2397b450727ce78447e6f7a6f6e2e7275"
     },
     {
       "server": "desk.proxytg.live",
@@ -46,6 +41,16 @@
       "server": "feed.proxytg.live",
       "port": "443",
       "secret": "ee7c1dc73472aff6b273c603d9713900d1666565642e70726f787974672e6c697665"
+    },
+    {
+      "server": "view.proxytg.live",
+      "port": "443",
+      "secret": "ee3624bb4d06c88a513638a3d32327277e766965772e70726f787974672e6c697665"
+    },
+    {
+      "server": "office.proxytg.live",
+      "port": "443",
+      "secret": "eed604acbe90be65ddf34629f1e2234f7d6f66666963652e70726f787974672e6c697665"
     }
   ]
 }
