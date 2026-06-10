@@ -1,16 +1,21 @@
 {
-  "updated": "2026-06-10T12:12:23Z",
-  "count": 11,
+  "updated": "2026-06-10T16:12:02Z",
+  "count": 5,
   "proxies": [
-    {
-      "server": "rec.nolags.pw",
-      "port": "443",
-      "secret": "dd0603553657b3f54b6bff0d3759e8db1d"
-    },
     {
       "server": "memory.nolags.pw",
       "port": "443",
       "secret": "ddb50d67677180b7c552ffe1ec0579ed76"
+    },
+    {
+      "server": "relay.nowabst.net",
+      "port": "853",
+      "secret": "7hn0rSbGWJH9Is87elnw0QNhZHMueDUucnU"
+    },
+    {
+      "server": "connect.chunkycorp.shop",
+      "port": "443",
+      "secret": "ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275"
     },
     {
       "server": "51.250.69.99",
@@ -18,42 +23,7 @@
       "secret": "eea20cccd3366ea459a8057d24b1202153617669746f2e7275"
     },
     {
-      "server": "connect.arixo.shop",
-      "port": "443",
-      "secret": "eeed5518514cf40187d905c5b7c9e4d595617669746f2e7275"
-    },
-    {
-      "server": "panel.proxytg.live",
-      "port": "443",
-      "secret": "ee3963b99449e42aab75500a3caee059b870616e656c2e70726f787974672e6c697665"
-    },
-    {
-      "server": "cab.proxytg.live",
-      "port": "443",
-      "secret": "ee172f5214b57f137805957e350d01e0946361622e70726f787974672e6c697665"
-    },
-    {
-      "server": "office.proxytg.live",
-      "port": "443",
-      "secret": "eed604acbe90be65ddf34629f1e2234f7d6f66666963652e70726f787974672e6c697665"
-    },
-    {
-      "server": "desk.proxytg.live",
-      "port": "443",
-      "secret": "ee7930091e4348bb260a09c61562aa661a6465736b2e70726f787974672e6c697665"
-    },
-    {
-      "server": "feed.proxytg.live",
-      "port": "443",
-      "secret": "ee7c1dc73472aff6b273c603d9713900d1666565642e70726f787974672e6c697665"
-    },
-    {
-      "server": "view.proxytg.live",
-      "port": "443",
-      "secret": "ee3624bb4d06c88a513638a3d32327277e766965772e70726f787974672e6c697665"
-    },
-    {
-      "server": "proxy5.arixo.shop",
+      "server": "proxy6.arixo.shop",
       "port": "443",
       "secret": "ee2d3817c6b2bf469fb5064e6cb4b19790617669746f2e7275"
     }
