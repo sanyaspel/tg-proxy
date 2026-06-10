@@ -1,26 +1,21 @@
 {
-  "updated": "2026-06-10T21:22:00Z",
-  "count": 7,
+  "updated": "2026-06-10T23:02:38Z",
+  "count": 6,
   "proxies": [
-    {
-      "server": "relay.nowabst.net",
-      "port": "853",
-      "secret": "7hn0rSbGWJH9Is87elnw0QNhZHMueDUucnU"
-    },
-    {
-      "server": "yours.nolags.pw",
-      "port": "443",
-      "secret": "ddaed3f129a293bdfc23d67204b50bbf87"
-    },
     {
       "server": "51.250.69.99",
       "port": "443",
       "secret": "eea20cccd3366ea459a8057d24b1202153617669746f2e7275"
     },
     {
-      "server": "connect.chunkycorp.shop",
+      "server": "memory.nolags.pw",
       "port": "443",
-      "secret": "ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275"
+      "secret": "ddb50d67677180b7c552ffe1ec0579ed76"
+    },
+    {
+      "server": "relay.nowabst.net",
+      "port": "853",
+      "secret": "7hn0rSbGWJH9Is87elnw0QNhZHMueDUucnU"
     },
     {
       "server": "north.nolags.pw",
@@ -28,14 +23,14 @@
       "secret": "dd9760e74174fb9717de21cc7e17027e34"
     },
     {
-      "server": "proxy6.arixo.shop",
+      "server": "yours.nolags.pw",
       "port": "443",
-      "secret": "ee2d3817c6b2bf469fb5064e6cb4b19790617669746f2e7275"
+      "secret": "ddaed3f129a293bdfc23d67204b50bbf87"
     },
     {
-      "server": "memory.nolags.pw",
+      "server": "connect.chunkycorp.shop",
       "port": "443",
-      "secret": "ddb50d67677180b7c552ffe1ec0579ed76"
+      "secret": "ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275"
     }
   ]
 }
