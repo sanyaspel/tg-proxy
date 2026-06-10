@@ -1,11 +1,11 @@
 {
-  "updated": "2026-06-10T04:54:02Z",
+  "updated": "2026-06-10T08:41:53Z",
   "count": 9,
   "proxies": [
     {
-      "server": "eco.nolags.pw",
+      "server": "our.nolags.pw",
       "port": "443",
-      "secret": "dd7bdb917e7aff23d5ab0f282665f9d3a9"
+      "secret": "dd5088c9e07efb119857c044eb20c50a5b"
     },
     {
       "server": "rec.nolags.pw",
@@ -13,9 +13,9 @@
       "secret": "dd0603553657b3f54b6bff0d3759e8db1d"
     },
     {
-      "server": "our.nolags.pw",
+      "server": "desk.proxytg.live",
       "port": "443",
-      "secret": "dd5088c9e07efb119857c044eb20c50a5b"
+      "secret": "ee7930091e4348bb260a09c61562aa661a6465736b2e70726f787974672e6c697665"
     },
     {
       "server": "panel.proxytg.live",
@@ -23,14 +23,14 @@
       "secret": "ee3963b99449e42aab75500a3caee059b870616e656c2e70726f787974672e6c697665"
     },
     {
+      "server": "view.proxytg.live",
+      "port": "443",
+      "secret": "ee3624bb4d06c88a513638a3d32327277e766965772e70726f787974672e6c697665"
+    },
+    {
       "server": "cab.proxytg.live",
       "port": "443",
       "secret": "ee172f5214b57f137805957e350d01e0946361622e70726f787974672e6c697665"
-    },
-    {
-      "server": "feed.proxytg.live",
-      "port": "443",
-      "secret": "ee7c1dc73472aff6b273c603d9713900d1666565642e70726f787974672e6c697665"
     },
     {
       "server": "office.proxytg.live",
@@ -38,14 +38,14 @@
       "secret": "eed604acbe90be65ddf34629f1e2234f7d6f66666963652e70726f787974672e6c697665"
     },
     {
-      "server": "desk.proxytg.live",
+      "server": "feed.proxytg.live",
       "port": "443",
-      "secret": "ee7930091e4348bb260a09c61562aa661a6465736b2e70726f787974672e6c697665"
+      "secret": "ee7c1dc73472aff6b273c603d9713900d1666565642e70726f787974672e6c697665"
     },
     {
-      "server": "view.proxytg.live",
+      "server": "51.250.69.99",
       "port": "443",
-      "secret": "ee3624bb4d06c88a513638a3d32327277e766965772e70726f787974672e6c697665"
+      "secret": "eea20cccd3366ea459a8057d24b1202153617669746f2e7275"
     }
   ]
 }
