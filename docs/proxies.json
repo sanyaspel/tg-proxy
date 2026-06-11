@@ -1,21 +1,11 @@
 {
-  "updated": "2026-06-11T11:16:35Z",
+  "updated": "2026-06-11T15:00:50Z",
   "count": 7,
   "proxies": [
     {
-      "server": "51.250.82.201",
-      "port": "443",
-      "secret": "eeb290d308106db4562c44aa36686c2c7c617669746f2e7275"
-    },
-    {
-      "server": "north.nolags.pw",
-      "port": "443",
-      "secret": "dd9760e74174fb9717de21cc7e17027e34"
-    },
-    {
-      "server": "yours.nolags.pw",
-      "port": "443",
-      "secret": "ddaed3f129a293bdfc23d67204b50bbf87"
+      "server": "mtp.nowabst.net",
+      "port": "853",
+      "secret": "7oLOH4SvQDPMfnsCEGm-PVthZHMueDUucnU"
     },
     {
       "server": "double.nolags.pw",
@@ -23,9 +13,14 @@
       "secret": "dd96d0f04ace50bb54a492c1415bfff1e5"
     },
     {
-      "server": "relay.nowabst.net",
+      "server": "north.nolags.pw",
+      "port": "443",
+      "secret": "dd9760e74174fb9717de21cc7e17027e34"
+    },
+    {
+      "server": "mt.nowabst.net",
       "port": "853",
-      "secret": "7hn0rSbGWJH9Is87elnw0QNhZHMueDUucnU"
+      "secret": "7hKJP_0gRM7NMRBO3AKn5VhhZHMueDUucnU"
     },
     {
       "server": "web.proxyrknsosatb.site",
@@ -36,6 +31,11 @@
       "server": "ya.proxyobhod.online",
       "port": "8443",
       "secret": "ee2419e93e2af4bddd80bb8bc8936ea49879612e70726f78796f62686f642e6f6e6c696e65"
+    },
+    {
+      "server": "51.250.82.201",
+      "port": "443",
+      "secret": "eeb290d308106db4562c44aa36686c2c7c617669746f2e7275"
     }
   ]
 }
