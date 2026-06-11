@@ -1,16 +1,21 @@
 {
-  "updated": "2026-06-11T18:29:36Z",
-  "count": 11,
+  "updated": "2026-06-11T20:43:33Z",
+  "count": 10,
   "proxies": [
+    {
+      "server": "double.nolags.pw",
+      "port": "443",
+      "secret": "dd96d0f04ace50bb54a492c1415bfff1e5"
+    },
     {
       "server": "zone.nolags.pw",
       "port": "443",
       "secret": "dd04d2a884220d45de24af8bade64322ac"
     },
     {
-      "server": "51.250.82.201",
+      "server": "country.nolags.pw",
       "port": "443",
-      "secret": "eeb290d308106db4562c44aa36686c2c7c617669746f2e7275"
+      "secret": "ddc5a3afebedae870af378217569f6586c"
     },
     {
       "server": "mtp.nowabst.net",
@@ -23,19 +28,9 @@
       "secret": "7hKJP_0gRM7NMRBO3AKn5VhhZHMueDUucnU"
     },
     {
-      "server": "double.nolags.pw",
-      "port": "443",
-      "secret": "dd96d0f04ace50bb54a492c1415bfff1e5"
-    },
-    {
-      "server": "ya.proxyobhod.online",
+      "server": "wb.proxyonline.online",
       "port": "8443",
-      "secret": "ee2419e93e2af4bddd80bb8bc8936ea49879612e70726f78796f62686f642e6f6e6c696e65"
-    },
-    {
-      "server": "feed.proxytg.live",
-      "port": "443",
-      "secret": "ee7c1dc73472aff6b273c603d9713900d1666565642e70726f787974672e6c697665"
+      "secret": "eee8f530985fe58c2518873a7899fd690b77622e70726f78796f6e6c696e652e6f6e6c696e65"
     },
     {
       "server": "lava.proxyobhod.online",
@@ -43,19 +38,19 @@
       "secret": "eef4a2f9b8134cfed8c6215de541c06cb46c6176612e70726f78796f62686f642e6f6e6c696e65"
     },
     {
-      "server": "web.proxyrknsosatb.site",
-      "port": "8443",
-      "secret": "ee7350e8e49a9b8793ad9e77ade7bc990a7765622e70726f7879726b6e736f736174622e73697465"
-    },
-    {
       "server": "track.proxytg.live",
       "port": "443",
       "secret": "ee8e4bd7b2a034418fd924aeed3c97cd7b747261636b2e70726f787974672e6c697665"
     },
     {
-      "server": "wb.proxyonline.online",
-      "port": "8443",
-      "secret": "eee8f530985fe58c2518873a7899fd690b77622e70726f78796f6e6c696e652e6f6e6c696e65"
+      "server": "feed.proxytg.live",
+      "port": "443",
+      "secret": "ee7c1dc73472aff6b273c603d9713900d1666565642e70726f787974672e6c697665"
+    },
+    {
+      "server": "51.250.82.201",
+      "port": "443",
+      "secret": "eeb290d308106db4562c44aa36686c2c7c617669746f2e7275"
     }
   ]
 }
