@@ -1,11 +1,11 @@
 {
-  "updated": "2026-06-12T16:10:18Z",
-  "count": 5,
+  "updated": "2026-06-12T18:21:59Z",
+  "count": 7,
   "proxies": [
     {
-      "server": "feed.proxytg.live",
+      "server": "lk.proxytg.live",
       "port": "443",
-      "secret": "ee7c1dc73472aff6b273c603d9713900d1666565642e70726f787974672e6c697665"
+      "secret": "eea33a0973394ea248c4f402ae6745b17b6c6b2e70726f787974672e6c697665"
     },
     {
       "server": "view.proxytg.live",
@@ -13,14 +13,24 @@
       "secret": "ee3624bb4d06c88a513638a3d32327277e766965772e70726f787974672e6c697665"
     },
     {
-      "server": "lk.proxytg.live",
-      "port": "443",
-      "secret": "eea33a0973394ea248c4f402ae6745b17b6c6b2e70726f787974672e6c697665"
-    },
-    {
       "server": "cab.proxytg.live",
       "port": "443",
       "secret": "ee172f5214b57f137805957e350d01e0946361622e70726f787974672e6c697665"
+    },
+    {
+      "server": "feed.proxytg.live",
+      "port": "443",
+      "secret": "ee7c1dc73472aff6b273c603d9713900d1666565642e70726f787974672e6c697665"
+    },
+    {
+      "server": "desk.proxytg.live",
+      "port": "443",
+      "secret": "ee7930091e4348bb260a09c61562aa661a6465736b2e70726f787974672e6c697665"
+    },
+    {
+      "server": "office.proxytg.live",
+      "port": "443",
+      "secret": "eed604acbe90be65ddf34629f1e2234f7d6f66666963652e70726f787974672e6c697665"
     },
     {
       "server": "51.250.65.108",
