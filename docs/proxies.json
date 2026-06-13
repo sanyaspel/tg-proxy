@@ -1,12 +1,7 @@
 {
-  "updated": "2026-06-13T16:53:47Z",
-  "count": 2,
+  "updated": "2026-06-13T18:01:51Z",
+  "count": 1,
   "proxies": [
-    {
-      "server": "51.250.7.238",
-      "port": "443",
-      "secret": "ee15d4800ba49d3ac087413770a80de3ba617669746f2e7275"
-    },
     {
       "server": "vegas.nolags.pw",
       "port": "443",
