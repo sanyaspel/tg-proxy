@@ -1,26 +1,16 @@
 {
-  "updated": "2026-06-13T15:15:12Z",
-  "count": 4,
+  "updated": "2026-06-13T16:53:47Z",
+  "count": 2,
   "proxies": [
-    {
-      "server": "last.nolags.pw",
-      "port": "443",
-      "secret": "ddab90965a833231bb7c6e024564b75a91"
-    },
-    {
-      "server": "vegas.nolags.pw",
-      "port": "443",
-      "secret": "dd0c7f9a8781cf31a8aaae72e341834449"
-    },
     {
       "server": "51.250.7.238",
       "port": "443",
       "secret": "ee15d4800ba49d3ac087413770a80de3ba617669746f2e7275"
     },
     {
-      "server": "glide.proxyonline.online",
+      "server": "vegas.nolags.pw",
       "port": "443",
-      "secret": "eeb4cf448c2c66dc6151b6746bd1799ae5676c6964652e70726f78796f6e6c696e652e6f6e6c696e65"
+      "secret": "dd0c7f9a8781cf31a8aaae72e341834449"
     }
   ]
 }
