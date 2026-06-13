@@ -1,21 +1,21 @@
 {
-  "updated": "2026-06-12T23:57:41Z",
+  "updated": "2026-06-13T02:53:13Z",
   "count": 8,
   "proxies": [
-    {
-      "server": "51.250.65.108",
-      "port": "443",
-      "secret": "ee3a9f22462890489c0bde045048ff9a17617669746f2e7275"
-    },
     {
       "server": "last.nolags.pw",
       "port": "443",
       "secret": "ddab90965a833231bb7c6e024564b75a91"
     },
     {
-      "server": "office.proxytg.live",
+      "server": "51.250.65.108",
       "port": "443",
-      "secret": "eed604acbe90be65ddf34629f1e2234f7d6f66666963652e70726f787974672e6c697665"
+      "secret": "ee3a9f22462890489c0bde045048ff9a17617669746f2e7275"
+    },
+    {
+      "server": "cab.proxytg.live",
+      "port": "443",
+      "secret": "ee172f5214b57f137805957e350d01e0946361622e70726f787974672e6c697665"
     },
     {
       "server": "desk.proxytg.live",
@@ -33,14 +33,14 @@
       "secret": "eea33a0973394ea248c4f402ae6745b17b6c6b2e70726f787974672e6c697665"
     },
     {
+      "server": "office.proxytg.live",
+      "port": "443",
+      "secret": "eed604acbe90be65ddf34629f1e2234f7d6f66666963652e70726f787974672e6c697665"
+    },
+    {
       "server": "feed.proxytg.live",
       "port": "443",
       "secret": "ee7c1dc73472aff6b273c603d9713900d1666565642e70726f787974672e6c697665"
-    },
-    {
-      "server": "cab.proxytg.live",
-      "port": "443",
-      "secret": "ee172f5214b57f137805957e350d01e0946361622e70726f787974672e6c697665"
     }
   ]
 }
