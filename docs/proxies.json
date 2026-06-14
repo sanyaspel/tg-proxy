@@ -1,5 +1,11 @@
 {
-  "updated": "2026-06-14T20:02:36Z",
-  "count": 0,
-  "proxies": []
+  "updated": "2026-06-14T21:47:06Z",
+  "count": 1,
+  "proxies": [
+    {
+      "server": "onyx.proxytg.live",
+      "port": "443",
+      "secret": "ee8e4bd7b2a034418fd924aeed3c97cd7b6f6e79782e70726f787974672e6c697665"
+    }
+  ]
 }
