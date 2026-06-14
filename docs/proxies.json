@@ -1,26 +1,16 @@
 {
-  "updated": "2026-06-14T12:56:01Z",
-  "count": 4,
+  "updated": "2026-06-14T15:04:41Z",
+  "count": 2,
   "proxies": [
-    {
-      "server": "milan.nolags.pw",
-      "port": "443",
-      "secret": "ddc7540aa41b7e49710c19cb8a2a1426d3"
-    },
-    {
-      "server": "93.77.179.16",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
     {
       "server": "51.250.3.250",
       "port": "443",
       "secret": "eed449877a1e5b7a264124d13085899647617669746f2e7275"
     },
     {
-      "server": "flux.proxytelega.store",
+      "server": "93.77.179.16",
       "port": "443",
-      "secret": "eec57f379567b25a79cbd1fa0ad73b98d9666c75782e70726f787974656c6567612e73746f7265"
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     }
   ]
 }
