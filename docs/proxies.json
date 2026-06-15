@@ -1,11 +1,26 @@
 {
-  "updated": "2026-06-15T05:33:08Z",
-  "count": 4,
+  "updated": "2026-06-15T11:40:44Z",
+  "count": 6,
   "proxies": [
+    {
+      "server": "wgwg.etherealvpn.uk",
+      "port": "443",
+      "secret": "ee3b7ca716f61b904f00c0f93d9419de06617669746f2e7275"
+    },
     {
       "server": "93.77.178.229",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "Geng.etherealvpn.uk",
+      "port": "443",
+      "secret": "eefd6c10517940b3ad79ce5e3d40c9972e617669746f2e7275"
+    },
+    {
+      "server": "onyx.proxytg.live",
+      "port": "443",
+      "secret": "ee8e4bd7b2a034418fd924aeed3c97cd7b6f6e79782e70726f787974672e6c697665"
     },
     {
       "server": "93.77.181.195",
@@ -13,14 +28,9 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "wgwg.etherealvpn.uk",
+      "server": "51.250.78.59",
       "port": "443",
-      "secret": "ee3b7ca716f61b904f00c0f93d9419de06617669746f2e7275"
-    },
-    {
-      "server": "onyx.proxytg.live",
-      "port": "443",
-      "secret": "ee8e4bd7b2a034418fd924aeed3c97cd7b6f6e79782e70726f787974672e6c697665"
+      "secret": "eefd6c10517940b3ad79ce5e3d40c9972e617669746f2e7275"
     }
   ]
 }
