@@ -1,26 +1,11 @@
 {
-  "updated": "2026-06-15T20:19:34Z",
-  "count": 6,
+  "updated": "2026-06-15T22:32:07Z",
+  "count": 8,
   "proxies": [
-    {
-      "server": "alexeylox.chunkycorp.shop",
-      "port": "443",
-      "secret": "ee1afb6de782af4c1bf29d1e230a0e5a8d617669746f2e7275"
-    },
-    {
-      "server": "fat.slarkfat.icu",
-      "port": "443",
-      "secret": "ee8b5ecd05d1a2959d07adcad01f4fcda9617669746f2e7275"
-    },
     {
       "server": "mtp.nowabst.net",
       "port": "853",
       "secret": "7oLOH4SvQDPMfnsCEGm-PVthZHMueDUucnU"
-    },
-    {
-      "server": "Gengbeng.etherealvpn.uk",
-      "port": "443",
-      "secret": "eec3332fab3d82ff009bc26822e5b7dc84617669746f2e7275"
     },
     {
       "server": "51.250.2.149",
@@ -28,9 +13,34 @@
       "secret": "eec3332fab3d82ff009bc26822e5b7dc84617669746f2e7275"
     },
     {
+      "server": "gw.nowabst.net",
+      "port": "853",
+      "secret": "7mEE1f2TbEkwl48CJxZt6qlhZHMueDUucnU"
+    },
+    {
+      "server": "alexeylox.chunkycorp.shop",
+      "port": "443",
+      "secret": "ee1afb6de782af4c1bf29d1e230a0e5a8d617669746f2e7275"
+    },
+    {
+      "server": "Gengbeng.etherealvpn.uk",
+      "port": "443",
+      "secret": "eec3332fab3d82ff009bc26822e5b7dc84617669746f2e7275"
+    },
+    {
+      "server": "fat.slarkfat.icu",
+      "port": "443",
+      "secret": "ee8b5ecd05d1a2959d07adcad01f4fcda9617669746f2e7275"
+    },
+    {
       "server": "mt.nowabst.net",
       "port": "853",
       "secret": "7hKJP_0gRM7NMRBO3AKn5VhhZHMueDUucnU"
+    },
+    {
+      "server": "ge.nowabst.net",
+      "port": "853",
+      "secret": "7v32F15QBpwBvSLXhlNKorJhZHMueDUucnU"
     }
   ]
 }
