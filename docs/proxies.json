@@ -1,7 +1,22 @@
 {
-  "updated": "2026-06-15T00:04:29Z",
-  "count": 1,
+  "updated": "2026-06-15T05:33:08Z",
+  "count": 4,
   "proxies": [
+    {
+      "server": "93.77.178.229",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "93.77.181.195",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "wgwg.etherealvpn.uk",
+      "port": "443",
+      "secret": "ee3b7ca716f61b904f00c0f93d9419de06617669746f2e7275"
+    },
     {
       "server": "onyx.proxytg.live",
       "port": "443",
