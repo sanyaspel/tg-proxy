@@ -1,12 +1,7 @@
 {
-  "updated": "2026-06-16T05:41:13Z",
-  "count": 5,
+  "updated": "2026-06-16T10:50:08Z",
+  "count": 4,
   "proxies": [
-    {
-      "server": "ge.nowabst.net",
-      "port": "853",
-      "secret": "7v32F15QBpwBvSLXhlNKorJhZHMueDUucnU"
-    },
     {
       "server": "51.250.81.5",
       "port": "443",
@@ -18,9 +13,9 @@
       "secret": "7mEE1f2TbEkwl48CJxZt6qlhZHMueDUucnU"
     },
     {
-      "server": "mt.nowabst.net",
+      "server": "ge.nowabst.net",
       "port": "853",
-      "secret": "7hKJP_0gRM7NMRBO3AKn5VhhZHMueDUucnU"
+      "secret": "7v32F15QBpwBvSLXhlNKorJhZHMueDUucnU"
     },
     {
       "server": "mtp.nowabst.net",
