@@ -1,16 +1,5 @@
 {
-  "updated": "2026-06-16T15:48:23Z",
-  "count": 2,
-  "proxies": [
-    {
-      "server": "gergh.etherealvpn.uk",
-      "port": "443",
-      "secret": "ee543c9faea80baa5803188629f133cfc5617669746f2e7275"
-    },
-    {
-      "server": "51.250.8.185",
-      "port": "443",
-      "secret": "ee8af7f9d60f0c4f06ee757e0f76644958617669746f2e7275"
-    }
-  ]
+  "updated": "2026-06-16T19:26:08Z",
+  "count": 0,
+  "proxies": []
 }
