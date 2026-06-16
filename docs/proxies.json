@@ -1,26 +1,16 @@
 {
-  "updated": "2026-06-16T10:50:08Z",
-  "count": 4,
+  "updated": "2026-06-16T15:48:23Z",
+  "count": 2,
   "proxies": [
     {
-      "server": "51.250.81.5",
+      "server": "gergh.etherealvpn.uk",
       "port": "443",
       "secret": "ee543c9faea80baa5803188629f133cfc5617669746f2e7275"
     },
     {
-      "server": "gw.nowabst.net",
-      "port": "853",
-      "secret": "7mEE1f2TbEkwl48CJxZt6qlhZHMueDUucnU"
-    },
-    {
-      "server": "ge.nowabst.net",
-      "port": "853",
-      "secret": "7v32F15QBpwBvSLXhlNKorJhZHMueDUucnU"
-    },
-    {
-      "server": "mtp.nowabst.net",
-      "port": "853",
-      "secret": "7oLOH4SvQDPMfnsCEGm-PVthZHMueDUucnU"
+      "server": "51.250.8.185",
+      "port": "443",
+      "secret": "ee8af7f9d60f0c4f06ee757e0f76644958617669746f2e7275"
     }
   ]
 }
