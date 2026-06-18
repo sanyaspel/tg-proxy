@@ -1,31 +1,26 @@
 {
-  "updated": "2026-06-18T11:33:51Z",
+  "updated": "2026-06-18T14:40:43Z",
   "count": 8,
   "proxies": [
-    {
-      "server": "93.77.183.14",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
     {
       "server": "93.77.183.230",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "51.250.82.6",
+      "server": "51.250.84.196",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "150.241.68.96",
+      "server": "51.250.2.142",
       "port": "443",
-      "secret": "ee6d6963726f736f66742e636f6dd95c"
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "2.26.124.108",
+      "server": "51.250.0.196",
       "port": "443",
-      "secret": "ee6d6963726f736f66742e636f6dd95c"
+      "secret": "ee526c3ce1abddd8bf0266bc1c7f80ab1f617669746f2e7275"
     },
     {
       "server": "ihkljklk.etherealvpn.uk",
@@ -33,12 +28,17 @@
       "secret": "eebfee6bc937ce40159186de7ece967a95617669746f2e7275"
     },
     {
-      "server": "51.250.14.75",
+      "server": "cdn.kvakzon.top",
       "port": "443",
-      "secret": "eebfee6bc937ce40159186de7ece967a95617669746f2e7275"
+      "secret": "ee774ecb55b96b5c3302852e6861ada11563646e2e6b76616b7a6f6e2e746f70"
     },
     {
-      "server": "2.26.124.102",
+      "server": "app.kvakzon.top",
+      "port": "443",
+      "secret": "eebfd3ba9d7fca260c6d9b3b10245ed8386170702e6b76616b7a6f6e2e746f70"
+    },
+    {
+      "server": "2.26.124.108",
       "port": "443",
       "secret": "ee6d6963726f736f66742e636f6dd95c"
     }
