@@ -1,11 +1,16 @@
 {
-  "updated": "2026-06-18T20:06:44Z",
-  "count": 9,
+  "updated": "2026-06-18T22:28:15Z",
+  "count": 11,
   "proxies": [
     {
-      "server": "51.250.84.196",
+      "server": "2.26.124.108",
       "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+      "secret": "ee6d6963726f736f66742e636f6dd95c"
+    },
+    {
+      "server": "2.26.124.102",
+      "port": "443",
+      "secret": "ee6d6963726f736f66742e636f6dd95c"
     },
     {
       "server": "51.250.2.142",
@@ -13,9 +18,9 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "mt.nowabst.net",
-      "port": "853",
-      "secret": "7hKJP_0gRM7NMRBO3AKn5VhhZHMueDUucnU"
+      "server": "51.250.84.196",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
       "server": "mtp.nowabst.net",
@@ -23,9 +28,9 @@
       "secret": "7oLOH4SvQDPMfnsCEGm-PVthZHMueDUucnU"
     },
     {
-      "server": "cdn.kvakzon.top",
-      "port": "443",
-      "secret": "ee774ecb55b96b5c3302852e6861ada11563646e2e6b76616b7a6f6e2e746f70"
+      "server": "mt.nowabst.net",
+      "port": "853",
+      "secret": "7hKJP_0gRM7NMRBO3AKn5VhhZHMueDUucnU"
     },
     {
       "server": "net.freetg.pw",
@@ -33,9 +38,9 @@
       "secret": "eebd79a03bd57944c4830f41e0f2fb94626e65742e6672656574672e7077"
     },
     {
-      "server": "gate.soluqent.pro",
+      "server": "link.freetg.pw",
       "port": "443",
-      "secret": "ee6538b62fe47dff3c068ed861df1f0465676174652e736f6c7571656e742e70726f"
+      "secret": "ee1d89eb222800da9e0dca07e51883b2916c696e6b2e6672656574672e7077"
     },
     {
       "server": "app.kvakzon.top",
@@ -43,9 +48,14 @@
       "secret": "eebfd3ba9d7fca260c6d9b3b10245ed8386170702e6b76616b7a6f6e2e746f70"
     },
     {
-      "server": "2.26.124.108",
+      "server": "cdn.kvakzon.top",
       "port": "443",
-      "secret": "ee6d6963726f736f66742e636f6dd95c"
+      "secret": "ee774ecb55b96b5c3302852e6861ada11563646e2e6b76616b7a6f6e2e746f70"
+    },
+    {
+      "server": "gate.soluqent.pro",
+      "port": "443",
+      "secret": "ee6538b62fe47dff3c068ed861df1f0465676174652e736f6c7571656e742e70726f"
     }
   ]
 }
