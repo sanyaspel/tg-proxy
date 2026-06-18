@@ -1,31 +1,26 @@
 {
-  "updated": "2026-06-18T02:36:39Z",
-  "count": 5,
+  "updated": "2026-06-18T07:23:51Z",
+  "count": 4,
   "proxies": [
     {
-      "server": "150.241.68.198",
-      "port": "443",
-      "secret": "ee6d6963726f736f66742e636f6dd95c"
-    },
-    {
-      "server": "2.26.125.82",
-      "port": "443",
-      "secret": "ee6d6963726f736f66742e636f6dd95c"
-    },
-    {
-      "server": "81.90.25.247",
-      "port": "443",
-      "secret": "ee6d6963726f736f66742e636f6dd95c"
-    },
-    {
-      "server": "93.77.190.100",
+      "server": "93.77.183.230",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "144.31.215.119",
+      "server": "93.77.183.14",
       "port": "443",
-      "secret": "ee6d6963726f736f66742e636f6d2379"
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "51.250.14.75",
+      "port": "443",
+      "secret": "eebfee6bc937ce40159186de7ece967a95617669746f2e7275"
+    },
+    {
+      "server": "ihkljklk.etherealvpn.uk",
+      "port": "443",
+      "secret": "eebfee6bc937ce40159186de7ece967a95617669746f2e7275"
     }
   ]
 }
