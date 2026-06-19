@@ -1,22 +1,7 @@
 {
-  "updated": "2026-06-19T00:08:26Z",
-  "count": 10,
+  "updated": "2026-06-19T05:30:58Z",
+  "count": 7,
   "proxies": [
-    {
-      "server": "150.241.68.96",
-      "port": "443",
-      "secret": "ee6d6963726f736f66742e636f6dd95c"
-    },
-    {
-      "server": "2.26.124.102",
-      "port": "443",
-      "secret": "ee6d6963726f736f66742e636f6dd95c"
-    },
-    {
-      "server": "2.26.124.108",
-      "port": "443",
-      "secret": "ee6d6963726f736f66742e636f6dd95c"
-    },
     {
       "server": "mt.nowabst.net",
       "port": "853",
@@ -28,19 +13,14 @@
       "secret": "7oLOH4SvQDPMfnsCEGm-PVthZHMueDUucnU"
     },
     {
-      "server": "net.freetg.pw",
+      "server": "link.freetg.pw",
       "port": "443",
-      "secret": "eebd79a03bd57944c4830f41e0f2fb94626e65742e6672656574672e7077"
+      "secret": "ee1d89eb222800da9e0dca07e51883b2916c696e6b2e6672656574672e7077"
     },
     {
       "server": "gate.soluqent.pro",
       "port": "443",
       "secret": "ee6538b62fe47dff3c068ed861df1f0465676174652e736f6c7571656e742e70726f"
-    },
-    {
-      "server": "link.freetg.pw",
-      "port": "443",
-      "secret": "ee1d89eb222800da9e0dca07e51883b2916c696e6b2e6672656574672e7077"
     },
     {
       "server": "cdn.kvakzon.top",
@@ -51,6 +31,11 @@
       "server": "app.kvakzon.top",
       "port": "443",
       "secret": "eebfd3ba9d7fca260c6d9b3b10245ed8386170702e6b76616b7a6f6e2e746f70"
+    },
+    {
+      "server": "net.freetg.pw",
+      "port": "443",
+      "secret": "eebd79a03bd57944c4830f41e0f2fb94626e65742e6672656574672e7077"
     }
   ]
 }
