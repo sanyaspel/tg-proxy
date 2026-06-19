@@ -1,26 +1,16 @@
 {
-  "updated": "2026-06-19T13:52:37Z",
-  "count": 4,
+  "updated": "2026-06-19T16:26:54Z",
+  "count": 2,
   "proxies": [
-    {
-      "server": "51.250.68.4",
-      "port": "443",
-      "secret": "ee065e8e8e8d0208ab9b2073584e1b3623617669746f2e7275"
-    },
-    {
-      "server": "link.freetg.pw",
-      "port": "443",
-      "secret": "ee1d89eb222800da9e0dca07e51883b2916c696e6b2e6672656574672e7077"
-    },
-    {
-      "server": "net.freetg.pw",
-      "port": "443",
-      "secret": "eebd79a03bd57944c4830f41e0f2fb94626e65742e6672656574672e7077"
-    },
     {
       "server": "51.250.86.244",
       "port": "443",
       "secret": "eeaa8f2cfd941607525db63d42dcc1971d617669746f2e7275"
+    },
+    {
+      "server": "51.250.68.4",
+      "port": "443",
+      "secret": "ee065e8e8e8d0208ab9b2073584e1b3623617669746f2e7275"
     }
   ]
 }
