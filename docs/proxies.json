@@ -1,11 +1,5 @@
 {
-  "updated": "2026-06-21T08:45:35Z",
-  "count": 1,
-  "proxies": [
-    {
-      "server": "back.nolags.pw",
-      "port": "443",
-      "secret": "dd23930f2da14e8bad3dcf4620e9db128b"
-    }
-  ]
+  "updated": "2026-06-21T11:37:34Z",
+  "count": 0,
+  "proxies": []
 }
