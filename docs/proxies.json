@@ -1,11 +1,16 @@
 {
-  "updated": "2026-06-23T08:54:25Z",
-  "count": 1,
+  "updated": "2026-06-23T11:50:36Z",
+  "count": 2,
   "proxies": [
     {
       "server": "34.51.255.77",
       "port": "443",
       "secret": "dd111304d9c2b55a043efd8139aaf51ef5"
+    },
+    {
+      "server": "93.77.160.94",
+      "port": "443",
+      "secret": "ee3a100e0752a45411e15ade894aab3716617669746f2e7275"
     }
   ]
 }
