@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22T23:10:15Z",
+  "updated": "2026-06-23T01:27:14Z",
   "count": 4,
   "proxies": [
     {
@@ -8,14 +8,14 @@
       "secret": "dd111304d9c2b55a043efd8139aaf51ef5"
     },
     {
-      "server": "gate.soluqent.pro",
-      "port": "443",
-      "secret": "ee6538b62fe47dff3c068ed861df1f0465676174652e736f6c7571656e742e70726f"
-    },
-    {
       "server": "app.kvakzon.top",
       "port": "443",
       "secret": "eebfd3ba9d7fca260c6d9b3b10245ed8386170702e6b76616b7a6f6e2e746f70"
+    },
+    {
+      "server": "gate.soluqent.pro",
+      "port": "443",
+      "secret": "ee6538b62fe47dff3c068ed861df1f0465676174652e736f6c7571656e742e70726f"
     },
     {
       "server": "cdn.kvakzon.top",
