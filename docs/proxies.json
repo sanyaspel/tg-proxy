@@ -1,21 +1,11 @@
 {
-  "updated": "2026-06-23T05:36:22Z",
-  "count": 3,
+  "updated": "2026-06-23T08:54:25Z",
+  "count": 1,
   "proxies": [
     {
       "server": "34.51.255.77",
       "port": "443",
       "secret": "dd111304d9c2b55a043efd8139aaf51ef5"
-    },
-    {
-      "server": "app.kvakzon.top",
-      "port": "443",
-      "secret": "eebfd3ba9d7fca260c6d9b3b10245ed8386170702e6b76616b7a6f6e2e746f70"
-    },
-    {
-      "server": "cdn.kvakzon.top",
-      "port": "443",
-      "secret": "ee774ecb55b96b5c3302852e6861ada11563646e2e6b76616b7a6f6e2e746f70"
     }
   ]
 }
