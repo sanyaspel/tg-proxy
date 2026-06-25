@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25T21:57:14Z",
+  "updated": "2026-06-25T23:11:38Z",
   "count": 7,
   "proxies": [
     {
@@ -8,14 +8,19 @@
       "secret": "ee6d6963726f736f66742e636f6dd95c"
     },
     {
+      "server": "34.51.227.196",
+      "port": "443",
+      "secret": "dd3cec606d9be26a99756789121ce87239"
+    },
+    {
       "server": "34.51.222.239",
       "port": "443",
       "secret": "ddfb1c51c0125d6c82066dd588f5201849"
     },
     {
-      "server": "34.51.227.196",
+      "server": "191.44.113.93",
       "port": "443",
-      "secret": "dd3cec606d9be26a99756789121ce87239"
+      "secret": "ee79616e6465782e727530b9744f0c52"
     },
     {
       "server": "link.nowabst.net",
@@ -26,11 +31,6 @@
       "server": "cdn.nowabst.net",
       "port": "853",
       "secret": "7lN1On5sIBlEBmdKGthywfhhZHMueDUucnU"
-    },
-    {
-      "server": "191.44.113.93",
-      "port": "443",
-      "secret": "ee79616e6465782e727530b9744f0c52"
     },
     {
       "server": "proxy6.chunkycorp.shop",
