@@ -1,11 +1,16 @@
 {
-  "updated": "2026-06-25T06:31:30Z",
-  "count": 1,
+  "updated": "2026-06-25T10:00:24Z",
+  "count": 2,
   "proxies": [
     {
       "server": "34.51.192.156",
       "port": "443",
       "secret": "dd99c304c8857034be7df934a6e5a95032"
+    },
+    {
+      "server": "proxy5.chunkycorp.shop",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     }
   ]
 }
