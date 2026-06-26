@@ -1,11 +1,16 @@
 {
-  "updated": "2026-06-25T23:11:38Z",
+  "updated": "2026-06-26T01:33:58Z",
   "count": 7,
   "proxies": [
     {
       "server": "144.31.237.144",
       "port": "443",
       "secret": "ee6d6963726f736f66742e636f6dd95c"
+    },
+    {
+      "server": "link.nowabst.net",
+      "port": "853",
+      "secret": "7hu9zc_SAJdLuZmBMYChJzhhZHMueDUucnU"
     },
     {
       "server": "34.51.227.196",
@@ -21,11 +26,6 @@
       "server": "191.44.113.93",
       "port": "443",
       "secret": "ee79616e6465782e727530b9744f0c52"
-    },
-    {
-      "server": "link.nowabst.net",
-      "port": "853",
-      "secret": "7hu9zc_SAJdLuZmBMYChJzhhZHMueDUucnU"
     },
     {
       "server": "cdn.nowabst.net",
