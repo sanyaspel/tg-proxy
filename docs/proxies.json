@@ -1,16 +1,21 @@
 {
-  "updated": "2026-06-26T20:14:58Z",
+  "updated": "2026-06-26T21:44:57Z",
   "count": 6,
   "proxies": [
-    {
-      "server": "34.90.36.238",
-      "port": "443",
-      "secret": "ddeec806d5ceb6ebe2fe47e212f982fe64"
-    },
     {
       "server": "34.6.97.246",
       "port": "443",
       "secret": "dde15c0efa2f77bf7378cb3dc8cea5ddde"
+    },
+    {
+      "server": "34.7.181.135",
+      "port": "443",
+      "secret": "ddebf4e93d8565ca5d242efe5aa70822c3"
+    },
+    {
+      "server": "tw.turboproxy.pro",
+      "port": "443",
+      "secret": "ee8b60156255cd03a3201a4af8655e211a72746d702e7477697463682e7476"
     },
     {
       "server": "proxy9.chunkycorp.shop",
@@ -18,19 +23,14 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "th.turboproxy.pro",
-      "port": "443",
-      "secret": "ee8b60156255cd03a3201a4af8655e211a6d2e7477697463682e7476"
-    },
-    {
       "server": "s2.v6n.tech",
       "port": "443",
       "secret": "ee192e048bfc34b71e27a801fdd15340af7777772e77702e706c"
     },
     {
-      "server": "tw.turboproxy.pro",
+      "server": "th.turboproxy.pro",
       "port": "443",
-      "secret": "ee8b60156255cd03a3201a4af8655e211a72746d702e7477697463682e7476"
+      "secret": "ee8b60156255cd03a3201a4af8655e211a6d2e7477697463682e7476"
     }
   ]
 }
