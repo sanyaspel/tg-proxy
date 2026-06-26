@@ -1,16 +1,11 @@
 {
-  "updated": "2026-06-26T05:58:58Z",
-  "count": 8,
+  "updated": "2026-06-26T09:23:25Z",
+  "count": 7,
   "proxies": [
     {
-      "server": "34.51.227.196",
-      "port": "443",
-      "secret": "dd3cec606d9be26a99756789121ce87239"
-    },
-    {
-      "server": "34.51.222.239",
-      "port": "443",
-      "secret": "ddfb1c51c0125d6c82066dd588f5201849"
+      "server": "87.58.201.74",
+      "port": "853",
+      "secret": "ee6aa9eb2bd47d97b43be8ac203cfd3c0e7777772e676f6f676c652e636f6d"
     },
     {
       "server": "sr1.loveproxy.xyz",
@@ -23,24 +18,24 @@
       "secret": "ee740cf3f67125ac3f478ea83b10c0b20a62726f777365722e79616e6465782e636f6d"
     },
     {
-      "server": "link.nowabst.net",
-      "port": "853",
-      "secret": "7hu9zc_SAJdLuZmBMYChJzhhZHMueDUucnU"
+      "server": "34.51.222.239",
+      "port": "443",
+      "secret": "ddfb1c51c0125d6c82066dd588f5201849"
     },
     {
-      "server": "cdn.nowabst.net",
+      "server": "31.76.251.25",
       "port": "853",
-      "secret": "7lN1On5sIBlEBmdKGthywfhhZHMueDUucnU"
+      "secret": "ee6aa9eb2bd47d97b43be8ac203cfd3c0e7777772e676f6f676c652e636f6d,"
+    },
+    {
+      "server": "34.51.227.196",
+      "port": "443",
+      "secret": "dd3cec606d9be26a99756789121ce87239"
     },
     {
       "server": "sr3.loveproxy.xyz",
       "port": "443",
       "secret": "ee80c85fd744ac529b79af0e72157d90c162726f777365722e79616e6465782e636f6d"
-    },
-    {
-      "server": "proxy6.chunkycorp.shop",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     }
   ]
 }
