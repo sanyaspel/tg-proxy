@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T22:57:42Z",
+  "updated": "2026-06-27T00:00:47Z",
   "count": 5,
   "proxies": [
     {
@@ -18,14 +18,14 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "s2.v6n.tech",
-      "port": "443",
-      "secret": "ee192e048bfc34b71e27a801fdd15340af7777772e77702e706c"
-    },
-    {
       "server": "s1.v6n.tech",
       "port": "443",
       "secret": "eee11484d2c8b928f3d5a19f5da8e182037777772e696465616c6f2e6465"
+    },
+    {
+      "server": "s2.v6n.tech",
+      "port": "443",
+      "secret": "ee192e048bfc34b71e27a801fdd15340af7777772e77702e706c"
     }
   ]
 }
