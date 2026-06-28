@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T12:56:09Z",
+  "updated": "2026-06-28T14:42:50Z",
   "count": 3,
   "proxies": [
     {
@@ -13,7 +13,7 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "nasty.chunkycorp.shop",
+      "server": "proxy13.chunkycorp.shop",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     }
