@@ -1,16 +1,11 @@
 {
-  "updated": "2026-06-29T16:31:50Z",
-  "count": 3,
+  "updated": "2026-06-29T18:56:27Z",
+  "count": 2,
   "proxies": [
     {
-      "server": "proxy17.chunkycorp.shop",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "proxy16.chunkycorp.shop",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+      "server": "mtp.nowabst.net",
+      "port": "853",
+      "secret": "7oLOH4SvQDPMfnsCEGm-PVthZHMueDUucnU"
     },
     {
       "server": "proxy18.chunkycorp.shop",
