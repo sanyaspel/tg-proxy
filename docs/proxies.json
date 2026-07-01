@@ -1,7 +1,17 @@
 {
-  "updated": "2026-07-01T10:51:31Z",
-  "count": 1,
+  "updated": "2026-07-01T13:30:16Z",
+  "count": 3,
   "proxies": [
+    {
+      "server": "144.31.25.179",
+      "port": "5223",
+      "secret": "7uao3_adb96sOIzKbSDMtEJ3d3cuYXBwbGUuY29t"
+    },
+    {
+      "server": "proxy23.chunkycorp.shop",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
     {
       "server": "zone.chunkycorp.shop",
       "port": "443",
