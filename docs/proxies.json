@@ -1,21 +1,5 @@
 {
-  "updated": "2026-07-02T05:30:03Z",
-  "count": 3,
-  "proxies": [
-    {
-      "server": "144.31.25.179",
-      "port": "5223",
-      "secret": "7uao3_adb96sOIzKbSDMtEJ3d3cuYXBwbGUuY29t"
-    },
-    {
-      "server": "alpha_fk35xklksl_sfklsomega_chjarl_qwinukkus.proproxies.top",
-      "port": "443",
-      "secret": "ee66c007a679e4bac563190b5525d9a528616c7068615f666b3335786b6c6b736c5f73666b6c736f6d6567615f63686a61726c5f7177696e756b6b75732e70726f70726f786965732e746f70"
-    },
-    {
-      "server": "proxy23.chunkycorp.shop",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    }
-  ]
+  "updated": "2026-07-02T08:28:45Z",
+  "count": 0,
+  "proxies": []
 }
