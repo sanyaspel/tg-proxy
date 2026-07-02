@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-02T11:06:02Z",
-  "count": 5,
+  "updated": "2026-07-02T13:13:42Z",
+  "count": 7,
   "proxies": [
     {
       "server": "help2.chunkycorp.shop",
@@ -13,9 +13,14 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "turbo.tg-proxy.fun",
-      "port": "9443",
-      "secret": "a545c35eb2bdfa1a93df5ebe69957120"
+      "server": "proxy25.chunkycorp.shop",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "proxy26.chunkycorp.shop",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
       "server": "stars.tg-proxy.fun",
@@ -26,6 +31,11 @@
       "server": "cdncloud.mowork.ru",
       "port": "443",
       "secret": "eececef6563bce080cccda8dcc61cedbf6617669746f2e7275"
+    },
+    {
+      "server": "turbo.tg-proxy.fun",
+      "port": "9443",
+      "secret": "a545c35eb2bdfa1a93df5ebe69957120"
     }
   ]
 }
