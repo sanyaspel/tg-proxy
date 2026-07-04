@@ -1,16 +1,11 @@
 {
-  "updated": "2026-07-04T20:02:55Z",
-  "count": 5,
+  "updated": "2026-07-04T21:24:58Z",
+  "count": 4,
   "proxies": [
     {
-      "server": "proxy31.chunkycorp.shop",
+      "server": "path.nolags.pw",
       "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e72"
-    },
-    {
-      "server": "proxy32.chunkycorp.shop",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e72"
+      "secret": "dd7f1ae1d85e061ebd20bd97a022322053"
     },
     {
       "server": "help5.chunkycorp.shop",
@@ -18,14 +13,14 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "path.nolags.pw",
+      "server": "proxy32.chunkycorp.shop",
       "port": "443",
-      "secret": "dd7f1ae1d85e061ebd20bd97a022322053"
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e72"
     },
     {
-      "server": "swag.caxero.ru",
+      "server": "proxy31.chunkycorp.shop",
       "port": "443",
-      "secret": "8f3c7a1d4b92e6c51a7d0fb843c2e91f"
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e72"
     }
   ]
 }
