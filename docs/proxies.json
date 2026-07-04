@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-04T12:55:08Z",
-  "count": 4,
+  "updated": "2026-07-04T14:22:04Z",
+  "count": 5,
   "proxies": [
     {
       "server": "136.113.246.143",
@@ -16,6 +16,11 @@
       "server": "help5.chunkycorp.shop",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "cdn.mowork.ru",
+      "port": "443",
+      "secret": "eececef6563bce080cccda8dcc61cedbf6617669746f2e7275"
     },
     {
       "server": "swag.caxero.ru",
