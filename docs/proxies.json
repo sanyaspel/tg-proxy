@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-05T01:13:23Z",
+  "updated": "2026-07-05T05:15:27Z",
   "count": 3,
   "proxies": [
     {
@@ -8,12 +8,12 @@
       "secret": "dd7f1ae1d85e061ebd20bd97a022322053"
     },
     {
-      "server": "proxy31.chunkycorp.shop",
+      "server": "proxy32.chunkycorp.shop",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e72"
     },
     {
-      "server": "proxy32.chunkycorp.shop",
+      "server": "proxy31.chunkycorp.shop",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e72"
     }
