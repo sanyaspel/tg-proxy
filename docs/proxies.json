@@ -1,31 +1,11 @@
 {
-  "updated": "2026-07-05T20:09:07Z",
-  "count": 8,
+  "updated": "2026-07-05T21:31:03Z",
+  "count": 7,
   "proxies": [
     {
       "server": "34.7.50.106",
       "port": "443",
       "secret": "dd39a22112c392f0cbfb056066b429addd"
-    },
-    {
-      "server": "power.nolags.pw",
-      "port": "443",
-      "secret": "ddc44116b4d7fbd81392e8978089eec7f4"
-    },
-    {
-      "server": "mtp.nowabst.net",
-      "port": "853",
-      "secret": "7oLOH4SvQDPMfnsCEGm-PVthZHMueDUucnU"
-    },
-    {
-      "server": "petrichor.slarkfat.icu",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "skein.chunkycorp.shop",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
       "server": "sisu.proxytales.life",
@@ -36,6 +16,21 @@
       "server": "syzygy.sosun4ik.top",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "petrichor.slarkfat.icu",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "power.nolags.pw",
+      "port": "443",
+      "secret": "ddc44116b4d7fbd81392e8978089eec7f4"
+    },
+    {
+      "server": "mtp.nowabst.net",
+      "port": "853",
+      "secret": "7oLOH4SvQDPMfnsCEGm-PVthZHMueDUucnU"
     },
     {
       "server": "swag.caxero.ru",
