@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-05T12:07:46Z",
-  "count": 3,
+  "updated": "2026-07-05T14:13:38Z",
+  "count": 5,
   "proxies": [
     {
       "server": "skein.chunkycorp.shop",
@@ -8,7 +8,17 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
+      "server": "petrichor.slarkfat.icu",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
       "server": "aerie.sosun4ik.top",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "sisu.proxytales.life",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
