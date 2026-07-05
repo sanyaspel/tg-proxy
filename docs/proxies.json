@@ -1,11 +1,16 @@
 {
-  "updated": "2026-07-05T14:13:38Z",
-  "count": 5,
+  "updated": "2026-07-05T15:42:04Z",
+  "count": 7,
   "proxies": [
     {
-      "server": "skein.chunkycorp.shop",
+      "server": "34.7.50.106",
       "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+      "secret": "dd39a22112c392f0cbfb056066b429addd"
+    },
+    {
+      "server": "mtp.nowabst.net",
+      "port": "853",
+      "secret": "7oLOH4SvQDPMfnsCEGm-PVthZHMueDUucnU"
     },
     {
       "server": "petrichor.slarkfat.icu",
@@ -18,12 +23,17 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "sisu.proxytales.life",
+      "server": "skein.chunkycorp.shop",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
       "server": "syzygy.sosun4ik.top",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "sisu.proxytales.life",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     }
