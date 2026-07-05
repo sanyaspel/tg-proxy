@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-05T05:15:27Z",
-  "count": 3,
+  "updated": "2026-07-05T08:22:56Z",
+  "count": 2,
   "proxies": [
     {
       "server": "path.nolags.pw",
@@ -8,14 +8,9 @@
       "secret": "dd7f1ae1d85e061ebd20bd97a022322053"
     },
     {
-      "server": "proxy32.chunkycorp.shop",
+      "server": "87.120.108.165",
       "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e72"
-    },
-    {
-      "server": "proxy31.chunkycorp.shop",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e72"
+      "secret": "cbea07affc92833d14e5df783496a82a"
     }
   ]
 }
