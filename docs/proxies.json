@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-06T01:56:26Z",
-  "count": 7,
+  "updated": "2026-07-06T06:20:00Z",
+  "count": 5,
   "proxies": [
     {
       "server": "34.7.50.106",
@@ -8,27 +8,17 @@
       "secret": "dd39a22112c392f0cbfb056066b429addd"
     },
     {
-      "server": "power.nolags.pw",
-      "port": "443",
-      "secret": "ddc44116b4d7fbd81392e8978089eec7f4"
-    },
-    {
       "server": "mtp.nowabst.net",
       "port": "853",
       "secret": "7oLOH4SvQDPMfnsCEGm-PVthZHMueDUucnU"
     },
     {
-      "server": "sisu.proxytales.life",
+      "server": "power.nolags.pw",
       "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+      "secret": "ddc44116b4d7fbd81392e8978089eec7f4"
     },
     {
       "server": "petrichor.slarkfat.icu",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "syzygy.sosun4ik.top",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
