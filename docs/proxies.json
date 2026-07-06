@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-05T23:53:55Z",
+  "updated": "2026-07-06T01:56:26Z",
   "count": 7,
   "proxies": [
     {
@@ -18,12 +18,12 @@
       "secret": "7oLOH4SvQDPMfnsCEGm-PVthZHMueDUucnU"
     },
     {
-      "server": "petrichor.slarkfat.icu",
+      "server": "sisu.proxytales.life",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "sisu.proxytales.life",
+      "server": "petrichor.slarkfat.icu",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
