@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-06T11:09:51Z",
-  "count": 4,
+  "updated": "2026-07-06T14:40:17Z",
+  "count": 7,
   "proxies": [
     {
       "server": "34.90.139.157",
@@ -8,9 +8,9 @@
       "secret": "ddf8f2a79d23f2a370e609a9c7cbadcb1a"
     },
     {
-      "server": "power.nolags.pw",
+      "server": "eerie.proxytales.life",
       "port": "443",
-      "secret": "ddc44116b4d7fbd81392e8978089eec7f4"
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
       "server": "swag.caxero.ru",
@@ -18,7 +18,22 @@
       "secret": "8f3c7a1d4b92e6c51a7d0fb843c2e91f"
     },
     {
+      "server": "sisu.proxytales.life",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "phloe.slarkfat.icu",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
       "server": "aerie.sosun4ik.top",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "petrichor.slarkfat.icu",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     }
