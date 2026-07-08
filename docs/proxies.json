@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-08T07:21:44Z",
-  "count": 5,
+  "updated": "2026-07-08T09:42:47Z",
+  "count": 4,
   "proxies": [
     {
       "server": "65.109.247.192",
@@ -11,11 +11,6 @@
       "server": "51.250.86.244",
       "port": "443",
       "secret": "eeaa8f2cfd941607525db63d42dcc1971d617669746f2e7275"
-    },
-    {
-      "server": "syzygy.sosun4ik.top",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
       "server": "thebestone.nolags.pw",
