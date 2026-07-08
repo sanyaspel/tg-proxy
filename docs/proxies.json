@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-08T15:38:58Z",
-  "count": 8,
+  "updated": "2026-07-08T17:16:18Z",
+  "count": 5,
   "proxies": [
     {
       "server": "34.147.98.247",
@@ -13,16 +13,6 @@
       "secret": "dd104462821249bd7ac519130220c25d09"
     },
     {
-      "server": "51.250.86.244",
-      "port": "443",
-      "secret": "eeaa8f2cfd941607525db63d42dcc1971d617669746f2e7275"
-    },
-    {
-      "server": "swag.caxero.ru",
-      "port": "443",
-      "secret": "8f3c7a1d4b92e6c51a7d0fb843c2e91f"
-    },
-    {
       "server": "syzygy.sosun4ik.top",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
@@ -33,14 +23,9 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "mtp1.hlebushek.com",
+      "server": "swag.caxero.ru",
       "port": "443",
-      "secret": "eea61deab187a415531ac418cd29ae58ee706574726f766963682e7275"
-    },
-    {
-      "server": "mtp2.hlebushek.com",
-      "port": "443",
-      "secret": "ee8263f1fdfbfa0629c67c40d208806873706574726f766963682e7275"
+      "secret": "8f3c7a1d4b92e6c51a7d0fb843c2e91f"
     }
   ]
 }
