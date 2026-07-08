@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-08T17:16:18Z",
-  "count": 5,
+  "updated": "2026-07-08T18:51:48Z",
+  "count": 6,
   "proxies": [
     {
       "server": "34.147.98.247",
@@ -8,17 +8,22 @@
       "secret": "dd2d3b774c4cba953aa4f269b4c1a2e854"
     },
     {
+      "server": "wall.nolags.pw",
+      "port": "443",
+      "secret": "ddfa449aeffc48607e4a0b58ec0c0a3058"
+    },
+    {
       "server": "65.109.247.192",
       "port": "4455",
       "secret": "dd104462821249bd7ac519130220c25d09"
     },
     {
-      "server": "syzygy.sosun4ik.top",
+      "server": "aerie.sosun4ik.top",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "aerie.sosun4ik.top",
+      "server": "syzygy.sosun4ik.top",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
