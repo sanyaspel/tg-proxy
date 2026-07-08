@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-08T20:15:02Z",
+  "updated": "2026-07-08T21:36:01Z",
   "count": 5,
   "proxies": [
     {
@@ -18,14 +18,14 @@
       "secret": "dd104462821249bd7ac519130220c25d09"
     },
     {
-      "server": "swag.caxero.ru",
-      "port": "443",
-      "secret": "8f3c7a1d4b92e6c51a7d0fb843c2e91f"
-    },
-    {
       "server": "aerie.sosun4ik.top",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "swag.caxero.ru",
+      "port": "443",
+      "secret": "8f3c7a1d4b92e6c51a7d0fb843c2e91f"
     }
   ]
 }
