@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-08T01:23:10Z",
-  "count": 5,
+  "updated": "2026-07-08T04:38:53Z",
+  "count": 6,
   "proxies": [
     {
       "server": "34.6.122.236",
@@ -8,14 +8,19 @@
       "secret": "dd5ce750c0f6787b81051bc5da67626b0d"
     },
     {
+      "server": "65.109.247.192",
+      "port": "4455",
+      "secret": "dd104462821249bd7ac519130220c25d09"
+    },
+    {
       "server": "thebestone.nolags.pw",
       "port": "443",
       "secret": "dd500852dff560b32a1580986b7f43cd28"
     },
     {
-      "server": "65.109.247.192",
-      "port": "4455",
-      "secret": "dd104462821249bd7ac519130220c25d09"
+      "server": "syzygy.sosun4ik.top",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
       "server": "aerie.sosun4ik.top",
@@ -23,7 +28,7 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "syzygy.sosun4ik.top",
+      "server": "proxy2.chunkycorp.shop",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     }
