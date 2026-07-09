@@ -1,11 +1,21 @@
 {
-  "updated": "2026-07-09T06:37:19Z",
-  "count": 4,
+  "updated": "2026-07-09T10:16:39Z",
+  "count": 6,
   "proxies": [
     {
       "server": "wall.nolags.pw",
       "port": "443",
       "secret": "ddfa449aeffc48607e4a0b58ec0c0a3058"
+    },
+    {
+      "server": "eerie.proxytales.life",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "syzygy.sosun4ik.top",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
       "server": "skein.chunkycorp.shop",
