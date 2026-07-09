@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-09T15:50:02Z",
-  "count": 7,
+  "updated": "2026-07-09T17:44:57Z",
+  "count": 5,
   "proxies": [
     {
       "server": "34.7.163.1",
@@ -8,22 +8,12 @@
       "secret": "dd3c078ce4588bbc51df618c597a43347e"
     },
     {
-      "server": "skein.chunkycorp.shop",
+      "server": "flare.nolags.pw",
       "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+      "secret": "dd01897df1ee84703efbe1cc1004118fae"
     },
     {
       "server": "petrichor.slarkfat.icu",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "sisu.proxytales.life",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "eerie.proxytales.life",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
@@ -33,9 +23,9 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "swag.caxero.ru",
+      "server": "sisu.proxytales.life",
       "port": "443",
-      "secret": "8f3c7a1d4b92e6c51a7d0fb843c2e91f"
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     }
   ]
 }
