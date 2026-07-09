@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-09T20:59:02Z",
+  "updated": "2026-07-09T22:26:05Z",
   "count": 5,
   "proxies": [
     {
@@ -8,22 +8,22 @@
       "secret": "dd3c078ce4588bbc51df618c597a43347e"
     },
     {
-      "server": "flare.nolags.pw",
-      "port": "443",
-      "secret": "dd01897df1ee84703efbe1cc1004118fae"
-    },
-    {
       "server": "65.109.247.192",
       "port": "4455",
       "secret": "dd104462821249bd7ac519130220c25d09"
     },
     {
-      "server": "sisu.proxytales.life",
+      "server": "flare.nolags.pw",
+      "port": "443",
+      "secret": "dd01897df1ee84703efbe1cc1004118fae"
+    },
+    {
+      "server": "petrichor.slarkfat.icu",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "petrichor.slarkfat.icu",
+      "server": "sisu.proxytales.life",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     }
