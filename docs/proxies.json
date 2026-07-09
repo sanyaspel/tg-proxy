@@ -1,11 +1,26 @@
 {
-  "updated": "2026-07-09T10:16:39Z",
-  "count": 6,
+  "updated": "2026-07-09T15:50:02Z",
+  "count": 7,
   "proxies": [
     {
-      "server": "wall.nolags.pw",
+      "server": "34.7.163.1",
       "port": "443",
-      "secret": "ddfa449aeffc48607e4a0b58ec0c0a3058"
+      "secret": "dd3c078ce4588bbc51df618c597a43347e"
+    },
+    {
+      "server": "skein.chunkycorp.shop",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "petrichor.slarkfat.icu",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "sisu.proxytales.life",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
       "server": "eerie.proxytales.life",
@@ -14,16 +29,6 @@
     },
     {
       "server": "syzygy.sosun4ik.top",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "skein.chunkycorp.shop",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "aerie.sosun4ik.top",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
