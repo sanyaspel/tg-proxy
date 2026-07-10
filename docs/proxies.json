@@ -1,12 +1,7 @@
 {
-  "updated": "2026-07-10T01:29:14Z",
-  "count": 5,
+  "updated": "2026-07-10T05:33:59Z",
+  "count": 6,
   "proxies": [
-    {
-      "server": "34.7.163.1",
-      "port": "443",
-      "secret": "dd3c078ce4588bbc51df618c597a43347e"
-    },
     {
       "server": "65.109.247.192",
       "port": "4455",
@@ -23,9 +18,19 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
+      "server": "aerie.sosun4ik.top",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
       "server": "sisu.proxytales.life",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "around.caxero.ru",
+      "port": "443",
+      "secret": "8f3c7a1d4b92e6c51a7d0fb843c2e91f"
     }
   ]
 }
