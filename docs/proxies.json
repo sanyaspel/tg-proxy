@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-10T13:51:57Z",
-  "count": 14,
+  "updated": "2026-07-10T16:12:03Z",
+  "count": 13,
   "proxies": [
     {
       "server": "65.109.247.192",
@@ -8,14 +8,19 @@
       "secret": "dd104462821249bd7ac519130220c25d09"
     },
     {
+      "server": "phloe.slarkfat.icu",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
       "server": "skein.chunkycorp.shop",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "slime.waycdn.ru",
+      "server": "petrichor.slarkfat.icu",
       "port": "443",
-      "secret": "8f3c7a1d4b92e6c51a7d0fb843c2e91f"
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
       "server": "syzygy.sosun4ik.top",
@@ -33,22 +38,12 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "clitor.waycdn.ru",
+      "server": "coffee.chunkystars.ru",
       "port": "443",
       "secret": "8f3c7a1d4b92e6c51a7d0fb843c2e91f"
     },
     {
-      "server": "around.caxero.ru",
-      "port": "443",
-      "secret": "8f3c7a1d4b92e6c51a7d0fb843c2e91f"
-    },
-    {
-      "server": "phloe.slarkfat.icu",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "aerie.sosun4ik.top",
+      "server": "sisu.proxytales.life",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
@@ -58,12 +53,12 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "sisu.proxytales.life",
+      "server": "clitor.waycdn.ru",
       "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+      "secret": "8f3c7a1d4b92e6c51a7d0fb843c2e91f"
     },
     {
-      "server": "coffee.chunkystars.ru",
+      "server": "slime.waycdn.ru",
       "port": "443",
       "secret": "8f3c7a1d4b92e6c51a7d0fb843c2e91f"
     },
