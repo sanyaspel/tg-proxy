@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-10T05:33:59Z",
-  "count": 6,
+  "updated": "2026-07-10T08:57:10Z",
+  "count": 9,
   "proxies": [
     {
       "server": "65.109.247.192",
@@ -13,7 +13,22 @@
       "secret": "dd01897df1ee84703efbe1cc1004118fae"
     },
     {
-      "server": "petrichor.slarkfat.icu",
+      "server": "around.caxero.ru",
+      "port": "443",
+      "secret": "8f3c7a1d4b92e6c51a7d0fb843c2e91f"
+    },
+    {
+      "server": "crow.anime-fox.ru",
+      "port": "443",
+      "secret": "8f3c7a1d4b92e6c51a7d0fb843c2e91f"
+    },
+    {
+      "server": "coffee.chunkystars.ru",
+      "port": "443",
+      "secret": "8f3c7a1d4b92e6c51a7d0fb843c2e91f"
+    },
+    {
+      "server": "skein.chunkycorp.shop",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
@@ -23,14 +38,14 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "sisu.proxytales.life",
+      "server": "syzygy.sosun4ik.top",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "around.caxero.ru",
+      "server": "sisu.proxytales.life",
       "port": "443",
-      "secret": "8f3c7a1d4b92e6c51a7d0fb843c2e91f"
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     }
   ]
 }
