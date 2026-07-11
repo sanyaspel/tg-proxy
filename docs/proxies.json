@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-11T22:35:07Z",
+  "updated": "2026-07-11T23:40:54Z",
   "count": 8,
   "proxies": [
     {
@@ -8,12 +8,12 @@
       "secret": "ddc117dc71b6488790c46e6b0e64f8f3ac"
     },
     {
-      "server": "wisp.slarkfat.icu",
+      "server": "tarn.proxytales.life",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "tarn.proxytales.life",
+      "server": "wisp.slarkfat.icu",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
@@ -23,12 +23,12 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "idyll.shmelproxy.top",
+      "server": "adieu.shmelproxy.top",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "adieu.shmelproxy.top",
+      "server": "idyll.shmelproxy.top",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
