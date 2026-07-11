@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-11T03:49:00Z",
-  "count": 5,
+  "updated": "2026-07-11T06:05:18Z",
+  "count": 6,
   "proxies": [
     {
       "server": "65.109.247.192",
@@ -8,22 +8,27 @@
       "secret": "dd104462821249bd7ac519130220c25d09"
     },
     {
-      "server": "idyll.shmelproxy.top",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "adieu.shmelproxy.top",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
       "server": "petrichor.slarkfat.icu",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "clitor.waycdn.ru",
+      "server": "idyll.shmelproxy.top",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "skein.chunkycorp.shop",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "aerie.sosun4ik.top",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "edge1.waycdn.ru",
       "port": "443",
       "secret": "8f3c7a1d4b92e6c51a7d0fb843c2e91f"
     }
