@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-11T20:36:23Z",
+  "updated": "2026-07-11T21:37:50Z",
   "count": 8,
   "proxies": [
     {
@@ -8,12 +8,17 @@
       "secret": "ddc117dc71b6488790c46e6b0e64f8f3ac"
     },
     {
-      "server": "zilch.chunkycorp.shop",
+      "server": "edge3.waycdn.ru",
+      "port": "443",
+      "secret": "8f3c7a1d4b92e6c51a7d0fb843c2e91f"
+    },
+    {
+      "server": "gloam.shmelproxy.top",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "wisp.slarkfat.icu",
+      "server": "zilch.chunkycorp.shop",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
@@ -23,12 +28,12 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "adieu.shmelproxy.top",
+      "server": "wisp.slarkfat.icu",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "gloam.shmelproxy.top",
+      "server": "adieu.shmelproxy.top",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
@@ -36,11 +41,6 @@
       "server": "tarn.proxytales.life",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "edge3.waycdn.ru",
-      "port": "443",
-      "secret": "8f3c7a1d4b92e6c51a7d0fb843c2e91f"
     }
   ]
 }
