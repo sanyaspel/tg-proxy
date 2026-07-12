@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-12T07:23:22Z",
-  "count": 9,
+  "updated": "2026-07-12T09:23:02Z",
+  "count": 8,
   "proxies": [
     {
       "server": "34.155.199.49",
@@ -8,14 +8,19 @@
       "secret": "ddc117dc71b6488790c46e6b0e64f8f3ac"
     },
     {
+      "server": "edge2.guardora.pro",
+      "port": "443",
+      "secret": "8f3c7a1d4b92e6c51a7d0fb843c2e91f"
+    },
+    {
       "server": "edge1.guardora.pro",
       "port": "443",
       "secret": "8f3c7a1d4b92e6c51a7d0fb843c2e91f"
     },
     {
-      "server": "tarn.proxytales.life",
+      "server": "paid1.arixo.shop",
       "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+      "secret": "eec54c7a89cf194572ed8d7c8ba8867dc770616964312e617269786f2e73686f70"
     },
     {
       "server": "aerie.sosun4ik.top",
@@ -33,19 +38,9 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "idyll.shmelproxy.top",
+      "server": "tarn.proxytales.life",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "wisp.slarkfat.icu",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "edge2.guardora.pro",
-      "port": "443",
-      "secret": "8f3c7a1d4b92e6c51a7d0fb843c2e91f"
     }
   ]
 }
