@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-12T10:49:22Z",
-  "count": 9,
+  "updated": "2026-07-12T11:49:23Z",
+  "count": 11,
   "proxies": [
     {
       "server": "65.109.247.192",
@@ -8,12 +8,17 @@
       "secret": "dd104462821249bd7ac519130220c25d09"
     },
     {
-      "server": "proxy13.chunkycorp.shop",
+      "server": "tarn.proxytales.life",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "aerie.sosun4ik.top",
+      "server": "edge1.guardora.pro",
+      "port": "443",
+      "secret": "8f3c7a1d4b92e6c51a7d0fb843c2e91f"
+    },
+    {
+      "server": "proxy13.chunkycorp.shop",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
@@ -28,24 +33,29 @@
       "secret": "eec54c7a89cf194572ed8d7c8ba8867dc770616964312e617269786f2e73686f70"
     },
     {
-      "server": "gloam.shmelproxy.top",
+      "server": "aerie.sosun4ik.top",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "tarn.proxytales.life",
+      "server": "phloe.slarkfat.icu",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "edge1.guardora.pro",
-      "port": "443",
-      "secret": "8f3c7a1d4b92e6c51a7d0fb843c2e91f"
     },
     {
       "server": "edge2.guardora.pro",
       "port": "443",
       "secret": "8f3c7a1d4b92e6c51a7d0fb843c2e91f"
+    },
+    {
+      "server": "edge4.guardora.pro",
+      "port": "443",
+      "secret": "8f3c7a1d4b92e6c51a7d0fb843c2e91f"
+    },
+    {
+      "server": "gloam.shmelproxy.top",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     }
   ]
 }
