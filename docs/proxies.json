@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-12T04:45:08Z",
-  "count": 10,
+  "updated": "2026-07-12T07:23:22Z",
+  "count": 9,
   "proxies": [
     {
       "server": "34.155.199.49",
@@ -8,7 +8,7 @@
       "secret": "ddc117dc71b6488790c46e6b0e64f8f3ac"
     },
     {
-      "server": "edge3.waycdn.ru",
+      "server": "edge1.guardora.pro",
       "port": "443",
       "secret": "8f3c7a1d4b92e6c51a7d0fb843c2e91f"
     },
@@ -18,17 +18,7 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "adieu.shmelproxy.top",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "zilch.chunkycorp.shop",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "idyll.shmelproxy.top",
+      "server": "aerie.sosun4ik.top",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
@@ -43,14 +33,19 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "edge2.guardora.pro",
+      "server": "idyll.shmelproxy.top",
       "port": "443",
-      "secret": "8f3c7a1d4b92e6c51a7d0fb843c2e91f"
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
       "server": "wisp.slarkfat.icu",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "edge2.guardora.pro",
+      "port": "443",
+      "secret": "8f3c7a1d4b92e6c51a7d0fb843c2e91f"
     }
   ]
 }
