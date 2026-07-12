@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-12T22:35:27Z",
-  "count": 18,
+  "updated": "2026-07-12T23:40:45Z",
+  "count": 17,
   "proxies": [
     {
       "server": "35.204.159.194",
@@ -8,14 +8,19 @@
       "secret": "dd9cea7850eb43fd1838c435737914ec29"
     },
     {
+      "server": "edge3.guardora.pro",
+      "port": "443",
+      "secret": "8f3c7a1d4b92e6c51a7d0fb843c2e91f"
+    },
+    {
       "server": "edge4.guardora.pro",
       "port": "443",
       "secret": "8f3c7a1d4b92e6c51a7d0fb843c2e91f"
     },
     {
-      "server": "phloe.slarkfat.icu",
+      "server": "edge2.guardora.pro",
       "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+      "secret": "8f3c7a1d4b92e6c51a7d0fb843c2e91f"
     },
     {
       "server": "idyll.shmelproxy.top",
@@ -23,12 +28,7 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "zilch.chunkycorp.shop",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "wisp.slarkfat.icu",
+      "server": "phloe.slarkfat.icu",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
@@ -38,14 +38,19 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "edge2.guardora.pro",
+      "server": "wisp.slarkfat.icu",
       "port": "443",
-      "secret": "8f3c7a1d4b92e6c51a7d0fb843c2e91f"
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "edge3.guardora.pro",
+      "server": "mirror.balalaika.click",
       "port": "443",
-      "secret": "8f3c7a1d4b92e6c51a7d0fb843c2e91f"
+      "secret": "ee204fd0f2f4584c289c6aa284e46ed6406d6972726f722e62616c616c61696b612e636c69636b"
+    },
+    {
+      "server": "api.gorbushkin.click",
+      "port": "443",
+      "secret": "ee7f4cdb81adf40f18239ce6ce52e53ce36170692e676f72627573686b696e2e636c69636b"
     },
     {
       "server": "login.veltura.digital",
@@ -58,9 +63,9 @@
       "secret": "eef46f4b5eb70e4b9481d9e5b91f1386e6676174652e76656c747572612e6469676974616c"
     },
     {
-      "server": "api.gorbushkin.click",
+      "server": "secure.gorbushkin.click",
       "port": "443",
-      "secret": "ee7f4cdb81adf40f18239ce6ce52e53ce36170692e676f72627573686b696e2e636c69636b"
+      "secret": "ee02b0fe7d8336b262ae74889c88fc4f1c7365637572652e676f72627573686b696e2e636c69636b"
     },
     {
       "server": "connect.savelyev.click",
@@ -73,24 +78,14 @@
       "secret": "eefcacf4447d2bd244c9c0a8c8b0f4f1a563646e2e736176656c7965762e636c69636b"
     },
     {
-      "server": "net.antitspu.com",
-      "port": "443",
-      "secret": "ee7430e87bc3324e17e44d00c033f428946e65742e616e7469747370752e636f6d"
-    },
-    {
-      "server": "secure.gorbushkin.click",
-      "port": "443",
-      "secret": "ee02b0fe7d8336b262ae74889c88fc4f1c7365637572652e676f72627573686b696e2e636c69636b"
-    },
-    {
       "server": "go.antitspu.com",
       "port": "443",
       "secret": "eedec8518ddb0fd2fb190d6e8ede49e581676f2e616e7469747370752e636f6d"
     },
     {
-      "server": "mirror.balalaika.click",
+      "server": "net.antitspu.com",
       "port": "443",
-      "secret": "ee204fd0f2f4584c289c6aa284e46ed6406d6972726f722e62616c616c61696b612e636c69636b"
+      "secret": "ee7430e87bc3324e17e44d00c033f428946e65742e616e7469747370752e636f6d"
     }
   ]
 }
