@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-12T12:50:03Z",
-  "count": 8,
+  "updated": "2026-07-12T14:21:14Z",
+  "count": 11,
   "proxies": [
     {
       "server": "65.109.247.192",
@@ -8,27 +8,12 @@
       "secret": "dd104462821249bd7ac519130220c25d09"
     },
     {
-      "server": "proxy13.chunkycorp.shop",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
       "server": "edge2.guardora.pro",
       "port": "443",
       "secret": "8f3c7a1d4b92e6c51a7d0fb843c2e91f"
     },
     {
-      "server": "paid1.arixo.shop",
-      "port": "443",
-      "secret": "eec54c7a89cf194572ed8d7c8ba8867dc770616964312e617269786f2e73686f70"
-    },
-    {
-      "server": "aerie.sosun4ik.top",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "petrichor.slarkfat.icu",
+      "server": "proxy13.chunkycorp.shop",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
@@ -38,9 +23,39 @@
       "secret": "8f3c7a1d4b92e6c51a7d0fb843c2e91f"
     },
     {
+      "server": "paid1.arixo.shop",
+      "port": "443",
+      "secret": "eec54c7a89cf194572ed8d7c8ba8867dc770616964312e617269786f2e73686f70"
+    },
+    {
+      "server": "adieu.shmelproxy.top",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
       "server": "edge1.guardora.pro",
       "port": "443",
       "secret": "8f3c7a1d4b92e6c51a7d0fb843c2e91f"
+    },
+    {
+      "server": "aerie.sosun4ik.top",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "edge3.guardora.pro",
+      "port": "443",
+      "secret": "8f3c7a1d4b92e6c51a7d0fb843c2e91f"
+    },
+    {
+      "server": "petrichor.slarkfat.icu",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "phloe.slarkfat.icu",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     }
   ]
 }
