@@ -1,36 +1,11 @@
 {
-  "updated": "2026-07-14T16:59:38Z",
-  "count": 15,
+  "updated": "2026-07-14T18:02:52Z",
+  "count": 16,
   "proxies": [
     {
       "server": "34.155.208.53",
       "port": "443",
       "secret": "dd2e1690137bb26b69718db2b71bb5ae8a"
-    },
-    {
-      "server": "sisu.proxytales.life",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "wisp.slarkfat.icu",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "idyll.shmelproxy.top",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "phloe.slarkfat.icu",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "adieu.shmelproxy.top",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
       "server": "edge4.guardora.pro",
@@ -48,22 +23,17 @@
       "secret": "8f3c7a1d4b92e6c51a7d0fb843c2e91f"
     },
     {
-      "server": "app.librava.click",
-      "port": "443",
-      "secret": "ee2dc3787049f48776ee28090e513c22526170702e6c6962726176612e636c69636b"
-    },
-    {
-      "server": "edge.librava.click",
-      "port": "443",
-      "secret": "eeba0c58ad3c74e7486821f7c0e26f9ef7656467652e6c6962726176612e636c69636b"
-    },
-    {
-      "server": "portal.balalaika.click",
-      "port": "443",
-      "secret": "ee26af9299b78ab104b500cc4360d93a91706f7274616c2e62616c616c61696b612e636c69636b"
-    },
-    {
       "server": "zilch.chunkycorp.shop",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "phloe.slarkfat.icu",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "idyll.shmelproxy.top",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
@@ -73,9 +43,44 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "petrichor.slarkfat.icu",
+      "server": "adieu.shmelproxy.top",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "wisp.slarkfat.icu",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "node.mishkalapy.life",
+      "port": "443",
+      "secret": "ee04949e5deca5d7c98d4bdc309bdb4f406e6f64652e6d6973686b616c6170792e6c696665"
+    },
+    {
+      "server": "cloud.neoqua.pro",
+      "port": "443",
+      "secret": "ee4c40bfc1c32022e21d85e597be8652f7636c6f75642e6e656f7175612e70726f"
+    },
+    {
+      "server": "portal.balalaika.click",
+      "port": "443",
+      "secret": "ee26af9299b78ab104b500cc4360d93a91706f7274616c2e62616c616c61696b612e636c69636b"
+    },
+    {
+      "server": "app.librava.click",
+      "port": "443",
+      "secret": "ee2dc3787049f48776ee28090e513c22526170702e6c6962726176612e636c69636b"
+    },
+    {
+      "server": "link.mishkalapy.life",
+      "port": "443",
+      "secret": "eebf409b0c0013edc77b19fd55f79a22fc6c696e6b2e6d6973686b616c6170792e6c696665"
+    },
+    {
+      "server": "edge.librava.click",
+      "port": "443",
+      "secret": "eeba0c58ad3c74e7486821f7c0e26f9ef7656467652e6c6962726176612e636c69636b"
     }
   ]
 }
