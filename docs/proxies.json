@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14T21:44:34Z",
+  "updated": "2026-07-14T22:43:55Z",
   "count": 17,
   "proxies": [
     {
@@ -13,12 +13,12 @@
       "secret": "8f3c7a1d4b92e6c51a7d0fb843c2e91f"
     },
     {
-      "server": "wisp.slarkfat.icu",
+      "server": "zilch.chunkycorp.shop",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "tarn.proxytales.life",
+      "server": "wisp.slarkfat.icu",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
@@ -28,7 +28,7 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "zilch.chunkycorp.shop",
+      "server": "adieu.shmelproxy.top",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
@@ -38,29 +38,9 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "adieu.shmelproxy.top",
+      "server": "tarn.proxytales.life",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "net.antitspu.com",
-      "port": "443",
-      "secret": "ee7430e87bc3324e17e44d00c033f428946e65742e616e7469747370752e636f6d"
-    },
-    {
-      "server": "cloud.neoqua.pro",
-      "port": "443",
-      "secret": "ee4c40bfc1c32022e21d85e597be8652f7636c6f75642e6e656f7175612e70726f"
-    },
-    {
-      "server": "node.mishkalapy.life",
-      "port": "443",
-      "secret": "ee04949e5deca5d7c98d4bdc309bdb4f406e6f64652e6d6973686b616c6170792e6c696665"
-    },
-    {
-      "server": "edge.librava.click",
-      "port": "443",
-      "secret": "eeba0c58ad3c74e7486821f7c0e26f9ef7656467652e6c6962726176612e636c69636b"
     },
     {
       "server": "link.mishkalapy.life",
@@ -68,9 +48,19 @@
       "secret": "eebf409b0c0013edc77b19fd55f79a22fc6c696e6b2e6d6973686b616c6170792e6c696665"
     },
     {
-      "server": "mirror.balalaika.click",
+      "server": "edge.librava.click",
       "port": "443",
-      "secret": "ee204fd0f2f4584c289c6aa284e46ed6406d6972726f722e62616c616c61696b612e636c69636b"
+      "secret": "eeba0c58ad3c74e7486821f7c0e26f9ef7656467652e6c6962726176612e636c69636b"
+    },
+    {
+      "server": "go.antitspu.com",
+      "port": "443",
+      "secret": "eedec8518ddb0fd2fb190d6e8ede49e581676f2e616e7469747370752e636f6d"
+    },
+    {
+      "server": "cloud.neoqua.pro",
+      "port": "443",
+      "secret": "ee4c40bfc1c32022e21d85e597be8652f7636c6f75642e6e656f7175612e70726f"
     },
     {
       "server": "app.librava.click",
@@ -83,9 +73,19 @@
       "secret": "ee26af9299b78ab104b500cc4360d93a91706f7274616c2e62616c616c61696b612e636c69636b"
     },
     {
-      "server": "go.antitspu.com",
+      "server": "mirror.balalaika.click",
       "port": "443",
-      "secret": "eedec8518ddb0fd2fb190d6e8ede49e581676f2e616e7469747370752e636f6d"
+      "secret": "ee204fd0f2f4584c289c6aa284e46ed6406d6972726f722e62616c616c61696b612e636c69636b"
+    },
+    {
+      "server": "node.mishkalapy.life",
+      "port": "443",
+      "secret": "ee04949e5deca5d7c98d4bdc309bdb4f406e6f64652e6d6973686b616c6170792e6c696665"
+    },
+    {
+      "server": "net.antitspu.com",
+      "port": "443",
+      "secret": "ee7430e87bc3324e17e44d00c033f428946e65742e616e7469747370752e636f6d"
     }
   ]
 }
