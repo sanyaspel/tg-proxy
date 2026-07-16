@@ -1,24 +1,19 @@
 {
-  "updated": "2026-07-16T17:00:34Z",
-  "count": 7,
+  "updated": "2026-07-16T18:36:05Z",
+  "count": 8,
   "proxies": [
     {
-      "server": "zilch.chunkycorp.shop",
+      "server": "34.178.220.38",
       "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "syzygy.sosun4ik.top",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "skein.chunkycorp.shop",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+      "secret": "dd706dfa5dc42ec06475bee1b28952ecc1"
     },
     {
       "server": "petrichor.slarkfat.icu",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "sisu.proxytales.life",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
@@ -28,12 +23,22 @@
       "secret": "ee2c46ee89b4f2c79c1d8325d13091e580706574726f766963682e7275"
     },
     {
-      "server": "yrf2.data-edge.fyi",
+      "server": "syzygy.sosun4ik.top",
       "port": "443",
-      "secret": "ee9da390bc7b98ddc0aa2952806a72e5747275747562652e7275"
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "sisu.proxytales.life",
+      "server": "mirror.balalaika.click",
+      "port": "443",
+      "secret": "ee204fd0f2f4584c289c6aa284e46ed6406d6972726f722e62616c616c61696b612e636c69636b"
+    },
+    {
+      "server": "net.antitspu.com",
+      "port": "443",
+      "secret": "ee7430e87bc3324e17e44d00c033f428946e65742e616e7469747370752e636f6d"
+    },
+    {
+      "server": "zilch.chunkycorp.shop",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     }
