@@ -1,24 +1,9 @@
 {
-  "updated": "2026-07-16T06:08:25Z",
-  "count": 10,
+  "updated": "2026-07-16T08:37:40Z",
+  "count": 7,
   "proxies": [
     {
-      "server": "gloam.shmelproxy.top",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
       "server": "tarn.proxytales.life",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "wisp.slarkfat.icu",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "idyll.shmelproxy.top",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
@@ -28,9 +13,9 @@
       "secret": "ee2dc3787049f48776ee28090e513c22526170702e6c6962726176612e636c69636b"
     },
     {
-      "server": "portal.balalaika.click",
+      "server": "go.antitspu.com",
       "port": "443",
-      "secret": "ee26af9299b78ab104b500cc4360d93a91706f7274616c2e62616c616c61696b612e636c69636b"
+      "secret": "eedec8518ddb0fd2fb190d6e8ede49e581676f2e616e7469747370752e636f6d"
     },
     {
       "server": "edge.librava.click",
@@ -38,9 +23,9 @@
       "secret": "eeba0c58ad3c74e7486821f7c0e26f9ef7656467652e6c6962726176612e636c69636b"
     },
     {
-      "server": "go.antitspu.com",
+      "server": "portal.balalaika.click",
       "port": "443",
-      "secret": "eedec8518ddb0fd2fb190d6e8ede49e581676f2e616e7469747370752e636f6d"
+      "secret": "ee26af9299b78ab104b500cc4360d93a91706f7274616c2e62616c616c61696b612e636c69636b"
     },
     {
       "server": "net.antitspu.com",
