@@ -1,9 +1,24 @@
 {
-  "updated": "2026-07-16T14:29:11Z",
+  "updated": "2026-07-16T15:55:20Z",
   "count": 7,
   "proxies": [
     {
-      "server": "sisu.proxytales.life",
+      "server": "skein.chunkycorp.shop",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "zilch.chunkycorp.shop",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "aerie.sosun4ik.top",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "petrichor.slarkfat.icu",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
@@ -13,27 +28,12 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "portal.balalaika.click",
+      "server": "yrf2.data-edge.fyi",
       "port": "443",
-      "secret": "ee26af9299b78ab104b500cc4360d93a91706f7274616c2e62616c616c61696b612e636c69636b"
+      "secret": "ee9da390bc7b98ddc0aa2952806a72e5747275747562652e7275"
     },
     {
-      "server": "edge.librava.click",
-      "port": "443",
-      "secret": "eeba0c58ad3c74e7486821f7c0e26f9ef7656467652e6c6962726176612e636c69636b"
-    },
-    {
-      "server": "app.librava.click",
-      "port": "443",
-      "secret": "ee2dc3787049f48776ee28090e513c22526170702e6c6962726176612e636c69636b"
-    },
-    {
-      "server": "aerie.sosun4ik.top",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "petrichor.slarkfat.icu",
+      "server": "sisu.proxytales.life",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     }
