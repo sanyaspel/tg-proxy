@@ -1,9 +1,19 @@
 {
-  "updated": "2026-07-17T11:00:35Z",
-  "count": 9,
+  "updated": "2026-07-17T12:39:01Z",
+  "count": 7,
   "proxies": [
     {
+      "server": "syzygy.sosun4ik.top",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
       "server": "skein.chunkycorp.shop",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "aerie.sosun4ik.top",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
@@ -11,26 +21,6 @@
       "server": "paired.duckdns.org",
       "port": "443",
       "secret": "ee7765622e796f74612e72755b744f13"
-    },
-    {
-      "server": "go.antitspu.com",
-      "port": "443",
-      "secret": "eedec8518ddb0fd2fb190d6e8ede49e581676f2e616e7469747370752e636f6d"
-    },
-    {
-      "server": "net.antitspu.com",
-      "port": "443",
-      "secret": "ee7430e87bc3324e17e44d00c033f428946e65742e616e7469747370752e636f6d"
-    },
-    {
-      "server": "mirror.balalaika.click",
-      "port": "443",
-      "secret": "ee204fd0f2f4584c289c6aa284e46ed6406d6972726f722e62616c616c61696b612e636c69636b"
-    },
-    {
-      "server": "proxy.lodkirmm.ru",
-      "port": "8443",
-      "secret": "ee16309abd572d284b309ef26bd7a3f685d0b7d0ba70726f78792e6c6f646b69726d6d2e7275"
     },
     {
       "server": "stars.tg-proxy.fun",
@@ -43,9 +33,9 @@
       "secret": "a545c35eb2bdfa1a93df5ebe69957120"
     },
     {
-      "server": "aerie.sosun4ik.top",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+      "server": "proxy.lodkirmm.ru",
+      "port": "8443",
+      "secret": "ee16309abd572d284b309ef26bd7a3f685d0b7d0ba70726f78792e6c6f646b69726d6d2e7275"
     }
   ]
 }
