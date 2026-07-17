@@ -1,19 +1,14 @@
 {
-  "updated": "2026-07-16T23:45:47Z",
-  "count": 10,
+  "updated": "2026-07-17T01:24:52Z",
+  "count": 8,
   "proxies": [
     {
-      "server": "34.178.220.38",
+      "server": "petrichor.slarkfat.icu",
       "port": "443",
-      "secret": "dd706dfa5dc42ec06475bee1b28952ecc1"
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "status.nolags.pw",
-      "port": "443",
-      "secret": "ddff6eb6da66f6218001f0d8cb023cbdd8"
-    },
-    {
-      "server": "sisu.proxytales.life",
+      "server": "syzygy.sosun4ik.top",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
@@ -28,14 +23,14 @@
       "secret": "ee2c46ee89b4f2c79c1d8325d13091e580706574726f766963682e7275"
     },
     {
-      "server": "petrichor.slarkfat.icu",
+      "server": "sisu.proxytales.life",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "syzygy.sosun4ik.top",
+      "server": "go.antitspu.com",
       "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+      "secret": "eedec8518ddb0fd2fb190d6e8ede49e581676f2e616e7469747370752e636f6d"
     },
     {
       "server": "mirror.balalaika.click",
@@ -46,11 +41,6 @@
       "server": "net.antitspu.com",
       "port": "443",
       "secret": "ee7430e87bc3324e17e44d00c033f428946e65742e616e7469747370752e636f6d"
-    },
-    {
-      "server": "go.antitspu.com",
-      "port": "443",
-      "secret": "eedec8518ddb0fd2fb190d6e8ede49e581676f2e616e7469747370752e636f6d"
     }
   ]
 }
