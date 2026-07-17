@@ -1,9 +1,9 @@
 {
-  "updated": "2026-07-17T14:23:01Z",
-  "count": 8,
+  "updated": "2026-07-17T15:51:28Z",
+  "count": 9,
   "proxies": [
     {
-      "server": "sisu.proxytales.life",
+      "server": "skein.chunkycorp.shop",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
@@ -13,24 +13,9 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "paired.duckdns.org",
-      "port": "443",
-      "secret": "ee7765622e796f74612e72755b744f13"
-    },
-    {
-      "server": "aerie.sosun4ik.top",
+      "server": "sisu.proxytales.life",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "skein.chunkycorp.shop",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "turbo.tg-proxy.fun",
-      "port": "9443",
-      "secret": "a545c35eb2bdfa1a93df5ebe69957120"
     },
     {
       "server": "stars.tg-proxy.fun",
@@ -38,9 +23,29 @@
       "secret": "a545c35eb2bdfa1a93df5ebe69957120"
     },
     {
+      "server": "turbo.tg-proxy.fun",
+      "port": "9443",
+      "secret": "a545c35eb2bdfa1a93df5ebe69957120"
+    },
+    {
+      "server": "s010.neo-trading.org",
+      "port": "443",
+      "secret": "ee2c46ee89b4f2c79c1d8325d13091e580706574726f766963682e7275"
+    },
+    {
+      "server": "petrichor.slarkfat.icu",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
       "server": "proxy.lodkirmm.ru",
       "port": "8443",
       "secret": "ee16309abd572d284b309ef26bd7a3f685d0b7d0ba70726f78792e6c6f646b69726d6d2e7275"
+    },
+    {
+      "server": "aerie.sosun4ik.top",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     }
   ]
 }
