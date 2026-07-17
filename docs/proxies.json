@@ -1,19 +1,14 @@
 {
-  "updated": "2026-07-17T12:39:01Z",
-  "count": 7,
+  "updated": "2026-07-17T14:23:01Z",
+  "count": 8,
   "proxies": [
     {
+      "server": "sisu.proxytales.life",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
       "server": "syzygy.sosun4ik.top",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "skein.chunkycorp.shop",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "aerie.sosun4ik.top",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
@@ -23,13 +18,23 @@
       "secret": "ee7765622e796f74612e72755b744f13"
     },
     {
-      "server": "stars.tg-proxy.fun",
-      "port": "6443",
-      "secret": "a545c35eb2bdfa1a93df5ebe69957120"
+      "server": "aerie.sosun4ik.top",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "skein.chunkycorp.shop",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
       "server": "turbo.tg-proxy.fun",
       "port": "9443",
+      "secret": "a545c35eb2bdfa1a93df5ebe69957120"
+    },
+    {
+      "server": "stars.tg-proxy.fun",
+      "port": "6443",
       "secret": "a545c35eb2bdfa1a93df5ebe69957120"
     },
     {
