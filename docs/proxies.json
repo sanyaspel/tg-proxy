@@ -1,21 +1,11 @@
 {
-  "updated": "2026-07-17T04:32:45Z",
+  "updated": "2026-07-17T07:08:00Z",
   "count": 7,
   "proxies": [
     {
-      "server": "petrichor.slarkfat.icu",
+      "server": "paired.duckdns.org",
       "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "zilch.chunkycorp.shop",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "syzygy.sosun4ik.top",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+      "secret": "ee7765622e796f74612e72755b744f13"
     },
     {
       "server": "s010.neo-trading.org",
@@ -36,6 +26,16 @@
       "server": "go.antitspu.com",
       "port": "443",
       "secret": "eedec8518ddb0fd2fb190d6e8ede49e581676f2e616e7469747370752e636f6d"
+    },
+    {
+      "server": "syzygy.sosun4ik.top",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "zilch.chunkycorp.shop",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     }
   ]
 }
