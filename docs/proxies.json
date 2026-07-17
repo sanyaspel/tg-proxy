@@ -1,17 +1,7 @@
 {
-  "updated": "2026-07-17T21:12:10Z",
-  "count": 4,
+  "updated": "2026-07-17T22:10:21Z",
+  "count": 2,
   "proxies": [
-    {
-      "server": "sisu.proxytales.life",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "petrichor.slarkfat.icu",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
     {
       "server": "s010.neo-trading.org",
       "port": "443",
