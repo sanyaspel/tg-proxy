@@ -1,24 +1,19 @@
 {
-  "updated": "2026-07-18T18:13:59Z",
-  "count": 6,
+  "updated": "2026-07-18T19:37:46Z",
+  "count": 5,
   "proxies": [
-    {
-      "server": "skein.chunkycorp.shop",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
     {
       "server": "s05.neo-trading.org",
       "port": "443",
       "secret": "eeecd508d816f611bb329487809f8dac88706574726f766963682e7275"
     },
     {
-      "server": "petrichor.slarkfat.icu",
+      "server": "sisu.proxytales.life",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "sisu.proxytales.life",
+      "server": "petrichor.slarkfat.icu",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
