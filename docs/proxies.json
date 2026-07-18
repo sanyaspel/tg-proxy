@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-18T12:44:33Z",
+  "updated": "2026-07-18T14:13:32Z",
   "count": 4,
   "proxies": [
     {
@@ -13,12 +13,12 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "proxy.fluxvpnguard.ru",
+      "server": "aerie.sosun4ik.top",
       "port": "443",
-      "secret": "0a9b43ea17eff45e518fa360979998e7"
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "aerie.sosun4ik.top",
+      "server": "sisu.proxytales.life",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     }
