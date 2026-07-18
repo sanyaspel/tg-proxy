@@ -1,14 +1,9 @@
 {
-  "updated": "2026-07-18T22:36:03Z",
-  "count": 5,
+  "updated": "2026-07-18T23:40:10Z",
+  "count": 4,
   "proxies": [
     {
       "server": "sisu.proxytales.life",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "petrichor.slarkfat.icu",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
@@ -18,12 +13,12 @@
       "secret": "ee2c46ee89b4f2c79c1d8325d13091e580706574726f766963682e7275"
     },
     {
-      "server": "s05.neo-trading.org",
+      "server": "syzygy.sosun4ik.top",
       "port": "443",
-      "secret": "eeecd508d816f611bb329487809f8dac88706574726f766963682e7275"
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "syzygy.sosun4ik.top",
+      "server": "petrichor.slarkfat.icu",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     }
