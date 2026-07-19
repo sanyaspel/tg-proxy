@@ -1,19 +1,14 @@
 {
-  "updated": "2026-07-19T10:49:06Z",
-  "count": 5,
+  "updated": "2026-07-19T11:47:27Z",
+  "count": 4,
   "proxies": [
     {
-      "server": "s05.neo-trading.org",
-      "port": "443",
-      "secret": "eeecd508d816f611bb329487809f8dac88706574726f766963682e7275"
-    },
-    {
-      "server": "aerie.sosun4ik.top",
+      "server": "skein.chunkycorp.shop",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "skein.chunkycorp.shop",
+      "server": "aerie.sosun4ik.top",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
