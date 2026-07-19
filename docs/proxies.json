@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-19T12:46:27Z",
-  "count": 5,
+  "updated": "2026-07-19T14:18:13Z",
+  "count": 6,
   "proxies": [
     {
       "server": "skein.chunkycorp.shop",
@@ -8,7 +8,17 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
+      "server": "sisu.proxytales.life",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
       "server": "aerie.sosun4ik.top",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "syzygy.sosun4ik.top",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
@@ -21,11 +31,6 @@
       "server": "lazeyka-1.getvelora.space",
       "port": "443",
       "secret": "ee3f558f47bfd43aafffc4c8bb4ffc0130706574726f766963682e7275"
-    },
-    {
-      "server": "syzygy.sosun4ik.top",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     }
   ]
 }
