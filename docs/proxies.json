@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-19T09:23:26Z",
-  "count": 3,
+  "updated": "2026-07-19T10:49:06Z",
+  "count": 5,
   "proxies": [
     {
       "server": "s05.neo-trading.org",
@@ -8,9 +8,19 @@
       "secret": "eeecd508d816f611bb329487809f8dac88706574726f766963682e7275"
     },
     {
-      "server": "s010.neo-trading.org",
+      "server": "aerie.sosun4ik.top",
       "port": "443",
-      "secret": "ee2c46ee89b4f2c79c1d8325d13091e580706574726f766963682e7275"
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "skein.chunkycorp.shop",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "lazeyka-1.getvelora.space",
+      "port": "443",
+      "secret": "ee3f558f47bfd43aafffc4c8bb4ffc0130706574726f766963682e7275"
     },
     {
       "server": "proxy.lodkirmm.ru",
