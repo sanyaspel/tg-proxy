@@ -1,14 +1,14 @@
 {
-  "updated": "2026-07-19T17:29:38Z",
-  "count": 5,
+  "updated": "2026-07-19T18:26:44Z",
+  "count": 6,
   "proxies": [
     {
-      "server": "skein.chunkycorp.shop",
+      "server": "sisu.proxytales.life",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "petrichor.slarkfat.icu",
+      "server": "skein.chunkycorp.shop",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
@@ -18,14 +18,19 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
+      "server": "petrichor.slarkfat.icu",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "lazeyka-1.getvelora.space",
+      "port": "443",
+      "secret": "ee3f558f47bfd43aafffc4c8bb4ffc0130706574726f766963682e7275"
+    },
+    {
       "server": "s010.neo-trading.org",
       "port": "443",
       "secret": "ee2c46ee89b4f2c79c1d8325d13091e580706574726f766963682e7275"
-    },
-    {
-      "server": "sisu.proxytales.life",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     }
   ]
 }
