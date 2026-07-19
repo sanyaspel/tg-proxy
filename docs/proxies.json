@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-19T19:38:27Z",
+  "updated": "2026-07-19T20:36:16Z",
   "count": 6,
   "proxies": [
     {
@@ -13,14 +13,14 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "s010.neo-trading.org",
-      "port": "443",
-      "secret": "ee2c46ee89b4f2c79c1d8325d13091e580706574726f766963682e7275"
-    },
-    {
       "server": "petrichor.slarkfat.icu",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "s010.neo-trading.org",
+      "port": "443",
+      "secret": "ee2c46ee89b4f2c79c1d8325d13091e580706574726f766963682e7275"
     },
     {
       "server": "syzygy.sosun4ik.top",
@@ -28,9 +28,9 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "lazeyka-1.getvelora.space",
+      "server": "testt1.nolags.pw",
       "port": "443",
-      "secret": "ee3f558f47bfd43aafffc4c8bb4ffc0130706574726f766963682e7275"
+      "secret": "ddc2d13ebbc4ab5596c87f99b0928aa150"
     }
   ]
 }
