@@ -1,11 +1,11 @@
 {
-  "updated": "2026-07-20T18:47:25Z",
-  "count": 6,
+  "updated": "2026-07-20T20:14:56Z",
+  "count": 4,
   "proxies": [
     {
-      "server": "sisu.proxytales.life",
+      "server": "s010.neo-trading.org",
       "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+      "secret": "ee2c46ee89b4f2c79c1d8325d13091e580706574726f766963682e7275"
     },
     {
       "server": "petrichor.slarkfat.icu",
@@ -13,24 +13,14 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "s010.neo-trading.org",
+      "server": "sisu.proxytales.life",
       "port": "443",
-      "secret": "ee2c46ee89b4f2c79c1d8325d13091e580706574726f766963682e7275"
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
       "server": "lazeyka-2.getvelora.space",
       "port": "443",
       "secret": "ee8f80f0ff5e181820e55c503b6b1b7e046f7a6f6e2e7275"
-    },
-    {
-      "server": "s05.neo-trading.org",
-      "port": "443",
-      "secret": "eeecd508d816f611bb329487809f8dac88706574726f766963682e7275"
-    },
-    {
-      "server": "syzygy.sosun4ik.top",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     }
   ]
 }
