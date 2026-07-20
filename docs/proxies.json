@@ -1,7 +1,12 @@
 {
-  "updated": "2026-07-20T08:20:30Z",
-  "count": 5,
+  "updated": "2026-07-20T11:18:15Z",
+  "count": 4,
   "proxies": [
+    {
+      "server": "95.85.237.7",
+      "port": "14305",
+      "secret": "dd36d988a8d13716c2c3aa9e90b7a8b18a"
+    },
     {
       "server": "skein.chunkycorp.shop",
       "port": "443",
@@ -13,19 +18,9 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "s010.neo-trading.org",
+      "server": "syzygy.sosun4ik.top",
       "port": "443",
-      "secret": "ee2c46ee89b4f2c79c1d8325d13091e580706574726f766963682e7275"
-    },
-    {
-      "server": "medblock.fit",
-      "port": "443",
-      "secret": "ee748fdca0d7e8f6f2cfb02ec7837b40016d6564626c6f636b2e666974"
-    },
-    {
-      "server": "95.85.237.7",
-      "port": "14305",
-      "secret": "dd36d988a8d13716c2c3aa9e90b7a8b18a"
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     }
   ]
 }
