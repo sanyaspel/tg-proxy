@@ -1,19 +1,9 @@
 {
-  "updated": "2026-07-20T05:00:15Z",
-  "count": 6,
+  "updated": "2026-07-20T08:20:30Z",
+  "count": 5,
   "proxies": [
     {
-      "server": "sisu.proxytales.life",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "s010.neo-trading.org",
-      "port": "443",
-      "secret": "ee2c46ee89b4f2c79c1d8325d13091e580706574726f766963682e7275"
-    },
-    {
-      "server": "petrichor.slarkfat.icu",
+      "server": "skein.chunkycorp.shop",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
@@ -23,9 +13,14 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "syzygy.sosun4ik.top",
+      "server": "s010.neo-trading.org",
       "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+      "secret": "ee2c46ee89b4f2c79c1d8325d13091e580706574726f766963682e7275"
+    },
+    {
+      "server": "medblock.fit",
+      "port": "443",
+      "secret": "ee748fdca0d7e8f6f2cfb02ec7837b40016d6564626c6f636b2e666974"
     },
     {
       "server": "95.85.237.7",
