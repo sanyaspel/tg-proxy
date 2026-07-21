@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-21T11:43:15Z",
-  "count": 9,
+  "updated": "2026-07-21T13:10:42Z",
+  "count": 10,
   "proxies": [
     {
       "server": "mtp2.hlebushek.com",
@@ -18,6 +18,11 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
+      "server": "sisu.proxytales.life",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
       "server": "syzygy.sosun4ik.top",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
@@ -28,14 +33,14 @@
       "secret": "eea61deab187a415531ac418cd29ae58ee706574726f766963682e7275"
     },
     {
-      "server": "free.tg-proxy.fun",
-      "port": "7443",
+      "server": "stars.tg-proxy.fun",
+      "port": "6443",
       "secret": "a545c35eb2bdfa1a93df5ebe69957120"
     },
     {
-      "server": "proxy.lodkirmm.ru",
-      "port": "8443",
-      "secret": "ee16309abd572d284b309ef26bd7a3f685d0b7d0ba70726f78792e6c6f646b69726d6d2e7275"
+      "server": "free.tg-proxy.fun",
+      "port": "7443",
+      "secret": "a545c35eb2bdfa1a93df5ebe69957120"
     },
     {
       "server": "turbo.tg-proxy.fun",
@@ -43,9 +48,9 @@
       "secret": "a545c35eb2bdfa1a93df5ebe69957120"
     },
     {
-      "server": "stars.tg-proxy.fun",
-      "port": "6443",
-      "secret": "a545c35eb2bdfa1a93df5ebe69957120"
+      "server": "proxy.lodkirmm.ru",
+      "port": "8443",
+      "secret": "ee16309abd572d284b309ef26bd7a3f685d0b7d0ba70726f78792e6c6f646b69726d6d2e7275"
     }
   ]
 }
