@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-20T23:44:49Z",
-  "count": 3,
+  "updated": "2026-07-21T01:22:12Z",
+  "count": 4,
   "proxies": [
     {
       "server": "petrichor.slarkfat.icu",
@@ -16,6 +16,11 @@
       "server": "lazeyka-2.getvelora.space",
       "port": "443",
       "secret": "ee8f80f0ff5e181820e55c503b6b1b7e046f7a6f6e2e7275"
+    },
+    {
+      "server": "sisu.proxytales.life",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     }
   ]
 }
