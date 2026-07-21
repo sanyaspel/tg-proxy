@@ -1,14 +1,14 @@
 {
-  "updated": "2026-07-21T16:51:35Z",
-  "count": 11,
+  "updated": "2026-07-21T18:06:50Z",
+  "count": 9,
   "proxies": [
     {
-      "server": "mtp2.hlebushek.com",
-      "port": "443",
-      "secret": "ee8263f1fdfbfa0629c67c40d208806873706574726f766963682e7275"
+      "server": "95.85.237.7",
+      "port": "14305",
+      "secret": "dd36d988a8d13716c2c3aa9e90b7a8b18a"
     },
     {
-      "server": "petrichor.slarkfat.icu",
+      "server": "sisu.proxytales.life",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
@@ -18,14 +18,14 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "mtp3.hlebushek.com",
-      "port": "443",
-      "secret": "ee49b03637799a40446509a268d99ff91b706574726f766963682e7275"
-    },
-    {
       "server": "aerie.sosun4ik.top",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "mtp2.hlebushek.com",
+      "port": "443",
+      "secret": "ee8263f1fdfbfa0629c67c40d208806873706574726f766963682e7275"
     },
     {
       "server": "mtp1.hlebushek.com",
@@ -33,22 +33,12 @@
       "secret": "eea61deab187a415531ac418cd29ae58ee706574726f766963682e7275"
     },
     {
-      "server": "stars.tg-proxy.fun",
-      "port": "6443",
-      "secret": "a545c35eb2bdfa1a93df5ebe69957120"
+      "server": "mtp3.hlebushek.com",
+      "port": "443",
+      "secret": "ee49b03637799a40446509a268d99ff91b706574726f766963682e7275"
     },
     {
-      "server": "free.tg-proxy.fun",
-      "port": "7443",
-      "secret": "a545c35eb2bdfa1a93df5ebe69957120"
-    },
-    {
-      "server": "turbo.tg-proxy.fun",
-      "port": "9443",
-      "secret": "a545c35eb2bdfa1a93df5ebe69957120"
-    },
-    {
-      "server": "sisu.proxytales.life",
+      "server": "petrichor.slarkfat.icu",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
