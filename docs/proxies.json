@@ -1,7 +1,12 @@
 {
-  "updated": "2026-07-21T18:06:50Z",
-  "count": 9,
+  "updated": "2026-07-21T19:57:33Z",
+  "count": 6,
   "proxies": [
+    {
+      "server": "mc-ssh.t-proxyru.info.",
+      "port": "25565",
+      "secret": "7hBEYoISSb16xRkTAiDCXQljZG4ueWVrdGFuZXQuY29t"
+    },
     {
       "server": "95.85.237.7",
       "port": "14305",
@@ -13,32 +18,12 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "syzygy.sosun4ik.top",
+      "server": "petrichor.slarkfat.icu",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
       "server": "aerie.sosun4ik.top",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "mtp2.hlebushek.com",
-      "port": "443",
-      "secret": "ee8263f1fdfbfa0629c67c40d208806873706574726f766963682e7275"
-    },
-    {
-      "server": "mtp1.hlebushek.com",
-      "port": "443",
-      "secret": "eea61deab187a415531ac418cd29ae58ee706574726f766963682e7275"
-    },
-    {
-      "server": "mtp3.hlebushek.com",
-      "port": "443",
-      "secret": "ee49b03637799a40446509a268d99ff91b706574726f766963682e7275"
-    },
-    {
-      "server": "petrichor.slarkfat.icu",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
