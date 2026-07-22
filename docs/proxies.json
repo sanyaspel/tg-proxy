@@ -1,12 +1,7 @@
 {
-  "updated": "2026-07-22T21:33:41Z",
-  "count": 5,
+  "updated": "2026-07-22T22:50:49Z",
+  "count": 4,
   "proxies": [
-    {
-      "server": "one2.mtproxygram.lol",
-      "port": "443",
-      "secret": "ee563dc88ae5d1c70b18d01472f77a969962726f777365722e79616e6465782e7275"
-    },
     {
       "server": "skein.chunkycorp.shop",
       "port": "443",
@@ -18,7 +13,7 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "one1.mtproxygram.lol",
+      "server": "one2.mtproxygram.lol",
       "port": "443",
       "secret": "ee563dc88ae5d1c70b18d01472f77a969962726f777365722e79616e6465782e7275"
     },
