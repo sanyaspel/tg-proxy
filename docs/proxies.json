@@ -1,9 +1,9 @@
 {
-  "updated": "2026-07-22T17:45:37Z",
+  "updated": "2026-07-22T18:53:41Z",
   "count": 4,
   "proxies": [
     {
-      "server": "petrichor.slarkfat.icu",
+      "server": "skein.chunkycorp.shop",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
@@ -13,7 +13,7 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "skein.chunkycorp.shop",
+      "server": "petrichor.slarkfat.icu",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
