@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-22T16:12:10Z",
-  "count": 6,
+  "updated": "2026-07-22T17:45:37Z",
+  "count": 4,
   "proxies": [
     {
       "server": "petrichor.slarkfat.icu",
@@ -8,7 +8,7 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "sisu.proxytales.life",
+      "server": "aerie.sosun4ik.top",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
@@ -21,16 +21,6 @@
       "server": "lazeyka-2-2.getvelora.space",
       "port": "443",
       "secret": "eeb881608291eb0eb81c62918d61d5b4166f7a6f6e2e7275"
-    },
-    {
-      "server": "aerie.sosun4ik.top",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "swag.caxero.ru",
-      "port": "443",
-      "secret": "8f3c7a1d4b92e6c51a7d0fb843c2e91f"
     }
   ]
 }
