@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-23T21:54:10Z",
-  "count": 4,
+  "updated": "2026-07-23T22:44:39Z",
+  "count": 5,
   "proxies": [
     {
       "server": "mtproxy.nolags.pw",
@@ -16,6 +16,11 @@
       "server": "aerie.sosun4ik.top",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "vpn4.primeperformance.space",
+      "port": "8443",
+      "secret": "ee4331ae1586ba488e489e092e1783969e76706e342e7072696d65706572666f726d616e63652e7370616365"
     },
     {
       "server": "proxy.lodkirmm.ru",
