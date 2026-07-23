@@ -1,41 +1,16 @@
 {
-  "updated": "2026-07-23T04:48:33Z",
-  "count": 11,
+  "updated": "2026-07-23T07:26:03Z",
+  "count": 9,
   "proxies": [
-    {
-      "server": "one2.mtproxygram.lol",
-      "port": "443",
-      "secret": "ee563dc88ae5d1c70b18d01472f77a969962726f777365722e79616e6465782e7275"
-    },
-    {
-      "server": "aerie.sosun4ik.top",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
     {
       "server": "skein.chunkycorp.shop",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "one1.mtproxygram.lol",
+      "server": "one2.mtproxygram.lol",
       "port": "443",
       "secret": "ee563dc88ae5d1c70b18d01472f77a969962726f777365722e79616e6465782e7275"
-    },
-    {
-      "server": "lazeyka-2-2.getvelora.space",
-      "port": "443",
-      "secret": "eeb881608291eb0eb81c62918d61d5b4166f7a6f6e2e7275"
-    },
-    {
-      "server": "neo-vpn.ink",
-      "port": "443",
-      "secret": "ee0581778381eb30c9f9403b6178b212c46e656f2d76706e2e696e6b"
-    },
-    {
-      "server": "medblock.fit",
-      "port": "443",
-      "secret": "ee8a3ea77a695f1a249d693078446a137a6d6564626c6f636b2e666974"
     },
     {
       "server": "medblock.ink",
@@ -43,9 +18,9 @@
       "secret": "ee48995b34487bfb1cb562552a585da0ea6d6564626c6f636b2e696e6b"
     },
     {
-      "server": "fleethop.online",
+      "server": "sisu.proxytales.life",
       "port": "443",
-      "secret": "eed82e9162b09c2ddfdbe3ddfe7d28d87a666c656574686f702e6f6e6c696e65"
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
       "server": "best-proxy.ink",
@@ -53,9 +28,24 @@
       "secret": "ee041a76d99194e7dda929e9379d686cd2626573742d70726f78792e696e6b"
     },
     {
-      "server": "swag.caxero.ru",
+      "server": "neo-vpn.ink",
       "port": "443",
-      "secret": "8f3c7a1d4b92e6c51a7d0fb843c2e91f"
+      "secret": "ee0581778381eb30c9f9403b6178b212c46e656f2d76706e2e696e6b"
+    },
+    {
+      "server": "fleethop.online",
+      "port": "443",
+      "secret": "eed82e9162b09c2ddfdbe3ddfe7d28d87a666c656574686f702e6f6e6c696e65"
+    },
+    {
+      "server": "medblock.fit",
+      "port": "443",
+      "secret": "ee8a3ea77a695f1a249d693078446a137a6d6564626c6f636b2e666974"
+    },
+    {
+      "server": "one1.mtproxygram.lol",
+      "port": "443",
+      "secret": "ee563dc88ae5d1c70b18d01472f77a969962726f777365722e79616e6465782e7275"
     }
   ]
 }
