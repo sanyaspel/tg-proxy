@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-24T01:24:44Z",
+  "updated": "2026-07-24T04:40:55Z",
   "count": 3,
   "proxies": [
     {
@@ -8,9 +8,9 @@
       "secret": "dd8b89db666c463cce92d4aa6ace95f840"
     },
     {
-      "server": "vpn4.primeperformance.space",
-      "port": "8443",
-      "secret": "ee4331ae1586ba488e489e092e1783969e76706e342e7072696d65706572666f726d616e63652e7370616365"
+      "server": "aerie.sosun4ik.top",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
       "server": "proxy.lodkirmm.ru",
