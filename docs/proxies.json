@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-23T23:46:35Z",
-  "count": 5,
+  "updated": "2026-07-24T01:24:44Z",
+  "count": 3,
   "proxies": [
     {
       "server": "mtproxy.nolags.pw",
@@ -8,24 +8,14 @@
       "secret": "dd8b89db666c463cce92d4aa6ace95f840"
     },
     {
-      "server": "skein.chunkycorp.shop",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "aerie.sosun4ik.top",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+      "server": "vpn4.primeperformance.space",
+      "port": "8443",
+      "secret": "ee4331ae1586ba488e489e092e1783969e76706e342e7072696d65706572666f726d616e63652e7370616365"
     },
     {
       "server": "proxy.lodkirmm.ru",
       "port": "8443",
       "secret": "ee16309abd572d284b309ef26bd7a3f685d0b7d0ba70726f78792e6c6f646b69726d6d2e7275"
-    },
-    {
-      "server": "vpn4.primeperformance.space",
-      "port": "8443",
-      "secret": "ee4331ae1586ba488e489e092e1783969e76706e342e7072696d65706572666f726d616e63652e7370616365"
     }
   ]
 }
