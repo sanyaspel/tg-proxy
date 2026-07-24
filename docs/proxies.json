@@ -1,7 +1,12 @@
 {
-  "updated": "2026-07-24T09:40:55Z",
-  "count": 6,
+  "updated": "2026-07-24T11:28:35Z",
+  "count": 7,
   "proxies": [
+    {
+      "server": "petrichor.slarkfat.icu",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
     {
       "server": "skein.chunkycorp.shop",
       "port": "443",
@@ -13,16 +18,6 @@
       "secret": "eed82e9162b09c2ddfdbe3ddfe7d28d87a666c656574686f702e6f6e6c696e65"
     },
     {
-      "server": "proxy.lodkirmm.ru",
-      "port": "8443",
-      "secret": "ee16309abd572d284b309ef26bd7a3f685d0b7d0ba70726f78792e6c6f646b69726d6d2e7275"
-    },
-    {
-      "server": "best-proxy.ink",
-      "port": "443",
-      "secret": "ee041a76d99194e7dda929e9379d686cd2626573742d70726f78792e696e6b"
-    },
-    {
       "server": "medblock.ink",
       "port": "443",
       "secret": "ee48995b34487bfb1cb562552a585da0ea6d6564626c6f636b2e696e6b"
@@ -31,6 +26,16 @@
       "server": "fast-proxy.ink",
       "port": "443",
       "secret": "ee95674c99428c9e894c09d9567f963e33666173742d70726f78792e696e6b"
+    },
+    {
+      "server": "best-proxy.ink",
+      "port": "443",
+      "secret": "ee041a76d99194e7dda929e9379d686cd2626573742d70726f78792e696e6b"
+    },
+    {
+      "server": "sisu.proxytales.life",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     }
   ]
 }
