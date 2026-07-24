@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-24T22:50:09Z",
+  "updated": "2026-07-24T23:53:14Z",
   "count": 7,
   "proxies": [
     {
@@ -13,14 +13,19 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
+      "server": "syzygy.sosun4ik.top",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
       "server": "mtp1.hlebushek.com",
       "port": "443",
       "secret": "eea61deab187a415531ac418cd29ae58ee706574726f766963682e7275"
     },
     {
-      "server": "syzygy.sosun4ik.top",
+      "server": "welcome2.v6n.tech",
       "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+      "secret": "eedd97ec113a3667d163fa5dcbdf0d3fd37777772e626f6f6b696e672e636f6d"
     },
     {
       "server": "lazeyka-2-3.getvelora.space",
@@ -31,11 +36,6 @@
       "server": "phoenix.v6n.tech",
       "port": "443",
       "secret": "eefcb2991c4adf04502f025e7e73c7dd367777772e626f6f6b696e672e636f6d"
-    },
-    {
-      "server": "welcome2.v6n.tech",
-      "port": "443",
-      "secret": "eedd97ec113a3667d163fa5dcbdf0d3fd37777772e626f6f6b696e672e636f6d"
     }
   ]
 }
