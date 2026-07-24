@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-24T17:56:17Z",
+  "updated": "2026-07-24T19:12:53Z",
   "count": 10,
   "proxies": [
     {
@@ -8,9 +8,19 @@
       "secret": "ddbdf90f2bc94957916e518c887cb95489"
     },
     {
-      "server": "petrichor.slarkfat.icu",
+      "server": "aerie.sosun4ik.top",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "mtp2.hlebushek.com",
+      "port": "443",
+      "secret": "ee8263f1fdfbfa0629c67c40d208806873706574726f766963682e7275"
+    },
+    {
+      "server": "mtp1.hlebushek.com",
+      "port": "443",
+      "secret": "eea61deab187a415531ac418cd29ae58ee706574726f766963682e7275"
     },
     {
       "server": "syzygy.sosun4ik.top",
@@ -18,19 +28,9 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "aerie.sosun4ik.top",
+      "server": "mtp3.hlebushek.com",
       "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "welcome.v6n.tech",
-      "port": "443",
-      "secret": "eea6484f075c2288e653a8e720280712687777772e626f6f6b696e672e636f6d"
-    },
-    {
-      "server": "phoenix.v6n.tech",
-      "port": "443",
-      "secret": "eefcb2991c4adf04502f025e7e73c7dd367777772e626f6f6b696e672e636f6d"
+      "secret": "ee49b03637799a40446509a268d99ff91b706574726f766963682e7275"
     },
     {
       "server": "lazeyka-2-3.getvelora.space",
@@ -38,19 +38,19 @@
       "secret": "ee47e7ab60d6acf9288e822ca746fd703a6f7a6f6e2e7275"
     },
     {
+      "server": "phoenix.v6n.tech",
+      "port": "443",
+      "secret": "eefcb2991c4adf04502f025e7e73c7dd367777772e626f6f6b696e672e636f6d"
+    },
+    {
+      "server": "welcome.v6n.tech",
+      "port": "443",
+      "secret": "eea6484f075c2288e653a8e720280712687777772e626f6f6b696e672e636f6d"
+    },
+    {
       "server": "welcome2.v6n.tech",
       "port": "443",
       "secret": "eedd97ec113a3667d163fa5dcbdf0d3fd37777772e626f6f6b696e672e636f6d"
-    },
-    {
-      "server": "best-proxy.ink",
-      "port": "443",
-      "secret": "ee041a76d99194e7dda929e9379d686cd2626573742d70726f78792e696e6b"
-    },
-    {
-      "server": "fast-proxy.ink",
-      "port": "443",
-      "secret": "ee95674c99428c9e894c09d9567f963e33666173742d70726f78792e696e6b"
     }
   ]
 }
