@@ -1,21 +1,11 @@
 {
-  "updated": "2026-07-25T14:25:01Z",
-  "count": 10,
+  "updated": "2026-07-25T15:34:03Z",
+  "count": 11,
   "proxies": [
     {
-      "server": "skein.chunkycorp.shop",
+      "server": "probably.nolags.pw",
       "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "petrichor.slarkfat.icu",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "aerie.sosun4ik.top",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+      "secret": "ddc986c839977fd65cfbc10a931129e311"
     },
     {
       "server": "media1.happtg.org",
@@ -23,7 +13,7 @@
       "secret": "ee73e7d7fe41b49d9091f78c8c92c22de4766b2e7275"
     },
     {
-      "server": "sisu.proxytales.life",
+      "server": "petrichor.slarkfat.icu",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
@@ -38,14 +28,29 @@
       "secret": "ee8fc9c7632b344b1b76639c501ae7cfb5766b2e7275"
     },
     {
-      "server": "lazeyka-2-4.getvelora.space",
+      "server": "syzygy.sosun4ik.top",
       "port": "443",
-      "secret": "ee4df4e953f31605fe2397dc326cfd8e7f6f7a6f6e2e7275"
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "aerie.sosun4ik.top",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
       "server": "lazeyka-2-4-hi.getvelora.space",
       "port": "443",
       "secret": "ee697e723e8ba1ff23642036fbf9e84a926f7a6f6e2e7275"
+    },
+    {
+      "server": "lazeyka-2-4.getvelora.space",
+      "port": "443",
+      "secret": "ee4df4e953f31605fe2397dc326cfd8e7f6f7a6f6e2e7275"
+    },
+    {
+      "server": "sisu.proxytales.life",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
       "server": "lazeyka-2-4-cor.getvelora.space",
