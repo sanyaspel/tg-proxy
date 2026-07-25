@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-25T01:24:53Z",
-  "count": 7,
+  "updated": "2026-07-25T04:36:32Z",
+  "count": 5,
   "proxies": [
     {
       "server": "ipv4.nolags.pw",
@@ -26,16 +26,6 @@
       "server": "lazeyka-2-3.getvelora.space",
       "port": "443",
       "secret": "ee47e7ab60d6acf9288e822ca746fd703a6f7a6f6e2e7275"
-    },
-    {
-      "server": "phoenix.v6n.tech",
-      "port": "443",
-      "secret": "eefcb2991c4adf04502f025e7e73c7dd367777772e626f6f6b696e672e636f6d"
-    },
-    {
-      "server": "welcome2.v6n.tech",
-      "port": "443",
-      "secret": "eedd97ec113a3667d163fa5dcbdf0d3fd37777772e626f6f6b696e672e636f6d"
     }
   ]
 }
