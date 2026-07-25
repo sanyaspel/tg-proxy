@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-25T04:36:32Z",
-  "count": 5,
+  "updated": "2026-07-25T07:07:45Z",
+  "count": 7,
   "proxies": [
     {
       "server": "ipv4.nolags.pw",
@@ -8,14 +8,9 @@
       "secret": "ddbdf90f2bc94957916e518c887cb95489"
     },
     {
-      "server": "aerie.sosun4ik.top",
+      "server": "skein.chunkycorp.shop",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "mtp1.hlebushek.com",
-      "port": "443",
-      "secret": "eea61deab187a415531ac418cd29ae58ee706574726f766963682e7275"
     },
     {
       "server": "syzygy.sosun4ik.top",
@@ -23,9 +18,24 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "lazeyka-2-3.getvelora.space",
+      "server": "mtp3.hlebushek.com",
       "port": "443",
-      "secret": "ee47e7ab60d6acf9288e822ca746fd703a6f7a6f6e2e7275"
+      "secret": "ee49b03637799a40446509a268d99ff91b706574726f766963682e7275"
+    },
+    {
+      "server": "mtp2.hlebushek.com",
+      "port": "443",
+      "secret": "ee8263f1fdfbfa0629c67c40d208806873706574726f766963682e7275"
+    },
+    {
+      "server": "mtp1.hlebushek.com",
+      "port": "443",
+      "secret": "eea61deab187a415531ac418cd29ae58ee706574726f766963682e7275"
+    },
+    {
+      "server": "sisu.proxytales.life",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     }
   ]
 }
