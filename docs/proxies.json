@@ -1,9 +1,14 @@
 {
-  "updated": "2026-07-26T14:21:49Z",
-  "count": 4,
+  "updated": "2026-07-26T15:35:00Z",
+  "count": 5,
   "proxies": [
     {
-      "server": "sisu.proxytales.life",
+      "server": "options.nolags.pw",
+      "port": "443",
+      "secret": "dd1cfd25e7607e8ede7cc49b925165728a"
+    },
+    {
+      "server": "syzygy.sosun4ik.top",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
