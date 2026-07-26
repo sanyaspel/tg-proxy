@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-26T11:11:46Z",
-  "count": 5,
+  "updated": "2026-07-26T12:34:22Z",
+  "count": 4,
   "proxies": [
     {
       "server": "skein.chunkycorp.shop",
@@ -8,7 +8,7 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "sisu.proxytales.life",
+      "server": "aerie.sosun4ik.top",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
@@ -18,14 +18,9 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "mtp2.hlebushek.com",
+      "server": "sisu.proxytales.life",
       "port": "443",
-      "secret": "ee8263f1fdfbfa0629c67c40d208806873706574726f766963682e7275"
-    },
-    {
-      "server": "mtp1.hlebushek.com",
-      "port": "443",
-      "secret": "eea61deab187a415531ac418cd29ae58ee706574726f766963682e7275"
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     }
   ]
 }
