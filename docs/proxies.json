@@ -1,16 +1,21 @@
 {
-  "updated": "2026-07-26T17:51:48Z",
+  "updated": "2026-07-26T18:52:07Z",
   "count": 6,
   "proxies": [
+    {
+      "server": "mtproto.workingproxy.xyz",
+      "port": "443",
+      "secret": "dd28d1629617423db1e80a7b4a00de6032"
+    },
     {
       "server": "options.nolags.pw",
       "port": "443",
       "secret": "dd1cfd25e7607e8ede7cc49b925165728a"
     },
     {
-      "server": "mtproto.workingproxy.xyz",
+      "server": "syzygy.sosun4ik.top",
       "port": "443",
-      "secret": "dd28d1629617423db1e80a7b4a00de6032"
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
       "server": "aerie.sosun4ik.top",
@@ -19,11 +24,6 @@
     },
     {
       "server": "petrichor.slarkfat.icu",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "syzygy.sosun4ik.top",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
