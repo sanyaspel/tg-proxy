@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-26T18:52:07Z",
-  "count": 6,
+  "updated": "2026-07-26T20:02:11Z",
+  "count": 5,
   "proxies": [
     {
       "server": "mtproto.workingproxy.xyz",
@@ -19,11 +19,6 @@
     },
     {
       "server": "aerie.sosun4ik.top",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "petrichor.slarkfat.icu",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
