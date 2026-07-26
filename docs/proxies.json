@@ -1,21 +1,16 @@
 {
-  "updated": "2026-07-26T21:23:00Z",
+  "updated": "2026-07-26T22:26:06Z",
   "count": 5,
   "proxies": [
-    {
-      "server": "options.nolags.pw",
-      "port": "443",
-      "secret": "dd1cfd25e7607e8ede7cc49b925165728a"
-    },
     {
       "server": "mtproto.workingproxy.xyz",
       "port": "443",
       "secret": "dd28d1629617423db1e80a7b4a00de6032"
     },
     {
-      "server": "aerie.sosun4ik.top",
+      "server": "options.nolags.pw",
       "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+      "secret": "dd1cfd25e7607e8ede7cc49b925165728a"
     },
     {
       "server": "syzygy.sosun4ik.top",
@@ -26,6 +21,11 @@
       "server": "lazeyka-2-5.getvelora.space",
       "port": "443",
       "secret": "ee32ee4962951c5b2bb70bc767751761a36f7a6f6e2e7275"
+    },
+    {
+      "server": "aerie.sosun4ik.top",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     }
   ]
 }
