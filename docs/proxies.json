@@ -1,16 +1,11 @@
 {
-  "updated": "2026-07-27T18:52:07Z",
-  "count": 11,
+  "updated": "2026-07-27T20:11:57Z",
+  "count": 10,
   "proxies": [
     {
       "server": "heats.nolags.pw",
       "port": "443",
       "secret": "dd3df51afd9a851e5b9a6719fc88f93833"
-    },
-    {
-      "server": "connect.workingproxy.xyz",
-      "port": "443",
-      "secret": "ddcf4b420258503f6f189db7d39f597b4e"
     },
     {
       "server": "syzygy.sosun4ik.top",
@@ -23,9 +18,9 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "petrichor.slarkfat.icu",
+      "server": "connect.workingproxy.xyz",
       "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+      "secret": "ddcf4b420258503f6f189db7d39f597b4e"
     },
     {
       "server": "lazeyka-2-6.getvelora.space",
@@ -33,19 +28,14 @@
       "secret": "ee8a085f4b74b7698d5873d2e587c4f22d6f7a6f6e2e7275"
     },
     {
-      "server": "medblock.fit",
-      "port": "443",
-      "secret": "ee8a3ea77a695f1a249d693078446a137a6d6564626c6f636b2e666974"
-    },
-    {
       "server": "best-proxy.ink",
       "port": "443",
       "secret": "ee041a76d99194e7dda929e9379d686cd2626573742d70726f78792e696e6b"
     },
     {
-      "server": "fleethop.online",
+      "server": "medblock.fit",
       "port": "443",
-      "secret": "eed82e9162b09c2ddfdbe3ddfe7d28d87a666c656574686f702e6f6e6c696e65"
+      "secret": "ee8a3ea77a695f1a249d693078446a137a6d6564626c6f636b2e666974"
     },
     {
       "server": "medblock.ink",
@@ -56,6 +46,11 @@
       "server": "neo-vpn.ink",
       "port": "443",
       "secret": "ee0581778381eb30c9f9403b6178b212c46e656f2d76706e2e696e6b"
+    },
+    {
+      "server": "fleethop.online",
+      "port": "443",
+      "secret": "eed82e9162b09c2ddfdbe3ddfe7d28d87a666c656574686f702e6f6e6c696e65"
     }
   ]
 }
