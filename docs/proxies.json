@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-26T23:26:15Z",
+  "updated": "2026-07-27T01:05:11Z",
   "count": 5,
   "proxies": [
     {
@@ -18,14 +18,14 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "syzygy.sosun4ik.top",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
       "server": "lazeyka-2-5.getvelora.space",
       "port": "443",
       "secret": "ee32ee4962951c5b2bb70bc767751761a36f7a6f6e2e7275"
+    },
+    {
+      "server": "syzygy.sosun4ik.top",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     }
   ]
 }
