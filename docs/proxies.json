@@ -1,16 +1,11 @@
 {
-  "updated": "2026-07-27T15:19:20Z",
-  "count": 8,
+  "updated": "2026-07-27T17:13:52Z",
+  "count": 9,
   "proxies": [
     {
-      "server": "sisu.proxytales.life",
+      "server": "heats.nolags.pw",
       "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "petrichor.slarkfat.icu",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+      "secret": "dd3df51afd9a851e5b9a6719fc88f93833"
     },
     {
       "server": "aerie.sosun4ik.top",
@@ -23,14 +18,24 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
+      "server": "petrichor.slarkfat.icu",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "sisu.proxytales.life",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
       "server": "lazeyka-2-6.getvelora.space",
       "port": "443",
       "secret": "ee8a085f4b74b7698d5873d2e587c4f22d6f7a6f6e2e7275"
     },
     {
-      "server": "best-proxy.ink",
+      "server": "fleethop.online",
       "port": "443",
-      "secret": "ee041a76d99194e7dda929e9379d686cd2626573742d70726f78792e696e6b"
+      "secret": "eed82e9162b09c2ddfdbe3ddfe7d28d87a666c656574686f702e6f6e6c696e65"
     },
     {
       "server": "medblock.ink",
@@ -38,9 +43,9 @@
       "secret": "ee48995b34487bfb1cb562552a585da0ea6d6564626c6f636b2e696e6b"
     },
     {
-      "server": "fleethop.online",
+      "server": "best-proxy.ink",
       "port": "443",
-      "secret": "eed82e9162b09c2ddfdbe3ddfe7d28d87a666c656574686f702e6f6e6c696e65"
+      "secret": "ee041a76d99194e7dda929e9379d686cd2626573742d70726f78792e696e6b"
     }
   ]
 }
