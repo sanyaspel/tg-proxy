@@ -1,9 +1,24 @@
 {
-  "updated": "2026-07-28T14:55:15Z",
-  "count": 3,
+  "updated": "2026-07-28T16:26:56Z",
+  "count": 6,
   "proxies": [
     {
-      "server": "skein.chunkycorp.shop",
+      "server": "julyy.nolags.pw",
+      "port": "443",
+      "secret": "dddb2f3df5d8f4fb7aa8e2192eff0aae98"
+    },
+    {
+      "server": "aerie.sosun4ik.top",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "ardesvpn1.ru",
+      "port": "8443",
+      "secret": "ee05cf8e164f926f4a664b2404d276a1d6617264657376706e312e7275"
+    },
+    {
+      "server": "petrichor.slarkfat.icu",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
@@ -13,7 +28,7 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "sisu.proxytales.life",
+      "server": "skein.chunkycorp.shop",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     }
