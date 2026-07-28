@@ -1,31 +1,21 @@
 {
-  "updated": "2026-07-28T12:18:00Z",
-  "count": 5,
+  "updated": "2026-07-28T14:55:15Z",
+  "count": 3,
   "proxies": [
     {
-      "server": "petrichor.slarkfat.icu",
+      "server": "skein.chunkycorp.shop",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "ardesvpn1.ru",
-      "port": "8443",
-      "secret": "ee05cf8e164f926f4a664b2404d276a1d6617264657376706e312e7275"
+      "server": "syzygy.sosun4ik.top",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
       "server": "sisu.proxytales.life",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "best-proxy.ink",
-      "port": "443",
-      "secret": "eecd52b1146f6670de19bc5bf189d1ab58626573742d70726f78792e696e6b"
-    },
-    {
-      "server": "fast-proxy.ink",
-      "port": "443",
-      "secret": "ee98e83ac6806491b9501d3a61cdd59c71666173742d70726f78792e696e6b"
     }
   ]
 }
