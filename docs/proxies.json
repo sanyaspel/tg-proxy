@@ -1,24 +1,24 @@
 {
-  "updated": "2026-07-27T23:52:27Z",
+  "updated": "2026-07-28T01:19:41Z",
   "count": 10,
   "proxies": [
-    {
-      "server": "connect.workingproxy.xyz",
-      "port": "443",
-      "secret": "ddcf4b420258503f6f189db7d39f597b4e"
-    },
     {
       "server": "heats.nolags.pw",
       "port": "443",
       "secret": "dd3df51afd9a851e5b9a6719fc88f93833"
     },
     {
-      "server": "aerie.sosun4ik.top",
+      "server": "connect.workingproxy.xyz",
+      "port": "443",
+      "secret": "ddcf4b420258503f6f189db7d39f597b4e"
+    },
+    {
+      "server": "syzygy.sosun4ik.top",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "syzygy.sosun4ik.top",
+      "server": "aerie.sosun4ik.top",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
@@ -28,14 +28,14 @@
       "secret": "ee8a085f4b74b7698d5873d2e587c4f22d6f7a6f6e2e7275"
     },
     {
-      "server": "best-proxy.ink",
-      "port": "443",
-      "secret": "ee041a76d99194e7dda929e9379d686cd2626573742d70726f78792e696e6b"
-    },
-    {
       "server": "neo-vpn.ink",
       "port": "443",
       "secret": "ee0581778381eb30c9f9403b6178b212c46e656f2d76706e2e696e6b"
+    },
+    {
+      "server": "best-proxy.ink",
+      "port": "443",
+      "secret": "ee041a76d99194e7dda929e9379d686cd2626573742d70726f78792e696e6b"
     },
     {
       "server": "medblock.ink",
