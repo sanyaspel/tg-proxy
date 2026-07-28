@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-28T22:48:53Z",
-  "count": 10,
+  "updated": "2026-07-28T23:47:59Z",
+  "count": 12,
   "proxies": [
     {
       "server": "julyy.nolags.pw",
@@ -13,16 +13,6 @@
       "secret": "dddb688a36cd7c7b24fa0604392645bd82"
     },
     {
-      "server": "syzygy.sosun4ik.top",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "aerie.sosun4ik.top",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
       "server": "mtp2.hlebushek.com",
       "port": "443",
       "secret": "ee8263f1fdfbfa0629c67c40d208806873706574726f766963682e7275"
@@ -33,6 +23,31 @@
       "secret": "ee49b03637799a40446509a268d99ff91b706574726f766963682e7275"
     },
     {
+      "server": "mtp1.hlebushek.com",
+      "port": "443",
+      "secret": "eea61deab187a415531ac418cd29ae58ee706574726f766963682e7275"
+    },
+    {
+      "server": "skein.chunkycorp.shop",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "aerie.sosun4ik.top",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "syzygy.sosun4ik.top",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "ardesvpn1.ru",
+      "port": "8443",
+      "secret": "ee05cf8e164f926f4a664b2404d276a1d6617264657376706e312e7275"
+    },
+    {
       "server": "fleethop.online",
       "port": "443",
       "secret": "eed82e9162b09c2ddfdbe3ddfe7d28d87a666c656574686f702e6f6e6c696e65"
@@ -41,11 +56,6 @@
       "server": "best-proxy.ink",
       "port": "443",
       "secret": "ee041a76d99194e7dda929e9379d686cd2626573742d70726f78792e696e6b"
-    },
-    {
-      "server": "ardesvpn1.ru",
-      "port": "8443",
-      "secret": "ee05cf8e164f926f4a664b2404d276a1d6617264657376706e312e7275"
     },
     {
       "server": "medblock.ink",
