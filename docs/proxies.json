@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-29T20:06:20Z",
-  "count": 10,
+  "updated": "2026-07-29T21:24:06Z",
+  "count": 9,
   "proxies": [
     {
       "server": "no.nolagsproxy.space",
@@ -13,14 +13,9 @@
       "secret": "dd7957f0892ff649d9649ae30df67f9b6e"
     },
     {
-      "server": "skein.chunkycorp.shop",
+      "server": "syzygy.sosun4ik.top",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "media.happtg.org",
-      "port": "443",
-      "secret": "eed9cf709eb48bb5a37471fba84864bd7e766b2e7275"
     },
     {
       "server": "mtp3.hlebushek.com",
@@ -28,9 +23,9 @@
       "secret": "ee49b03637799a40446509a268d99ff91b706574726f766963682e7275"
     },
     {
-      "server": "syzygy.sosun4ik.top",
+      "server": "mtp2.hlebushek.com",
       "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+      "secret": "ee8263f1fdfbfa0629c67c40d208806873706574726f766963682e7275"
     },
     {
       "server": "mtp1.hlebushek.com",
@@ -38,9 +33,9 @@
       "secret": "eea61deab187a415531ac418cd29ae58ee706574726f766963682e7275"
     },
     {
-      "server": "fast-proxy.ink",
+      "server": "media.happtg.org",
       "port": "443",
-      "secret": "ee98e83ac6806491b9501d3a61cdd59c71666173742d70726f78792e696e6b"
+      "secret": "eed9cf709eb48bb5a37471fba84864bd7e766b2e7275"
     },
     {
       "server": "best-proxy.ink",
@@ -48,9 +43,9 @@
       "secret": "eecd52b1146f6670de19bc5bf189d1ab58626573742d70726f78792e696e6b"
     },
     {
-      "server": "mtp2.hlebushek.com",
+      "server": "fast-proxy.ink",
       "port": "443",
-      "secret": "ee8263f1fdfbfa0629c67c40d208806873706574726f766963682e7275"
+      "secret": "ee98e83ac6806491b9501d3a61cdd59c71666173742d70726f78792e696e6b"
     }
   ]
 }
