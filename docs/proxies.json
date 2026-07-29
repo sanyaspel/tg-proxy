@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-29T04:38:59Z",
-  "count": 10,
+  "updated": "2026-07-29T07:35:42Z",
+  "count": 7,
   "proxies": [
     {
       "server": "julyy.nolags.pw",
@@ -13,34 +13,9 @@
       "secret": "dddb688a36cd7c7b24fa0604392645bd82"
     },
     {
-      "server": "skein.chunkycorp.shop",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "aerie.sosun4ik.top",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "syzygy.sosun4ik.top",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "mtp1.hlebushek.com",
-      "port": "443",
-      "secret": "eea61deab187a415531ac418cd29ae58ee706574726f766963682e7275"
-    },
-    {
       "server": "mtp2.hlebushek.com",
       "port": "443",
       "secret": "ee8263f1fdfbfa0629c67c40d208806873706574726f766963682e7275"
-    },
-    {
-      "server": "medblock.ink",
-      "port": "443",
-      "secret": "ee48995b34487bfb1cb562552a585da0ea6d6564626c6f636b2e696e6b"
     },
     {
       "server": "best-proxy.ink",
@@ -51,6 +26,16 @@
       "server": "fleethop.online",
       "port": "443",
       "secret": "eed82e9162b09c2ddfdbe3ddfe7d28d87a666c656574686f702e6f6e6c696e65"
+    },
+    {
+      "server": "medblock.ink",
+      "port": "443",
+      "secret": "ee48995b34487bfb1cb562552a585da0ea6d6564626c6f636b2e696e6b"
+    },
+    {
+      "server": "mtp1.hlebushek.com",
+      "port": "443",
+      "secret": "eea61deab187a415531ac418cd29ae58ee706574726f766963682e7275"
     }
   ]
 }
