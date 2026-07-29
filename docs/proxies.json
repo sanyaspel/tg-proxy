@@ -1,11 +1,11 @@
 {
-  "updated": "2026-07-29T14:37:58Z",
-  "count": 10,
+  "updated": "2026-07-29T16:13:45Z",
+  "count": 9,
   "proxies": [
     {
-      "server": "petrichor.slarkfat.icu",
+      "server": "no.nolagsproxy.space",
       "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+      "secret": "dda0156514d55581d3bd4b86a324dfabde"
     },
     {
       "server": "skein.chunkycorp.shop",
@@ -23,14 +23,9 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "sisu.proxytales.life",
+      "server": "aerie.sosun4ik.top",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "media1.happtg.org",
-      "port": "443",
-      "secret": "ee73e7d7fe41b49d9091f78c8c92c22de4766b2e7275"
     },
     {
       "server": "media3.happtg.org",
@@ -38,9 +33,9 @@
       "secret": "ee8fc9c7632b344b1b76639c501ae7cfb5766b2e7275"
     },
     {
-      "server": "aerie.sosun4ik.top",
+      "server": "media1.happtg.org",
       "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+      "secret": "ee73e7d7fe41b49d9091f78c8c92c22de4766b2e7275"
     },
     {
       "server": "fast-proxy.ink",
