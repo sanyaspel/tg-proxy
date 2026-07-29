@@ -1,26 +1,26 @@
 {
-  "updated": "2026-07-29T22:25:36Z",
-  "count": 9,
+  "updated": "2026-07-29T23:28:01Z",
+  "count": 10,
   "proxies": [
-    {
-      "server": "come.workingproxy.xyz",
-      "port": "443",
-      "secret": "dd7957f0892ff649d9649ae30df67f9b6e"
-    },
     {
       "server": "no.nolagsproxy.space",
       "port": "443",
       "secret": "dda0156514d55581d3bd4b86a324dfabde"
     },
     {
-      "server": "skein.chunkycorp.shop",
+      "server": "come.workingproxy.xyz",
       "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+      "secret": "dd7957f0892ff649d9649ae30df67f9b6e"
     },
     {
-      "server": "aerie.sosun4ik.top",
+      "server": "mtp2.hlebushek.com",
       "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+      "secret": "ee8263f1fdfbfa0629c67c40d208806873706574726f766963682e7275"
+    },
+    {
+      "server": "media.happtg.org",
+      "port": "443",
+      "secret": "eed9cf709eb48bb5a37471fba84864bd7e766b2e7275"
     },
     {
       "server": "mtp1.hlebushek.com",
@@ -33,19 +33,24 @@
       "secret": "ee49b03637799a40446509a268d99ff91b706574726f766963682e7275"
     },
     {
-      "server": "mtp2.hlebushek.com",
+      "server": "aerie.sosun4ik.top",
       "port": "443",
-      "secret": "ee8263f1fdfbfa0629c67c40d208806873706574726f766963682e7275"
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "best-proxy.ink",
+      "server": "syzygy.sosun4ik.top",
       "port": "443",
-      "secret": "eecd52b1146f6670de19bc5bf189d1ab58626573742d70726f78792e696e6b"
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
       "server": "fast-proxy.ink",
       "port": "443",
       "secret": "ee98e83ac6806491b9501d3a61cdd59c71666173742d70726f78792e696e6b"
+    },
+    {
+      "server": "best-proxy.ink",
+      "port": "443",
+      "secret": "eecd52b1146f6670de19bc5bf189d1ab58626573742d70726f78792e696e6b"
     }
   ]
 }
