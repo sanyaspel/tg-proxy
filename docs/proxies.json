@@ -1,11 +1,16 @@
 {
-  "updated": "2026-07-30T09:09:30Z",
-  "count": 3,
+  "updated": "2026-07-30T11:25:50Z",
+  "count": 4,
   "proxies": [
     {
-      "server": "come.workingproxy.xyz",
+      "server": "sisu.proxytales.life",
       "port": "443",
-      "secret": "dd7957f0892ff649d9649ae30df67f9b6e"
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "petrichor.slarkfat.icu",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
       "server": "media.happtg.org",
@@ -13,9 +18,9 @@
       "secret": "eed9cf709eb48bb5a37471fba84864bd7e766b2e7275"
     },
     {
-      "server": "mtp2.hlebushek.com",
-      "port": "443",
-      "secret": "ee8263f1fdfbfa0629c67c40d208806873706574726f766963682e7275"
+      "server": "ardesvpn1.ru",
+      "port": "8443",
+      "secret": "ee05cf8e164f926f4a664b2404d276a1d6617264657376706e312e7275"
     }
   ]
 }
