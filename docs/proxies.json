@@ -1,29 +1,19 @@
 {
-  "updated": "2026-07-30T16:56:10Z",
+  "updated": "2026-07-30T18:09:00Z",
   "count": 8,
   "proxies": [
+    {
+      "server": "love.workingproxy.xyz",
+      "port": "443",
+      "secret": "dd275f670cdf5716dcbcf9d920645a03eb"
+    },
     {
       "server": "hello.nolagsproxy.space",
       "port": "443",
       "secret": "dd23c4f3442902ef41986fda3e819c1417"
     },
     {
-      "server": "sisu.proxytales.life",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "skein.chunkycorp.shop",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
       "server": "petrichor.slarkfat.icu",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "aerie.sosun4ik.top",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
@@ -33,14 +23,24 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
+      "server": "s010.neo-trading.org",
+      "port": "443",
+      "secret": "ee2c46ee89b4f2c79c1d8325d13091e580706574726f766963682e7275"
+    },
+    {
+      "server": "skein.chunkycorp.shop",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "aerie.sosun4ik.top",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
       "server": "ardesvpn1.ru",
       "port": "8443",
       "secret": "ee05cf8e164f926f4a664b2404d276a1d6617264657376706e312e7275"
-    },
-    {
-      "server": "love.workingproxy.xyz",
-      "port": "443",
-      "secret": "dd275f670cdf5716dcbcf9d920645a03eb"
     }
   ]
 }
