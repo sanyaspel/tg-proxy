@@ -1,14 +1,19 @@
 {
-  "updated": "2026-07-30T15:10:28Z",
-  "count": 6,
+  "updated": "2026-07-30T16:56:10Z",
+  "count": 8,
   "proxies": [
     {
-      "server": "skein.chunkycorp.shop",
+      "server": "hello.nolagsproxy.space",
+      "port": "443",
+      "secret": "dd23c4f3442902ef41986fda3e819c1417"
+    },
+    {
+      "server": "sisu.proxytales.life",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "sisu.proxytales.life",
+      "server": "skein.chunkycorp.shop",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
@@ -23,14 +28,19 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
+      "server": "syzygy.sosun4ik.top",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
       "server": "ardesvpn1.ru",
       "port": "8443",
       "secret": "ee05cf8e164f926f4a664b2404d276a1d6617264657376706e312e7275"
     },
     {
-      "server": "syzygy.sosun4ik.top",
+      "server": "love.workingproxy.xyz",
       "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+      "secret": "dd275f670cdf5716dcbcf9d920645a03eb"
     }
   ]
 }
