@@ -1,36 +1,16 @@
 {
-  "updated": "2026-07-31T04:56:34Z",
-  "count": 8,
+  "updated": "2026-07-31T07:45:07Z",
+  "count": 5,
   "proxies": [
-    {
-      "server": "hello.nolagsproxy.space",
-      "port": "443",
-      "secret": "dd23c4f3442902ef41986fda3e819c1417"
-    },
     {
       "server": "love.workingproxy.xyz",
       "port": "443",
       "secret": "dd275f670cdf5716dcbcf9d920645a03eb"
     },
     {
-      "server": "skein.chunkycorp.shop",
+      "server": "hello.nolagsproxy.space",
       "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "aerie.sosun4ik.top",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "syzygy.sosun4ik.top",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "s010.neo-trading.org",
-      "port": "443",
-      "secret": "ee2c46ee89b4f2c79c1d8325d13091e580706574726f766963682e7275"
+      "secret": "dd23c4f3442902ef41986fda3e819c1417"
     },
     {
       "server": "fleethop.online",
@@ -41,6 +21,11 @@
       "server": "fleethop.org",
       "port": "443",
       "secret": "ee5963ce7d4a7f471c330778c419c0b19e666c656574686f702e6f7267"
+    },
+    {
+      "server": "s010.neo-trading.org",
+      "port": "443",
+      "secret": "ee2c46ee89b4f2c79c1d8325d13091e580706574726f766963682e7275"
     }
   ]
 }
