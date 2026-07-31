@@ -1,14 +1,24 @@
 {
-  "updated": "2026-07-31T12:24:34Z",
-  "count": 5,
+  "updated": "2026-07-31T14:43:53Z",
+  "count": 6,
   "proxies": [
     {
-      "server": "petrichor.slarkfat.icu",
+      "server": "sisu.proxytales.life",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "sisu.proxytales.life",
+      "server": "syzygy.sosun4ik.top",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "skein.chunkycorp.shop",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "petrichor.slarkfat.icu",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
@@ -18,14 +28,9 @@
       "secret": "ee05cf8e164f926f4a664b2404d276a1d6617264657376706e312e7275"
     },
     {
-      "server": "fleethop.online",
+      "server": "aerie.sosun4ik.top",
       "port": "443",
-      "secret": "ee7b65b9f92173a83dcd4d1c5b8c1031f7666c656574686f702e6f6e6c696e65"
-    },
-    {
-      "server": "fleethop.org",
-      "port": "443",
-      "secret": "ee5963ce7d4a7f471c330778c419c0b19e666c656574686f702e6f7267"
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     }
   ]
 }
