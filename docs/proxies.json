@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-31T10:26:00Z",
-  "count": 3,
+  "updated": "2026-07-31T12:24:34Z",
+  "count": 5,
   "proxies": [
     {
       "server": "petrichor.slarkfat.icu",
@@ -11,6 +11,16 @@
       "server": "sisu.proxytales.life",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "ardesvpn1.ru",
+      "port": "8443",
+      "secret": "ee05cf8e164f926f4a664b2404d276a1d6617264657376706e312e7275"
+    },
+    {
+      "server": "fleethop.online",
+      "port": "443",
+      "secret": "ee7b65b9f92173a83dcd4d1c5b8c1031f7666c656574686f702e6f6e6c696e65"
     },
     {
       "server": "fleethop.org",
