@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-31T01:28:26Z",
+  "updated": "2026-07-31T04:56:34Z",
   "count": 8,
   "proxies": [
     {
@@ -13,12 +13,12 @@
       "secret": "dd275f670cdf5716dcbcf9d920645a03eb"
     },
     {
-      "server": "aerie.sosun4ik.top",
+      "server": "skein.chunkycorp.shop",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "skein.chunkycorp.shop",
+      "server": "aerie.sosun4ik.top",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
