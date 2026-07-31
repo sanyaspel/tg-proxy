@@ -1,11 +1,16 @@
 {
-  "updated": "2026-07-31T19:58:53Z",
-  "count": 8,
+  "updated": "2026-07-31T21:02:01Z",
+  "count": 7,
   "proxies": [
     {
       "server": "night.workingproxy.xyz",
       "port": "443",
       "secret": "dde5d60707998c23e890e00e0bbe5eacdd"
+    },
+    {
+      "server": "syzygy.sosun4ik.top",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
       "server": "aerie.sosun4ik.top",
@@ -18,14 +23,9 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "syzygy.sosun4ik.top",
+      "server": "neo-vpn.ink",
       "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "medblock.ink",
-      "port": "443",
-      "secret": "ee81bcf42079b8aea4608000f6d77285f36d6564626c6f636b2e696e6b"
+      "secret": "eea40b9cca8c9d1e4eba3c50c16d38358a6e656f2d76706e2e696e6b"
     },
     {
       "server": "medblock.fit",
@@ -33,14 +33,9 @@
       "secret": "ee56f78cfdeedfc4562c048fe36e92f8976d6564626c6f636b2e666974"
     },
     {
-      "server": "neo-vpn.ink",
+      "server": "medblock.ink",
       "port": "443",
-      "secret": "eea40b9cca8c9d1e4eba3c50c16d38358a6e656f2d76706e2e696e6b"
-    },
-    {
-      "server": "ardesvpn1.ru",
-      "port": "8443",
-      "secret": "ee05cf8e164f926f4a664b2404d276a1d6617264657376706e312e7275"
+      "secret": "ee81bcf42079b8aea4608000f6d77285f36d6564626c6f636b2e696e6b"
     }
   ]
 }
