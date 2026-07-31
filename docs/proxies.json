@@ -1,7 +1,17 @@
 {
-  "updated": "2026-07-31T16:28:46Z",
-  "count": 9,
+  "updated": "2026-07-31T18:02:32Z",
+  "count": 10,
   "proxies": [
+    {
+      "server": "night.workingproxy.xyz",
+      "port": "443",
+      "secret": "dde5d60707998c23e890e00e0bbe5eacdd"
+    },
+    {
+      "server": "petrichor.slarkfat.icu",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
     {
       "server": "skein.chunkycorp.shop",
       "port": "443",
@@ -9,11 +19,6 @@
     },
     {
       "server": "sisu.proxytales.life",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "petrichor.slarkfat.icu",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
@@ -28,11 +33,6 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "neo-vpn.ink",
-      "port": "443",
-      "secret": "eea40b9cca8c9d1e4eba3c50c16d38358a6e656f2d76706e2e696e6b"
-    },
-    {
       "server": "medblock.ink",
       "port": "443",
       "secret": "ee81bcf42079b8aea4608000f6d77285f36d6564626c6f636b2e696e6b"
@@ -41,6 +41,11 @@
       "server": "medblock.fit",
       "port": "443",
       "secret": "ee56f78cfdeedfc4562c048fe36e92f8976d6564626c6f636b2e666974"
+    },
+    {
+      "server": "neo-vpn.ink",
+      "port": "443",
+      "secret": "eea40b9cca8c9d1e4eba3c50c16d38358a6e656f2d76706e2e696e6b"
     },
     {
       "server": "ardesvpn1.ru",
