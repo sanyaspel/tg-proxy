@@ -1,21 +1,11 @@
 {
-  "updated": "2026-08-01T15:50:07Z",
-  "count": 12,
+  "updated": "2026-08-01T16:44:36Z",
+  "count": 10,
   "proxies": [
     {
       "server": "skein.chunkycorp.shop",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "sisu.proxytales.life",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "mtp3.hlebushek.com",
-      "port": "443",
-      "secret": "ee49b03637799a40446509a268d99ff91b706574726f766963682e7275"
     },
     {
       "server": "syzygy.sosun4ik.top",
@@ -28,14 +18,14 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "ad3.fluxvpnguard.ru",
+      "server": "mtp3.hlebushek.com",
       "port": "443",
-      "secret": "ee1a23dbc042a9ad90a7ef4e5a4f04e1486164332e666c757876706e67756172642e7275"
+      "secret": "ee49b03637799a40446509a268d99ff91b706574726f766963682e7275"
     },
     {
-      "server": "ad1.fluxvpnguard.ru",
+      "server": "lazeyka-3.getvelora.space",
       "port": "443",
-      "secret": "eef783c9e53b90b92a084bb3e50e028baa6164312e666c757876706e67756172642e7275"
+      "secret": "ee1dd78b7b5132effe70cb01bef69a351a6f7a6f6e2e7275"
     },
     {
       "server": "petrichor.slarkfat.icu",
@@ -58,9 +48,9 @@
       "secret": "ee07a0a81521da4854c2cdb837cfdaf3a46164352e666c757876706e67756172642e7275"
     },
     {
-      "server": "lazeyka-3.getvelora.space",
+      "server": "ad3.fluxvpnguard.ru",
       "port": "443",
-      "secret": "ee1dd78b7b5132effe70cb01bef69a351a6f7a6f6e2e7275"
+      "secret": "ee1a23dbc042a9ad90a7ef4e5a4f04e1486164332e666c757876706e67756172642e7275"
     }
   ]
 }
