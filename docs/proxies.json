@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-01T07:21:54Z",
-  "count": 7,
+  "updated": "2026-08-01T09:29:25Z",
+  "count": 5,
   "proxies": [
     {
       "server": "night.workingproxy.xyz",
@@ -8,14 +8,9 @@
       "secret": "dde5d60707998c23e890e00e0bbe5eacdd"
     },
     {
-      "server": "syzygy.sosun4ik.top",
+      "server": "ad4.fluxvpnguard.ru",
       "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "sisu.proxytales.life",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+      "secret": "ee0c002a9452cc7922f86bf4bfaa6b1a8d6164342e666c757876706e67756172642e7275"
     },
     {
       "server": "ad1.fluxvpnguard.ru",
@@ -23,19 +18,14 @@
       "secret": "eef783c9e53b90b92a084bb3e50e028baa6164312e666c757876706e67756172642e7275"
     },
     {
-      "server": "medblock.ink",
+      "server": "skein.chunkycorp.shop",
       "port": "443",
-      "secret": "ee81bcf42079b8aea4608000f6d77285f36d6564626c6f636b2e696e6b"
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "medblock.fit",
+      "server": "sisu.proxytales.life",
       "port": "443",
-      "secret": "ee56f78cfdeedfc4562c048fe36e92f8976d6564626c6f636b2e666974"
-    },
-    {
-      "server": "neo-vpn.ink",
-      "port": "443",
-      "secret": "eea40b9cca8c9d1e4eba3c50c16d38358a6e656f2d76706e2e696e6b"
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     }
   ]
 }
