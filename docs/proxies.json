@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-01T22:22:58Z",
+  "updated": "2026-08-01T23:24:15Z",
   "count": 10,
   "proxies": [
     {
@@ -13,19 +13,24 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "ad5.fluxvpnguard.ru",
-      "port": "443",
-      "secret": "ee07a0a81521da4854c2cdb837cfdaf3a46164352e666c757876706e67756172642e7275"
-    },
-    {
       "server": "ad3.fluxvpnguard.ru",
       "port": "443",
       "secret": "ee1a23dbc042a9ad90a7ef4e5a4f04e1486164332e666c757876706e67756172642e7275"
     },
     {
+      "server": "ad5.fluxvpnguard.ru",
+      "port": "443",
+      "secret": "ee07a0a81521da4854c2cdb837cfdaf3a46164352e666c757876706e67756172642e7275"
+    },
+    {
       "server": "lazeyka-3.getvelora.space",
       "port": "443",
       "secret": "ee1dd78b7b5132effe70cb01bef69a351a6f7a6f6e2e7275"
+    },
+    {
+      "server": "medblock.ink",
+      "port": "443",
+      "secret": "ee48995b34487bfb1cb562552a585da0ea6d6564626c6f636b2e696e6b"
     },
     {
       "server": "fleethop.online",
@@ -36,11 +41,6 @@
       "server": "fast-proxy.ink",
       "port": "443",
       "secret": "ee98e83ac6806491b9501d3a61cdd59c71666173742d70726f78792e696e6b"
-    },
-    {
-      "server": "medblock.ink",
-      "port": "443",
-      "secret": "ee48995b34487bfb1cb562552a585da0ea6d6564626c6f636b2e696e6b"
     },
     {
       "server": "fleethop.org",
