@@ -1,19 +1,9 @@
 {
-  "updated": "2026-08-01T10:57:42Z",
+  "updated": "2026-08-01T11:59:08Z",
   "count": 7,
   "proxies": [
     {
       "server": "skein.chunkycorp.shop",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "ad2.fluxvpnguard.ru",
-      "port": "443",
-      "secret": "ee4f43452511fc19da8a32ad7a3f0530e46164322e666c757876706e67756172642e7275"
-    },
-    {
-      "server": "petrichor.slarkfat.icu",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
@@ -23,19 +13,29 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
+      "server": "petrichor.slarkfat.icu",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
       "server": "mtp3.hlebushek.com",
       "port": "443",
       "secret": "ee49b03637799a40446509a268d99ff91b706574726f766963682e7275"
     },
     {
-      "server": "ad1.fluxvpnguard.ru",
-      "port": "443",
-      "secret": "eef783c9e53b90b92a084bb3e50e028baa6164312e666c757876706e67756172642e7275"
-    },
-    {
       "server": "ad4.fluxvpnguard.ru",
       "port": "443",
       "secret": "ee0c002a9452cc7922f86bf4bfaa6b1a8d6164342e666c757876706e67756172642e7275"
+    },
+    {
+      "server": "ad2.fluxvpnguard.ru",
+      "port": "443",
+      "secret": "ee4f43452511fc19da8a32ad7a3f0530e46164322e666c757876706e67756172642e7275"
+    },
+    {
+      "server": "ad1.fluxvpnguard.ru",
+      "port": "443",
+      "secret": "eef783c9e53b90b92a084bb3e50e028baa6164312e666c757876706e67756172642e7275"
     }
   ]
 }
