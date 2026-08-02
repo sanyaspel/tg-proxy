@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-02T22:15:28Z",
+  "updated": "2026-08-02T23:24:57Z",
   "count": 6,
   "proxies": [
     {
-      "server": "syzygy.sosun4ik.top",
+      "server": "ad3.fluxvpnguard.ru",
       "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+      "secret": "ee1a23dbc042a9ad90a7ef4e5a4f04e1486164332e666c757876706e67756172642e7275"
     },
     {
       "server": "s010.neo-trading.org",
@@ -13,19 +13,19 @@
       "secret": "ee2c46ee89b4f2c79c1d8325d13091e580706574726f766963682e7275"
     },
     {
-      "server": "aerie.sosun4ik.top",
+      "server": "ad5.fluxvpnguard.ru",
+      "port": "443",
+      "secret": "ee07a0a81521da4854c2cdb837cfdaf3a46164352e666c757876706e67756172642e7275"
+    },
+    {
+      "server": "syzygy.sosun4ik.top",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "ad3.fluxvpnguard.ru",
+      "server": "aerie.sosun4ik.top",
       "port": "443",
-      "secret": "ee1a23dbc042a9ad90a7ef4e5a4f04e1486164332e666c757876706e67756172642e7275"
-    },
-    {
-      "server": "ad5.fluxvpnguard.ru",
-      "port": "443",
-      "secret": "ee07a0a81521da4854c2cdb837cfdaf3a46164352e666c757876706e67756172642e7275"
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
       "server": "lazeyka-4.getvelora.space",
