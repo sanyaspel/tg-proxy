@@ -1,21 +1,21 @@
 {
-  "updated": "2026-08-02T04:45:55Z",
-  "count": 10,
+  "updated": "2026-08-02T07:25:49Z",
+  "count": 9,
   "proxies": [
-    {
-      "server": "aerie.sosun4ik.top",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
     {
       "server": "syzygy.sosun4ik.top",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "ad3.fluxvpnguard.ru",
+      "server": "ad1.fluxvpnguard.ru",
       "port": "443",
-      "secret": "ee1a23dbc042a9ad90a7ef4e5a4f04e1486164332e666c757876706e67756172642e7275"
+      "secret": "eef783c9e53b90b92a084bb3e50e028baa6164312e666c757876706e67756172642e7275"
+    },
+    {
+      "server": "sisu.proxytales.life",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
       "server": "ad5.fluxvpnguard.ru",
@@ -28,14 +28,9 @@
       "secret": "ee48995b34487bfb1cb562552a585da0ea6d6564626c6f636b2e696e6b"
     },
     {
-      "server": "lazeyka-3.getvelora.space",
+      "server": "best-proxy.ink",
       "port": "443",
-      "secret": "ee1dd78b7b5132effe70cb01bef69a351a6f7a6f6e2e7275"
-    },
-    {
-      "server": "fleethop.online",
-      "port": "443",
-      "secret": "eed82e9162b09c2ddfdbe3ddfe7d28d87a666c656574686f702e6f6e6c696e65"
+      "secret": "ee041a76d99194e7dda929e9379d686cd2626573742d70726f78792e696e6b"
     },
     {
       "server": "fast-proxy.ink",
@@ -43,14 +38,14 @@
       "secret": "ee98e83ac6806491b9501d3a61cdd59c71666173742d70726f78792e696e6b"
     },
     {
+      "server": "fleethop.online",
+      "port": "443",
+      "secret": "eed82e9162b09c2ddfdbe3ddfe7d28d87a666c656574686f702e6f6e6c696e65"
+    },
+    {
       "server": "fleethop.org",
       "port": "443",
       "secret": "ee5963ce7d4a7f471c330778c419c0b19e666c656574686f702e6f7267"
-    },
-    {
-      "server": "best-proxy.ink",
-      "port": "443",
-      "secret": "ee041a76d99194e7dda929e9379d686cd2626573742d70726f78792e696e6b"
     }
   ]
 }
