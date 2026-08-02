@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-02T13:08:17Z",
-  "count": 13,
+  "updated": "2026-08-02T14:44:47Z",
+  "count": 14,
   "proxies": [
     {
       "server": "skein.chunkycorp.shop",
@@ -8,7 +8,12 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "aerie.sosun4ik.top",
+      "server": "sisu.proxytales.life",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "syzygy.sosun4ik.top",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
@@ -16,6 +21,16 @@
       "server": "ad1.fluxvpnguard.ru",
       "port": "443",
       "secret": "eef783c9e53b90b92a084bb3e50e028baa6164312e666c757876706e67756172642e7275"
+    },
+    {
+      "server": "aerie.sosun4ik.top",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "ad3.fluxvpnguard.ru",
+      "port": "443",
+      "secret": "ee1a23dbc042a9ad90a7ef4e5a4f04e1486164332e666c757876706e67756172642e7275"
     },
     {
       "server": "petrichor.slarkfat.icu",
@@ -28,19 +43,19 @@
       "secret": "ee0c002a9452cc7922f86bf4bfaa6b1a8d6164342e666c757876706e67756172642e7275"
     },
     {
-      "server": "ad3.fluxvpnguard.ru",
+      "server": "ad2.fluxvpnguard.ru",
       "port": "443",
-      "secret": "ee1a23dbc042a9ad90a7ef4e5a4f04e1486164332e666c757876706e67756172642e7275"
+      "secret": "ee4f43452511fc19da8a32ad7a3f0530e46164322e666c757876706e67756172642e7275"
     },
     {
-      "server": "sisu.proxytales.life",
+      "server": "best-proxy.ink",
       "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+      "secret": "ee041a76d99194e7dda929e9379d686cd2626573742d70726f78792e696e6b"
     },
     {
-      "server": "fleethop.org",
+      "server": "ad5.fluxvpnguard.ru",
       "port": "443",
-      "secret": "ee5963ce7d4a7f471c330778c419c0b19e666c656574686f702e6f7267"
+      "secret": "ee07a0a81521da4854c2cdb837cfdaf3a46164352e666c757876706e67756172642e7275"
     },
     {
       "server": "fleethop.online",
@@ -53,19 +68,9 @@
       "secret": "ee48995b34487bfb1cb562552a585da0ea6d6564626c6f636b2e696e6b"
     },
     {
-      "server": "ad2.fluxvpnguard.ru",
+      "server": "lazeyka-4.getvelora.space",
       "port": "443",
-      "secret": "ee4f43452511fc19da8a32ad7a3f0530e46164322e666c757876706e67756172642e7275"
-    },
-    {
-      "server": "best-proxy.ink",
-      "port": "443",
-      "secret": "eecd52b1146f6670de19bc5bf189d1ab58626573742d70726f78792e696e6b"
-    },
-    {
-      "server": "fast-proxy.ink",
-      "port": "443",
-      "secret": "ee98e83ac6806491b9501d3a61cdd59c71666173742d70726f78792e696e6b"
+      "secret": "ee8cb9b7ded45502a4f153299a621a9d3d6f7a6f6e2e7275"
     }
   ]
 }
