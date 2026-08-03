@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-03T21:35:24Z",
+  "updated": "2026-08-03T22:49:10Z",
   "count": 8,
   "proxies": [
     {
@@ -13,14 +13,14 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "ad3.fluxvpnguard.ru",
-      "port": "443",
-      "secret": "ee1a23dbc042a9ad90a7ef4e5a4f04e1486164332e666c757876706e67756172642e7275"
-    },
-    {
       "server": "lazeyka-5.getvelora.space",
       "port": "443",
       "secret": "ee3e0dff728bbad2c7b56124815fa1492d6f7a6f6e2e7275"
+    },
+    {
+      "server": "best-proxy.ink",
+      "port": "443",
+      "secret": "ee041a76d99194e7dda929e9379d686cd2626573742d70726f78792e696e6b"
     },
     {
       "server": "ad5.fluxvpnguard.ru",
@@ -28,9 +28,9 @@
       "secret": "ee07a0a81521da4854c2cdb837cfdaf3a46164352e666c757876706e67756172642e7275"
     },
     {
-      "server": "best-proxy.ink",
+      "server": "ad3.fluxvpnguard.ru",
       "port": "443",
-      "secret": "ee041a76d99194e7dda929e9379d686cd2626573742d70726f78792e696e6b"
+      "secret": "ee1a23dbc042a9ad90a7ef4e5a4f04e1486164332e666c757876706e67756172642e7275"
     },
     {
       "server": "medblock.ink",
