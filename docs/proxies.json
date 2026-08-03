@@ -1,11 +1,21 @@
 {
-  "updated": "2026-08-03T08:18:28Z",
-  "count": 5,
+  "updated": "2026-08-03T11:51:28Z",
+  "count": 6,
   "proxies": [
     {
-      "server": "syzygy.sosun4ik.top",
+      "server": "skein.chunkycorp.shop",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "petrichor.slarkfat.icu",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "ad2.fluxvpnguard.ru",
+      "port": "443",
+      "secret": "ee4f43452511fc19da8a32ad7a3f0530e46164322e666c757876706e67756172642e7275"
     },
     {
       "server": "ad1.fluxvpnguard.ru",
@@ -13,19 +23,14 @@
       "secret": "eef783c9e53b90b92a084bb3e50e028baa6164312e666c757876706e67756172642e7275"
     },
     {
-      "server": "ad5.fluxvpnguard.ru",
-      "port": "443",
-      "secret": "ee07a0a81521da4854c2cdb837cfdaf3a46164352e666c757876706e67756172642e7275"
-    },
-    {
       "server": "sisu.proxytales.life",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "s010.neo-trading.org",
+      "server": "ad4.fluxvpnguard.ru",
       "port": "443",
-      "secret": "ee2c46ee89b4f2c79c1d8325d13091e580706574726f766963682e7275"
+      "secret": "ee0c002a9452cc7922f86bf4bfaa6b1a8d6164342e666c757876706e67756172642e7275"
     }
   ]
 }
