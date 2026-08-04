@@ -1,36 +1,21 @@
 {
-  "updated": "2026-08-04T19:00:44Z",
-  "count": 11,
+  "updated": "2026-08-04T20:47:15Z",
+  "count": 6,
   "proxies": [
     {
-      "server": "skein.chunkycorp.shop",
+      "server": "s03.neo-trading.org",
       "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+      "secret": "eeaf794bcc20f70b1436b6b92b01b207e26d61676e69742e7275"
     },
     {
-      "server": "media2.happtg.org",
+      "server": "lazeyka-6.getvelora.space",
       "port": "443",
-      "secret": "ee95aa916bd319beb312cc6ba9b2c5aef8766b2e7275"
-    },
-    {
-      "server": "media.happtg.org",
-      "port": "443",
-      "secret": "eed9cf709eb48bb5a37471fba84864bd7e766b2e7275"
-    },
-    {
-      "server": "media3.happtg.org",
-      "port": "443",
-      "secret": "ee8fc9c7632b344b1b76639c501ae7cfb5766b2e7275"
+      "secret": "ee46da8bea792f6be81e42e3afff691a006f7a6f6e2e7275"
     },
     {
       "server": "adieu.shmelproxy.top",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "s03.neo-trading.org",
-      "port": "443",
-      "secret": "eeaf794bcc20f70b1436b6b92b01b207e26d61676e69742e7275"
     },
     {
       "server": "best-proxy.ink",
@@ -41,16 +26,6 @@
       "server": "fleethop.online",
       "port": "443",
       "secret": "eed82e9162b09c2ddfdbe3ddfe7d28d87a666c656574686f702e6f6e6c696e65"
-    },
-    {
-      "server": "lazeyka-6.getvelora.space",
-      "port": "443",
-      "secret": "ee46da8bea792f6be81e42e3afff691a006f7a6f6e2e7275"
-    },
-    {
-      "server": "medblock.ink",
-      "port": "443",
-      "secret": "ee48995b34487bfb1cb562552a585da0ea6d6564626c6f636b2e696e6b"
     },
     {
       "server": "proxy.lodkirmm.ru",
