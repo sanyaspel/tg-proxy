@@ -1,16 +1,16 @@
 {
-  "updated": "2026-08-04T17:09:35Z",
-  "count": 13,
+  "updated": "2026-08-04T19:00:44Z",
+  "count": 11,
   "proxies": [
     {
-      "server": "adieu.shmelproxy.top",
+      "server": "skein.chunkycorp.shop",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "syzygy.sosun4ik.top",
+      "server": "media2.happtg.org",
       "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+      "secret": "ee95aa916bd319beb312cc6ba9b2c5aef8766b2e7275"
     },
     {
       "server": "media.happtg.org",
@@ -18,29 +18,19 @@
       "secret": "eed9cf709eb48bb5a37471fba84864bd7e766b2e7275"
     },
     {
-      "server": "skein.chunkycorp.shop",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
       "server": "media3.happtg.org",
       "port": "443",
       "secret": "ee8fc9c7632b344b1b76639c501ae7cfb5766b2e7275"
     },
     {
-      "server": "ad4.fluxvpnguard.ru",
+      "server": "adieu.shmelproxy.top",
       "port": "443",
-      "secret": "ee0c002a9452cc7922f86bf4bfaa6b1a8d6164342e666c757876706e67756172642e7275"
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "proxy.lodkirmm.ru",
-      "port": "8443",
-      "secret": "ee16309abd572d284b309ef26bd7a3f685d0b7d0ba70726f78792e6c6f646b69726d6d2e7275"
-    },
-    {
-      "server": "medblock.ink",
+      "server": "s03.neo-trading.org",
       "port": "443",
-      "secret": "ee48995b34487bfb1cb562552a585da0ea6d6564626c6f636b2e696e6b"
+      "secret": "eeaf794bcc20f70b1436b6b92b01b207e26d61676e69742e7275"
     },
     {
       "server": "best-proxy.ink",
@@ -58,14 +48,14 @@
       "secret": "ee46da8bea792f6be81e42e3afff691a006f7a6f6e2e7275"
     },
     {
-      "server": "ad5.fluxvpnguard.ru",
+      "server": "medblock.ink",
       "port": "443",
-      "secret": "ee07a0a81521da4854c2cdb837cfdaf3a46164352e666c757876706e67756172642e7275"
+      "secret": "ee48995b34487bfb1cb562552a585da0ea6d6564626c6f636b2e696e6b"
     },
     {
-      "server": "media2.happtg.org",
-      "port": "443",
-      "secret": "ee95aa916bd319beb312cc6ba9b2c5aef8766b2e7275"
+      "server": "proxy.lodkirmm.ru",
+      "port": "8443",
+      "secret": "ee16309abd572d284b309ef26bd7a3f685d0b7d0ba70726f78792e6c6f646b69726d6d2e7275"
     }
   ]
 }
