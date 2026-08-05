@@ -1,9 +1,14 @@
 {
-  "updated": "2026-08-05T03:51:32Z",
-  "count": 6,
+  "updated": "2026-08-05T06:16:54Z",
+  "count": 10,
   "proxies": [
     {
-      "server": "adieu.shmelproxy.top",
+      "server": "media2.happtg.org",
+      "port": "443",
+      "secret": "ee95aa916bd319beb312cc6ba9b2c5aef8766b2e7275"
+    },
+    {
+      "server": "petrichor.slarkfat.icu",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
@@ -18,9 +23,9 @@
       "secret": "ee46da8bea792f6be81e42e3afff691a006f7a6f6e2e7275"
     },
     {
-      "server": "best-proxy.ink",
+      "server": "media1.happtg.org",
       "port": "443",
-      "secret": "ee041a76d99194e7dda929e9379d686cd2626573742d70726f78792e696e6b"
+      "secret": "ee73e7d7fe41b49d9091f78c8c92c22de4766b2e7275"
     },
     {
       "server": "fleethop.online",
@@ -31,6 +36,21 @@
       "server": "medblock.ink",
       "port": "443",
       "secret": "ee48995b34487bfb1cb562552a585da0ea6d6564626c6f636b2e696e6b"
+    },
+    {
+      "server": "proxy.lodkirmm.ru",
+      "port": "8443",
+      "secret": "ee16309abd572d284b309ef26bd7a3f685d0b7d0ba70726f78792e6c6f646b69726d6d2e7275"
+    },
+    {
+      "server": "best-proxy.ink",
+      "port": "443",
+      "secret": "ee041a76d99194e7dda929e9379d686cd2626573742d70726f78792e696e6b"
+    },
+    {
+      "server": "media3.happtg.org",
+      "port": "443",
+      "secret": "ee8fc9c7632b344b1b76639c501ae7cfb5766b2e7275"
     }
   ]
 }
