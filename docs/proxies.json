@@ -1,29 +1,19 @@
 {
-  "updated": "2026-08-05T15:38:34Z",
-  "count": 8,
+  "updated": "2026-08-05T17:15:53Z",
+  "count": 6,
   "proxies": [
-    {
-      "server": "media3.happtg.org",
-      "port": "443",
-      "secret": "ee8fc9c7632b344b1b76639c501ae7cfb5766b2e7275"
-    },
     {
       "server": "zilch.chunkycorp.shop",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
+      "server": "media3.happtg.org",
+      "port": "443",
+      "secret": "ee8fc9c7632b344b1b76639c501ae7cfb5766b2e7275"
+    },
+    {
       "server": "sisu.proxytales.life",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "petrichor.slarkfat.icu",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "adieu.shmelproxy.top",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
