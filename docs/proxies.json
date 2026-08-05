@@ -1,26 +1,21 @@
 {
-  "updated": "2026-08-05T00:53:55Z",
-  "count": 7,
+  "updated": "2026-08-05T03:51:32Z",
+  "count": 6,
   "proxies": [
-    {
-      "server": "s03.neo-trading.org",
-      "port": "443",
-      "secret": "eeaf794bcc20f70b1436b6b92b01b207e26d61676e69742e7275"
-    },
     {
       "server": "adieu.shmelproxy.top",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
+      "server": "s03.neo-trading.org",
+      "port": "443",
+      "secret": "eeaf794bcc20f70b1436b6b92b01b207e26d61676e69742e7275"
+    },
+    {
       "server": "lazeyka-6.getvelora.space",
       "port": "443",
       "secret": "ee46da8bea792f6be81e42e3afff691a006f7a6f6e2e7275"
-    },
-    {
-      "server": "medblock.ink",
-      "port": "443",
-      "secret": "ee48995b34487bfb1cb562552a585da0ea6d6564626c6f636b2e696e6b"
     },
     {
       "server": "best-proxy.ink",
@@ -33,9 +28,9 @@
       "secret": "eed82e9162b09c2ddfdbe3ddfe7d28d87a666c656574686f702e6f6e6c696e65"
     },
     {
-      "server": "proxy.lodkirmm.ru",
-      "port": "8443",
-      "secret": "ee16309abd572d284b309ef26bd7a3f685d0b7d0ba70726f78792e6c6f646b69726d6d2e7275"
+      "server": "medblock.ink",
+      "port": "443",
+      "secret": "ee48995b34487bfb1cb562552a585da0ea6d6564626c6f636b2e696e6b"
     }
   ]
 }
