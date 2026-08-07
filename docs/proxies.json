@@ -1,11 +1,26 @@
 {
-  "updated": "2026-08-07T08:03:59Z",
-  "count": 1,
+  "updated": "2026-08-07T09:28:27Z",
+  "count": 4,
   "proxies": [
+    {
+      "server": "sisu.proxytales.life",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
     {
       "server": "s03.neo-trading.org",
       "port": "443",
       "secret": "eeaf794bcc20f70b1436b6b92b01b207e26d61676e69742e7275"
+    },
+    {
+      "server": "phloe.slarkfat.icu",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "petrichor.slarkfat.icu",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     }
   ]
 }
