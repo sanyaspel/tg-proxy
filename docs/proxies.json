@@ -1,24 +1,14 @@
 {
-  "updated": "2026-08-06T14:41:44Z",
-  "count": 9,
+  "updated": "2026-08-07T00:20:11Z",
+  "count": 5,
   "proxies": [
     {
-      "server": "phloe.slarkfat.icu",
+      "server": "s03.neo-trading.org",
       "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+      "secret": "eeaf794bcc20f70b1436b6b92b01b207e26d61676e69742e7275"
     },
     {
-      "server": "adieu.shmelproxy.top",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "idyll.shmelproxy.top",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "sisu.proxytales.life",
+      "server": "zilch.chunkycorp.shop",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
@@ -28,22 +18,12 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "petrichor.slarkfat.icu",
+      "server": "mtp2.hlebushek.com",
       "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+      "secret": "ee8263f1fdfbfa0629c67c40d208806873706574726f766963682e7275"
     },
     {
-      "server": "eerie.proxytales.life",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "proxy.lodkirmm.ru",
-      "port": "8443",
-      "secret": "ee16309abd572d284b309ef26bd7a3f685d0b7d0ba70726f78792e6c6f646b69726d6d2e7275"
-    },
-    {
-      "server": "zilch.chunkycorp.shop",
+      "server": "adieu.shmelproxy.top",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     }
