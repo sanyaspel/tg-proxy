@@ -1,9 +1,9 @@
 {
-  "updated": "2026-08-07T22:02:05Z",
-  "count": 4,
+  "updated": "2026-08-07T23:00:51Z",
+  "count": 3,
   "proxies": [
     {
-      "server": "idyll.shmelproxy.top",
+      "server": "wisp.slarkfat.icu",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
@@ -16,11 +16,6 @@
       "server": "cdn2.legacdn.com",
       "port": "443",
       "secret": "ee4746d4ee69873099c9d0abd64656c261706574726f766963682e7275"
-    },
-    {
-      "server": "wisp.slarkfat.icu",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     }
   ]
 }
