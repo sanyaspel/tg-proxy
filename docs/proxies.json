@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-07T23:54:01Z",
-  "count": 4,
+  "updated": "2026-08-08T00:42:26Z",
+  "count": 3,
   "proxies": [
     {
       "server": "cdn1.legacdn.com",
@@ -16,11 +16,6 @@
       "server": "cdn2.legacdn.com",
       "port": "443",
       "secret": "ee4746d4ee69873099c9d0abd64656c261706574726f766963682e7275"
-    },
-    {
-      "server": "idyll.shmelproxy.top",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     }
   ]
 }
