@@ -1,12 +1,7 @@
 {
-  "updated": "2026-08-08T20:54:22Z",
+  "updated": "2026-08-08T21:18:05Z",
   "count": 7,
   "proxies": [
-    {
-      "server": "proxy.whiteproxy.baby",
-      "port": "443",
-      "secret": "dd7815244840ab293a65f83fc16bb0234e"
-    },
     {
       "server": "please.workingproxy.xyz",
       "port": "443",
@@ -23,9 +18,9 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "media1.happtg.org",
+      "server": "media2.happtg.org",
       "port": "443",
-      "secret": "ee73e7d7fe41b49d9091f78c8c92c22de4766b2e7275"
+      "secret": "ee95aa916bd319beb312cc6ba9b2c5aef8766b2e7275"
     },
     {
       "server": "adieu.shmelproxy.top",
@@ -33,9 +28,14 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "media2.happtg.org",
+      "server": "proxy.whiteproxy.baby",
       "port": "443",
-      "secret": "ee95aa916bd319beb312cc6ba9b2c5aef8766b2e7275"
+      "secret": "dd7815244840ab293a65f83fc16bb0234e"
+    },
+    {
+      "server": "media1.happtg.org",
+      "port": "443",
+      "secret": "ee73e7d7fe41b49d9091f78c8c92c22de4766b2e7275"
     }
   ]
 }
