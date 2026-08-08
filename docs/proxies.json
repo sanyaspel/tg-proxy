@@ -1,11 +1,16 @@
 {
-  "updated": "2026-08-08T11:50:23Z",
+  "updated": "2026-08-08T12:21:16Z",
   "count": 5,
   "proxies": [
     {
-      "server": "zilch.chunkycorp.shop",
+      "server": "eerie.proxytales.life",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "cdn2.legacdn.com",
+      "port": "443",
+      "secret": "ee4746d4ee69873099c9d0abd64656c261706574726f766963682e7275"
     },
     {
       "server": "phloe.slarkfat.icu",
@@ -16,11 +21,6 @@
       "server": "cdn1.legacdn.com",
       "port": "443",
       "secret": "eea990d0794c43c68cdd51caea31e4e957706574726f766963682e7275"
-    },
-    {
-      "server": "cdn2.legacdn.com",
-      "port": "443",
-      "secret": "ee4746d4ee69873099c9d0abd64656c261706574726f766963682e7275"
     },
     {
       "server": "ardesvpn1.ru",
