@@ -1,14 +1,14 @@
 {
-  "updated": "2026-08-08T16:17:31Z",
-  "count": 3,
+  "updated": "2026-08-08T16:58:51Z",
+  "count": 6,
   "proxies": [
     {
-      "server": "zilch.chunkycorp.shop",
+      "server": "eerie.proxytales.life",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "phloe.slarkfat.icu",
+      "server": "zilch.chunkycorp.shop",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
@@ -16,6 +16,21 @@
       "server": "proxy.whiteproxy.baby",
       "port": "443",
       "secret": "dd7815244840ab293a65f83fc16bb0234e"
+    },
+    {
+      "server": "adieu.shmelproxy.top",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "wisp.slarkfat.icu",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "phloe.slarkfat.icu",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     }
   ]
 }
