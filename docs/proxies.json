@@ -1,7 +1,12 @@
 {
-  "updated": "2026-08-08T06:02:06Z",
+  "updated": "2026-08-08T07:26:05Z",
   "count": 3,
   "proxies": [
+    {
+      "server": "cdn1.legacdn.com",
+      "port": "443",
+      "secret": "eea990d0794c43c68cdd51caea31e4e957706574726f766963682e7275"
+    },
     {
       "server": "cdn2.legacdn.com",
       "port": "443",
@@ -11,11 +16,6 @@
       "server": "ardesvpn1.ru",
       "port": "8443",
       "secret": "ee05cf8e164f926f4a664b2404d276a1d6617264657376706e312e7275"
-    },
-    {
-      "server": "cdn1.legacdn.com",
-      "port": "443",
-      "secret": "eea990d0794c43c68cdd51caea31e4e957706574726f766963682e7275"
     }
   ]
 }
