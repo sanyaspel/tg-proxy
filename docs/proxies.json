@@ -1,21 +1,11 @@
 {
-  "updated": "2026-08-08T19:48:54Z",
+  "updated": "2026-08-08T20:15:04Z",
   "count": 5,
   "proxies": [
     {
       "server": "proxy.whiteproxy.baby",
       "port": "443",
       "secret": "dd7815244840ab293a65f83fc16bb0234e"
-    },
-    {
-      "server": "wisp.slarkfat.icu",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "media1.happtg.org",
-      "port": "443",
-      "secret": "ee73e7d7fe41b49d9091f78c8c92c22de4766b2e7275"
     },
     {
       "server": "media3.happtg.org",
@@ -26,6 +16,16 @@
       "server": "media2.happtg.org",
       "port": "443",
       "secret": "ee95aa916bd319beb312cc6ba9b2c5aef8766b2e7275"
+    },
+    {
+      "server": "media1.happtg.org",
+      "port": "443",
+      "secret": "ee73e7d7fe41b49d9091f78c8c92c22de4766b2e7275"
+    },
+    {
+      "server": "wisp.slarkfat.icu",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     }
   ]
 }
