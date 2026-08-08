@@ -1,29 +1,24 @@
 {
-  "updated": "2026-08-08T17:54:50Z",
-  "count": 8,
+  "updated": "2026-08-08T18:19:15Z",
+  "count": 7,
   "proxies": [
-    {
-      "server": "zilch.chunkycorp.shop",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "media3.happtg.org",
-      "port": "443",
-      "secret": "ee8fc9c7632b344b1b76639c501ae7cfb5766b2e7275"
-    },
-    {
-      "server": "adieu.shmelproxy.top",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
     {
       "server": "proxy.whiteproxy.baby",
       "port": "443",
       "secret": "dd7815244840ab293a65f83fc16bb0234e"
     },
     {
-      "server": "wisp.slarkfat.icu",
+      "server": "media1.happtg.org",
+      "port": "443",
+      "secret": "ee73e7d7fe41b49d9091f78c8c92c22de4766b2e7275"
+    },
+    {
+      "server": "eerie.proxytales.life",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "adieu.shmelproxy.top",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
@@ -33,14 +28,14 @@
       "secret": "ee95aa916bd319beb312cc6ba9b2c5aef8766b2e7275"
     },
     {
-      "server": "eerie.proxytales.life",
+      "server": "media3.happtg.org",
       "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+      "secret": "ee8fc9c7632b344b1b76639c501ae7cfb5766b2e7275"
     },
     {
-      "server": "media1.happtg.org",
+      "server": "zilch.chunkycorp.shop",
       "port": "443",
-      "secret": "ee73e7d7fe41b49d9091f78c8c92c22de4766b2e7275"
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     }
   ]
 }
