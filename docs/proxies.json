@@ -1,7 +1,12 @@
 {
-  "updated": "2026-08-09T22:20:11Z",
-  "count": 4,
+  "updated": "2026-08-09T22:55:59Z",
+  "count": 3,
   "proxies": [
+    {
+      "server": "media.happtg.org",
+      "port": "443",
+      "secret": "eed9cf709eb48bb5a37471fba84864bd7e766b2e7275"
+    },
     {
       "server": "smile.workingproxy.xyz",
       "port": "443",
@@ -11,16 +16,6 @@
       "server": "life.whiteproxy.baby",
       "port": "443",
       "secret": "dd775fa5684b6f92e462eb88c1307d338d"
-    },
-    {
-      "server": "media.happtg.org",
-      "port": "443",
-      "secret": "eed9cf709eb48bb5a37471fba84864bd7e766b2e7275"
-    },
-    {
-      "server": "wisp.slarkfat.icu",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     }
   ]
 }
