@@ -1,19 +1,14 @@
 {
-  "updated": "2026-08-09T15:54:17Z",
-  "count": 5,
+  "updated": "2026-08-09T16:19:31Z",
+  "count": 3,
   "proxies": [
     {
+      "server": "sisu.proxytales.life",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
       "server": "petrichor.slarkfat.icu",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "wisp.slarkfat.icu",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "idyll.shmelproxy.top",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
@@ -21,11 +16,6 @@
       "server": "media.happtg.org",
       "port": "443",
       "secret": "eed9cf709eb48bb5a37471fba84864bd7e766b2e7275"
-    },
-    {
-      "server": "sisu.proxytales.life",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     }
   ]
 }
