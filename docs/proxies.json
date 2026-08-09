@@ -1,17 +1,7 @@
 {
-  "updated": "2026-08-09T10:01:28Z",
-  "count": 10,
+  "updated": "2026-08-09T10:58:23Z",
+  "count": 8,
   "proxies": [
-    {
-      "server": "s01.neo-trading.org",
-      "port": "443",
-      "secret": "ee7391242569590e01416101927d38b565646e732d73686f702e7275"
-    },
-    {
-      "server": "s03.neo-trading.org",
-      "port": "443",
-      "secret": "eeaf794bcc20f70b1436b6b92b01b207e26d61676e69742e7275"
-    },
     {
       "server": "please.workingproxy.xyz",
       "port": "443",
@@ -28,14 +18,9 @@
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "media2.happtg.org",
+      "server": "mtp1.hlebushek.com",
       "port": "443",
-      "secret": "ee95aa916bd319beb312cc6ba9b2c5aef8766b2e7275"
-    },
-    {
-      "server": "media1.happtg.org",
-      "port": "443",
-      "secret": "ee73e7d7fe41b49d9091f78c8c92c22de4766b2e7275"
+      "secret": "eea61deab187a415531ac418cd29ae58ee706574726f766963682e7275"
     },
     {
       "server": "mtp2.hlebushek.com",
@@ -43,14 +28,19 @@
       "secret": "ee8263f1fdfbfa0629c67c40d208806873706574726f766963682e7275"
     },
     {
-      "server": "mtp1.hlebushek.com",
-      "port": "443",
-      "secret": "eea61deab187a415531ac418cd29ae58ee706574726f766963682e7275"
-    },
-    {
-      "server": "petrichor.slarkfat.icu",
+      "server": "idyll.shmelproxy.top",
       "port": "443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "media1.happtg.org",
+      "port": "443",
+      "secret": "ee73e7d7fe41b49d9091f78c8c92c22de4766b2e7275"
+    },
+    {
+      "server": "media2.happtg.org",
+      "port": "443",
+      "secret": "ee95aa916bd319beb312cc6ba9b2c5aef8766b2e7275"
     }
   ]
 }
