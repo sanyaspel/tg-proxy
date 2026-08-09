@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-09T04:08:36Z",
+  "updated": "2026-08-09T05:27:13Z",
   "count": 7,
   "proxies": [
     {
@@ -8,19 +8,9 @@
       "secret": "dd82072d16cfe4355b088c61cd897d0533"
     },
     {
-      "server": "wisp.slarkfat.icu",
+      "server": "media3.happtg.org",
       "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "media2.happtg.org",
-      "port": "443",
-      "secret": "ee95aa916bd319beb312cc6ba9b2c5aef8766b2e7275"
-    },
-    {
-      "server": "adieu.shmelproxy.top",
-      "port": "443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+      "secret": "ee8fc9c7632b344b1b76639c501ae7cfb5766b2e7275"
     },
     {
       "server": "media1.happtg.org",
@@ -28,14 +18,24 @@
       "secret": "ee73e7d7fe41b49d9091f78c8c92c22de4766b2e7275"
     },
     {
+      "server": "wisp.slarkfat.icu",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "adieu.shmelproxy.top",
+      "port": "443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
       "server": "proxy.whiteproxy.baby",
       "port": "443",
       "secret": "dd7815244840ab293a65f83fc16bb0234e"
     },
     {
-      "server": "media3.happtg.org",
+      "server": "media2.happtg.org",
       "port": "443",
-      "secret": "ee8fc9c7632b344b1b76639c501ae7cfb5766b2e7275"
+      "secret": "ee95aa916bd319beb312cc6ba9b2c5aef8766b2e7275"
     }
   ]
 }
