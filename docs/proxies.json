@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-10T09:53:49Z",
+  "updated": "2026-08-10T10:54:56Z",
   "count": 2,
   "proxies": [
     {
-      "server": "life.whiteproxy.baby",
+      "server": "smile.workingproxy.xyz",
       "port": "443",
-      "secret": "dd775fa5684b6f92e462eb88c1307d338d"
+      "secret": "dd6767547c5dd848f55281e391e0153eae"
     },
     {
       "server": "fast.garden-troll.life",
