@@ -1,16 +1,11 @@
 {
-  "updated": "2026-08-10T10:54:56Z",
-  "count": 2,
+  "updated": "2026-08-10T11:39:59Z",
+  "count": 1,
   "proxies": [
     {
-      "server": "smile.workingproxy.xyz",
-      "port": "443",
-      "secret": "dd6767547c5dd848f55281e391e0153eae"
-    },
-    {
-      "server": "fast.garden-troll.life",
-      "port": "443",
-      "secret": "eecf1c1606226e0962ad67b541a145b9c6666173742e67617264656e2d74726f6c6c2e6c696665"
+      "server": "skein.chunkycorp.shop",
+      "port": "8443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     }
   ]
 }
