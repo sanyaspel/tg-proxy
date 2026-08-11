@@ -1,11 +1,16 @@
 {
-  "updated": "2026-08-11T15:46:37Z",
-  "count": 3,
+  "updated": "2026-08-11T16:43:38Z",
+  "count": 4,
   "proxies": [
     {
       "server": "skein.chunkycorp.shop",
       "port": "8443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "something.nolagsproxy.space",
+      "port": "443",
+      "secret": "ddc37865906f67acf72c1ec56241721d56"
     },
     {
       "server": "media.happtg.org",
