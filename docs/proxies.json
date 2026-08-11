@@ -1,5 +1,11 @@
 {
-  "updated": "2026-08-11T11:10:33Z",
-  "count": 0,
-  "proxies": []
+  "updated": "2026-08-11T12:04:11Z",
+  "count": 1,
+  "proxies": [
+    {
+      "server": "mtp3.hlebushek.com",
+      "port": "443",
+      "secret": "ee49b03637799a40446509a268d99ff91b706574726f766963682e7275"
+    }
+  ]
 }
