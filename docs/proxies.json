@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-11T01:04:20Z",
-  "count": 4,
+  "updated": "2026-08-11T03:13:32Z",
+  "count": 3,
   "proxies": [
     {
       "server": "happy.whiteproxy.baby",
@@ -8,19 +8,14 @@
       "secret": "ddf1284a8137961061b01ca4ace364b422"
     },
     {
-      "server": "media2.happtg.org",
-      "port": "443",
-      "secret": "ee95aa916bd319beb312cc6ba9b2c5aef8766b2e7275"
-    },
-    {
       "server": "media1.happtg.org",
       "port": "443",
       "secret": "ee73e7d7fe41b49d9091f78c8c92c22de4766b2e7275"
     },
     {
-      "server": "media3.happtg.org",
+      "server": "media2.happtg.org",
       "port": "443",
-      "secret": "ee8fc9c7632b344b1b76639c501ae7cfb5766b2e7275"
+      "secret": "ee95aa916bd319beb312cc6ba9b2c5aef8766b2e7275"
     }
   ]
 }
