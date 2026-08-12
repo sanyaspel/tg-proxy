@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12T00:04:47Z",
+  "updated": "2026-08-12T03:01:12Z",
   "count": 3,
   "proxies": [
     {
@@ -8,14 +8,14 @@
       "secret": "ddc37865906f67acf72c1ec56241721d56"
     },
     {
-      "server": "media.happtg.org",
-      "port": "443",
-      "secret": "eed9cf709eb48bb5a37471fba84864bd7e766b2e7275"
-    },
-    {
       "server": "evening.whiteproxy.baby",
       "port": "443",
       "secret": "ddc27a8e4e92e2ad536c3f80d7c0809ef8"
+    },
+    {
+      "server": "media.happtg.org",
+      "port": "443",
+      "secret": "eed9cf709eb48bb5a37471fba84864bd7e766b2e7275"
     }
   ]
 }
