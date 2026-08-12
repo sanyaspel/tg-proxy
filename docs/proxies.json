@@ -1,17 +1,7 @@
 {
-  "updated": "2026-08-12T19:32:37Z",
-  "count": 4,
+  "updated": "2026-08-12T20:29:54Z",
+  "count": 3,
   "proxies": [
-    {
-      "server": "eu2.utkanos.life",
-      "port": "8443",
-      "secret": "ee7dc0a82984d861709ee30c6d149f41836575322e75746b616e6f732e6c696665"
-    },
-    {
-      "server": "eu1.kvakzon.top",
-      "port": "8443",
-      "secret": "ee75c1ee2fe969feda0442861e991211066575312e6b76616b7a6f6e2e746f70"
-    },
     {
       "server": "hunna.helloworld.surf",
       "port": "443",
@@ -21,6 +11,11 @@
       "server": "speed2.luna-tun.site",
       "port": "443",
       "secret": "ee6e53ed117b401c54bc880b545089e6276f7a6f6e2e7275"
+    },
+    {
+      "server": "eu2.utkanos.life",
+      "port": "8443",
+      "secret": "ee7dc0a82984d861709ee30c6d149f41836575322e75746b616e6f732e6c696665"
     }
   ]
 }
