@@ -1,21 +1,11 @@
 {
-  "updated": "2026-08-12T15:25:31Z",
-  "count": 5,
+  "updated": "2026-08-12T16:14:51Z",
+  "count": 7,
   "proxies": [
     {
       "server": "media3.happtg.org",
       "port": "443",
       "secret": "ee8fc9c7632b344b1b76639c501ae7cfb5766b2e7275"
-    },
-    {
-      "server": "media1.happtg.org",
-      "port": "443",
-      "secret": "ee73e7d7fe41b49d9091f78c8c92c22de4766b2e7275"
-    },
-    {
-      "server": "speed2.luna-tun.site",
-      "port": "443",
-      "secret": "ee6e53ed117b401c54bc880b545089e6276f7a6f6e2e7275"
     },
     {
       "server": "media2.happtg.org",
@@ -26,6 +16,26 @@
       "server": "ardesvpn1.ru",
       "port": "8443",
       "secret": "ee05cf8e164f926f4a664b2404d276a1d6617264657376706e312e7275"
+    },
+    {
+      "server": "media1.happtg.org",
+      "port": "443",
+      "secret": "ee73e7d7fe41b49d9091f78c8c92c22de4766b2e7275"
+    },
+    {
+      "server": "eu2.utkanos.life",
+      "port": "8443",
+      "secret": "ee7dc0a82984d861709ee30c6d149f41836575322e75746b616e6f732e6c696665"
+    },
+    {
+      "server": "eu1.kvakzon.top",
+      "port": "8443",
+      "secret": "ee75c1ee2fe969feda0442861e991211066575312e6b76616b7a6f6e2e746f70"
+    },
+    {
+      "server": "speed2.luna-tun.site",
+      "port": "443",
+      "secret": "ee6e53ed117b401c54bc880b545089e6276f7a6f6e2e7275"
     }
   ]
 }
