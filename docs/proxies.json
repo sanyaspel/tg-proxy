@@ -1,16 +1,11 @@
 {
-  "updated": "2026-08-12T18:12:38Z",
-  "count": 6,
+  "updated": "2026-08-12T19:32:37Z",
+  "count": 4,
   "proxies": [
     {
-      "server": "media3.happtg.org",
-      "port": "443",
-      "secret": "ee8fc9c7632b344b1b76639c501ae7cfb5766b2e7275"
-    },
-    {
-      "server": "media2.happtg.org",
-      "port": "443",
-      "secret": "ee95aa916bd319beb312cc6ba9b2c5aef8766b2e7275"
+      "server": "eu2.utkanos.life",
+      "port": "8443",
+      "secret": "ee7dc0a82984d861709ee30c6d149f41836575322e75746b616e6f732e6c696665"
     },
     {
       "server": "eu1.kvakzon.top",
@@ -18,19 +13,14 @@
       "secret": "ee75c1ee2fe969feda0442861e991211066575312e6b76616b7a6f6e2e746f70"
     },
     {
-      "server": "eu2.utkanos.life",
-      "port": "8443",
-      "secret": "ee7dc0a82984d861709ee30c6d149f41836575322e75746b616e6f732e6c696665"
+      "server": "hunna.helloworld.surf",
+      "port": "443",
+      "secret": "dd8348f17544c6a17a74ba9a8ee001e006"
     },
     {
       "server": "speed2.luna-tun.site",
       "port": "443",
       "secret": "ee6e53ed117b401c54bc880b545089e6276f7a6f6e2e7275"
-    },
-    {
-      "server": "hunna.helloworld.surf",
-      "port": "443",
-      "secret": "dd8348f17544c6a17a74ba9a8ee001e006"
     }
   ]
 }
