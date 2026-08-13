@@ -1,16 +1,16 @@
 {
-  "updated": "2026-08-13T06:52:29Z",
+  "updated": "2026-08-13T08:09:24Z",
   "count": 2,
   "proxies": [
-    {
-      "server": "hunna.helloworld.surf",
-      "port": "443",
-      "secret": "dd8348f17544c6a17a74ba9a8ee001e006"
-    },
     {
       "server": "eu2.utkanos.life",
       "port": "8443",
       "secret": "ee7dc0a82984d861709ee30c6d149f41836575322e75746b616e6f732e6c696665"
+    },
+    {
+      "server": "hunna.helloworld.surf",
+      "port": "443",
+      "secret": "dd8348f17544c6a17a74ba9a8ee001e006"
     }
   ]
 }
