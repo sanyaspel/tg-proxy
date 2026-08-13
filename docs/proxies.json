@@ -1,5 +1,11 @@
 {
-  "updated": "2026-08-13T11:36:58Z",
-  "count": 0,
-  "proxies": []
+  "updated": "2026-08-13T12:40:02Z",
+  "count": 1,
+  "proxies": [
+    {
+      "server": "kima.rabotaet.online",
+      "port": "443",
+      "secret": "ee12e7e5f961f258b04af168a1cba6318a6b696d612e7261626f746165742e6f6e6c696e65"
+    }
+  ]
 }
