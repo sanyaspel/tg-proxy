@@ -1,11 +1,16 @@
 {
-  "updated": "2026-08-13T17:24:58Z",
-  "count": 1,
+  "updated": "2026-08-13T18:13:28Z",
+  "count": 2,
   "proxies": [
     {
       "server": "kima.rabotaet.online",
       "port": "443",
       "secret": "ee12e7e5f961f258b04af168a1cba6318a6b696d612e7261626f746165742e6f6e6c696e65"
+    },
+    {
+      "server": "stable.rkn.lat",
+      "port": "443",
+      "secret": "ee63cd87a492fff3595fd75c82d0ec9afa636c6f756463646e2d6d392d362e63646e2e79616e6465782e6e6574"
     }
   ]
 }
