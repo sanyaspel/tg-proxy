@@ -1,11 +1,5 @@
 {
-  "updated": "2026-08-13T10:49:57Z",
-  "count": 1,
-  "proxies": [
-    {
-      "server": "hunna.helloworld.surf",
-      "port": "443",
-      "secret": "dd8348f17544c6a17a74ba9a8ee001e006"
-    }
-  ]
+  "updated": "2026-08-13T11:36:58Z",
+  "count": 0,
+  "proxies": []
 }
