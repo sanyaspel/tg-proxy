@@ -1,16 +1,11 @@
 {
-  "updated": "2026-08-14T10:45:57Z",
+  "updated": "2026-08-14T11:34:47Z",
   "count": 5,
   "proxies": [
     {
-      "server": "144.31.141.34",
-      "port": "443",
-      "secret": "6a13fc062ccc469afedf8299e715faed"
-    },
-    {
-      "server": "stable.rkn.lat",
-      "port": "443",
-      "secret": "ee63cd87a492fff3595fd75c82d0ec9afa636c6f756463646e2d6d392d362e63646e2e79616e6465782e6e6574"
+      "server": "skein.chunkycorp.shop",
+      "port": "8443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
       "server": "welcome2.v6n.tech",
@@ -26,6 +21,11 @@
       "server": "welcome.v6n.tech",
       "port": "443",
       "secret": "ee56b6cceda2b0d2297a75046f8cda124c7777772e626f6f6b696e672e636f6d"
+    },
+    {
+      "server": "144.31.141.34",
+      "port": "443",
+      "secret": "6a13fc062ccc469afedf8299e715faed"
     }
   ]
 }
