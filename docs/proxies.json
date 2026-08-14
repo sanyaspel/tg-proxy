@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-14T08:05:19Z",
-  "count": 2,
+  "updated": "2026-08-14T09:31:31Z",
+  "count": 3,
   "proxies": [
     {
       "server": "144.31.141.34",
@@ -11,6 +11,11 @@
       "server": "stable.rkn.lat",
       "port": "443",
       "secret": "ee63cd87a492fff3595fd75c82d0ec9afa636c6f756463646e2d6d392d362e63646e2e79616e6465782e6e6574"
+    },
+    {
+      "server": "skein.chunkycorp.shop",
+      "port": "8443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     }
   ]
 }
