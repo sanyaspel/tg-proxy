@@ -1,16 +1,16 @@
 {
-  "updated": "2026-08-14T12:36:05Z",
+  "updated": "2026-08-14T14:06:22Z",
   "count": 2,
   "proxies": [
-    {
-      "server": "vetka.v6n.tech",
-      "port": "443",
-      "secret": "ee4a6cc3ea1d2fba9f1f6194333b6e6acf7777772e626f6f6b696e672e636f6d"
-    },
     {
       "server": "welcome.v6n.tech",
       "port": "443",
       "secret": "ee56b6cceda2b0d2297a75046f8cda124c7777772e626f6f6b696e672e636f6d"
+    },
+    {
+      "server": "vetka.v6n.tech",
+      "port": "443",
+      "secret": "ee4a6cc3ea1d2fba9f1f6194333b6e6acf7777772e626f6f6b696e672e636f6d"
     }
   ]
 }
