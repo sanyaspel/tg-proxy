@@ -1,7 +1,17 @@
 {
-  "updated": "2026-08-14T14:06:22Z",
-  "count": 2,
+  "updated": "2026-08-14T15:12:17Z",
+  "count": 4,
   "proxies": [
+    {
+      "server": "kima.rabotaet.online",
+      "port": "443",
+      "secret": "ee12e7e5f961f258b04af168a1cba6318a6b696d612e7261626f746165742e6f6e6c696e65"
+    },
+    {
+      "server": "skein.chunkycorp.shop",
+      "port": "8443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
     {
       "server": "welcome.v6n.tech",
       "port": "443",
