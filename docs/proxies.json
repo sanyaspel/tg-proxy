@@ -1,11 +1,5 @@
 {
-  "updated": "2026-08-15T09:46:09Z",
-  "count": 1,
-  "proxies": [
-    {
-      "server": "whitelist.startnetwork.shop",
-      "port": "443",
-      "secret": "ddaa8133d8cd5e986848e2f6119ab126ff"
-    }
-  ]
+  "updated": "2026-08-15T10:10:18Z",
+  "count": 0,
+  "proxies": []
 }
