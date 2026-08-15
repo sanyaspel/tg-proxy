@@ -1,12 +1,7 @@
 {
-  "updated": "2026-08-15T21:41:17Z",
+  "updated": "2026-08-15T22:08:10Z",
   "count": 4,
   "proxies": [
-    {
-      "server": "scott.startnetwork.shop",
-      "port": "443",
-      "secret": "dda700feed03536024f619edce4247c18a"
-    },
     {
       "server": "max.kimt.click",
       "port": "443",
@@ -16,6 +11,11 @@
       "server": "jeremy.helloworld.surf",
       "port": "443",
       "secret": "dd5a369539630cf83a6c2a9a9af2c1cd95"
+    },
+    {
+      "server": "scott.startnetwork.shop",
+      "port": "443",
+      "secret": "dda700feed03536024f619edce4247c18a"
     },
     {
       "server": "kima.rabotaet.online",
