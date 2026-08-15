@@ -1,16 +1,16 @@
 {
-  "updated": "2026-08-15T03:59:30Z",
+  "updated": "2026-08-15T04:29:41Z",
   "count": 2,
   "proxies": [
-    {
-      "server": "whitelist.startnetwork.shop",
-      "port": "443",
-      "secret": "ddaa8133d8cd5e986848e2f6119ab126ff"
-    },
     {
       "server": "kima.rabotaet.online",
       "port": "443",
       "secret": "ee12e7e5f961f258b04af168a1cba6318a6b696d612e7261626f746165742e6f6e6c696e65"
+    },
+    {
+      "server": "whitelist.startnetwork.shop",
+      "port": "443",
+      "secret": "ddaa8133d8cd5e986848e2f6119ab126ff"
     }
   ]
 }
