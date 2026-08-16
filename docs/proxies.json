@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-16T05:49:50Z",
+  "updated": "2026-08-16T06:18:54Z",
   "count": 4,
   "proxies": [
     {
-      "server": "kima.rabotaet.online",
+      "server": "jeremy.helloworld.surf",
       "port": "443",
-      "secret": "ee12e7e5f961f258b04af168a1cba6318a6b696d612e7261626f746165742e6f6e6c696e65"
+      "secret": "dd5a369539630cf83a6c2a9a9af2c1cd95"
     },
     {
       "server": "scott.startnetwork.shop",
@@ -13,9 +13,9 @@
       "secret": "dda700feed03536024f619edce4247c18a"
     },
     {
-      "server": "jeremy.helloworld.surf",
+      "server": "kima.rabotaet.online",
       "port": "443",
-      "secret": "dd5a369539630cf83a6c2a9a9af2c1cd95"
+      "secret": "ee12e7e5f961f258b04af168a1cba6318a6b696d612e7261626f746165742e6f6e6c696e65"
     },
     {
       "server": "max.kimt.click",
