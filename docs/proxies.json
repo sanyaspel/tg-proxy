@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-16T21:08:43Z",
-  "count": 2,
+  "updated": "2026-08-16T21:40:02Z",
+  "count": 3,
   "proxies": [
     {
       "server": "juke.startnetwork.shop",
@@ -11,6 +11,11 @@
       "server": "family.helloworld.surf",
       "port": "443",
       "secret": "dd7571474542ef491179322488d73d1ffc"
+    },
+    {
+      "server": "tg3.uniq.care",
+      "port": "8443",
+      "secret": "7swcOHh7aWFN6hqGnDPq5RF0ZzMudW5pcS5jYXJl"
     }
   ]
 }
