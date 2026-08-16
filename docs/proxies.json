@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-16T13:49:17Z",
+  "updated": "2026-08-16T14:11:10Z",
   "count": 2,
   "proxies": [
     {
@@ -8,9 +8,9 @@
       "secret": "ee12e7e5f961f258b04af168a1cba6318a6b696d612e7261626f746165742e6f6e6c696e65"
     },
     {
-      "server": "tg3.uniq.care",
-      "port": "8443",
-      "secret": "7swcOHh7aWFN6hqGnDPq5RF0ZzMudW5pcS5jYXJl"
+      "server": "max.kimt.click",
+      "port": "443",
+      "secret": "ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b"
     }
   ]
 }
