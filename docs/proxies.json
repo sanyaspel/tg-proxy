@@ -1,7 +1,12 @@
 {
-  "updated": "2026-08-16T18:11:13Z",
-  "count": 1,
+  "updated": "2026-08-16T18:51:36Z",
+  "count": 2,
   "proxies": [
+    {
+      "server": "family.helloworld.surf",
+      "port": "443",
+      "secret": "dd7571474542ef491179322488d73d1ffc"
+    },
     {
       "server": "juke.startnetwork.shop",
       "port": "443",
