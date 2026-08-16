@@ -1,5 +1,11 @@
 {
-  "updated": "2026-08-16T16:10:39Z",
-  "count": 0,
-  "proxies": []
+  "updated": "2026-08-16T16:46:42Z",
+  "count": 1,
+  "proxies": [
+    {
+      "server": "juke.startnetwork.shop",
+      "port": "443",
+      "secret": "dd3eda2b33587de0dad091f72b70fc188d"
+    }
+  ]
 }
