@@ -1,16 +1,16 @@
 {
-  "updated": "2026-08-17T23:11:06Z",
+  "updated": "2026-08-17T23:42:35Z",
   "count": 4,
   "proxies": [
-    {
-      "server": "vegas.startnetwork.shop",
-      "port": "443",
-      "secret": "dddc4702229ba9f42fd30c7126e162e053"
-    },
     {
       "server": "max.kimt.click",
       "port": "443",
       "secret": "ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b"
+    },
+    {
+      "server": "vegas.startnetwork.shop",
+      "port": "443",
+      "secret": "dddc4702229ba9f42fd30c7126e162e053"
     },
     {
       "server": "peak.helloworld.surf",
