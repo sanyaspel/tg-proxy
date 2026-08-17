@@ -1,5 +1,11 @@
 {
-  "updated": "2026-08-17T13:57:31Z",
-  "count": 0,
-  "proxies": []
+  "updated": "2026-08-17T14:20:50Z",
+  "count": 1,
+  "proxies": [
+    {
+      "server": "max.kimt.click",
+      "port": "443",
+      "secret": "ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b"
+    }
+  ]
 }
