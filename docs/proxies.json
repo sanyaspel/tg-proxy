@@ -1,11 +1,5 @@
 {
-  "updated": "2026-08-18T11:46:25Z",
-  "count": 1,
-  "proxies": [
-    {
-      "server": "anti.rkn.lat",
-      "port": "443",
-      "secret": "ee5ad5e4caef72b74d57ffb9781b3e5f04636c6f756463646e2d6d392d362e63646e2e79616e6465782e6e6574"
-    }
-  ]
+  "updated": "2026-08-18T12:19:35Z",
+  "count": 0,
+  "proxies": []
 }
