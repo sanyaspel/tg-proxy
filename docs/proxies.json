@@ -1,12 +1,7 @@
 {
-  "updated": "2026-08-18T07:58:44Z",
+  "updated": "2026-08-18T08:33:20Z",
   "count": 3,
   "proxies": [
-    {
-      "server": "peak.helloworld.surf",
-      "port": "443",
-      "secret": "ddae7a078698a9289137599c9762db5d65"
-    },
     {
       "server": "vegas.startnetwork.shop",
       "port": "443",
@@ -16,6 +11,11 @@
       "server": "anti.rkn.lat",
       "port": "443",
       "secret": "ee5ad5e4caef72b74d57ffb9781b3e5f04636c6f756463646e2d6d392d362e63646e2e79616e6465782e6e6574"
+    },
+    {
+      "server": "peak.helloworld.surf",
+      "port": "443",
+      "secret": "ddae7a078698a9289137599c9762db5d65"
     }
   ]
 }
