@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-18T05:24:29Z",
-  "count": 3,
+  "updated": "2026-08-18T05:50:59Z",
+  "count": 4,
   "proxies": [
     {
       "server": "peak.helloworld.surf",
@@ -16,6 +16,11 @@
       "server": "anti.rkn.lat",
       "port": "443",
       "secret": "ee5ad5e4caef72b74d57ffb9781b3e5f04636c6f756463646e2d6d392d362e63646e2e79616e6465782e6e6574"
+    },
+    {
+      "server": "max.kimt.click",
+      "port": "443",
+      "secret": "ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b"
     }
   ]
 }
