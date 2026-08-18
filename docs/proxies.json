@@ -1,12 +1,7 @@
 {
-  "updated": "2026-08-18T10:52:01Z",
-  "count": 2,
+  "updated": "2026-08-18T11:14:06Z",
+  "count": 1,
   "proxies": [
-    {
-      "server": "vegas.startnetwork.shop",
-      "port": "443",
-      "secret": "dddc4702229ba9f42fd30c7126e162e053"
-    },
     {
       "server": "anti.rkn.lat",
       "port": "443",
