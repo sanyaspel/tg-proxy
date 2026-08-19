@@ -1,12 +1,7 @@
 {
-  "updated": "2026-08-19T15:54:32Z",
+  "updated": "2026-08-19T16:16:47Z",
   "count": 3,
   "proxies": [
-    {
-      "server": "81.29.146.111",
-      "port": "443",
-      "secret": "989a221c0b63d18c7eb0a74af07a50ec"
-    },
     {
       "server": "max.kimt.click",
       "port": "443",
@@ -16,6 +11,11 @@
       "server": "chestno.servera-dlya-tg-zdes-net.abrdns.com",
       "port": "443",
       "secret": "eea65c7fc5a0d5669ba371a7ca88fc19496f7a6f6e2e7275"
+    },
+    {
+      "server": "81.29.146.111",
+      "port": "443",
+      "secret": "989a221c0b63d18c7eb0a74af07a50ec"
     }
   ]
 }
