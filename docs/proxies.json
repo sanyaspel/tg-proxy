@@ -1,16 +1,16 @@
 {
-  "updated": "2026-08-19T04:03:59Z",
+  "updated": "2026-08-19T04:58:13Z",
   "count": 2,
   "proxies": [
-    {
-      "server": "skein.chunkycorp.shop",
-      "port": "8443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
     {
       "server": "max.kimt.click",
       "port": "443",
       "secret": "ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b"
+    },
+    {
+      "server": "skein.chunkycorp.shop",
+      "port": "8443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     }
   ]
 }
