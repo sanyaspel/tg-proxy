@@ -1,7 +1,12 @@
 {
-  "updated": "2026-08-19T10:51:17Z",
+  "updated": "2026-08-19T11:13:54Z",
   "count": 3,
   "proxies": [
+    {
+      "server": "skein.chunkycorp.shop",
+      "port": "8443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
     {
       "server": "chestno.servera-dlya-tg-zdes-net.abrdns.com",
       "port": "443",
@@ -11,11 +16,6 @@
       "server": "81.29.146.111",
       "port": "443",
       "secret": "989a221c0b63d18c7eb0a74af07a50ec"
-    },
-    {
-      "server": "skein.chunkycorp.shop",
-      "port": "8443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     }
   ]
 }
