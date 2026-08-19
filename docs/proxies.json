@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-19T09:54:44Z",
-  "count": 4,
+  "updated": "2026-08-19T10:15:56Z",
+  "count": 3,
   "proxies": [
     {
       "server": "chestno.servera-dlya-tg-zdes-net.abrdns.com",
@@ -11,11 +11,6 @@
       "server": "81.29.146.111",
       "port": "443",
       "secret": "989a221c0b63d18c7eb0a74af07a50ec"
-    },
-    {
-      "server": "max.kimt.click",
-      "port": "443",
-      "secret": "ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b"
     },
     {
       "server": "skein.chunkycorp.shop",
