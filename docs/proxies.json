@@ -1,12 +1,7 @@
 {
-  "updated": "2026-08-19T16:52:34Z",
+  "updated": "2026-08-19T17:15:37Z",
   "count": 5,
   "proxies": [
-    {
-      "server": "chestno.servera-dlya-tg-zdes-net.abrdns.com",
-      "port": "443",
-      "secret": "eea65c7fc5a0d5669ba371a7ca88fc19496f7a6f6e2e7275"
-    },
     {
       "server": "max.kimt.click",
       "port": "443",
@@ -16,6 +11,11 @@
       "server": "mtp3.hlebushek.com",
       "port": "443",
       "secret": "ee49b03637799a40446509a268d99ff91b706574726f766963682e7275"
+    },
+    {
+      "server": "chestno.servera-dlya-tg-zdes-net.abrdns.com",
+      "port": "443",
+      "secret": "eea65c7fc5a0d5669ba371a7ca88fc19496f7a6f6e2e7275"
     },
     {
       "server": "mtp2.hlebushek.com",
