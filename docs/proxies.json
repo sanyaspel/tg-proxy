@@ -1,7 +1,12 @@
 {
-  "updated": "2026-08-19T09:20:55Z",
-  "count": 3,
+  "updated": "2026-08-19T09:54:44Z",
+  "count": 4,
   "proxies": [
+    {
+      "server": "chestno.servera-dlya-tg-zdes-net.abrdns.com",
+      "port": "443",
+      "secret": "eea65c7fc5a0d5669ba371a7ca88fc19496f7a6f6e2e7275"
+    },
     {
       "server": "81.29.146.111",
       "port": "443",
