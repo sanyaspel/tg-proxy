@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-19T18:58:50Z",
-  "count": 5,
+  "updated": "2026-08-19T19:22:08Z",
+  "count": 4,
   "proxies": [
     {
       "server": "max.kimt.click",
@@ -8,24 +8,19 @@
       "secret": "ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b"
     },
     {
-      "server": "mtp2.hlebushek.com",
-      "port": "443",
-      "secret": "ee8263f1fdfbfa0629c67c40d208806873706574726f766963682e7275"
-    },
-    {
       "server": "mtp3.hlebushek.com",
       "port": "443",
       "secret": "ee49b03637799a40446509a268d99ff91b706574726f766963682e7275"
     },
     {
+      "server": "mtp2.hlebushek.com",
+      "port": "443",
+      "secret": "ee8263f1fdfbfa0629c67c40d208806873706574726f766963682e7275"
+    },
+    {
       "server": "mtp1.hlebushek.com",
       "port": "443",
       "secret": "eea61deab187a415531ac418cd29ae58ee706574726f766963682e7275"
-    },
-    {
-      "server": "chestno.servera-dlya-tg-zdes-net.abrdns.com",
-      "port": "443",
-      "secret": "eea65c7fc5a0d5669ba371a7ca88fc19496f7a6f6e2e7275"
     }
   ]
 }
