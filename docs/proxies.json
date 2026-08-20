@@ -1,12 +1,7 @@
 {
-  "updated": "2026-08-20T00:31:27Z",
+  "updated": "2026-08-20T02:09:02Z",
   "count": 4,
   "proxies": [
-    {
-      "server": "mtp3.hlebushek.com",
-      "port": "443",
-      "secret": "ee49b03637799a40446509a268d99ff91b706574726f766963682e7275"
-    },
     {
       "server": "max.kimt.click",
       "port": "443",
@@ -16,6 +11,11 @@
       "server": "mtp2.hlebushek.com",
       "port": "443",
       "secret": "ee8263f1fdfbfa0629c67c40d208806873706574726f766963682e7275"
+    },
+    {
+      "server": "mtp3.hlebushek.com",
+      "port": "443",
+      "secret": "ee49b03637799a40446509a268d99ff91b706574726f766963682e7275"
     },
     {
       "server": "mtp1.hlebushek.com",
