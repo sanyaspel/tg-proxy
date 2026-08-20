@@ -1,11 +1,21 @@
 {
-  "updated": "2026-08-20T09:02:09Z",
-  "count": 3,
+  "updated": "2026-08-20T09:55:40Z",
+  "count": 5,
   "proxies": [
+    {
+      "server": "kima.rabotaet.online",
+      "port": "443",
+      "secret": "ee12e7e5f961f258b04af168a1cba6318a6b696d612e7261626f746165742e6f6e6c696e65"
+    },
     {
       "server": "mtp3.hlebushek.com",
       "port": "443",
       "secret": "ee49b03637799a40446509a268d99ff91b706574726f766963682e7275"
+    },
+    {
+      "server": "max.kimt.click",
+      "port": "443",
+      "secret": "ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b"
     },
     {
       "server": "mtp2.hlebushek.com",
