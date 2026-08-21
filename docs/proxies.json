@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-21T20:45:17Z",
+  "updated": "2026-08-21T21:12:06Z",
   "count": 5,
   "proxies": [
     {
@@ -18,14 +18,14 @@
       "secret": "eef7500d69d0479eb1c90454490aa7096d64726976652e676f6f676c652e636f6d"
     },
     {
-      "server": "mtp2.hlebushek.com",
-      "port": "443",
-      "secret": "ee8263f1fdfbfa0629c67c40d208806873706574726f766963682e7275"
-    },
-    {
       "server": "mtp1.hlebushek.com",
       "port": "443",
       "secret": "eea61deab187a415531ac418cd29ae58ee706574726f766963682e7275"
+    },
+    {
+      "server": "mtp2.hlebushek.com",
+      "port": "443",
+      "secret": "ee8263f1fdfbfa0629c67c40d208806873706574726f766963682e7275"
     }
   ]
 }
