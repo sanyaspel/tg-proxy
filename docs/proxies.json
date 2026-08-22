@@ -1,12 +1,7 @@
 {
-  "updated": "2026-08-22T08:53:26Z",
+  "updated": "2026-08-22T09:15:26Z",
   "count": 5,
   "proxies": [
-    {
-      "server": "mtp1.hlebushek.com",
-      "port": "443",
-      "secret": "eea61deab187a415531ac418cd29ae58ee706574726f766963682e7275"
-    },
     {
       "server": "usefree.mtprotokeys.com",
       "port": "443",
@@ -26,6 +21,11 @@
       "server": "mtp2.hlebushek.com",
       "port": "443",
       "secret": "ee8263f1fdfbfa0629c67c40d208806873706574726f766963682e7275"
+    },
+    {
+      "server": "mtp1.hlebushek.com",
+      "port": "443",
+      "secret": "eea61deab187a415531ac418cd29ae58ee706574726f766963682e7275"
     }
   ]
 }
