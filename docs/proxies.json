@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-22T05:49:01Z",
-  "count": 5,
+  "updated": "2026-08-22T06:18:05Z",
+  "count": 4,
   "proxies": [
     {
-      "server": "mtp3.hlebushek.com",
+      "server": "mtp2.hlebushek.com",
       "port": "443",
-      "secret": "ee49b03637799a40446509a268d99ff91b706574726f766963682e7275"
+      "secret": "ee8263f1fdfbfa0629c67c40d208806873706574726f766963682e7275"
     },
     {
       "server": "mtp1.hlebushek.com",
@@ -18,14 +18,9 @@
       "secret": "eef7500d69d0479eb1c90454490aa7096d64726976652e676f6f676c652e636f6d"
     },
     {
-      "server": "skein.chunkycorp.shop",
-      "port": "8443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "mtp2.hlebushek.com",
+      "server": "mtp3.hlebushek.com",
       "port": "443",
-      "secret": "ee8263f1fdfbfa0629c67c40d208806873706574726f766963682e7275"
+      "secret": "ee49b03637799a40446509a268d99ff91b706574726f766963682e7275"
     }
   ]
 }
