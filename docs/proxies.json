@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-23T16:10:40Z",
+  "updated": "2026-08-23T16:47:11Z",
   "count": 1,
   "proxies": [
     {
-      "server": "max.kimt.click",
+      "server": "pulse.lovely.lat",
       "port": "443",
-      "secret": "ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b"
+      "secret": "ee6f8c7d9193585ada7d22acf074ad6d976d2e6265626f6f2e7275"
     }
   ]
 }
