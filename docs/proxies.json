@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-23T19:13:35Z",
-  "count": 2,
+  "updated": "2026-08-23T19:41:32Z",
+  "count": 3,
   "proxies": [
     {
       "server": "pulse.lovely.lat",
@@ -11,6 +11,11 @@
       "server": "proxy.maxtimes.ru",
       "port": "8443",
       "secret": "dd1ffe3bcb425f1b8f737d4de2c6dd35b3"
+    },
+    {
+      "server": "proxy.maxtimes.ru",
+      "port": "8444",
+      "secret": "ee1ffe3bcb425f1b8f737d4de2c6dd35b36164732e78352e7275"
     }
   ]
 }
