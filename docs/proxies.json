@@ -1,17 +1,7 @@
 {
-  "updated": "2026-08-23T06:19:56Z",
+  "updated": "2026-08-23T07:07:51Z",
   "count": 7,
   "proxies": [
-    {
-      "server": "pulse.lovely.lat",
-      "port": "443",
-      "secret": "ee6f8c7d9193585ada7d22acf074ad6d9770756c73652e6c6f76656c792e6c6174"
-    },
-    {
-      "server": "flux.lovely.lat",
-      "port": "443",
-      "secret": "ee6f8c7d9193585ada7d22acf074ad6d97666c75782e6c6f76656c792e6c6174"
-    },
     {
       "server": "kima.rabotaet.online",
       "port": "443",
@@ -28,14 +18,24 @@
       "secret": "ee49b03637799a40446509a268d99ff91b706574726f766963682e7275"
     },
     {
-      "server": "mtp1.hlebushek.com",
+      "server": "flux.lovely.lat",
       "port": "443",
-      "secret": "eea61deab187a415531ac418cd29ae58ee706574726f766963682e7275"
+      "secret": "ee6f8c7d9193585ada7d22acf074ad6d97666c75782e6c6f76656c792e6c6174"
+    },
+    {
+      "server": "pulse.lovely.lat",
+      "port": "443",
+      "secret": "ee6f8c7d9193585ada7d22acf074ad6d9770756c73652e6c6f76656c792e6c6174"
     },
     {
       "server": "mtp2.hlebushek.com",
       "port": "443",
       "secret": "ee8263f1fdfbfa0629c67c40d208806873706574726f766963682e7275"
+    },
+    {
+      "server": "mtp1.hlebushek.com",
+      "port": "443",
+      "secret": "eea61deab187a415531ac418cd29ae58ee706574726f766963682e7275"
     }
   ]
 }
