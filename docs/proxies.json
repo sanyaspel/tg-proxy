@@ -1,11 +1,26 @@
 {
-  "updated": "2026-08-23T17:41:16Z",
-  "count": 1,
+  "updated": "2026-08-23T18:11:26Z",
+  "count": 4,
   "proxies": [
+    {
+      "server": "max.kimt.click",
+      "port": "443",
+      "secret": "ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b"
+    },
     {
       "server": "pulse.lovely.lat",
       "port": "443",
       "secret": "ee6f8c7d9193585ada7d22acf074ad6d976d2e6265626f6f2e7275"
+    },
+    {
+      "server": "proxy.maxtimes.ru",
+      "port": "8443",
+      "secret": "dd1ffe3bcb425f1b8f737d4de2c6dd35b3"
+    },
+    {
+      "server": "proxy.maxtimes.ru",
+      "port": "8444",
+      "secret": "ee1ffe3bcb425f1b8f737d4de2c6dd35b36164732e78352e7275"
     }
   ]
 }
