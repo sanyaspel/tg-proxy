@@ -1,5 +1,11 @@
 {
-  "updated": "2026-08-24T17:01:42Z",
-  "count": 0,
-  "proxies": []
+  "updated": "2026-08-24T17:53:16Z",
+  "count": 1,
+  "proxies": [
+    {
+      "server": "small.startnetwork.shop",
+      "port": "443",
+      "secret": "dd50db933e09b161878d2225787ad1dd21"
+    }
+  ]
 }
