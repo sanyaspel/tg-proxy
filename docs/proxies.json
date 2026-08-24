@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T00:33:22Z",
+  "updated": "2026-08-24T02:14:38Z",
   "count": 3,
   "proxies": [
     {
@@ -9,13 +9,13 @@
     },
     {
       "server": "proxy.maxtimes.ru",
-      "port": "8443",
-      "secret": "dd1ffe3bcb425f1b8f737d4de2c6dd35b3"
+      "port": "8444",
+      "secret": "ee1ffe3bcb425f1b8f737d4de2c6dd35b36164732e78352e7275"
     },
     {
       "server": "proxy.maxtimes.ru",
-      "port": "8444",
-      "secret": "ee1ffe3bcb425f1b8f737d4de2c6dd35b36164732e78352e7275"
+      "port": "8443",
+      "secret": "dd1ffe3bcb425f1b8f737d4de2c6dd35b3"
     }
   ]
 }
