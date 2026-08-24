@@ -1,16 +1,16 @@
 {
-  "updated": "2026-08-24T08:33:53Z",
+  "updated": "2026-08-24T09:34:07Z",
   "count": 2,
   "proxies": [
-    {
-      "server": "bake.mtproto.baby",
-      "port": "443",
-      "secret": "dde253fcbca6d9dacd57938476d83a4b80"
-    },
     {
       "server": "pulse.lovely.lat",
       "port": "443",
       "secret": "ee6f8c7d9193585ada7d22acf074ad6d976d2e6265626f6f2e7275"
+    },
+    {
+      "server": "bake.mtproto.baby",
+      "port": "443",
+      "secret": "dde253fcbca6d9dacd57938476d83a4b80"
     }
   ]
 }
