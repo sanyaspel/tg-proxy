@@ -1,16 +1,16 @@
 {
-  "updated": "2026-08-24T21:17:21Z",
+  "updated": "2026-08-24T21:49:36Z",
   "count": 3,
   "proxies": [
-    {
-      "server": "small.startnetwork.shop",
-      "port": "443",
-      "secret": "dd50db933e09b161878d2225787ad1dd21"
-    },
     {
       "server": "skein.chunkycorp.shop",
       "port": "8443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    },
+    {
+      "server": "small.startnetwork.shop",
+      "port": "443",
+      "secret": "dd50db933e09b161878d2225787ad1dd21"
     },
     {
       "server": "funny.helloworld.surf",
