@@ -1,7 +1,12 @@
 {
-  "updated": "2026-08-26T16:07:32Z",
+  "updated": "2026-08-26T18:09:44Z",
   "count": 3,
   "proxies": [
+    {
+      "server": "main.startnetwork.shop",
+      "port": "443",
+      "secret": "dd1358da8f1cda1c754a865a27107e19f3"
+    },
     {
       "server": "rakk.helloworld.surf",
       "port": "443",
@@ -11,11 +16,6 @@
       "server": "web.mtproto.baby",
       "port": "443",
       "secret": "ddfbcf420d4ea102941ec74f7ee945c555"
-    },
-    {
-      "server": "time.vechnostnet.study",
-      "port": "443",
-      "secret": "dd8c9e3f5343fe86b52d608122e71d8ec7"
     }
   ]
 }
