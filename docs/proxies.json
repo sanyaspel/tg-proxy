@@ -1,16 +1,16 @@
 {
-  "updated": "2026-08-26T12:24:08Z",
+  "updated": "2026-08-26T13:30:32Z",
   "count": 2,
   "proxies": [
-    {
-      "server": "time.vechnostnet.study",
-      "port": "443",
-      "secret": "dd8c9e3f5343fe86b52d608122e71d8ec7"
-    },
     {
       "server": "web.mtproto.baby",
       "port": "443",
       "secret": "ddfbcf420d4ea102941ec74f7ee945c555"
+    },
+    {
+      "server": "time.vechnostnet.study",
+      "port": "443",
+      "secret": "dd8c9e3f5343fe86b52d608122e71d8ec7"
     }
   ]
 }
