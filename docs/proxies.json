@@ -1,7 +1,12 @@
 {
-  "updated": "2026-08-26T14:32:41Z",
-  "count": 2,
+  "updated": "2026-08-26T16:07:32Z",
+  "count": 3,
   "proxies": [
+    {
+      "server": "rakk.helloworld.surf",
+      "port": "443",
+      "secret": "ddbd12f3ab73252a1c9f687a3050c12444"
+    },
     {
       "server": "web.mtproto.baby",
       "port": "443",
