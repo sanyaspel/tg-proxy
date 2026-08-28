@@ -1,26 +1,16 @@
 {
-  "updated": "2026-08-28T01:11:40Z",
-  "count": 4,
+  "updated": "2026-08-28T13:00:10Z",
+  "count": 2,
   "proxies": [
-    {
-      "server": "forever.startnetwork.shop",
-      "port": "443",
-      "secret": "dd0ef5f4a09c2e33527338e9184a9a6178"
-    },
     {
       "server": "skein.chunkycorp.shop",
       "port": "8443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "mproxy.vechnostnet.study",
+      "server": "rich.mtproto.baby",
       "port": "443",
-      "secret": "dd667e3e75e43a37365faca2d6e8381c00"
-    },
-    {
-      "server": "run.helloworld.surf",
-      "port": "443",
-      "secret": "dde80c91fa5050b02631672334ecb38b6a"
+      "secret": "ddbd162e545e5cd6d7d7aa76b230c3083a"
     }
   ]
 }
