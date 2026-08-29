@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-29T10:36:14Z",
-  "count": 7,
+  "updated": "2026-08-29T15:21:42Z",
+  "count": 5,
   "proxies": [
     {
       "server": "mtp3.hlebushek.com",
@@ -8,24 +8,9 @@
       "secret": "ee49b03637799a40446509a268d99ff91b706574726f766963682e7275"
     },
     {
-      "server": "fish.mtproto.baby",
-      "port": "443",
-      "secret": "dd449119ea34c3a8957918cd066e3422d8"
-    },
-    {
       "server": "mtp2.hlebushek.com",
       "port": "443",
       "secret": "ee8263f1fdfbfa0629c67c40d208806873706574726f766963682e7275"
-    },
-    {
-      "server": "friday.startnetwork.shop",
-      "port": "443",
-      "secret": "dd4b7874eda98985f20982cecbe9894ecb"
-    },
-    {
-      "server": "skein.chunkycorp.shop",
-      "port": "8443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
       "server": "mtp1.hlebushek.com",
@@ -36,6 +21,11 @@
       "server": "telegram.vechnostnet.study",
       "port": "443",
       "secret": "dda8736bb4a03afabc3ebf6b8565400dfc"
+    },
+    {
+      "server": "fish.mtproto.baby",
+      "port": "443",
+      "secret": "dd449119ea34c3a8957918cd066e3422d8"
     }
   ]
 }
