@@ -1,16 +1,11 @@
 {
-  "updated": "2026-08-28T22:54:52Z",
-  "count": 2,
+  "updated": "2026-08-29T03:56:24Z",
+  "count": 1,
   "proxies": [
     {
       "server": "friday.startnetwork.shop",
       "port": "443",
       "secret": "dd4b7874eda98985f20982cecbe9894ecb"
-    },
-    {
-      "server": "skein.chunkycorp.shop",
-      "port": "8443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     }
   ]
 }
