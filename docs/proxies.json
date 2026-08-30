@@ -1,16 +1,21 @@
 {
-  "updated": "2026-08-30T06:52:27Z",
-  "count": 2,
+  "updated": "2026-08-30T12:21:31Z",
+  "count": 3,
   "proxies": [
+    {
+      "server": "telegram.vechnostnet.study",
+      "port": "443",
+      "secret": "dda8736bb4a03afabc3ebf6b8565400dfc"
+    },
     {
       "server": "skein.chunkycorp.shop",
       "port": "8443",
       "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     },
     {
-      "server": "ads.helloworld.surf",
+      "server": "fish.mtproto.baby",
       "port": "443",
-      "secret": "dd33e2b81cb9059913f7755ac6604095fa"
+      "secret": "dd449119ea34c3a8957918cd066e3422d8"
     }
   ]
 }
