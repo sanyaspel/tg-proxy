@@ -1,7 +1,12 @@
 {
-  "updated": "2026-08-30T19:32:31Z",
-  "count": 3,
+  "updated": "2026-08-30T22:11:35Z",
+  "count": 4,
   "proxies": [
+    {
+      "server": "mtp2.hlebushek.com",
+      "port": "443",
+      "secret": "ee8263f1fdfbfa0629c67c40d208806873706574726f766963682e7275"
+    },
     {
       "server": "mtp3.hlebushek.com",
       "port": "443",
@@ -13,9 +18,9 @@
       "secret": "eea61deab187a415531ac418cd29ae58ee706574726f766963682e7275"
     },
     {
-      "server": "mtp2.hlebushek.com",
-      "port": "443",
-      "secret": "ee8263f1fdfbfa0629c67c40d208806873706574726f766963682e7275"
+      "server": "skein.chunkycorp.shop",
+      "port": "8443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
     }
   ]
 }
