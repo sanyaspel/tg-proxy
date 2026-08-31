@@ -1,26 +1,16 @@
 {
-  "updated": "2026-08-31T06:20:43Z",
-  "count": 4,
+  "updated": "2026-08-31T14:11:05Z",
+  "count": 2,
   "proxies": [
     {
-      "server": "mtp3.hlebushek.com",
+      "server": "m.mtproto.baby",
       "port": "443",
-      "secret": "ee49b03637799a40446509a268d99ff91b706574726f766963682e7275"
+      "secret": "ddbecfad4a8c290badf7f6b284f9e06bb8"
     },
     {
-      "server": "mtp2.hlebushek.com",
+      "server": "summer.vechnostnet.study",
       "port": "443",
-      "secret": "ee8263f1fdfbfa0629c67c40d208806873706574726f766963682e7275"
-    },
-    {
-      "server": "skein.chunkycorp.shop",
-      "port": "8443",
-      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
-    },
-    {
-      "server": "mtp1.hlebushek.com",
-      "port": "443",
-      "secret": "eea61deab187a415531ac418cd29ae58ee706574726f766963682e7275"
+      "secret": "dddec0a247046e4dab47376d96117a8a7c"
     }
   ]
 }
