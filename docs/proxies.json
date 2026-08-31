@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T14:11:05Z",
+  "updated": "2026-08-31T20:13:31Z",
   "count": 2,
   "proxies": [
     {
@@ -8,9 +8,9 @@
       "secret": "ddbecfad4a8c290badf7f6b284f9e06bb8"
     },
     {
-      "server": "summer.vechnostnet.study",
+      "server": "fun.helloworld.surf",
       "port": "443",
-      "secret": "dddec0a247046e4dab47376d96117a8a7c"
+      "secret": "dda5a68bce16dbd364f1a342731bd2e093"
     }
   ]
 }
