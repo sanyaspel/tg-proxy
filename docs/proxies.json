@@ -1,11 +1,5 @@
 {
-  "updated": "2026-09-02T05:11:49Z",
-  "count": 1,
-  "proxies": [
-    {
-      "server": "wow.mtproto.baby",
-      "port": "443",
-      "secret": "dd0bd7534b498f8d1a15d51475698cad49"
-    }
-  ]
+  "updated": "2026-09-02T09:44:48Z",
+  "count": 0,
+  "proxies": []
 }
