@@ -1,16 +1,11 @@
 {
-  "updated": "2026-09-02T00:37:56Z",
-  "count": 2,
+  "updated": "2026-09-02T05:11:49Z",
+  "count": 1,
   "proxies": [
     {
       "server": "wow.mtproto.baby",
       "port": "443",
       "secret": "dd0bd7534b498f8d1a15d51475698cad49"
-    },
-    {
-      "server": "poland.vechnostnet.study",
-      "port": "443",
-      "secret": "dd6d095fd662a1f8e38387ee7cb06d0860"
     }
   ]
 }
