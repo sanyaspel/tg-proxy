@@ -1,16 +1,21 @@
 {
-  "updated": "2026-09-02T17:28:39Z",
-  "count": 2,
+  "updated": "2026-09-02T19:58:41Z",
+  "count": 3,
   "proxies": [
-    {
-      "server": "region.lovely.lat",
-      "port": "443",
-      "secret": "eeaadd88aa9facd454936d0c42dc128e77726567696f6e2e6c6f76656c792e6c6174"
-    },
     {
       "server": "sync.lovely.lat",
       "port": "443",
       "secret": "eeaadd88aa9facd454936d0c42dc128e7773796e632e6c6f76656c792e6c6174"
+    },
+    {
+      "server": "as.mkim.click",
+      "port": "443",
+      "secret": "ee2dfa3526fc70b7abd7a09eade6ccea1f61732e6d6b696d2e636c69636b"
+    },
+    {
+      "server": "region.lovely.lat",
+      "port": "443",
+      "secret": "eeaadd88aa9facd454936d0c42dc128e77726567696f6e2e6c6f76656c792e6c6174"
     }
   ]
 }
