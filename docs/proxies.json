@@ -1,5 +1,11 @@
 {
-  "updated": "2026-09-02T09:44:48Z",
-  "count": 0,
-  "proxies": []
+  "updated": "2026-09-02T13:55:32Z",
+  "count": 1,
+  "proxies": [
+    {
+      "server": "skein.chunkycorp.shop",
+      "port": "8443",
+      "secret": "ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275"
+    }
+  ]
 }
