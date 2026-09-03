@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-03T17:21:02Z",
+  "updated": "2026-09-03T19:58:01Z",
   "count": 4,
   "proxies": [
     {
-      "server": "zone.lovely.lat",
+      "server": "max.kimt.click",
       "port": "443",
-      "secret": "eeaadd88aa9facd454936d0c42dc128e777a6f6e652e6c6f76656c792e6c6174"
+      "secret": "ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b"
     },
     {
       "server": "mkima.davay.click",
@@ -18,9 +18,9 @@
       "secret": "ee2dfa3526fc70b7abd7a09eade6ccea1f61732e6d6b696d2e636c69636b"
     },
     {
-      "server": "max.kimt.click",
+      "server": "zone.lovely.lat",
       "port": "443",
-      "secret": "ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b"
+      "secret": "eeaadd88aa9facd454936d0c42dc128e777a6f6e652e6c6f76656c792e6c6174"
     }
   ]
 }
