@@ -1,16 +1,11 @@
 {
-  "updated": "2026-09-05T13:04:46Z",
-  "count": 2,
+  "updated": "2026-09-05T16:08:46Z",
+  "count": 1,
   "proxies": [
     {
-      "server": "max.kimt.click",
+      "server": "god.startnetwork.shop",
       "port": "443",
-      "secret": "ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b"
-    },
-    {
-      "server": "os.vechnostnet.study",
-      "port": "443",
-      "secret": "ee5cfacb7941f6260de34393a10d2b1d7d7374726d2e79616e6465782e6e6574"
+      "secret": "ee1b12072197f503e7b598f0faaa982f767374726d2e79616e6465782e6e6574"
     }
   ]
 }
