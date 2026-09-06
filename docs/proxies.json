@@ -1,12 +1,7 @@
 {
-  "updated": "2026-09-06T00:02:11Z",
-  "count": 3,
+  "updated": "2026-09-06T04:51:36Z",
+  "count": 2,
   "proxies": [
-    {
-      "server": "god.startnetwork.shop",
-      "port": "443",
-      "secret": "ee1b12072197f503e7b598f0faaa982f767374726d2e79616e6465782e6e6574"
-    },
     {
       "server": "anchor.lovely.lat",
       "port": "443",
