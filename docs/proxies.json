@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T21:55:54Z",
+  "updated": "2026-09-08T23:45:02Z",
   "count": 4,
   "proxies": [
     {
@@ -8,14 +8,14 @@
       "secret": "dd0f2aa66e2419918464ead0544ec65121"
     },
     {
-      "server": "mt-open.potatoe.shop",
-      "port": "443",
-      "secret": "ee7cf78432ed09666cb056843c092a9af56164732e78352e7275"
-    },
-    {
       "server": "global.lovely.lat",
       "port": "443",
       "secret": "eeaadd88aa9facd454936d0c42dc128e77676c6f62616c2e6c6f76656c792e6c6174"
+    },
+    {
+      "server": "mt-open.potatoe.shop",
+      "port": "443",
+      "secret": "ee7cf78432ed09666cb056843c092a9af56164732e78352e7275"
     },
     {
       "server": "gc.mtproto.baby",
