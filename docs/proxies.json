@@ -1,36 +1,21 @@
 {
-  "updated": "2026-09-08T01:45:14Z",
-  "count": 7,
+  "updated": "2026-09-08T06:38:44Z",
+  "count": 4,
   "proxies": [
+    {
+      "server": "mtp3.hlebushek.com",
+      "port": "443",
+      "secret": "ee49b03637799a40446509a268d99ff91b706574726f766963682e7275"
+    },
     {
       "server": "mtp2.hlebushek.com",
       "port": "443",
       "secret": "ee8263f1fdfbfa0629c67c40d208806873706574726f766963682e7275"
     },
     {
-      "server": "ykima.davay.click",
-      "port": "443",
-      "secret": "ee06dfdbdf271bab18c6b606484c237384796b696d612e64617661792e636c69636b"
-    },
-    {
       "server": "stream.lovely.lat",
       "port": "443",
       "secret": "eeaadd88aa9facd454936d0c42dc128e776d2e6265626f6f2e7275"
-    },
-    {
-      "server": "max.kimt.click",
-      "port": "443",
-      "secret": "ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b"
-    },
-    {
-      "server": "mkima.davay.click",
-      "port": "443",
-      "secret": "ee39300be14c4d54704c92416d555fa7026d6b696d612e64617661792e636c69636b"
-    },
-    {
-      "server": "mtp3.hlebushek.com",
-      "port": "443",
-      "secret": "ee49b03637799a40446509a268d99ff91b706574726f766963682e7275"
     },
     {
       "server": "mtp1.hlebushek.com",
