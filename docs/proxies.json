@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-08T06:38:44Z",
-  "count": 4,
+  "updated": "2026-09-08T11:49:53Z",
+  "count": 5,
   "proxies": [
     {
       "server": "mtp3.hlebushek.com",
@@ -8,19 +8,24 @@
       "secret": "ee49b03637799a40446509a268d99ff91b706574726f766963682e7275"
     },
     {
-      "server": "mtp2.hlebushek.com",
+      "server": "gc.mtproto.baby",
       "port": "443",
-      "secret": "ee8263f1fdfbfa0629c67c40d208806873706574726f766963682e7275"
-    },
-    {
-      "server": "stream.lovely.lat",
-      "port": "443",
-      "secret": "eeaadd88aa9facd454936d0c42dc128e776d2e6265626f6f2e7275"
+      "secret": "dd55bd33705487f11397a1a45d8dacdfc6"
     },
     {
       "server": "mtp1.hlebushek.com",
       "port": "443",
       "secret": "eea61deab187a415531ac418cd29ae58ee706574726f766963682e7275"
+    },
+    {
+      "server": "mtp2.hlebushek.com",
+      "port": "443",
+      "secret": "ee8263f1fdfbfa0629c67c40d208806873706574726f766963682e7275"
+    },
+    {
+      "server": "max.kimt.click",
+      "port": "443",
+      "secret": "ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b"
     }
   ]
 }
