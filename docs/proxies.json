@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-09T19:32:16Z",
-  "count": 4,
+  "updated": "2026-09-09T22:03:13Z",
+  "count": 3,
   "proxies": [
     {
       "server": "10ping-proxy.best",
@@ -11,11 +11,6 @@
       "server": "global.lovely.lat",
       "port": "443",
       "secret": "eeaadd88aa9facd454936d0c42dc128e776d2e6265626f6f2e7275"
-    },
-    {
-      "server": "max.kimt.click",
-      "port": "443",
-      "secret": "ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b"
     },
     {
       "server": "t.mtproto.baby",
