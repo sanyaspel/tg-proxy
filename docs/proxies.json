@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-09T01:51:41Z",
-  "count": 4,
+  "updated": "2026-09-09T06:49:32Z",
+  "count": 3,
   "proxies": [
     {
       "server": "terra.startnetwork.shop",
@@ -8,19 +8,14 @@
       "secret": "dd0f2aa66e2419918464ead0544ec65121"
     },
     {
-      "server": "global.lovely.lat",
-      "port": "443",
-      "secret": "eeaadd88aa9facd454936d0c42dc128e77676c6f62616c2e6c6f76656c792e6c6174"
-    },
-    {
       "server": "mt-open.potatoe.shop",
       "port": "443",
       "secret": "ee7cf78432ed09666cb056843c092a9af56164732e78352e7275"
     },
     {
-      "server": "gc.mtproto.baby",
+      "server": "global.lovely.lat",
       "port": "443",
-      "secret": "dd55bd33705487f11397a1a45d8dacdfc6"
+      "secret": "eeaadd88aa9facd454936d0c42dc128e77676c6f62616c2e6c6f76656c792e6c6174"
     }
   ]
 }
