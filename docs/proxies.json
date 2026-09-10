@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-10T00:21:03Z",
+  "updated": "2026-09-10T04:56:49Z",
   "count": 3,
   "proxies": [
     {
-      "server": "global.lovely.lat",
+      "server": "10ping-proxy.best",
       "port": "443",
-      "secret": "eeaadd88aa9facd454936d0c42dc128e776d2e6265626f6f2e7275"
+      "secret": "dd98847be1819bbde82a326ce629ce50a7"
     },
     {
       "server": "t.mtproto.baby",
@@ -13,9 +13,9 @@
       "secret": "dd3322508f2739bc297206f8db6c7df9fa"
     },
     {
-      "server": "10ping-proxy.best",
+      "server": "global.lovely.lat",
       "port": "443",
-      "secret": "dd98847be1819bbde82a326ce629ce50a7"
+      "secret": "eeaadd88aa9facd454936d0c42dc128e776d2e6265626f6f2e7275"
     }
   ]
 }
