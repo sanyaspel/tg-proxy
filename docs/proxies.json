@@ -1,21 +1,11 @@
 {
-  "updated": "2026-09-11T09:13:19Z",
-  "count": 3,
+  "updated": "2026-09-11T13:40:09Z",
+  "count": 1,
   "proxies": [
     {
       "server": "max.kimt.click",
       "port": "443",
       "secret": "ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b"
-    },
-    {
-      "server": "10ping-proxy.best",
-      "port": "443",
-      "secret": "dd98847be1819bbde82a326ce629ce50a7"
-    },
-    {
-      "server": "live.lovely.lat",
-      "port": "443",
-      "secret": "eeaadd88aa9facd454936d0c42dc128e776c6976652e6c6f76656c792e6c6174"
     }
   ]
 }
