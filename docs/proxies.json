@@ -1,16 +1,21 @@
 {
-  "updated": "2026-09-15T10:35:34Z",
-  "count": 2,
+  "updated": "2026-09-15T15:19:07Z",
+  "count": 3,
   "proxies": [
-    {
-      "server": "granite.mtproxy.zip",
-      "port": "443",
-      "secret": "ee3f8a91c2d7e04b6a9f12c5e8370bd4aa786170692e6f7a6f6e2e7275"
-    },
     {
       "server": "topproxt.asia",
       "port": "443",
       "secret": "eebbb00c5d6d8a742b1a762499eb7d4912617669746f2e7275"
+    },
+    {
+      "server": "vetka2.v6n.tech",
+      "port": "443",
+      "secret": "ee4822c1c11ee8d9b3cd008e18822415917777772e626f6f6b696e672e636f6d"
+    },
+    {
+      "server": "vetka1.v6n.tech",
+      "port": "443",
+      "secret": "ee0a69f3e3a846d22f3ff61daec53055787777772e626f6f6b696e672e636f6d"
     }
   ]
 }
