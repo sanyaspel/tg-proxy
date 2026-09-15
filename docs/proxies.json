@@ -1,21 +1,41 @@
 {
-  "updated": "2026-09-15T15:19:07Z",
-  "count": 3,
+  "updated": "2026-09-15T19:06:43Z",
+  "count": 7,
   "proxies": [
     {
-      "server": "topproxt.asia",
+      "server": "as.mkim.click",
       "port": "443",
-      "secret": "eebbb00c5d6d8a742b1a762499eb7d4912617669746f2e7275"
+      "secret": "ee2dfa3526fc70b7abd7a09eade6ccea1f61732e6d6b696d2e636c69636b"
     },
     {
-      "server": "vetka2.v6n.tech",
+      "server": "mkima.davay.click",
       "port": "443",
-      "secret": "ee4822c1c11ee8d9b3cd008e18822415917777772e626f6f6b696e672e636f6d"
+      "secret": "ee39300be14c4d54704c92416d555fa7026d6b696d612e64617661792e636c69636b"
     },
     {
       "server": "vetka1.v6n.tech",
       "port": "443",
       "secret": "ee0a69f3e3a846d22f3ff61daec53055787777772e626f6f6b696e672e636f6d"
+    },
+    {
+      "server": "max.kimt.click",
+      "port": "443",
+      "secret": "ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b"
+    },
+    {
+      "server": "s04.neo-trading.org",
+      "port": "443",
+      "secret": "ee364a7bd5b928139fbc6b2b458e9fef9d686f66662e7275"
+    },
+    {
+      "server": "s05.neo-trading.org",
+      "port": "443",
+      "secret": "eef4f43f6c7b01f2f5f5644af6473a61d0686f66662e7275"
+    },
+    {
+      "server": "vetka2.v6n.tech",
+      "port": "443",
+      "secret": "ee4822c1c11ee8d9b3cd008e18822415917777772e626f6f6b696e672e636f6d"
     }
   ]
 }
