@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-15T22:21:53Z",
+  "updated": "2026-09-16T00:33:41Z",
   "count": 5,
   "proxies": [
     {
@@ -18,14 +18,14 @@
       "secret": "ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b"
     },
     {
-      "server": "vetka2.v6n.tech",
-      "port": "443",
-      "secret": "ee4822c1c11ee8d9b3cd008e18822415917777772e626f6f6b696e672e636f6d"
-    },
-    {
       "server": "vetka1.v6n.tech",
       "port": "443",
       "secret": "ee0a69f3e3a846d22f3ff61daec53055787777772e626f6f6b696e672e636f6d"
+    },
+    {
+      "server": "vetka2.v6n.tech",
+      "port": "443",
+      "secret": "ee4822c1c11ee8d9b3cd008e18822415917777772e626f6f6b696e672e636f6d"
     }
   ]
 }
