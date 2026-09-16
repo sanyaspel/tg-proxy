@@ -1,5 +1,16 @@
 {
-  "updated": "2026-09-16T10:06:36Z",
-  "count": 0,
-  "proxies": []
+  "updated": "2026-09-16T15:03:24Z",
+  "count": 2,
+  "proxies": [
+    {
+      "server": "max.kimt.click",
+      "port": "443",
+      "secret": "ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b"
+    },
+    {
+      "server": "topproxt.asia",
+      "port": "443",
+      "secret": "eebbb00c5d6d8a742b1a762499eb7d4912617669746f2e7275"
+    }
+  ]
 }
