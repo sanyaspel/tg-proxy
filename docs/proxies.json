@@ -1,21 +1,5 @@
 {
-  "updated": "2026-09-17T13:37:33Z",
-  "count": 3,
-  "proxies": [
-    {
-      "server": "ykima.davay.click",
-      "port": "443",
-      "secret": "ee06dfdbdf271bab18c6b606484c237384796b696d612e64617661792e636c69636b"
-    },
-    {
-      "server": "max.kimt.click",
-      "port": "443",
-      "secret": "ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b"
-    },
-    {
-      "server": "topproxt.asia",
-      "port": "443",
-      "secret": "eebbb00c5d6d8a742b1a762499eb7d4912617669746f2e7275"
-    }
-  ]
+  "updated": "2026-09-17T17:47:31Z",
+  "count": 0,
+  "proxies": []
 }
