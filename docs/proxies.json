@@ -1,16 +1,11 @@
 {
-  "updated": "2026-09-17T20:39:27Z",
-  "count": 2,
+  "updated": "2026-09-17T23:11:11Z",
+  "count": 1,
   "proxies": [
     {
       "server": "relay.surfvpn.app",
       "port": "443",
       "secret": "eedf44a4347c1eb8938c7e63340bd1ca4972656c61792e7375726676706e2e617070"
-    },
-    {
-      "server": "s05.neo-trading.org",
-      "port": "443",
-      "secret": "eef4f43f6c7b01f2f5f5644af6473a61d0686f66662e7275"
     }
   ]
 }
