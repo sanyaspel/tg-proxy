@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T02:00:52Z",
+  "updated": "2026-09-20T07:49:01Z",
   "count": 3,
   "proxies": [
     {
@@ -8,14 +8,14 @@
       "secret": "ee8357954a3df5c26e32a7b8a7978c3f107777772e636974696c696e6b2e7275"
     },
     {
-      "server": "max.kimt.click",
+      "server": "s04.neo-trading.org",
       "port": "443",
-      "secret": "ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b"
+      "secret": "ee364a7bd5b928139fbc6b2b458e9fef9d686f66662e7275"
     },
     {
-      "server": "relay.surfvpn.app",
+      "server": "s05.neo-trading.org",
       "port": "443",
-      "secret": "eedf44a4347c1eb8938c7e63340bd1ca4972656c61792e7375726676706e2e617070"
+      "secret": "eef4f43f6c7b01f2f5f5644af6473a61d0686f66662e7275"
     }
   ]
 }
