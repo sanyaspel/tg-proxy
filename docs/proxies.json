@@ -1,26 +1,21 @@
 {
-  "updated": "2026-09-20T12:42:13Z",
-  "count": 4,
+  "updated": "2026-09-20T16:34:46Z",
+  "count": 3,
   "proxies": [
     {
-      "server": "217.138.215.102",
+      "server": "s05.neo-trading.org",
       "port": "443",
-      "secret": "ee8357954a3df5c26e32a7b8a7978c3f107777772e636974696c696e6b2e7275"
+      "secret": "eef4f43f6c7b01f2f5f5644af6473a61d0686f66662e7275"
     },
     {
-      "server": "ykima.davay.click",
+      "server": "s04.neo-trading.org",
       "port": "443",
-      "secret": "ee06dfdbdf271bab18c6b606484c237384796b696d612e64617661792e636c69636b"
+      "secret": "ee364a7bd5b928139fbc6b2b458e9fef9d686f66662e7275"
     },
     {
-      "server": "max.kimt.click",
+      "server": "topproxt.asia",
       "port": "443",
-      "secret": "ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b"
-    },
-    {
-      "server": "relay.surfvpn.app",
-      "port": "443",
-      "secret": "eedf44a4347c1eb8938c7e63340bd1ca4972656c61792e7375726676706e2e617070"
+      "secret": "eebbb00c5d6d8a742b1a762499eb7d4912617669746f2e7275"
     }
   ]
 }
