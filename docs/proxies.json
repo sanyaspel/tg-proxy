@@ -1,11 +1,5 @@
 {
-  "updated": "2026-09-20T21:40:11Z",
-  "count": 1,
-  "proxies": [
-    {
-      "server": "topproxt.asia",
-      "port": "443",
-      "secret": "eebbb00c5d6d8a742b1a762499eb7d4912617669746f2e7275"
-    }
-  ]
+  "updated": "2026-09-20T23:39:19Z",
+  "count": 0,
+  "proxies": []
 }
