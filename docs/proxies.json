@@ -1,21 +1,11 @@
 {
-  "updated": "2026-09-22T12:17:26Z",
-  "count": 3,
+  "updated": "2026-09-22T17:05:10Z",
+  "count": 1,
   "proxies": [
     {
-      "server": "mrak.store",
+      "server": "max.kimt.click",
       "port": "443",
-      "secret": "ee30274009c2a2aa9bf4448ddc81fca2bb7777772e676f6f676c652e636f6d"
-    },
-    {
-      "server": "relay.surfvpn.app",
-      "port": "443",
-      "secret": "eedf44a4347c1eb8938c7e63340bd1ca4972656c61792e7375726676706e2e617070"
-    },
-    {
-      "server": "topproxt.asia",
-      "port": "443",
-      "secret": "eebbb00c5d6d8a742b1a762499eb7d4912617669746f2e7275"
+      "secret": "ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b"
     }
   ]
 }
