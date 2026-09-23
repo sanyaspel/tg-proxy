@@ -1,11 +1,16 @@
 {
-  "updated": "2026-09-23T01:33:56Z",
-  "count": 3,
+  "updated": "2026-09-23T06:51:50Z",
+  "count": 5,
   "proxies": [
     {
-      "server": "as.mkim.click",
+      "server": "s05.neo-trading.org",
       "port": "443",
-      "secret": "ee2dfa3526fc70b7abd7a09eade6ccea1f61732e6d6b696d2e636c69636b"
+      "secret": "eef4f43f6c7b01f2f5f5644af6473a61d0686f66662e7275"
+    },
+    {
+      "server": "s04.neo-trading.org",
+      "port": "443",
+      "secret": "ee364a7bd5b928139fbc6b2b458e9fef9d686f66662e7275"
     },
     {
       "server": "max.kimt.click",
@@ -16,6 +21,11 @@
       "server": "mkima.davay.click",
       "port": "443",
       "secret": "ee39300be14c4d54704c92416d555fa7026d6b696d612e64617661792e636c69636b"
+    },
+    {
+      "server": "as.mkim.click",
+      "port": "443",
+      "secret": "ee2dfa3526fc70b7abd7a09eade6ccea1f61732e6d6b696d2e636c69636b"
     }
   ]
 }
