@@ -1,11 +1,5 @@
 {
-  "updated": "2026-09-28T00:56:23Z",
-  "count": 1,
-  "proxies": [
-    {
-      "server": "relay.surfvpn.app",
-      "port": "443",
-      "secret": "eedf44a4347c1eb8938c7e63340bd1ca4972656c61792e7375726676706e2e617070"
-    }
-  ]
+  "updated": "2026-09-28T06:07:28Z",
+  "count": 0,
+  "proxies": []
 }
