@@ -1,5 +1,11 @@
 {
-  "updated": "2026-09-30T07:36:42Z",
-  "count": 0,
-  "proxies": []
+  "updated": "2026-09-30T14:20:34Z",
+  "count": 1,
+  "proxies": [
+    {
+      "server": "proverka.help",
+      "port": "443",
+      "secret": "dd874b3dac836b10b2bef91d46d0124863"
+    }
+  ]
 }
