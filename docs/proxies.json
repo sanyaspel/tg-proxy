@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-04T01:49:25Z",
+  "updated": "2026-10-04T07:30:54Z",
   "count": 1,
   "proxies": [
     {
-      "server": "relay.surfvpn.app",
+      "server": "max.mishutkin.click",
       "port": "443",
-      "secret": "eedf44a4347c1eb8938c7e63340bd1ca4972656c61792e7375726676706e2e617070"
+      "secret": "ee94989d74ad055391384d92c3c773c8d264726976652e676f6f676c652e636f6d"
     }
   ]
 }
