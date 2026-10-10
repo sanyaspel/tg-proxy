@@ -1,11 +1,5 @@
 {
-  "updated": "2026-10-10T02:28:02Z",
-  "count": 1,
-  "proxies": [
-    {
-      "server": "lte.mishutkin.click",
-      "port": "443",
-      "secret": "ee67af30bbe3543b32fd7b6966a61417e26c74652e6d69736875746b696e2e636c69636b"
-    }
-  ]
+  "updated": "2026-10-10T08:46:03Z",
+  "count": 0,
+  "proxies": []
 }
